@@ -339,6 +339,9 @@
     }
   },
   "AR": {
+    "delta": {
+      "confirmed": 52
+    },
     "districts": {
       "Anjaw": {
         "meta": {
@@ -403,6 +406,9 @@
         }
       },
       "East Siang": {
+        "delta": {
+          "confirmed": 7
+        },
         "meta": {
           "population": 99019,
           "tested": {
@@ -411,7 +417,7 @@
           }
         },
         "total": {
-          "confirmed": 22,
+          "confirmed": 29,
           "recovered": 10,
           "tested": 2398
         }
@@ -561,6 +567,9 @@
         }
       },
       "Papum Pare": {
+        "delta": {
+          "confirmed": 42
+        },
         "meta": {
           "population": 176385,
           "tested": {
@@ -569,7 +578,7 @@
           }
         },
         "total": {
-          "confirmed": 232,
+          "confirmed": 274,
           "deceased": 1,
           "recovered": 24,
           "tested": 1099
@@ -643,6 +652,9 @@
         }
       },
       "Upper Subansiri": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "population": 83205,
           "tested": {
@@ -651,7 +663,7 @@
           }
         },
         "total": {
-          "confirmed": 1,
+          "confirmed": 4,
           "tested": 639
         }
       },
@@ -686,7 +698,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-16T00:08:02+05:30",
+      "last_updated": "2020-07-16T23:36:05+05:30",
       "population": 1504000,
       "tested": {
         "last_updated": "2020-07-15",
@@ -694,7 +706,7 @@
       }
     },
     "total": {
-      "confirmed": 491,
+      "confirmed": 543,
       "deceased": 3,
       "recovered": 153,
       "tested": 34619
@@ -703,7 +715,8 @@
   "AS": {
     "delta": {
       "deceased": 2,
-      "recovered": 666
+      "recovered": 666,
+      "tested": 12183
     },
     "districts": {
       "Airport Quarantine": {
@@ -1044,8 +1057,8 @@
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
-        "last_updated": "2020-07-15",
-        "source": "https://twitter.com/nhm_assam/status/1283451960805298176?s=20"
+        "last_updated": "2020-07-16",
+        "source": "https://twitter.com/nhm_assam/status/1283808823791226886?s=20"
       }
     },
     "total": {
@@ -1053,7 +1066,7 @@
       "deceased": 55,
       "migrated": 3,
       "recovered": 13555,
-      "tested": 589202
+      "tested": 601385
     }
   },
   "BR": {
@@ -7162,21 +7175,21 @@
   },
   "MZ": {
     "delta": {
-      "confirmed": 29,
+      "confirmed": 34,
       "recovered": 1,
       "tested": 321
     },
     "districts": {
       "Aizawl": {
         "delta": {
-          "confirmed": 14,
+          "confirmed": 17,
           "recovered": 1
         },
         "meta": {
           "population": 404054
         },
         "total": {
-          "confirmed": 106,
+          "confirmed": 109,
           "recovered": 39
         }
       },
@@ -7263,10 +7276,18 @@
           "confirmed": 5,
           "recovered": 3
         }
+      },
+      "Unknown": {
+        "delta": {
+          "confirmed": 2
+        },
+        "total": {
+          "confirmed": 2
+        }
       }
     },
     "meta": {
-      "last_updated": "2020-07-16T18:28:01+05:30",
+      "last_updated": "2020-07-16T23:36:08+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-07-16",
@@ -7274,7 +7295,7 @@
       }
     },
     "total": {
-      "confirmed": 267,
+      "confirmed": 272,
       "recovered": 160,
       "tested": 17489
     }
@@ -10230,13 +10251,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 34421,
+      "confirmed": 34478,
       "deceased": 680,
       "migrated": 1,
       "recovered": 22834
     },
     "meta": {
-      "last_updated": "2020-07-16T23:06:58+05:30",
+      "last_updated": "2020-07-16T23:35:59+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-15",
@@ -10244,7 +10265,7 @@
       }
     },
     "total": {
-      "confirmed": 1004590,
+      "confirmed": 1004647,
       "deceased": 25609,
       "migrated": 390,
       "recovered": 636569,
