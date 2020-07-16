@@ -2854,8 +2854,8 @@
   },
   "HP": {
     "delta": {
-      "confirmed": 2,
-      "recovered": 3
+      "confirmed": 8,
+      "recovered": 4
     },
     "districts": {
       "Bilaspur": {
@@ -2903,6 +2903,10 @@
         }
       },
       "Kangra": {
+        "delta": {
+          "confirmed": 5,
+          "recovered": 1
+        },
         "meta": {
           "notes": "Death of Tibetan refugee on March 22 included in Kangra district's tally",
           "population": 1507223,
@@ -2912,9 +2916,9 @@
           }
         },
         "total": {
-          "confirmed": 314,
+          "confirmed": 319,
           "deceased": 3,
-          "recovered": 273,
+          "recovered": 274,
           "tested": 22871
         }
       },
@@ -2968,7 +2972,7 @@
       },
       "Mandi": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 2
         },
         "meta": {
           "population": 999518,
@@ -2978,7 +2982,7 @@
           }
         },
         "total": {
-          "confirmed": 41,
+          "confirmed": 42,
           "deceased": 2,
           "recovered": 30,
           "tested": 7701
@@ -3063,10 +3067,10 @@
       }
     },
     "total": {
-      "confirmed": 1343,
+      "confirmed": 1349,
       "deceased": 10,
       "migrated": 13,
-      "recovered": 969,
+      "recovered": 970,
       "tested": 105734
     }
   },
@@ -4581,8 +4585,16 @@
     }
   },
   "LA": {
+    "delta": {
+      "confirmed": 5,
+      "recovered": 6
+    },
     "districts": {
       "Kargil": {
+        "delta": {
+          "confirmed": 2,
+          "recovered": 4
+        },
         "meta": {
           "population": 143000,
           "tested": {
@@ -4591,12 +4603,16 @@
           }
         },
         "total": {
-          "confirmed": 725,
-          "recovered": 696,
+          "confirmed": 727,
+          "recovered": 700,
           "tested": 7001
         }
       },
       "Leh": {
+        "delta": {
+          "confirmed": 3,
+          "recovered": 2
+        },
         "meta": {
           "population": 147000,
           "tested": {
@@ -4605,9 +4621,9 @@
           }
         },
         "total": {
-          "confirmed": 417,
+          "confirmed": 420,
           "deceased": 1,
-          "recovered": 268,
+          "recovered": 270,
           "tested": 8602
         }
       }
@@ -4621,9 +4637,9 @@
       }
     },
     "total": {
-      "confirmed": 1142,
+      "confirmed": 1147,
       "deceased": 1,
-      "recovered": 964,
+      "recovered": 970,
       "tested": 15603
     }
   },
@@ -9085,9 +9101,9 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 6646,
+      "confirmed": 6657,
       "deceased": 91,
-      "recovered": 2710
+      "recovered": 2717
     },
     "meta": {
       "last_updated": "2020-07-16T17:42:58+05:30",
@@ -9098,10 +9114,10 @@
       }
     },
     "total": {
-      "confirmed": 976815,
+      "confirmed": 976826,
       "deceased": 25020,
       "migrated": 389,
-      "recovered": 616445,
+      "recovered": 616452,
       "tested": 12739490
     }
   },
@@ -10537,15 +10553,14 @@
       "last_updated": "2020-07-16T17:43:00+05:30",
       "population": 224979000,
       "tested": {
-        "last_updated": "2020-07-14",
-        "source": "https://twitter.com/UPGovt/status/1283049273383411712?s=20"
+        "last_updated": "2020-07-15"
       }
     },
     "total": {
       "confirmed": 43441,
       "deceased": 1046,
       "recovered": 26675,
-      "tested": 1232073
+      "tested": 1277241
     }
   },
   "UT": {
