@@ -697,7 +697,8 @@
   },
   "AS": {
     "delta": {
-      "deceased": 1
+      "deceased": 1,
+      "recovered": 551
     },
     "districts": {
       "Airport Quarantine": {
@@ -1011,11 +1012,14 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "recovered": 551
+        },
         "total": {
           "confirmed": 4080,
           "deceased": 9,
           "migrated": 3,
-          "recovered": 4559
+          "recovered": 5110
         }
       },
       "West Karbi Anglong": {
@@ -1028,7 +1032,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-17T20:49:07+05:30",
+      "last_updated": "2020-07-17T21:37:01+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1040,7 +1044,7 @@
       "confirmed": 20647,
       "deceased": 56,
       "migrated": 3,
-      "recovered": 13555,
+      "recovered": 14106,
       "tested": 601385
     }
   },
@@ -2359,7 +2363,8 @@
       "last_updated": "2020-07-17T20:49:14+05:30",
       "population": 1540000,
       "tested": {
-        "last_updated": "2020-07-17"
+        "last_updated": "2020-07-17",
+        "source": "https://twitter.com/DHS_Goa/status/1284139737326866432?s=20"
       }
     },
     "total": {
@@ -3824,8 +3829,8 @@
         "meta": {
           "population": 461738,
           "tested": {
-            "last_updated": "2020-07-16",
-            "source": "https://twitter.com/FOBGumla/status/1283799826526683138?s=20"
+            "last_updated": "2020-07-17",
+            "source": "https://twitter.com/FOBGumla/status/1284150256083451904?s=20"
           }
         },
         "total": {
@@ -4099,20 +4104,21 @@
         "delta": {
           "confirmed": 20,
           "deceased": 2,
-          "recovered": 7
+          "recovered": 7,
+          "tested": 248
         },
         "meta": {
           "population": 570060,
           "tested": {
-            "last_updated": "2020-07-16",
-            "source": "https://pulwama.gov.in/covid-19/control-room-cmo-office-pulwama/"
+            "last_updated": "2020-07-17",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1200"
           }
         },
         "total": {
           "confirmed": 794,
           "deceased": 10,
           "recovered": 395,
-          "tested": 20976
+          "tested": 21224
         }
       },
       "Punch": {
@@ -4291,20 +4297,21 @@
       "Belagavi": {
         "delta": {
           "confirmed": 95,
-          "deceased": 4
+          "deceased": 4,
+          "tested": 592
         },
         "meta": {
           "population": 4778439,
           "tested": {
-            "last_updated": "2020-07-16",
-            "source": "https://twitter.com/deobelagavi/status/1283778365468508161?s=20"
+            "last_updated": "2020-07-17",
+            "source": "https://twitter.com/deobelagavi/status/1284148193307971584?s=20"
           }
         },
         "total": {
           "confirmed": 789,
           "deceased": 21,
           "recovered": 377,
-          "tested": 32679
+          "tested": 33271
         }
       },
       "Bengaluru Rural": {
@@ -4329,13 +4336,14 @@
         "delta": {
           "confirmed": 2208,
           "deceased": 75,
-          "recovered": 338
+          "recovered": 338,
+          "tested": 5095
         },
         "meta": {
           "population": 9588910,
           "tested": {
-            "last_updated": "2020-07-16",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1192"
+            "last_updated": "2020-07-17",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1201"
           }
         },
         "total": {
@@ -4343,7 +4351,7 @@
           "deceased": 582,
           "migrated": 1,
           "recovered": 6291,
-          "tested": 185441
+          "tested": 190536
         }
       },
       "Bidar": {
@@ -4445,13 +4453,14 @@
         "delta": {
           "confirmed": 39,
           "deceased": 1,
-          "recovered": 92
+          "recovered": 92,
+          "tested": 131
         },
         "meta": {
           "population": 2083625,
           "tested": {
-            "last_updated": "2020-07-16",
-            "source": "https://twitter.com/deepthisTOI/status/1283757108068904960?s=20"
+            "last_updated": "2020-07-17",
+            "source": "https://twitter.com/deepthisTOI/status/1284131694744875008?s=20"
           }
         },
         "total": {
@@ -4459,7 +4468,7 @@
           "deceased": 53,
           "migrated": 2,
           "recovered": 1038,
-          "tested": 26111
+          "tested": 26242
         }
       },
       "Davanagere": {
@@ -4582,20 +4591,21 @@
       "Kodagu": {
         "delta": {
           "confirmed": 13,
-          "deceased": 1
+          "deceased": 1,
+          "tested": 167
         },
         "meta": {
           "population": 554762,
           "tested": {
-            "last_updated": "2020-07-16",
-            "source": "https://twitter.com/DCKodagu/status/1283764841140727808?s=20"
+            "last_updated": "2020-07-17",
+            "source": "https://twitter.com/DCKodagu/status/1284143908503482369?s=20"
           }
         },
         "total": {
           "confirmed": 249,
           "deceased": 4,
           "recovered": 114,
-          "tested": 11766
+          "tested": 11933
         }
       },
       "Kolar": {
@@ -4659,20 +4669,20 @@
         "delta": {
           "confirmed": 93,
           "deceased": 7,
-          "recovered": 20
+          "recovered": 20,
+          "tested": 492
         },
         "meta": {
           "population": 2994744,
           "tested": {
-            "last_updated": "2020-07-16",
-            "source": "https://twitter.com/mysuruvarthe/status/1283798987682639873?s=20"
+            "last_updated": "2020-07-17"
           }
         },
         "total": {
           "confirmed": 1413,
           "deceased": 57,
           "recovered": 551,
-          "tested": 29713
+          "tested": 30205
         }
       },
       "Other State": {
@@ -4761,20 +4771,21 @@
         "delta": {
           "confirmed": 80,
           "deceased": 3,
-          "recovered": 81
+          "recovered": 81,
+          "tested": 213
         },
         "meta": {
           "population": 1177908,
           "tested": {
-            "last_updated": "2020-07-16",
-            "source": "https://twitter.com/deepthisTOI/status/1283741381454749704?s=20"
+            "last_updated": "2020-07-17",
+            "source": "https://twitter.com/deepthisTOI/status/1284107710225498112?s=20"
           }
         },
         "total": {
           "confirmed": 1980,
           "deceased": 6,
           "recovered": 1532,
-          "tested": 23645
+          "tested": 23858
         }
       },
       "Uttara Kannada": {
@@ -8957,7 +8968,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-17T11:16:00+05:30",
+      "last_updated": "2020-07-17T21:33:00+05:30",
       "population": 77264000,
       "tested": {
         "last_updated": "2020-07-16",
@@ -9980,7 +9991,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-17T21:23:02+05:30",
+      "last_updated": "2020-07-17T21:27:03+05:30",
       "population": 3992000,
       "tested": {
         "last_updated": "2020-07-16",
@@ -10000,10 +10011,10 @@
       "confirmed": 31114,
       "deceased": 660,
       "migrated": 2,
-      "recovered": 14815
+      "recovered": 15366
     },
     "meta": {
-      "last_updated": "2020-07-17T21:22:58+05:30",
+      "last_updated": "2020-07-17T21:36:58+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-16",
@@ -10014,7 +10025,7 @@
       "confirmed": 1036751,
       "deceased": 26269,
       "migrated": 392,
-      "recovered": 651417,
+      "recovered": 651968,
       "tested": 13072718
     }
   },
