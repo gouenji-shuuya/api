@@ -2232,7 +2232,8 @@
   },
   "DN": {
     "delta": {
-      "confirmed": 31,
+      "confirmed": 32,
+      "migrated": 1,
       "recovered": 22
     },
     "districts": {
@@ -2277,6 +2278,10 @@
         }
       },
       "Diu": {
+        "delta": {
+          "confirmed": 1,
+          "migrated": 1
+        },
         "meta": {
           "population": 52074,
           "tested": {
@@ -2285,15 +2290,15 @@
           }
         },
         "total": {
-          "confirmed": 26,
-          "migrated": 3,
+          "confirmed": 27,
+          "migrated": 4,
           "recovered": 15,
           "tested": 3901
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-17T19:41:06+05:30",
+      "last_updated": "2020-07-17T21:53:01+05:30",
       "notes": "3 cases are migrated to different states which are reduced from active count.",
       "population": 959000,
       "tested": {
@@ -2302,9 +2307,9 @@
       }
     },
     "total": {
-      "confirmed": 607,
+      "confirmed": 608,
       "deceased": 2,
-      "migrated": 7,
+      "migrated": 8,
       "recovered": 414,
       "tested": 37392
     }
@@ -5848,11 +5853,14 @@
         }
       },
       "East Khasi Hills": {
+        "delta": {
+          "confirmed": 19
+        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 307,
+          "confirmed": 326,
           "deceased": 2,
           "recovered": 17
         }
@@ -5867,11 +5875,14 @@
         }
       },
       "Ribhoi": {
+        "delta": {
+          "confirmed": 7
+        },
         "meta": {
           "population": 258380
         },
         "total": {
-          "confirmed": 24
+          "confirmed": 31
         }
       },
       "South Garo Hills": {
@@ -5892,11 +5903,8 @@
         }
       },
       "Unknown": {
-        "delta": {
-          "confirmed": 26
-        },
         "total": {
-          "confirmed": 40,
+          "confirmed": 14,
           "recovered": 14
         }
       },
@@ -5929,7 +5937,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-17T21:47:08+05:30",
+      "last_updated": "2020-07-17T21:52:07+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -9028,7 +9036,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-17T21:47:03+05:30",
+      "last_updated": "2020-07-17T21:52:01+05:30",
       "population": 77264000,
       "tested": {
         "last_updated": "2020-07-16",
@@ -10068,13 +10076,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 31596,
+      "confirmed": 31597,
       "deceased": 664,
-      "migrated": 2,
+      "migrated": 3,
       "recovered": 15964
     },
     "meta": {
-      "last_updated": "2020-07-17T21:46:59+05:30",
+      "last_updated": "2020-07-17T21:52:58+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-16",
@@ -10082,9 +10090,9 @@
       }
     },
     "total": {
-      "confirmed": 1037233,
+      "confirmed": 1037234,
       "deceased": 26273,
-      "migrated": 392,
+      "migrated": 393,
       "recovered": 652566,
       "tested": 13072718
     }
