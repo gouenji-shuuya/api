@@ -721,6 +721,7 @@
   },
   "AS": {
     "delta": {
+      "confirmed": 1218,
       "deceased": 1,
       "recovered": 551,
       "tested": 13358
@@ -897,13 +898,14 @@
       },
       "Kamrup Metropolitan": {
         "delta": {
+          "confirmed": 570,
           "deceased": 1
         },
         "meta": {
           "population": 1260419
         },
         "total": {
-          "confirmed": 9430,
+          "confirmed": 10000,
           "deceased": 27,
           "recovered": 4587
         }
@@ -1038,10 +1040,11 @@
       },
       "Unknown": {
         "delta": {
+          "confirmed": 648,
           "recovered": 551
         },
         "total": {
-          "confirmed": 4080,
+          "confirmed": 4728,
           "deceased": 9,
           "migrated": 3,
           "recovered": 5110
@@ -1057,7 +1060,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-17T21:41:01+05:30",
+      "last_updated": "2020-07-18T00:12:46+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1066,7 +1069,7 @@
       }
     },
     "total": {
-      "confirmed": 20647,
+      "confirmed": 21865,
       "deceased": 56,
       "migrated": 3,
       "recovered": 14106,
@@ -7296,24 +7299,31 @@
   },
   "MZ": {
     "delta": {
+      "confirmed": 10,
       "tested": 271
     },
     "districts": {
       "Aizawl": {
+        "delta": {
+          "confirmed": 5
+        },
         "meta": {
           "population": 404054
         },
         "total": {
-          "confirmed": 109,
+          "confirmed": 114,
           "recovered": 39
         }
       },
       "Champhai": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 125370
         },
         "total": {
-          "confirmed": 10,
+          "confirmed": 12,
           "recovered": 9
         }
       },
@@ -7360,11 +7370,14 @@
         }
       },
       "Saiha": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "population": 56366
         },
         "total": {
-          "confirmed": 23,
+          "confirmed": 26,
           "recovered": 17
         }
       },
@@ -7385,7 +7398,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-16T23:39:10+05:30",
+      "last_updated": "2020-07-18T00:12:49+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-07-17",
@@ -7393,7 +7406,7 @@
       }
     },
     "total": {
-      "confirmed": 272,
+      "confirmed": 282,
       "recovered": 160,
       "tested": 17760
     }
@@ -7793,17 +7806,10 @@
           "tested": 2138
         }
       },
-      "Jaipur": {
-        "delta": {
-          "recovered": 10
-        },
-        "total": {
-          "recovered": 10
-        }
-      },
       "Jajpur": {
         "delta": {
-          "deceased": 1
+          "deceased": 1,
+          "recovered": 10
         },
         "meta": {
           "population": 1826275,
@@ -7815,7 +7821,7 @@
         "total": {
           "confirmed": 934,
           "deceased": 2,
-          "recovered": 685,
+          "recovered": 695,
           "tested": 10621
         }
       },
@@ -10737,7 +10743,8 @@
       "last_updated": "2020-07-17T23:49:48+05:30",
       "population": 3992000,
       "tested": {
-        "last_updated": "2020-07-17"
+        "last_updated": "2020-07-17",
+        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1207"
       }
     },
     "total": {
@@ -10750,13 +10757,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 33526,
+      "confirmed": 34754,
       "deceased": 676,
       "migrated": 3,
       "recovered": 17454
     },
     "meta": {
-      "last_updated": "2020-07-17T23:49:44+05:30",
+      "last_updated": "2020-07-18T00:12:43+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-16",
@@ -10764,7 +10771,7 @@
       }
     },
     "total": {
-      "confirmed": 1039163,
+      "confirmed": 1040391,
       "deceased": 26285,
       "migrated": 393,
       "recovered": 654056,
