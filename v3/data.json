@@ -2230,11 +2230,15 @@
   },
   "DN": {
     "delta": {
-      "confirmed": 16,
-      "recovered": 15
+      "confirmed": 31,
+      "recovered": 22
     },
     "districts": {
       "Dadra and Nagar Haveli": {
+        "delta": {
+          "confirmed": 15,
+          "recovered": 7
+        },
         "meta": {
           "population": 343709,
           "tested": {
@@ -2243,10 +2247,10 @@
           }
         },
         "total": {
-          "confirmed": 250,
+          "confirmed": 265,
           "deceased": 1,
           "migrated": 3,
-          "recovered": 177,
+          "recovered": 184,
           "tested": 22826
         }
       },
@@ -2287,7 +2291,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-17T18:41:04+05:30",
+      "last_updated": "2020-07-17T19:41:06+05:30",
       "notes": "3 cases are migrated to different states which are reduced from active count.",
       "population": 959000,
       "tested": {
@@ -2296,10 +2300,10 @@
       }
     },
     "total": {
-      "confirmed": 592,
+      "confirmed": 607,
       "deceased": 2,
       "migrated": 7,
-      "recovered": 407,
+      "recovered": 414,
       "tested": 37392
     }
   },
@@ -5294,7 +5298,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-16T20:16:59+05:30",
+      "last_updated": "2020-07-17T19:47:00+05:30",
       "notes": "299 cases were marked as non-covid deaths in MH bulletin. These have been reduced from active count\n[June 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[June 20]: 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -6473,7 +6477,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-17T19:37:01+05:30",
+      "last_updated": "2020-07-17T19:41:02+05:30",
       "population": 82232000,
       "tested": {
         "last_updated": "2020-07-17",
@@ -6591,7 +6595,8 @@
   "NL": {
     "delta": {
       "confirmed": 40,
-      "recovered": 14
+      "recovered": 14,
+      "tested": 452
     },
     "districts": {
       "Dimapur": {
@@ -6753,14 +6758,13 @@
       "last_updated": "2020-07-17T17:58:03+05:30",
       "population": 2150000,
       "tested": {
-        "last_updated": "2020-07-16",
-        "source": "https://twitter.com/MyGovNagaland/status/1283760972373475331?s=20"
+        "last_updated": "2020-07-17"
       }
     },
     "total": {
       "confirmed": 956,
       "recovered": 405,
-      "tested": 28020
+      "tested": 28472
     }
   },
   "OR": {
@@ -7290,7 +7294,8 @@
       "notes": "[July 12th] 20 non-covid deaths reported in state dashboard are included in the deceased count\n[June 22nd]: NDRF/ODRF cases have been redistributed to districts based on state dashboard",
       "population": 43671000,
       "tested": {
-        "last_updated": "2020-07-17"
+        "last_updated": "2020-07-17",
+        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1197"
       }
     },
     "total": {
@@ -7650,7 +7655,8 @@
     "delta": {
       "confirmed": 89,
       "deceased": 3,
-      "recovered": 67
+      "recovered": 67,
+      "tested": 856
     },
     "districts": {
       "Karaikal": {
@@ -7739,15 +7745,15 @@
       "last_updated": "2020-07-17T11:58:31+05:30",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-07-16",
-        "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/16.07.2020%20bulletin.pdf"
+        "last_updated": "2020-07-17",
+        "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/17.07.2020%20bulletin_0.pdf"
       }
     },
     "total": {
       "confirmed": 1832,
       "deceased": 25,
       "recovered": 1014,
-      "tested": 28995
+      "tested": 29851
     }
   },
   "RJ": {
@@ -9642,12 +9648,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 12978,
+      "confirmed": 12993,
       "deceased": 182,
-      "recovered": 8490
+      "recovered": 8497
     },
     "meta": {
-      "last_updated": "2020-07-17T19:36:58+05:30",
+      "last_updated": "2020-07-17T19:46:58+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-16",
@@ -9655,10 +9661,10 @@
       }
     },
     "total": {
-      "confirmed": 1018615,
+      "confirmed": 1018630,
       "deceased": 25791,
       "migrated": 390,
-      "recovered": 645092,
+      "recovered": 645099,
       "tested": 13072718
     }
   },
@@ -10797,6 +10803,9 @@
     }
   },
   "UT": {
+    "delta": {
+      "tested": 4062
+    },
     "districts": {
       "Almora": {
         "meta": {
@@ -11001,8 +11010,7 @@
       "notes": "33 Migrated cases reduced from Active count",
       "population": 11141000,
       "tested": {
-        "last_updated": "2020-07-16",
-        "source": "https://twitter.com/PIBDehradun/status/1283790534813736960?s=20"
+        "last_updated": "2020-07-17"
       }
     },
     "total": {
@@ -11010,10 +11018,13 @@
       "deceased": 50,
       "migrated": 33,
       "recovered": 2995,
-      "tested": 109784
+      "tested": 113846
     }
   },
   "WB": {
+    "delta": {
+      "tested": 13240
+    },
     "districts": {
       "Alipurduar": {
         "meta": {
@@ -11252,15 +11263,15 @@
       "last_updated": "2020-07-16T20:17:05+05:30",
       "population": 96906000,
       "tested": {
-        "last_updated": "2020-07-16",
-        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_16th_JULY_REPORT_FINAL.pdf"
+        "last_updated": "2020-07-17",
+        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_17th_JULY_REPORT_FINAL.pdf"
       }
     },
     "total": {
       "confirmed": 36117,
       "deceased": 1023,
       "recovered": 21415,
-      "tested": 663108
+      "tested": 676348
     }
   }
 }
