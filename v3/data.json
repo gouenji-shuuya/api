@@ -2580,6 +2580,10 @@
     }
   },
   "HP": {
+    "delta": {
+      "confirmed": 7,
+      "recovered": 14
+    },
     "districts": {
       "Bilaspur": {
         "meta": {
@@ -2596,6 +2600,9 @@
         }
       },
       "Chamba": {
+        "delta": {
+          "confirmed": 7
+        },
         "meta": {
           "population": 518844,
           "tested": {
@@ -2604,7 +2611,7 @@
           }
         },
         "total": {
-          "confirmed": 71,
+          "confirmed": 78,
           "migrated": 1,
           "recovered": 54,
           "tested": 8363
@@ -2642,6 +2649,9 @@
         }
       },
       "Kinnaur": {
+        "delta": {
+          "recovered": 14
+        },
         "meta": {
           "population": 84298,
           "tested": {
@@ -2651,7 +2661,7 @@
         },
         "total": {
           "confirmed": 36,
-          "recovered": 7,
+          "recovered": 21,
           "tested": 2622
         }
       },
@@ -2765,7 +2775,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-16T22:16:01+05:30",
+      "last_updated": "2020-07-17T13:55:03+05:30",
       "notes": "HP has 14 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -2774,10 +2784,10 @@
       }
     },
     "total": {
-      "confirmed": 1377,
+      "confirmed": 1384,
       "deceased": 10,
       "migrated": 13,
-      "recovered": 971,
+      "recovered": 985,
       "tested": 108157
     }
   },
@@ -4522,14 +4532,15 @@
         "meta": {
           "population": 4224442,
           "tested": {
-            "last_updated": "2020-07-15"
+            "last_updated": "2020-07-16",
+            "source": "https://twitter.com/InfoJalgaon/status/1283758131214815235/photo/1"
           }
         },
         "total": {
           "confirmed": 6868,
           "deceased": 377,
           "recovered": 4090,
-          "tested": 33903
+          "tested": 35206
         }
       },
       "Jalna": {
@@ -4571,8 +4582,8 @@
         "meta": {
           "population": 12442373,
           "tested": {
-            "last_updated": "2020-07-14",
-            "source": "https://twitter.com/mybmc/status/1283046821741371393/photo/1"
+            "last_updated": "2020-07-15",
+            "source": "https://twitter.com/mybmc/status/1283405886363332608/photo/1"
           }
         },
         "total": {
@@ -4580,7 +4591,7 @@
           "deceased": 5523,
           "migrated": 290,
           "recovered": 67830,
-          "tested": 408320
+          "tested": 415390
         }
       },
       "Nagpur": {
@@ -4632,15 +4643,15 @@
         "meta": {
           "population": 6109052,
           "tested": {
-            "last_updated": "2020-07-15",
-            "source": "https://twitter.com/InfoNashik/status/1283387036024442880/photo/1"
+            "last_updated": "2020-07-16",
+            "source": "https://twitter.com/InfoNashik/status/1283749978557411333/photo/1"
           }
         },
         "total": {
           "confirmed": 8174,
           "deceased": 328,
           "recovered": 4821,
-          "tested": 30691
+          "tested": 31897
         }
       },
       "Osmanabad": {
@@ -8812,12 +8823,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 234,
+      "confirmed": 241,
       "deceased": 13,
-      "recovered": 125
+      "recovered": 139
     },
     "meta": {
-      "last_updated": "2020-07-17T13:06:58+05:30",
+      "last_updated": "2020-07-17T13:54:59+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-16",
@@ -8825,10 +8836,10 @@
       }
     },
     "total": {
-      "confirmed": 1005871,
+      "confirmed": 1005878,
       "deceased": 25622,
       "migrated": 390,
-      "recovered": 636727,
+      "recovered": 636741,
       "tested": 13072718
     }
   },
