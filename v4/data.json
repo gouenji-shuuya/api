@@ -1696,7 +1696,7 @@
   "CT": {
     "delta": {
       "confirmed": 222,
-      "deceased": 2,
+      "deceased": 3,
       "recovered": 61,
       "tested": 6960
     },
@@ -2167,6 +2167,14 @@
           "tested": 2008
         }
       },
+      "Unknown": {
+        "delta": {
+          "deceased": 1
+        },
+        "total": {
+          "deceased": 1
+        }
+      },
       "Uttar Bastar Kanker": {
         "meta": {
           "population": 748593,
@@ -2183,7 +2191,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-17T21:16:04+05:30",
+      "last_updated": "2020-07-17T22:36:01+05:30",
       "population": 28724000,
       "tested": {
         "last_updated": "2020-07-17",
@@ -2192,7 +2200,7 @@
     },
     "total": {
       "confirmed": 4976,
-      "deceased": 23,
+      "deceased": 24,
       "recovered": 3512,
       "tested": 232873
     }
@@ -9180,7 +9188,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-17T22:23:00+05:30",
+      "last_updated": "2020-07-17T22:26:02+05:30",
       "population": 37220000,
       "tested": {
         "last_updated": "2020-07-16",
@@ -9963,100 +9971,108 @@
     "districts": {
       "Dhalai": {
         "delta": {
-          "recovered": 7
+          "recovered": 7,
+          "tested": 397
         },
         "meta": {
           "population": 377988,
           "tested": {
-            "last_updated": "2020-07-15"
+            "last_updated": "2020-07-17"
           }
         },
         "total": {
           "confirmed": 299,
           "migrated": 1,
           "recovered": 252,
-          "tested": 8095
+          "tested": 8492
         }
       },
       "Gomati": {
         "delta": {
-          "recovered": 15
+          "recovered": 15,
+          "tested": 926
         },
         "meta": {
           "population": 436868,
           "tested": {
-            "last_updated": "2020-07-15"
+            "last_updated": "2020-07-17"
           }
         },
         "total": {
           "confirmed": 353,
           "migrated": 1,
           "recovered": 223,
-          "tested": 10769
+          "tested": 11695
         }
       },
       "Khowai": {
         "delta": {
-          "recovered": 36
+          "recovered": 36,
+          "tested": 281
         },
         "meta": {
           "population": 327391,
           "tested": {
-            "last_updated": "2020-07-14"
+            "last_updated": "2020-07-17"
           }
         },
         "total": {
           "confirmed": 232,
           "deceased": 2,
           "recovered": 124,
-          "tested": 4075
+          "tested": 4356
         }
       },
       "North Tripura": {
         "delta": {
-          "recovered": 1
+          "recovered": 1,
+          "tested": 775
         },
         "meta": {
           "population": 415946,
           "tested": {
-            "last_updated": "2020-07-15"
+            "last_updated": "2020-07-17"
           }
         },
         "total": {
           "confirmed": 123,
           "migrated": 6,
           "recovered": 48,
-          "tested": 17161
+          "tested": 17936
         }
       },
       "Sipahijala": {
         "delta": {
-          "recovered": 9
+          "recovered": 9,
+          "tested": 476
         },
         "meta": {
           "population": 484233,
           "tested": {
-            "last_updated": "2020-07-15"
+            "last_updated": "2020-07-17"
           }
         },
         "total": {
           "confirmed": 690,
           "recovered": 598,
-          "tested": 9542
+          "tested": 10018
         }
       },
       "South Tripura": {
+        "delta": {
+          "tested": 737
+        },
         "meta": {
           "population": 433737,
           "tested": {
-            "last_updated": "2020-07-15"
+            "last_updated": "2020-07-17"
           }
         },
         "total": {
           "confirmed": 187,
           "migrated": 1,
           "recovered": 137,
-          "tested": 10046
+          "tested": 10783
         }
       },
       "Unknown": {
@@ -10065,26 +10081,30 @@
         }
       },
       "Unokoti": {
+        "delta": {
+          "tested": 208
+        },
         "meta": {
           "population": 277335,
           "tested": {
-            "last_updated": "2020-07-15"
+            "last_updated": "2020-07-17"
           }
         },
         "total": {
           "confirmed": 94,
           "recovered": 73,
-          "tested": 3474
+          "tested": 3682
         }
       },
       "West Tripura": {
         "delta": {
-          "recovered": 12
+          "recovered": 12,
+          "tested": 1465
         },
         "meta": {
           "population": 917534,
           "tested": {
-            "last_updated": "2020-07-15"
+            "last_updated": "2020-07-17"
           }
         },
         "total": {
@@ -10092,7 +10112,7 @@
           "deceased": 1,
           "migrated": 5,
           "recovered": 229,
-          "tested": 29044
+          "tested": 30509
         }
       }
     },
@@ -10115,12 +10135,12 @@
   "TT": {
     "delta": {
       "confirmed": 33090,
-      "deceased": 671,
+      "deceased": 672,
       "migrated": 3,
       "recovered": 17390
     },
     "meta": {
-      "last_updated": "2020-07-17T22:22:58+05:30",
+      "last_updated": "2020-07-17T22:35:58+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-16",
@@ -10129,7 +10149,7 @@
     },
     "total": {
       "confirmed": 1038727,
-      "deceased": 26280,
+      "deceased": 26281,
       "migrated": 393,
       "recovered": 653992,
       "tested": 13072718
