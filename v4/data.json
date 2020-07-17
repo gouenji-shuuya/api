@@ -711,7 +711,8 @@
   "AS": {
     "delta": {
       "deceased": 1,
-      "recovered": 551
+      "recovered": 551,
+      "tested": 13358
     },
     "districts": {
       "Airport Quarantine": {
@@ -1049,8 +1050,8 @@
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
-        "last_updated": "2020-07-16",
-        "source": "https://twitter.com/nhm_assam/status/1283808823791226886?s=20"
+        "last_updated": "2020-07-17",
+        "source": "https://twitter.com/nhm_assam/status/1284178373552422923?s=20"
       }
     },
     "total": {
@@ -1058,7 +1059,7 @@
       "deceased": 56,
       "migrated": 3,
       "recovered": 14106,
-      "tested": 601385
+      "tested": 614743
     }
   },
   "BR": {
@@ -2339,44 +2340,54 @@
     },
     "districts": {
       "North Goa": {
+        "delta": {
+          "confirmed": 67,
+          "recovered": 17
+        },
         "meta": {
           "population": 817761
         },
         "total": {
-          "confirmed": 704,
+          "confirmed": 771,
           "deceased": 3,
-          "recovered": 306
+          "recovered": 323
         }
       },
       "Other State": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "notes": "Travelled by Road,Train,Flight"
         },
         "total": {
-          "confirmed": 155,
+          "confirmed": 158,
           "recovered": 27
         }
       },
       "South Goa": {
+        "delta": {
+          "confirmed": 46,
+          "deceased": 2,
+          "recovered": 32
+        },
         "meta": {
           "population": 639962
         },
         "total": {
-          "confirmed": 1498,
-          "deceased": 16,
-          "recovered": 733
+          "confirmed": 1544,
+          "deceased": 18,
+          "recovered": 765
         }
       },
       "Unknown": {
         "delta": {
-          "confirmed": 196,
-          "deceased": 2,
-          "recovered": 129
+          "confirmed": 80,
+          "recovered": 80
         },
         "total": {
-          "confirmed": 947,
-          "deceased": 2,
-          "recovered": 880
+          "confirmed": 831,
+          "recovered": 831
         }
       }
     },
