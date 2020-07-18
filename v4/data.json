@@ -2237,12 +2237,14 @@
   "DN": {
     "delta": {
       "confirmed": 45,
+      "migrated": 2,
       "recovered": 22
     },
     "districts": {
       "Dadra and Nagar Haveli": {
         "delta": {
           "confirmed": 20,
+          "migrated": 2,
           "recovered": 3
         },
         "meta": {
@@ -2255,7 +2257,7 @@
         "total": {
           "confirmed": 285,
           "deceased": 1,
-          "migrated": 3,
+          "migrated": 5,
           "recovered": 187,
           "tested": 22826
         }
@@ -2301,7 +2303,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-18T22:45:01+05:30",
+      "last_updated": "2020-07-18T22:53:03+05:30",
       "notes": "3 cases are migrated to different states which are reduced from active count.",
       "population": 959000,
       "tested": {
@@ -2312,7 +2314,7 @@
     "total": {
       "confirmed": 653,
       "deceased": 2,
-      "migrated": 8,
+      "migrated": 10,
       "recovered": 436,
       "tested": 37392
     }
@@ -2320,7 +2322,8 @@
   "GA": {
     "delta": {
       "confirmed": 180,
-      "recovered": 92
+      "recovered": 92,
+      "tested": 2204
     },
     "districts": {
       "North Goa": {
@@ -2367,15 +2370,15 @@
       "last_updated": "2020-07-18T20:56:01+05:30",
       "population": 1540000,
       "tested": {
-        "last_updated": "2020-07-17",
-        "source": "https://twitter.com/DHS_Goa/status/1284139737326866432?s=20"
+        "last_updated": "2020-07-18",
+        "source": "https://www.goa.gov.in/wp-content/uploads/2020/07/media-bulletin-dated-18072020.pdf"
       }
     },
     "total": {
       "confirmed": 3484,
       "deceased": 21,
       "recovered": 2038,
-      "tested": 103527
+      "tested": 105731
     }
   },
   "GJ": {
@@ -9239,8 +9242,18 @@
     }
   },
   "TG": {
+    "delta": {
+      "confirmed": 1284,
+      "deceased": 6,
+      "recovered": 1902
+    },
     "districts": {
       "Unknown": {
+        "delta": {
+          "confirmed": 1284,
+          "deceased": 6,
+          "recovered": 1902
+        },
         "meta": {
           "tested": {
             "last_updated": "2020-07-17",
@@ -9248,15 +9261,15 @@
           }
         },
         "total": {
-          "confirmed": 42496,
-          "deceased": 403,
-          "recovered": 28705,
+          "confirmed": 43780,
+          "deceased": 409,
+          "recovered": 30607,
           "tested": 237817
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-17T22:26:02+05:30",
+      "last_updated": "2020-07-18T22:53:01+05:30",
       "population": 37220000,
       "tested": {
         "last_updated": "2020-07-17",
@@ -9264,9 +9277,9 @@
       }
     },
     "total": {
-      "confirmed": 42496,
-      "deceased": 403,
-      "recovered": 28705,
+      "confirmed": 43780,
+      "deceased": 409,
+      "recovered": 30607,
       "tested": 237817
     }
   },
@@ -10188,13 +10201,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 34519,
-      "deceased": 533,
-      "migrated": 4,
-      "recovered": 21421
+      "confirmed": 35803,
+      "deceased": 539,
+      "migrated": 6,
+      "recovered": 23323
     },
     "meta": {
-      "last_updated": "2020-07-18T22:44:59+05:30",
+      "last_updated": "2020-07-18T22:52:59+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-17",
@@ -10202,10 +10215,10 @@
       }
     },
     "total": {
-      "confirmed": 1074976,
-      "deceased": 26818,
-      "migrated": 397,
-      "recovered": 675499,
+      "confirmed": 1076260,
+      "deceased": 26824,
+      "migrated": 399,
+      "recovered": 677401,
       "tested": 13433742
     }
   },
