@@ -704,7 +704,8 @@
       "last_updated": "2020-07-18T23:50:01+05:30",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-07-18"
+        "last_updated": "2020-07-18",
+        "source": "https://twitter.com/DirectorateofHS/status/1284550451979882496?s=20"
       }
     },
     "total": {
@@ -717,7 +718,8 @@
   "AS": {
     "delta": {
       "deceased": 2,
-      "recovered": 1060
+      "recovered": 1060,
+      "tested": 17629
     },
     "districts": {
       "Airport Quarantine": {
@@ -1058,8 +1060,8 @@
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
-        "last_updated": "2020-07-17",
-        "source": "https://twitter.com/nhm_assam/status/1284178373552422923?s=20"
+        "last_updated": "2020-07-18",
+        "source": "https://twitter.com/nhm_assam/status/1284532538363351045?s=20"
       }
     },
     "total": {
@@ -1067,7 +1069,7 @@
       "deceased": 58,
       "migrated": 3,
       "recovered": 15166,
-      "tested": 614743
+      "tested": 632372
     }
   },
   "BR": {
@@ -10068,6 +10070,10 @@
     }
   },
   "TR": {
+    "delta": {
+      "confirmed": 171,
+      "deceased": 2
+    },
     "districts": {
       "Dhalai": {
         "meta": {
@@ -10159,8 +10165,13 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 171,
+          "deceased": 2
+        },
         "total": {
-          "confirmed": 118
+          "confirmed": 289,
+          "deceased": 2
         }
       },
       "Unokoti": {
@@ -10195,25 +10206,25 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-17T23:49:48+05:30",
+      "last_updated": "2020-07-19T00:01:01+05:30",
       "population": 3992000
     },
     "total": {
-      "confirmed": 2497,
-      "deceased": 3,
+      "confirmed": 2668,
+      "deceased": 5,
       "migrated": 14,
       "recovered": 1684
     }
   },
   "TT": {
     "delta": {
-      "confirmed": 36119,
-      "deceased": 541,
+      "confirmed": 36290,
+      "deceased": 543,
       "migrated": 6,
       "recovered": 23501
     },
     "meta": {
-      "last_updated": "2020-07-18T23:49:59+05:30",
+      "last_updated": "2020-07-19T00:00:59+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-17",
@@ -10221,8 +10232,8 @@
       }
     },
     "total": {
-      "confirmed": 1076576,
-      "deceased": 26826,
+      "confirmed": 1076747,
+      "deceased": 26828,
       "migrated": 399,
       "recovered": 677579,
       "tested": 13433742
