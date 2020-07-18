@@ -2323,42 +2323,51 @@
     },
     "districts": {
       "North Goa": {
+        "delta": {
+          "recovered": 59
+        },
         "meta": {
           "population": 817761
         },
         "total": {
           "confirmed": 771,
           "deceased": 3,
-          "recovered": 323
+          "recovered": 382
         }
       },
       "Other State": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "notes": "Travelled by Road,Train,Flight"
         },
         "total": {
-          "confirmed": 158,
+          "confirmed": 161,
           "recovered": 27
         }
       },
       "South Goa": {
+        "delta": {
+          "confirmed": 144
+        },
         "meta": {
           "population": 639962
         },
         "total": {
-          "confirmed": 1544,
+          "confirmed": 1688,
           "deceased": 18,
           "recovered": 765
         }
       },
       "Unknown": {
         "delta": {
-          "confirmed": 180,
-          "recovered": 92
+          "confirmed": 33,
+          "recovered": 33
         },
         "total": {
-          "confirmed": 1011,
-          "recovered": 923
+          "confirmed": 864,
+          "recovered": 864
         }
       }
     },
@@ -3265,7 +3274,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-18T22:13:03+05:30",
+      "last_updated": "2020-07-18T22:17:13+05:30",
       "notes": "HP has 16 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -4191,20 +4200,21 @@
         "delta": {
           "confirmed": 48,
           "deceased": 1,
-          "recovered": 168
+          "recovered": 168,
+          "tested": 398
         },
         "meta": {
           "population": 570060,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1200"
+            "last_updated": "2020-07-18",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1215"
           }
         },
         "total": {
           "confirmed": 842,
           "deceased": 11,
           "recovered": 563,
-          "tested": 21224
+          "tested": 21622
         }
       },
       "Punch": {
@@ -4413,28 +4423,29 @@
         "meta": {
           "population": 987257,
           "tested": {
-            "last_updated": "2020-07-16",
-            "source": "https://twitter.com/B_Rural_DIPR/status/1283819359199059969?s=20"
+            "last_updated": "2020-07-17",
+            "source": "https://twitter.com/B_Rural_DIPR/status/1284187403230429184?s=20"
           }
         },
         "total": {
           "confirmed": 567,
           "deceased": 7,
           "recovered": 46,
-          "tested": 8338
+          "tested": 8394
         }
       },
       "Bengaluru Urban": {
         "delta": {
           "confirmed": 2125,
           "deceased": 49,
-          "recovered": 250
+          "recovered": 250,
+          "tested": 57254
         },
         "meta": {
           "population": 9588910,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1201"
+            "last_updated": "2020-07-18",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1216"
           }
         },
         "total": {
@@ -4442,7 +4453,7 @@
           "deceased": 631,
           "migrated": 1,
           "recovered": 6541,
-          "tested": 190536
+          "tested": 247790
         }
       },
       "Bidar": {
@@ -4951,7 +4962,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-18T22:13:01+05:30",
+      "last_updated": "2020-07-18T22:17:05+05:30",
       "notes": "4 cases are classified as non-covid related deaths in KA bulletin. They have been reduced from active cases",
       "population": 65798000,
       "tested": {
@@ -7148,16 +7159,20 @@
   },
   "MZ": {
     "delta": {
+      "confirmed": 2,
       "recovered": 7,
       "tested": 203
     },
     "districts": {
       "Aizawl": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 404054
         },
         "total": {
-          "confirmed": 114,
+          "confirmed": 116,
           "recovered": 39
         }
       },
@@ -7244,7 +7259,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-18T17:27:03+05:30",
+      "last_updated": "2020-07-18T22:24:02+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-07-18",
@@ -7252,7 +7267,7 @@
       }
     },
     "total": {
-      "confirmed": 282,
+      "confirmed": 284,
       "recovered": 167,
       "tested": 17963
     }
@@ -9206,7 +9221,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-18T22:13:05+05:30",
+      "last_updated": "2020-07-18T22:17:18+05:30",
       "notes": "13 Migrated cases reduced from Active count",
       "population": 664000,
       "tested": {
@@ -10171,13 +10186,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 34516,
+      "confirmed": 34518,
       "deceased": 533,
       "migrated": 4,
       "recovered": 21421
     },
     "meta": {
-      "last_updated": "2020-07-18T22:12:59+05:30",
+      "last_updated": "2020-07-18T22:23:59+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-17",
@@ -10185,7 +10200,7 @@
       }
     },
     "total": {
-      "confirmed": 1074973,
+      "confirmed": 1074975,
       "deceased": 26818,
       "migrated": 397,
       "recovered": 675499,
@@ -11649,13 +11664,14 @@
     "districts": {
       "Almora": {
         "delta": {
-          "confirmed": 7
+          "confirmed": 7,
+          "tested": 340
         },
         "meta": {
           "population": 621927,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/ANI/status/1284125134706446336?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/ANI/status/1284491861009117184?s=20"
           }
         },
         "total": {
@@ -11663,57 +11679,62 @@
           "deceased": 2,
           "migrated": 1,
           "recovered": 200,
-          "tested": 4962
+          "tested": 5302
         }
       },
       "Bageshwar": {
         "delta": {
-          "recovered": 2
+          "recovered": 2,
+          "tested": 69
         },
         "meta": {
           "population": 259840,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/ANI/status/1284125134706446336?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/ANI/status/1284491861009117184?s=20"
           }
         },
         "total": {
           "confirmed": 95,
           "deceased": 1,
           "recovered": 94,
-          "tested": 2727
+          "tested": 2796
         }
       },
       "Chamoli": {
+        "delta": {
+          "tested": 126
+        },
         "meta": {
           "population": 391114,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/ANI/status/1284125134706446336?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/ANI/status/1284491861009117184?s=20"
           }
         },
         "total": {
           "confirmed": 81,
           "recovered": 76,
-          "tested": 3840
+          "tested": 3966
         }
       },
       "Champawat": {
         "delta": {
-          "recovered": 2
+          "recovered": 2,
+          "tested": 137
         },
         "meta": {
           "population": 259315,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/ANI/status/1284125134706446336?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/ANI/status/1284491861009117184?s=20"
           }
         },
         "total": {
           "confirmed": 74,
           "deceased": 1,
           "recovered": 58,
-          "tested": 4390
+          "tested": 4527
         }
       },
       "Dehradun": {
@@ -11721,13 +11742,14 @@
           "confirmed": 50,
           "deceased": 1,
           "migrated": 1,
-          "recovered": 16
+          "recovered": 16,
+          "tested": 622
         },
         "meta": {
           "population": 1698560,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/ANI/status/1284125134706446336?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/ANI/status/1284491861009117184?s=20"
           }
         },
         "total": {
@@ -11735,36 +11757,38 @@
           "deceased": 29,
           "migrated": 24,
           "recovered": 737,
-          "tested": 28008
+          "tested": 28630
         }
       },
       "Haridwar": {
         "delta": {
-          "confirmed": 27
+          "confirmed": 27,
+          "tested": 167
         },
         "meta": {
           "population": 1927029,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/ANI/status/1284125134706446336?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/ANI/status/1284491861009117184?s=20"
           }
         },
         "total": {
           "confirmed": 482,
           "migrated": 8,
           "recovered": 318,
-          "tested": 15057
+          "tested": 15224
         }
       },
       "Nainital": {
         "delta": {
-          "confirmed": 36
+          "confirmed": 36,
+          "tested": 234
         },
         "meta": {
           "population": 955128,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/ANI/status/1284125134706446336?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/ANI/status/1284491861009117184?s=20"
           }
         },
         "total": {
@@ -11772,15 +11796,18 @@
           "deceased": 7,
           "migrated": 1,
           "recovered": 458,
-          "tested": 11545
+          "tested": 11779
         }
       },
       "Pauri Garhwal": {
+        "delta": {
+          "tested": 33
+        },
         "meta": {
           "population": 686527,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/ANI/status/1284125134706446336?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/ANI/status/1284491861009117184?s=20"
           }
         },
         "total": {
@@ -11788,98 +11815,103 @@
           "deceased": 4,
           "migrated": 1,
           "recovered": 152,
-          "tested": 8276
+          "tested": 8309
         }
       },
       "Pithoragarh": {
         "delta": {
-          "confirmed": 3
+          "confirmed": 3,
+          "tested": 100
         },
         "meta": {
           "population": 485993,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/ANI/status/1284125134706446336?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/ANI/status/1284491861009117184?s=20"
           }
         },
         "total": {
           "confirmed": 80,
           "recovered": 65,
-          "tested": 4465
+          "tested": 4565
         }
       },
       "Rudraprayag": {
         "delta": {
-          "recovered": 1
+          "recovered": 1,
+          "tested": 162
         },
         "meta": {
           "population": 236857,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/ANI/status/1284125134706446336?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/ANI/status/1284491861009117184?s=20"
           }
         },
         "total": {
           "confirmed": 67,
           "deceased": 1,
           "recovered": 66,
-          "tested": 2920
+          "tested": 3082
         }
       },
       "Tehri Garhwal": {
         "delta": {
           "confirmed": 3,
-          "recovered": 1
+          "recovered": 1,
+          "tested": 171
         },
         "meta": {
           "population": 616409,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/ANI/status/1284125134706446336?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/ANI/status/1284491861009117184?s=20"
           }
         },
         "total": {
           "confirmed": 450,
           "deceased": 2,
           "recovered": 425,
-          "tested": 5328
+          "tested": 5499
         }
       },
       "Udham Singh Nagar": {
         "delta": {
           "confirmed": 45,
-          "recovered": 38
+          "recovered": 38,
+          "tested": 557
         },
         "meta": {
           "population": 1648367,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/ANI/status/1284125134706446336?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/ANI/status/1284491861009117184?s=20"
           }
         },
         "total": {
           "confirmed": 716,
           "deceased": 4,
           "recovered": 344,
-          "tested": 17916
+          "tested": 18473
         }
       },
       "Uttarkashi": {
         "delta": {
-          "confirmed": 3
+          "confirmed": 3,
+          "tested": 130
         },
         "meta": {
           "population": 329686,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/ANI/status/1284125134706446336?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/ANI/status/1284491861009117184?s=20"
           }
         },
         "total": {
           "confirmed": 105,
           "deceased": 1,
           "recovered": 88,
-          "tested": 4412
+          "tested": 4542
         }
       }
     },
