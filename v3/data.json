@@ -703,6 +703,9 @@
     }
   },
   "AS": {
+    "delta": {
+      "deceased": 2
+    },
     "districts": {
       "Airport Quarantine": {
         "total": {
@@ -854,12 +857,15 @@
         }
       },
       "Jorhat": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1091295
         },
         "total": {
           "confirmed": 228,
-          "deceased": 1,
+          "deceased": 2,
           "recovered": 110
         }
       },
@@ -874,12 +880,15 @@
         }
       },
       "Kamrup Metropolitan": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1260419
         },
         "total": {
           "confirmed": 10000,
-          "deceased": 27,
+          "deceased": 28,
           "recovered": 4587
         }
       },
@@ -1029,7 +1038,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-18T00:15:46+05:30",
+      "last_updated": "2020-07-18T21:13:01+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1039,7 +1048,7 @@
     },
     "total": {
       "confirmed": 21865,
-      "deceased": 56,
+      "deceased": 58,
       "migrated": 3,
       "recovered": 14106,
       "tested": 614743
@@ -4894,7 +4903,8 @@
       "notes": "Mahe native who expired in Kannur included in Kerala's tally.\nOne patient who absconded from Palakkad to TN and one patient who returned back to Maharashtra has been reduced from active count",
       "population": 35125000,
       "tested": {
-        "last_updated": "2020-07-18"
+        "last_updated": "2020-07-18",
+        "source": "https://dhs.kerala.gov.in/wp-content/uploads/2020/07/Bulletin-HFWD-English-July-18.pdf"
       }
     },
     "total": {
@@ -5491,7 +5501,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-18T21:03:00+05:30",
+      "last_updated": "2020-07-18T21:07:01+05:30",
       "notes": "300 cases are marked as non-covid deaths in MH bulletin. These have been reduced from active count\n[June 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[June 20]: 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -9973,12 +9983,12 @@
   "TT": {
     "delta": {
       "confirmed": 26300,
-      "deceased": 394,
+      "deceased": 396,
       "migrated": 1,
       "recovered": 17098
     },
     "meta": {
-      "last_updated": "2020-07-18T21:02:59+05:30",
+      "last_updated": "2020-07-18T21:12:59+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-17",
@@ -9987,7 +9997,7 @@
     },
     "total": {
       "confirmed": 1066757,
-      "deceased": 26679,
+      "deceased": 26681,
       "migrated": 394,
       "recovered": 671176,
       "tested": 13433742
