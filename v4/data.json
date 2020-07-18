@@ -1678,7 +1678,8 @@
   "CT": {
     "delta": {
       "confirmed": 243,
-      "recovered": 146
+      "recovered": 146,
+      "tested": 6017
     },
     "districts": {
       "Balod": {
@@ -2176,15 +2177,14 @@
       "last_updated": "2020-07-18T21:40:09+05:30",
       "population": 28724000,
       "tested": {
-        "last_updated": "2020-07-17",
-        "source": "https://twitter.com/HealthCgGov/status/1284148448338440194?s=20"
+        "last_updated": "2020-07-18"
       }
     },
     "total": {
       "confirmed": 5246,
       "deceased": 24,
       "recovered": 3658,
-      "tested": 232873
+      "tested": 238890
     }
   },
   "DL": {
@@ -2323,51 +2323,42 @@
     },
     "districts": {
       "North Goa": {
-        "delta": {
-          "recovered": 59
-        },
         "meta": {
           "population": 817761
         },
         "total": {
           "confirmed": 771,
           "deceased": 3,
-          "recovered": 382
+          "recovered": 323
         }
       },
       "Other State": {
-        "delta": {
-          "confirmed": 3
-        },
         "meta": {
           "notes": "Travelled by Road,Train,Flight"
         },
         "total": {
-          "confirmed": 161,
+          "confirmed": 158,
           "recovered": 27
         }
       },
       "South Goa": {
-        "delta": {
-          "confirmed": 144
-        },
         "meta": {
           "population": 639962
         },
         "total": {
-          "confirmed": 1688,
+          "confirmed": 1544,
           "deceased": 18,
           "recovered": 765
         }
       },
       "Unknown": {
         "delta": {
-          "confirmed": 33,
-          "recovered": 33
+          "confirmed": 180,
+          "recovered": 92
         },
         "total": {
-          "confirmed": 864,
-          "recovered": 864
+          "confirmed": 1011,
+          "recovered": 923
         }
       }
     },
@@ -4459,20 +4450,21 @@
       "Bidar": {
         "delta": {
           "confirmed": 72,
-          "deceased": 1
+          "deceased": 1,
+          "tested": 1999
         },
         "meta": {
           "population": 1700018,
           "tested": {
-            "last_updated": "2020-07-13",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1126"
+            "last_updated": "2020-07-18",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1217"
           }
         },
         "total": {
           "confirmed": 1332,
           "deceased": 57,
           "recovered": 714,
-          "tested": 43487
+          "tested": 45486
         }
       },
       "Chamarajanagara": {
@@ -4570,13 +4562,14 @@
         "delta": {
           "confirmed": 497,
           "deceased": 7,
-          "recovered": 23
+          "recovered": 23,
+          "tested": 126
         },
         "meta": {
           "population": 2083625,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/deepthisTOI/status/1284131694744875008?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/deepthisTOI/status/1284489452400685061?s=20"
           }
         },
         "total": {
@@ -4584,7 +4577,7 @@
           "deceased": 60,
           "migrated": 2,
           "recovered": 1061,
-          "tested": 26242
+          "tested": 26368
         }
       },
       "Davanagere": {
@@ -4611,20 +4604,21 @@
         "delta": {
           "confirmed": 186,
           "deceased": 6,
-          "recovered": 50
+          "recovered": 50,
+          "tested": 450
         },
         "meta": {
           "population": 1846993,
           "tested": {
-            "last_updated": "2020-07-16",
-            "source": "https://twitter.com/DC_Dharwad/status/1283804228541022208?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/DC_Dharwad/status/1284526511823839232?s=20"
           }
         },
         "total": {
           "confirmed": 1919,
           "deceased": 58,
           "recovered": 644,
-          "tested": 32735
+          "tested": 33433
         }
       },
       "Gadag": {
@@ -4689,39 +4683,41 @@
         "delta": {
           "confirmed": 82,
           "deceased": 5,
-          "recovered": 124
+          "recovered": 124,
+          "tested": 809
         },
         "meta": {
           "population": 2564892,
           "tested": {
-            "last_updated": "2020-07-16",
-            "source": "https://twitter.com/Kalaburgivarthe/status/1283792471516868608?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/MiraskarRavi/status/1284529076254859264?s=20"
           }
         },
         "total": {
           "confirmed": 2674,
           "deceased": 43,
           "recovered": 1691,
-          "tested": 83564
+          "tested": 85194
         }
       },
       "Kodagu": {
         "delta": {
           "confirmed": 10,
-          "deceased": 1
+          "deceased": 1,
+          "tested": 278
         },
         "meta": {
           "population": 554762,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/DCKodagu/status/1284143908503482369?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/DCKodagu/status/1284480962533957637?s=20"
           }
         },
         "total": {
           "confirmed": 259,
           "deceased": 5,
           "recovered": 114,
-          "tested": 11933
+          "tested": 12211
         }
       },
       "Kolar": {
@@ -4784,20 +4780,21 @@
         "delta": {
           "confirmed": 100,
           "deceased": 2,
-          "recovered": 24
+          "recovered": 24,
+          "tested": 430
         },
         "meta": {
           "population": 2994744,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/mysuruvarthe/status/1284135816076292096?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/mysuruvarthe/status/1284503326063595520?s=20"
           }
         },
         "total": {
           "confirmed": 1513,
           "deceased": 59,
           "recovered": 575,
-          "tested": 30205
+          "tested": 30635
         }
       },
       "Other State": {
@@ -4828,20 +4825,21 @@
       },
       "Ramanagara": {
         "delta": {
-          "confirmed": 13
+          "confirmed": 13,
+          "tested": 663
         },
         "meta": {
           "population": 1082739,
           "tested": {
-            "last_updated": "2020-07-15",
-            "source": "https://twitter.com/VRmgm/status/1283369774399938561?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/VRmgm/status/1284456669490016257?s=20"
           }
         },
         "total": {
           "confirmed": 423,
           "deceased": 9,
           "recovered": 195,
-          "tested": 13171
+          "tested": 13834
         }
       },
       "Shivamogga": {
@@ -4887,20 +4885,21 @@
         "delta": {
           "confirmed": 109,
           "deceased": 2,
-          "recovered": 43
+          "recovered": 43,
+          "tested": 524
         },
         "meta": {
           "population": 1177908,
           "tested": {
-            "last_updated": "2020-07-17",
-            "source": "https://twitter.com/deepthisTOI/status/1284107710225498112?s=20"
+            "last_updated": "2020-07-18",
+            "source": "https://twitter.com/deepthisTOI/status/1284470346490376192?s=20"
           }
         },
         "total": {
           "confirmed": 2089,
           "deceased": 8,
           "recovered": 1575,
-          "tested": 23858
+          "tested": 24382
         }
       },
       "Uttara Kannada": {
@@ -7259,7 +7258,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-18T22:24:02+05:30",
+      "last_updated": "2020-07-18T22:27:02+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-07-18",
@@ -10192,7 +10191,7 @@
       "recovered": 21421
     },
     "meta": {
-      "last_updated": "2020-07-18T22:23:59+05:30",
+      "last_updated": "2020-07-18T22:26:59+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-17",
