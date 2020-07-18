@@ -704,7 +704,8 @@
   },
   "AS": {
     "delta": {
-      "deceased": 2
+      "deceased": 2,
+      "recovered": 1060
     },
     "districts": {
       "Airport Quarantine": {
@@ -1021,11 +1022,14 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "recovered": 1060
+        },
         "total": {
           "confirmed": 4728,
           "deceased": 9,
           "migrated": 3,
-          "recovered": 5110
+          "recovered": 6170
         }
       },
       "West Karbi Anglong": {
@@ -1038,7 +1042,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-18T21:17:01+05:30",
+      "last_updated": "2020-07-18T21:53:00+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1050,7 +1054,7 @@
       "confirmed": 21865,
       "deceased": 58,
       "migrated": 3,
-      "recovered": 14106,
+      "recovered": 15166,
       "tested": 614743
     }
   },
@@ -4383,7 +4387,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-18T21:47:04+05:30",
+      "last_updated": "2020-07-18T21:50:04+05:30",
       "population": 13203000,
       "tested": {
         "last_updated": "2020-07-18",
@@ -4953,7 +4957,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-18T21:47:01+05:30",
+      "last_updated": "2020-07-18T21:50:01+05:30",
       "notes": "4 cases are classified as non-covid related deaths in KA bulletin. They have been reduced from active cases",
       "population": 65798000,
       "tested": {
@@ -5944,7 +5948,8 @@
   },
   "ML": {
     "delta": {
-      "confirmed": 15
+      "confirmed": 15,
+      "tested": 959
     },
     "districts": {
       "East Garo Hills": {
@@ -6058,15 +6063,14 @@
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
-        "last_updated": "2020-07-17",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1199"
+        "last_updated": "2020-07-18"
       }
     },
     "total": {
       "confirmed": 418,
       "deceased": 2,
       "recovered": 49,
-      "tested": 25981
+      "tested": 26940
     }
   },
   "MN": {
@@ -10469,10 +10473,10 @@
       "confirmed": 29933,
       "deceased": 533,
       "migrated": 2,
-      "recovered": 20350
+      "recovered": 21410
     },
     "meta": {
-      "last_updated": "2020-07-18T21:46:59+05:30",
+      "last_updated": "2020-07-18T21:52:59+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-17",
@@ -10483,7 +10487,7 @@
       "confirmed": 1070390,
       "deceased": 26818,
       "migrated": 395,
-      "recovered": 674428,
+      "recovered": 675488,
       "tested": 13433742
     }
   },
