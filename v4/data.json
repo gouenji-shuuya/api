@@ -8404,7 +8404,8 @@
   "PY": {
     "delta": {
       "confirmed": 109,
-      "recovered": 92
+      "recovered": 92,
+      "tested": 768
     },
     "districts": {
       "Karaikal": {
@@ -8490,15 +8491,14 @@
       "last_updated": "2020-07-19T11:40:05+05:30",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-07-18",
-        "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/18.07.2020%20bulletin-converted.pdf"
+        "last_updated": "2020-07-19"
       }
     },
     "total": {
       "confirmed": 1999,
       "deceased": 28,
       "recovered": 1154,
-      "tested": 30652
+      "tested": 31420
     }
   },
   "RJ": {
@@ -10043,6 +10043,9 @@
     }
   },
   "TR": {
+    "delta": {
+      "confirmed": 223
+    },
     "districts": {
       "Dhalai": {
         "meta": {
@@ -10135,6 +10138,14 @@
           "tested": 11752
         }
       },
+      "Unknown": {
+        "delta": {
+          "confirmed": 223
+        },
+        "total": {
+          "confirmed": 223
+        }
+      },
       "Unokoti": {
         "meta": {
           "population": 277335,
@@ -10167,7 +10178,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-19T00:28:03+05:30",
+      "last_updated": "2020-07-19T22:53:02+05:30",
       "population": 3992000,
       "tested": {
         "last_updated": "2020-07-18",
@@ -10175,7 +10186,7 @@
       }
     },
     "total": {
-      "confirmed": 2668,
+      "confirmed": 2891,
       "deceased": 5,
       "migrated": 14,
       "recovered": 1735,
@@ -10184,13 +10195,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 38759,
+      "confirmed": 38982,
       "deceased": 674,
       "migrated": 3,
       "recovered": 22648
     },
     "meta": {
-      "last_updated": "2020-07-19T22:25:59+05:30",
+      "last_updated": "2020-07-19T22:52:59+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-18",
@@ -10198,7 +10209,7 @@
       }
     },
     "total": {
-      "confirmed": 1116623,
+      "confirmed": 1116846,
       "deceased": 27502,
       "migrated": 402,
       "recovered": 700305,
