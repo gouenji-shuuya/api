@@ -712,6 +712,9 @@
     }
   },
   "AS": {
+    "delta": {
+      "deceased": 4
+    },
     "districts": {
       "Airport Quarantine": {
         "total": {
@@ -756,11 +759,15 @@
         }
       },
       "Cachar": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1736319
         },
         "total": {
           "confirmed": 351,
+          "deceased": 1,
           "recovered": 249
         }
       },
@@ -883,12 +890,15 @@
         }
       },
       "Kamrup Metropolitan": {
+        "delta": {
+          "deceased": 2
+        },
         "meta": {
           "population": 1260419
         },
         "total": {
           "confirmed": 10515,
-          "deceased": 28,
+          "deceased": 30,
           "recovered": 4587
         }
       },
@@ -1001,12 +1011,15 @@
         }
       },
       "Tinsukia": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1316948
         },
         "total": {
           "confirmed": 291,
-          "deceased": 2,
+          "deceased": 3,
           "recovered": 109
         }
       },
@@ -1038,7 +1051,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-19T00:40:01+05:30",
+      "last_updated": "2020-07-19T20:03:01+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1048,7 +1061,7 @@
     },
     "total": {
       "confirmed": 22982,
-      "deceased": 58,
+      "deceased": 62,
       "migrated": 3,
       "recovered": 15166,
       "tested": 632372
@@ -2291,7 +2304,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-19T19:54:01+05:30",
+      "last_updated": "2020-07-19T19:58:02+05:30",
       "notes": "3 cases are migrated to different states which are reduced from active count.",
       "population": 959000,
       "tested": {
@@ -4674,6 +4687,10 @@
     }
   },
   "LA": {
+    "delta": {
+      "confirmed": 19,
+      "recovered": 18
+    },
     "districts": {
       "Kargil": {
         "meta": {
@@ -4691,6 +4708,10 @@
         }
       },
       "Leh": {
+        "delta": {
+          "confirmed": 19,
+          "recovered": 18
+        },
         "meta": {
           "population": 147000,
           "tested": {
@@ -4699,15 +4720,15 @@
           }
         },
         "total": {
-          "confirmed": 426,
+          "confirmed": 445,
           "deceased": 1,
-          "recovered": 283,
+          "recovered": 301,
           "tested": 9046
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-18T20:54:05+05:30",
+      "last_updated": "2020-07-19T20:03:03+05:30",
       "population": 293000,
       "tested": {
         "last_updated": "2020-07-18",
@@ -4715,9 +4736,9 @@
       }
     },
     "total": {
-      "confirmed": 1159,
+      "confirmed": 1178,
       "deceased": 2,
-      "recovered": 985,
+      "recovered": 1003,
       "tested": 16192
     }
   },
@@ -9706,13 +9727,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 17858,
-      "deceased": 242,
+      "confirmed": 17877,
+      "deceased": 246,
       "migrated": 1,
-      "recovered": 10016
+      "recovered": 10034
     },
     "meta": {
-      "last_updated": "2020-07-19T19:53:58+05:30",
+      "last_updated": "2020-07-19T20:03:00+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-18",
@@ -9720,10 +9741,10 @@
       }
     },
     "total": {
-      "confirmed": 1095722,
-      "deceased": 27070,
+      "confirmed": 1095741,
+      "deceased": 27074,
       "migrated": 400,
-      "recovered": 687673,
+      "recovered": 687691,
       "tested": 13791869
     }
   },
