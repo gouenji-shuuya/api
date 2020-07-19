@@ -2137,8 +2137,16 @@
     }
   },
   "DN": {
+    "delta": {
+      "confirmed": 15,
+      "recovered": 5
+    },
     "districts": {
       "Dadra and Nagar Haveli": {
+        "delta": {
+          "confirmed": 15,
+          "recovered": 5
+        },
         "meta": {
           "population": 343709,
           "tested": {
@@ -2147,10 +2155,10 @@
           }
         },
         "total": {
-          "confirmed": 285,
+          "confirmed": 300,
           "deceased": 1,
           "migrated": 5,
-          "recovered": 187,
+          "recovered": 192,
           "tested": 22826
         }
       },
@@ -2187,7 +2195,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-18T22:56:04+05:30",
+      "last_updated": "2020-07-19T18:05:02+05:30",
       "notes": "3 cases are migrated to different states which are reduced from active count.",
       "population": 959000,
       "tested": {
@@ -2196,10 +2204,10 @@
       }
     },
     "total": {
-      "confirmed": 653,
+      "confirmed": 668,
       "deceased": 2,
       "migrated": 10,
-      "recovered": 436,
+      "recovered": 441,
       "tested": 37392
     }
   },
@@ -5091,6 +5099,7 @@
   },
   "ML": {
     "delta": {
+      "confirmed": 32,
       "deceased": 2
     },
     "districts": {
@@ -5112,13 +5121,14 @@
       },
       "East Khasi Hills": {
         "delta": {
+          "confirmed": 31,
           "deceased": 2
         },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 333,
+          "confirmed": 364,
           "deceased": 4,
           "recovered": 17
         }
@@ -5133,11 +5143,14 @@
         }
       },
       "Ribhoi": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 258380
         },
         "total": {
-          "confirmed": 35
+          "confirmed": 36
         }
       },
       "South Garo Hills": {
@@ -5157,9 +5170,23 @@
           "recovered": 7
         }
       },
-      "Unknown": {
+      "South West Khasi Hills": {
+        "delta": {
+          "confirmed": 1
+        },
+        "meta": {
+          "population": 110152
+        },
         "total": {
-          "confirmed": 15,
+          "confirmed": 1
+        }
+      },
+      "Unknown": {
+        "delta": {
+          "confirmed": -1
+        },
+        "total": {
+          "confirmed": 14,
           "recovered": 14
         }
       },
@@ -5192,7 +5219,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-19T14:40:03+05:30",
+      "last_updated": "2020-07-19T18:05:04+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -5201,7 +5228,7 @@
       }
     },
     "total": {
-      "confirmed": 418,
+      "confirmed": 450,
       "deceased": 4,
       "recovered": 49,
       "tested": 26940
@@ -9077,13 +9104,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 2355,
+      "confirmed": 2402,
       "deceased": 14,
       "migrated": 1,
-      "recovered": 1059
+      "recovered": 1064
     },
     "meta": {
-      "last_updated": "2020-07-19T17:53:59+05:30",
+      "last_updated": "2020-07-19T18:04:59+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-18",
@@ -9091,10 +9118,10 @@
       }
     },
     "total": {
-      "confirmed": 1080219,
+      "confirmed": 1080266,
       "deceased": 26842,
       "migrated": 400,
-      "recovered": 678716,
+      "recovered": 678721,
       "tested": 13791869
     }
   },
