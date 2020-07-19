@@ -2017,8 +2017,18 @@
     }
   },
   "DL": {
+    "delta": {
+      "confirmed": 1211,
+      "deceased": 31,
+      "recovered": 1860
+    },
     "districts": {
       "Delhi": {
+        "delta": {
+          "confirmed": 1211,
+          "deceased": 31,
+          "recovered": 1860
+        },
         "meta": {
           "population": 19814000,
           "tested": {
@@ -2027,15 +2037,15 @@
           }
         },
         "total": {
-          "confirmed": 121582,
-          "deceased": 3597,
-          "recovered": 101274,
+          "confirmed": 122793,
+          "deceased": 3628,
+          "recovered": 103134,
           "tested": 798783
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-19T10:36:04+05:30",
+      "last_updated": "2020-07-19T18:13:01+05:30",
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
@@ -2044,9 +2054,9 @@
       }
     },
     "total": {
-      "confirmed": 121582,
-      "deceased": 3597,
-      "recovered": 101274,
+      "confirmed": 122793,
+      "deceased": 3628,
+      "recovered": 103134,
       "tested": 798783
     }
   },
@@ -2109,7 +2119,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-19T18:05:02+05:30",
+      "last_updated": "2020-07-19T18:08:01+05:30",
       "notes": "3 cases are migrated to different states which are reduced from active count.",
       "population": 959000,
       "tested": {
@@ -5128,7 +5138,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-19T18:05:04+05:30",
+      "last_updated": "2020-07-19T18:08:03+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -6144,7 +6154,8 @@
   },
   "NL": {
     "delta": {
-      "confirmed": 10
+      "confirmed": 10,
+      "recovered": 13
     },
     "districts": {
       "Dimapur": {
@@ -6281,8 +6292,11 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "recovered": 13
+        },
         "total": {
-          "recovered": 299
+          "recovered": 312
         }
       },
       "Wokha": {
@@ -6308,7 +6322,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-19T15:49:01+05:30",
+      "last_updated": "2020-07-19T18:13:03+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-07-18",
@@ -6317,7 +6331,7 @@
     },
     "total": {
       "confirmed": 988,
-      "recovered": 432,
+      "recovered": 445,
       "tested": 29092
     }
   },
@@ -8715,13 +8729,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 2402,
-      "deceased": 14,
+      "confirmed": 3613,
+      "deceased": 45,
       "migrated": 1,
-      "recovered": 1064
+      "recovered": 2937
     },
     "meta": {
-      "last_updated": "2020-07-19T18:04:59+05:30",
+      "last_updated": "2020-07-19T18:12:59+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-18",
@@ -8729,10 +8743,10 @@
       }
     },
     "total": {
-      "confirmed": 1080266,
-      "deceased": 26842,
+      "confirmed": 1081477,
+      "deceased": 26873,
       "migrated": 400,
-      "recovered": 678721,
+      "recovered": 680594,
       "tested": 13791869
     }
   },
