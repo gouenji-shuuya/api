@@ -2115,27 +2115,29 @@
     "delta": {
       "confirmed": 1211,
       "deceased": 31,
-      "recovered": 1860
+      "recovered": 1860,
+      "tested": 20206
     },
     "districts": {
       "Delhi": {
         "delta": {
           "confirmed": 1211,
           "deceased": 31,
-          "recovered": 1860
+          "recovered": 1860,
+          "tested": 20206
         },
         "meta": {
           "population": 19814000,
           "tested": {
-            "last_updated": "2020-07-18",
-            "source": "https://twitter.com/ANI/status/1284473451156140034?s=20"
+            "last_updated": "2020-07-19",
+            "source": "https://twitter.com/ANI/status/1284831146107301890?s=20"
           }
         },
         "total": {
           "confirmed": 122793,
           "deceased": 3628,
           "recovered": 103134,
-          "tested": 798783
+          "tested": 818989
         }
       }
     },
@@ -2144,15 +2146,15 @@
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
-        "last_updated": "2020-07-18",
-        "source": "https://twitter.com/ANI/status/1284473451156140034?s=20"
+        "last_updated": "2020-07-19",
+        "source": "https://twitter.com/ANI/status/1284831146107301890?s=20"
       }
     },
     "total": {
       "confirmed": 122793,
       "deceased": 3628,
       "recovered": 103134,
-      "tested": 798783
+      "tested": 818989
     }
   },
   "DN": {
@@ -3035,7 +3037,8 @@
     "delta": {
       "confirmed": 617,
       "deceased": 5,
-      "recovered": 475
+      "recovered": 475,
+      "tested": 10810
     },
     "districts": {
       "Ambala": {
@@ -3457,18 +3460,17 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-19T20:13:01+05:30",
+      "last_updated": "2020-07-19T20:23:00+05:30",
       "population": 28672000,
       "tested": {
-        "last_updated": "2020-07-18",
-        "source": "http://www.nhmharyana.gov.in/WriteReadData/userfiles/file/CoronaVirus/Daily%20Bulletin%20of%20COVID%2019%20as%20on%2018-07-20.pdf"
+        "last_updated": "2020-07-19"
       }
     },
     "total": {
       "confirmed": 26164,
       "deceased": 349,
       "recovered": 19793,
-      "tested": 436535
+      "tested": 447345
     }
   },
   "JH": {
@@ -5408,13 +5410,20 @@
     }
   },
   "MN": {
+    "delta": {
+      "confirmed": 20,
+      "recovered": 53
+    },
     "districts": {
       "Bishnupur": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 240363
         },
         "total": {
-          "confirmed": 85,
+          "confirmed": 86,
           "recovered": 58
         }
       },
@@ -5437,20 +5446,26 @@
         }
       },
       "Imphal East": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 452661
         },
         "total": {
-          "confirmed": 60,
+          "confirmed": 62,
           "recovered": 16
         }
       },
       "Imphal West": {
+        "delta": {
+          "confirmed": 9
+        },
         "meta": {
           "population": 514683
         },
         "total": {
-          "confirmed": 174,
+          "confirmed": 183,
           "recovered": 52
         }
       },
@@ -5503,20 +5518,26 @@
         }
       },
       "Senapati": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 354772
         },
         "total": {
-          "confirmed": 192,
+          "confirmed": 194,
           "recovered": 21
         }
       },
       "Tamenglong": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "population": 140143
         },
         "total": {
-          "confirmed": 209,
+          "confirmed": 212,
           "recovered": 32
         }
       },
@@ -5527,31 +5548,40 @@
         }
       },
       "Thoubal": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 420517
         },
         "total": {
-          "confirmed": 99,
+          "confirmed": 101,
           "recovered": 23
         }
       },
       "Ukhrul": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 183115
         },
         "total": {
-          "confirmed": 251,
+          "confirmed": 252,
           "recovered": 18
         }
       },
       "Unknown": {
+        "delta": {
+          "recovered": 53
+        },
         "total": {
-          "recovered": 789
+          "recovered": 842
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-18T20:56:03+05:30",
+      "last_updated": "2020-07-19T20:23:04+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-07-18",
@@ -5559,8 +5589,8 @@
       }
     },
     "total": {
-      "confirmed": 1891,
-      "recovered": 1182,
+      "confirmed": 1911,
+      "recovered": 1235,
       "tested": 70195
     }
   },
@@ -9433,13 +9463,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 18733,
+      "confirmed": 18753,
       "deceased": 251,
       "migrated": 2,
-      "recovered": 10544
+      "recovered": 10597
     },
     "meta": {
-      "last_updated": "2020-07-19T20:12:59+05:30",
+      "last_updated": "2020-07-19T20:22:59+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-18",
@@ -9447,10 +9477,10 @@
       }
     },
     "total": {
-      "confirmed": 1096597,
+      "confirmed": 1096617,
       "deceased": 27079,
       "migrated": 401,
-      "recovered": 688201,
+      "recovered": 688254,
       "tested": 13791869
     }
   },
@@ -11127,7 +11157,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-19T20:13:03+05:30",
+      "last_updated": "2020-07-19T20:23:02+05:30",
       "notes": "36 Migrated cases reduced from Active count",
       "population": 11141000,
       "tested": {
