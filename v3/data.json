@@ -7338,8 +7338,8 @@
       "last_updated": "2020-07-20T18:50:19+05:30",
       "population": 1192000,
       "tested": {
-        "last_updated": "2020-07-19",
-        "source": "https://dipr.mizoram.gov.in/post/status-of-state-surveillance-of-covid-19-time-1872020-500pm-1972020-500-pm"
+        "last_updated": "2020-07-20",
+        "source": "https://dipr.mizoram.gov.in/post/status-of-state-surveillance-of-covid-19-time-1972020-500pm-2072020-500-pm"
       }
     },
     "total": {
@@ -7351,7 +7351,8 @@
   "NL": {
     "delta": {
       "confirmed": 33,
-      "recovered": 39
+      "recovered": 39,
+      "tested": 668
     },
     "districts": {
       "Dimapur": {
@@ -7518,14 +7519,13 @@
       "last_updated": "2020-07-20T20:46:13+05:30",
       "population": 2150000,
       "tested": {
-        "last_updated": "2020-07-19",
-        "source": "https://twitter.com/MyGovNagaland/status/1284829602787942405?s=20"
+        "last_updated": "2020-07-20"
       }
     },
     "total": {
       "confirmed": 1021,
       "recovered": 484,
-      "tested": 29326
+      "tested": 29994
     }
   },
   "OR": {
@@ -10513,6 +10513,10 @@
     }
   },
   "TR": {
+    "delta": {
+      "confirmed": 202,
+      "recovered": 86
+    },
     "districts": {
       "Dhalai": {
         "meta": {
@@ -10605,6 +10609,16 @@
           "tested": 12200
         }
       },
+      "Unknown": {
+        "delta": {
+          "confirmed": 202,
+          "recovered": 86
+        },
+        "total": {
+          "confirmed": 202,
+          "recovered": 86
+        }
+      },
       "Unokoti": {
         "meta": {
           "population": 277335,
@@ -10637,7 +10651,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-20T00:24:02+05:30",
+      "last_updated": "2020-07-20T22:23:39+05:30",
       "population": 3992000,
       "tested": {
         "last_updated": "2020-07-19",
@@ -10645,22 +10659,22 @@
       }
     },
     "total": {
-      "confirmed": 2891,
+      "confirmed": 3093,
       "deceased": 5,
       "migrated": 14,
-      "recovered": 1759,
+      "recovered": 1845,
       "tested": 109290
     }
   },
   "TT": {
     "delta": {
-      "confirmed": 35252,
+      "confirmed": 35454,
       "deceased": 589,
       "migrated": 2,
-      "recovered": 24095
+      "recovered": 24181
     },
     "meta": {
-      "last_updated": "2020-07-20T22:06:38+05:30",
+      "last_updated": "2020-07-20T22:23:35+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-19",
@@ -10668,10 +10682,10 @@
       }
     },
     "total": {
-      "confirmed": 1153359,
+      "confirmed": 1153561,
       "deceased": 28092,
       "migrated": 404,
-      "recovered": 724494,
+      "recovered": 724580,
       "tested": 14047908
     }
   },
