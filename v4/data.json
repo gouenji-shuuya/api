@@ -718,6 +718,7 @@
   },
   "AS": {
     "delta": {
+      "confirmed": 1093,
       "deceased": 1,
       "recovered": 1072,
       "tested": 20012
@@ -897,11 +898,14 @@
         }
       },
       "Kamrup Metropolitan": {
+        "delta": {
+          "confirmed": 448
+        },
         "meta": {
           "population": 1260419
         },
         "total": {
-          "confirmed": 11947,
+          "confirmed": 12395,
           "deceased": 32,
           "recovered": 6002
         }
@@ -1041,10 +1045,11 @@
       },
       "Unknown": {
         "delta": {
+          "confirmed": 645,
           "recovered": 1072
         },
         "total": {
-          "confirmed": 506,
+          "confirmed": 1151,
           "deceased": 5,
           "migrated": 3,
           "recovered": 3937
@@ -1060,7 +1065,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-20T23:16:38+05:30",
+      "last_updated": "2020-07-21T00:36:38+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1069,7 +1074,7 @@
       }
     },
     "total": {
-      "confirmed": 24000,
+      "confirmed": 25093,
       "deceased": 63,
       "migrated": 3,
       "recovered": 17096,
@@ -3788,7 +3793,8 @@
     "delta": {
       "confirmed": 225,
       "deceased": 4,
-      "recovered": 117
+      "recovered": 117,
+      "tested": 7120
     },
     "districts": {
       "Bokaro": {
@@ -4129,22 +4135,23 @@
       "last_updated": "2020-07-20T22:49:37+05:30",
       "population": 37403000,
       "tested": {
-        "last_updated": "2020-07-19",
-        "source": "https://twitter.com/FOBGumla/status/1284920744133050368?s=20"
+        "last_updated": "2020-07-20",
+        "source": "https://twitter.com/FOBGumla/status/1285272109317410818?s=20"
       }
     },
     "total": {
       "confirmed": 5777,
       "deceased": 53,
       "recovered": 2835,
-      "tested": 215661
+      "tested": 222781
     }
   },
   "JK": {
     "delta": {
       "confirmed": 751,
       "deceased": 10,
-      "recovered": 463
+      "recovered": 463,
+      "tested": 10351
     },
     "districts": {
       "Anantnag": {
@@ -4435,15 +4442,15 @@
       "last_updated": "2020-07-20T21:58:40+05:30",
       "population": 13203000,
       "tested": {
-        "last_updated": "2020-07-19",
-        "source": "https://twitter.com/diprjk/status/1284871839399862272?s=20"
+        "last_updated": "2020-07-20",
+        "source": "https://twitter.com/diprjk/status/1285241465531064320?s=20"
       }
     },
     "total": {
       "confirmed": 14650,
       "deceased": 254,
       "recovered": 8274,
-      "tested": 507678
+      "tested": 518029
     }
   },
   "KA": {
@@ -5268,7 +5275,8 @@
       "notes": "Mahe native who expired in Kannur included in Kerala's tally.\nOne patient who absconded from Palakkad to TN and one patient who returned back to Maharashtra has been reduced from active count",
       "population": 35125000,
       "tested": {
-        "last_updated": "2020-07-20"
+        "last_updated": "2020-07-20",
+        "source": "https://dhs.kerala.gov.in/wp-content/uploads/2020/07/Bulletin-HFWD-English-July-20.pdf"
       }
     },
     "total": {
@@ -10403,13 +10411,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 35717,
+      "confirmed": 36810,
       "deceased": 596,
       "migrated": 2,
       "recovered": 24303
     },
     "meta": {
-      "last_updated": "2020-07-20T23:26:35+05:30",
+      "last_updated": "2020-07-21T00:37:35+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-19",
@@ -10417,7 +10425,7 @@
       }
     },
     "total": {
-      "confirmed": 1153824,
+      "confirmed": 1154917,
       "deceased": 28099,
       "migrated": 404,
       "recovered": 724702,
