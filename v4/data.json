@@ -2289,7 +2289,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-20T20:39:49+05:30",
+      "last_updated": "2020-07-20T20:45:47+05:30",
       "population": 1540000,
       "tested": {
         "last_updated": "2020-07-19",
@@ -2944,7 +2944,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-20T20:39:40+05:30",
+      "last_updated": "2020-07-20T20:45:40+05:30",
       "population": 67936000,
       "tested": {
         "last_updated": "2020-07-20",
@@ -3610,7 +3610,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-20T20:39:43+05:30",
+      "last_updated": "2020-07-20T20:45:44+05:30",
       "population": 28672000,
       "tested": {
         "last_updated": "2020-07-20",
@@ -4898,7 +4898,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-20T20:39:54+05:30",
+      "last_updated": "2020-07-20T20:46:10+05:30",
       "population": 293000,
       "tested": {
         "last_updated": "2020-07-20",
@@ -5588,7 +5588,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-20T20:39:38+05:30",
+      "last_updated": "2020-07-20T20:45:37+05:30",
       "notes": "302 cases are marked as non-covid deaths in MH bulletin. These have been reduced from active count\n[June 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[June 20]: 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -5882,7 +5882,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-20T20:39:52+05:30",
+      "last_updated": "2020-07-20T20:45:50+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-07-19",
@@ -5899,7 +5899,8 @@
     "delta": {
       "confirmed": 710,
       "deceased": 17,
-      "recovered": 373
+      "recovered": 373,
+      "tested": 16222
     },
     "districts": {
       "Agar Malwa": {
@@ -6815,15 +6816,14 @@
       "last_updated": "2020-07-20T19:42:39+05:30",
       "population": 82232000,
       "tested": {
-        "last_updated": "2020-07-19",
-        "source": "https://twitter.com/healthminmp/status/1284843157557895169?s=20"
+        "last_updated": "2020-07-20"
       }
     },
     "total": {
       "confirmed": 23310,
       "deceased": 738,
       "recovered": 15684,
-      "tested": 599640
+      "tested": 615862
     }
   },
   "MZ": {
@@ -7100,7 +7100,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-20T20:39:57+05:30",
+      "last_updated": "2020-07-20T20:44:56+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-07-19",
@@ -8810,8 +8810,18 @@
     }
   },
   "TG": {
+    "delta": {
+      "confirmed": 1198,
+      "deceased": 7,
+      "recovered": 1885
+    },
     "districts": {
       "Unknown": {
+        "delta": {
+          "confirmed": 1198,
+          "deceased": 7,
+          "recovered": 1885
+        },
         "meta": {
           "tested": {
             "last_updated": "2020-07-19",
@@ -8819,15 +8829,15 @@
           }
         },
         "total": {
-          "confirmed": 45076,
-          "deceased": 415,
-          "recovered": 32438,
+          "confirmed": 46274,
+          "deceased": 422,
+          "recovered": 34323,
           "tested": 265219
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-19T21:53:01+05:30",
+      "last_updated": "2020-07-20T20:45:42+05:30",
       "population": 37220000,
       "tested": {
         "last_updated": "2020-07-19",
@@ -8835,9 +8845,9 @@
       }
     },
     "total": {
-      "confirmed": 45076,
-      "deceased": 415,
-      "recovered": 32438,
+      "confirmed": 46274,
+      "deceased": 422,
+      "recovered": 34323,
       "tested": 265219
     }
   },
@@ -9749,13 +9759,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 24527,
-      "deceased": 407,
+      "confirmed": 25725,
+      "deceased": 414,
       "migrated": 1,
-      "recovered": 16359
+      "recovered": 18244
     },
     "meta": {
-      "last_updated": "2020-07-20T20:39:37+05:30",
+      "last_updated": "2020-07-20T20:45:35+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-19",
@@ -9763,10 +9773,10 @@
       }
     },
     "total": {
-      "confirmed": 1142634,
-      "deceased": 27910,
+      "confirmed": 1143832,
+      "deceased": 27917,
       "migrated": 403,
-      "recovered": 716758,
+      "recovered": 718643,
       "tested": 14047908
     }
   },
