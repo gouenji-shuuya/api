@@ -4462,7 +4462,8 @@
       "notes": "4 cases are classified as non-covid related deaths in KA bulletin. They have been reduced from active cases",
       "population": 65798000,
       "tested": {
-        "last_updated": "2020-07-21"
+        "last_updated": "2020-07-21",
+        "source": "https://t.co/MF137QS5Fa?amp=1"
       }
     },
     "total": {
@@ -5413,6 +5414,10 @@
     }
   },
   "MN": {
+    "delta": {
+      "confirmed": 90,
+      "recovered": 64
+    },
     "districts": {
       "Bishnupur": {
         "meta": {
@@ -5442,38 +5447,50 @@
         }
       },
       "Imphal East": {
+        "delta": {
+          "confirmed": 8
+        },
         "meta": {
           "population": 452661
         },
         "total": {
-          "confirmed": 62,
+          "confirmed": 70,
           "recovered": 16
         }
       },
       "Imphal West": {
+        "delta": {
+          "confirmed": 12
+        },
         "meta": {
           "population": 514683
         },
         "total": {
-          "confirmed": 184,
+          "confirmed": 196,
           "recovered": 52
         }
       },
       "Jiribam": {
+        "delta": {
+          "confirmed": 17
+        },
         "meta": {
           "population": 43818
         },
         "total": {
-          "confirmed": 72,
+          "confirmed": 89,
           "recovered": 2
         }
       },
       "Kakching": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 135481
         },
         "total": {
-          "confirmed": 109,
+          "confirmed": 111,
           "recovered": 27
         }
       },
@@ -5487,8 +5504,11 @@
         }
       },
       "Kangpokpi": {
+        "delta": {
+          "confirmed": 25
+        },
         "total": {
-          "confirmed": 234,
+          "confirmed": 259,
           "recovered": 19
         }
       },
@@ -5526,17 +5546,23 @@
         }
       },
       "Tengnoupal": {
+        "delta": {
+          "confirmed": 1
+        },
         "total": {
-          "confirmed": 14,
+          "confirmed": 15,
           "recovered": 13
         }
       },
       "Thoubal": {
+        "delta": {
+          "confirmed": 25
+        },
         "meta": {
           "population": 420517
         },
         "total": {
-          "confirmed": 113,
+          "confirmed": 138,
           "recovered": 23
         }
       },
@@ -5550,13 +5576,16 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "recovered": 64
+        },
         "total": {
-          "recovered": 927
+          "recovered": 991
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-20T20:45:50+05:30",
+      "last_updated": "2020-07-21T19:53:52+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-07-20",
@@ -5564,8 +5593,8 @@
       }
     },
     "total": {
-      "confirmed": 1925,
-      "recovered": 1320,
+      "confirmed": 2015,
+      "recovered": 1384,
       "tested": 71703
     }
   },
@@ -9499,12 +9528,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 16443,
+      "confirmed": 16533,
       "deceased": 231,
-      "recovered": 10532
+      "recovered": 10596
     },
     "meta": {
-      "last_updated": "2020-07-21T19:40:52+05:30",
+      "last_updated": "2020-07-21T19:53:50+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-20",
@@ -9512,10 +9541,10 @@
       }
     },
     "total": {
-      "confirmed": 1171356,
+      "confirmed": 1171446,
       "deceased": 28330,
       "migrated": 404,
-      "recovered": 735336,
+      "recovered": 735400,
       "tested": 14381303
     }
   },
