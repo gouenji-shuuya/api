@@ -2543,6 +2543,9 @@
     }
   },
   "HP": {
+    "delta": {
+      "confirmed": 10
+    },
     "districts": {
       "Bilaspur": {
         "meta": {
@@ -2671,6 +2674,9 @@
         }
       },
       "Sirmaur": {
+        "delta": {
+          "confirmed": 10
+        },
         "meta": {
           "population": 530164,
           "tested": {
@@ -2678,7 +2684,7 @@
           }
         },
         "total": {
-          "confirmed": 110,
+          "confirmed": 120,
           "migrated": 7,
           "recovered": 33,
           "tested": 7620
@@ -2718,7 +2724,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-20T22:06:42+05:30",
+      "last_updated": "2020-07-21T12:46:40+05:30",
       "notes": "HP has 16 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -2727,7 +2733,7 @@
       }
     },
     "total": {
-      "confirmed": 1631,
+      "confirmed": 1641,
       "deceased": 10,
       "migrated": 15,
       "recovered": 1067,
@@ -6979,8 +6985,17 @@
     }
   },
   "PY": {
+    "delta": {
+      "confirmed": 87,
+      "deceased": 1,
+      "recovered": 53
+    },
     "districts": {
       "Karaikal": {
+        "delta": {
+          "confirmed": 1,
+          "recovered": 7
+        },
         "meta": {
           "population": 200222,
           "tested": {
@@ -6989,9 +7004,9 @@
           }
         },
         "total": {
-          "confirmed": 134,
+          "confirmed": 135,
           "deceased": 2,
-          "recovered": 81,
+          "recovered": 88,
           "tested": 4224
         }
       },
@@ -7010,6 +7025,11 @@
         }
       },
       "Puducherry": {
+        "delta": {
+          "confirmed": 86,
+          "deceased": 1,
+          "recovered": 34
+        },
         "meta": {
           "notes": "25 cases(20 of TN, 1 of AP & 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
@@ -7019,13 +7039,16 @@
           }
         },
         "total": {
-          "confirmed": 1873,
-          "deceased": 26,
-          "recovered": 1140,
+          "confirmed": 1959,
+          "deceased": 27,
+          "recovered": 1174,
           "tested": 24937
         }
       },
       "Yanam": {
+        "delta": {
+          "recovered": 12
+        },
         "meta": {
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
@@ -7037,13 +7060,13 @@
         "total": {
           "confirmed": 64,
           "deceased": 1,
-          "recovered": 23,
+          "recovered": 35,
           "tested": 1587
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-20T12:06:54+05:30",
+      "last_updated": "2020-07-21T12:46:38+05:30",
       "population": 1504000,
       "tested": {
         "last_updated": "2020-07-20",
@@ -7051,9 +7074,9 @@
       }
     },
     "total": {
-      "confirmed": 2092,
-      "deceased": 29,
-      "recovered": 1265,
+      "confirmed": 2179,
+      "deceased": 30,
+      "recovered": 1318,
       "tested": 31947
     }
   },
@@ -8500,12 +8523,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 1028,
-      "deceased": 14,
-      "recovered": 122
+      "confirmed": 1125,
+      "deceased": 15,
+      "recovered": 175
     },
     "meta": {
-      "last_updated": "2020-07-21T12:26:40+05:30",
+      "last_updated": "2020-07-21T12:46:35+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-20",
@@ -8513,10 +8536,10 @@
       }
     },
     "total": {
-      "confirmed": 1155941,
-      "deceased": 28113,
+      "confirmed": 1156038,
+      "deceased": 28114,
       "migrated": 404,
-      "recovered": 724824,
+      "recovered": 724877,
       "tested": 14381303
     }
   },
