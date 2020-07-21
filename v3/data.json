@@ -2877,8 +2877,9 @@
   },
   "HP": {
     "delta": {
-      "confirmed": 10,
-      "deceased": 1
+      "confirmed": 25,
+      "deceased": 1,
+      "recovered": 1
     },
     "districts": {
       "Bilaspur": {
@@ -2925,6 +2926,10 @@
         }
       },
       "Kangra": {
+        "delta": {
+          "confirmed": 7,
+          "recovered": 1
+        },
         "meta": {
           "notes": "Death of Tibetan refugee on March 22 included in Kangra district's tally",
           "population": 1507223,
@@ -2934,10 +2939,10 @@
           }
         },
         "total": {
-          "confirmed": 346,
+          "confirmed": 353,
           "deceased": 3,
           "migrated": 2,
-          "recovered": 295,
+          "recovered": 296,
           "tested": 25271
         }
       },
@@ -2956,6 +2961,9 @@
         }
       },
       "Kullu": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 437474,
           "tested": {
@@ -2964,7 +2972,7 @@
           }
         },
         "total": {
-          "confirmed": 21,
+          "confirmed": 22,
           "recovered": 7,
           "tested": 3716
         }
@@ -3035,6 +3043,9 @@
         }
       },
       "Solan": {
+        "delta": {
+          "confirmed": 7
+        },
         "meta": {
           "population": 576670,
           "tested": {
@@ -3043,7 +3054,7 @@
           }
         },
         "total": {
-          "confirmed": 374,
+          "confirmed": 381,
           "migrated": 6,
           "recovered": 130,
           "tested": 19068
@@ -3070,7 +3081,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-21T13:26:39+05:30",
+      "last_updated": "2020-07-21T18:13:40+05:30",
       "notes": "HP has 16 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -3079,10 +3090,10 @@
       }
     },
     "total": {
-      "confirmed": 1641,
+      "confirmed": 1656,
       "deceased": 11,
       "migrated": 15,
-      "recovered": 1067,
+      "recovered": 1068,
       "tested": 116795
     }
   },
@@ -9179,12 +9190,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 7249,
+      "confirmed": 7264,
       "deceased": 91,
-      "recovered": 2736
+      "recovered": 2737
     },
     "meta": {
-      "last_updated": "2020-07-21T17:41:36+05:30",
+      "last_updated": "2020-07-21T18:13:35+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-20",
@@ -9192,10 +9203,10 @@
       }
     },
     "total": {
-      "confirmed": 1162162,
+      "confirmed": 1162177,
       "deceased": 28190,
       "migrated": 404,
-      "recovered": 727539,
+      "recovered": 727540,
       "tested": 14381303
     }
   },
