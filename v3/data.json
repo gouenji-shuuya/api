@@ -2630,7 +2630,8 @@
   },
   "HP": {
     "delta": {
-      "confirmed": 10
+      "confirmed": 10,
+      "deceased": 1
     },
     "districts": {
       "Bilaspur": {
@@ -2731,6 +2732,9 @@
         }
       },
       "Mandi": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 999518,
           "tested": {
@@ -2740,7 +2744,7 @@
         },
         "total": {
           "confirmed": 50,
-          "deceased": 2,
+          "deceased": 3,
           "recovered": 36,
           "tested": 8534
         }
@@ -2810,7 +2814,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-21T12:50:44+05:30",
+      "last_updated": "2020-07-21T13:23:39+05:30",
       "notes": "HP has 16 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -2820,7 +2824,7 @@
     },
     "total": {
       "confirmed": 1641,
-      "deceased": 10,
+      "deceased": 11,
       "migrated": 15,
       "recovered": 1067,
       "tested": 116795
@@ -8926,11 +8930,11 @@
   "TT": {
     "delta": {
       "confirmed": 1169,
-      "deceased": 17,
+      "deceased": 18,
       "recovered": 175
     },
     "meta": {
-      "last_updated": "2020-07-21T12:56:35+05:30",
+      "last_updated": "2020-07-21T13:23:35+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-20",
@@ -8939,7 +8943,7 @@
     },
     "total": {
       "confirmed": 1156082,
-      "deceased": 28116,
+      "deceased": 28117,
       "migrated": 404,
       "recovered": 724877,
       "tested": 14381303
