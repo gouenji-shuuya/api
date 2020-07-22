@@ -35,7 +35,8 @@
     "delta": {
       "confirmed": 6045,
       "deceased": 65,
-      "recovered": 6553
+      "recovered": 6553,
+      "tested": 49553
     },
     "districts": {
       "Anantapur": {
@@ -317,15 +318,15 @@
       "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin.",
       "population": 52221000,
       "tested": {
-        "last_updated": "2020-07-21",
-        "source": "https://twitter.com/ArogyaAndhra/status/1285538035518431232?s=20"
+        "last_updated": "2020-07-22",
+        "source": "https://twitter.com/ArogyaAndhra/status/1285904479506665474?s=20"
       }
     },
     "total": {
       "confirmed": 64713,
       "deceased": 823,
       "recovered": 32127,
-      "tested": 1386274
+      "tested": 1435827
     }
   },
   "AR": {
@@ -1620,7 +1621,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-22T19:13:04+05:30",
+      "last_updated": "2020-07-22T19:17:05+05:30",
       "population": 119520000,
       "tested": {
         "last_updated": "2020-07-22",
@@ -1664,7 +1665,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-22T19:13:12+05:30",
+      "last_updated": "2020-07-22T19:17:13+05:30",
       "population": 1179000,
       "tested": {
         "last_updated": "2020-07-21",
@@ -2210,7 +2211,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-22T19:13:14+05:30",
+      "last_updated": "2020-07-22T19:17:15+05:30",
       "notes": "10 Migrated cases reduced from Active count",
       "population": 959000,
       "tested": {
@@ -3011,7 +3012,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-22T19:13:10+05:30",
+      "last_updated": "2020-07-22T19:17:10+05:30",
       "notes": "HP has 16 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -4501,7 +4502,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-22T19:13:01+05:30",
+      "last_updated": "2020-07-22T19:17:03+05:30",
       "notes": "9 cases are classified as non-covid related deaths in KA bulletin. They have been reduced from active cases",
       "population": 65798000,
       "tested": {
@@ -4733,7 +4734,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-22T19:13:07+05:30",
+      "last_updated": "2020-07-22T19:17:08+05:30",
       "notes": "Mahe native who expired in Kannur included in Kerala's tally.\nOne patient who absconded from Palakkad to TN and one patient who returned back to Maharashtra has been reduced from active count",
       "population": 35125000,
       "tested": {
@@ -5458,6 +5459,10 @@
     }
   },
   "MN": {
+    "delta": {
+      "confirmed": 45,
+      "recovered": 34
+    },
     "districts": {
       "Bishnupur": {
         "meta": {
@@ -5478,20 +5483,26 @@
         }
       },
       "Churachandpur": {
+        "delta": {
+          "confirmed": 12
+        },
         "meta": {
           "population": 271274
         },
         "total": {
-          "confirmed": 162,
+          "confirmed": 174,
           "recovered": 58
         }
       },
       "Imphal East": {
+        "delta": {
+          "confirmed": 4
+        },
         "meta": {
           "population": 452661
         },
         "total": {
-          "confirmed": 70,
+          "confirmed": 74,
           "recovered": 16
         }
       },
@@ -5505,11 +5516,14 @@
         }
       },
       "Jiribam": {
+        "delta": {
+          "confirmed": 13
+        },
         "meta": {
           "population": 43818
         },
         "total": {
-          "confirmed": 89,
+          "confirmed": 102,
           "recovered": 2
         }
       },
@@ -5553,11 +5567,14 @@
         }
       },
       "Senapati": {
+        "delta": {
+          "confirmed": 5
+        },
         "meta": {
           "population": 354772
         },
         "total": {
-          "confirmed": 194,
+          "confirmed": 199,
           "recovered": 21
         }
       },
@@ -5577,31 +5594,40 @@
         }
       },
       "Thoubal": {
+        "delta": {
+          "confirmed": 4
+        },
         "meta": {
           "population": 420517
         },
         "total": {
-          "confirmed": 138,
+          "confirmed": 142,
           "recovered": 23
         }
       },
       "Ukhrul": {
+        "delta": {
+          "confirmed": 7
+        },
         "meta": {
           "population": 183115
         },
         "total": {
-          "confirmed": 252,
+          "confirmed": 259,
           "recovered": 18
         }
       },
       "Unknown": {
+        "delta": {
+          "recovered": 34
+        },
         "total": {
-          "recovered": 991
+          "recovered": 1025
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-21T20:17:58+05:30",
+      "last_updated": "2020-07-22T19:24:05+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-07-20",
@@ -5609,8 +5635,8 @@
       }
     },
     "total": {
-      "confirmed": 2015,
-      "recovered": 1384,
+      "confirmed": 2060,
+      "recovered": 1418,
       "tested": 71703
     }
   },
@@ -9026,7 +9052,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-22T19:12:58+05:30",
+      "last_updated": "2020-07-22T19:17:00+05:30",
       "notes": "[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.\n2 deaths cross notified to other states from Chennai and Coimbatore.\n1 patient died after turning negative for infection in Chengalpattu.\nThese cases have been added to TN deceased tally",
       "population": 75695000,
       "tested": {
@@ -9195,12 +9221,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 22090,
+      "confirmed": 22135,
       "deceased": 690,
-      "recovered": 16534
+      "recovered": 16568
     },
     "meta": {
-      "last_updated": "2020-07-22T19:12:56+05:30",
+      "last_updated": "2020-07-22T19:24:01+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-21",
@@ -9208,10 +9234,10 @@
       }
     },
     "total": {
-      "confirmed": 1216173,
+      "confirmed": 1216218,
       "deceased": 29460,
       "migrated": 410,
-      "recovered": 768926,
+      "recovered": 768960,
       "tested": 14724546
     }
   },
