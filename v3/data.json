@@ -4937,13 +4937,15 @@
       },
       "East Jaintia Hills": {
         "delta": {
-          "confirmed": 2
+          "confirmed": 2,
+          "recovered": 1
         },
         "meta": {
           "population": 122436
         },
         "total": {
-          "confirmed": 4
+          "confirmed": 4,
+          "recovered": 1
         }
       },
       "East Khasi Hills": {
@@ -4955,9 +4957,9 @@
           "population": 824059
         },
         "total": {
-          "confirmed": 395,
+          "confirmed": 409,
           "deceased": 4,
-          "recovered": 25
+          "recovered": 38
         }
       },
       "North Garo Hills": {
@@ -4995,9 +4997,12 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "recovered": -1
+        },
         "total": {
-          "confirmed": 31,
-          "recovered": 32
+          "confirmed": 17,
+          "recovered": 18
         }
       },
       "West Garo Hills": {
