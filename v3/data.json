@@ -3180,6 +3180,9 @@
     }
   },
   "JH": {
+    "delta": {
+      "confirmed": 48
+    },
     "districts": {
       "Bokaro": {
         "meta": {
@@ -3221,11 +3224,14 @@
         }
       },
       "Dhanbad": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 2682662
         },
         "total": {
-          "confirmed": 417,
+          "confirmed": 419,
           "deceased": 11,
           "recovered": 179
         }
@@ -3245,11 +3251,14 @@
         }
       },
       "East Singhbhum": {
+        "delta": {
+          "confirmed": 41
+        },
         "meta": {
           "population": 2291032
         },
         "total": {
-          "confirmed": 949,
+          "confirmed": 990,
           "deceased": 14,
           "recovered": 370
         }
@@ -3449,19 +3458,22 @@
         }
       },
       "West Singhbhum": {
+        "delta": {
+          "confirmed": 5
+        },
         "meta": {
-          "notes": "142",
+          "notes": "147",
           "population": 1501619
         },
         "total": {
-          "confirmed": 142,
+          "confirmed": 147,
           "deceased": 1,
           "recovered": 89
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-21T22:49:00+05:30",
+      "last_updated": "2020-07-22T11:48:12+05:30",
       "population": 37403000,
       "tested": {
         "last_updated": "2020-07-21",
@@ -3469,7 +3481,7 @@
       }
     },
     "total": {
-      "confirmed": 6195,
+      "confirmed": 6243,
       "deceased": 61,
       "recovered": 2942,
       "tested": 230535
@@ -4568,15 +4580,15 @@
         "meta": {
           "population": 4224442,
           "tested": {
-            "last_updated": "2020-07-20",
-            "source": "https://twitter.com/InfoJalgaon/status/1285213812883288064/photo/1"
+            "last_updated": "2020-07-21",
+            "source": "https://twitter.com/InfoJalgaon/status/1285573225334751233/photo/1"
           }
         },
         "total": {
           "confirmed": 7955,
           "deceased": 420,
           "recovered": 5271,
-          "tested": 39900
+          "tested": 40861
         }
       },
       "Jalna": {
@@ -4618,8 +4630,8 @@
         "meta": {
           "population": 12442373,
           "tested": {
-            "last_updated": "2020-07-19",
-            "source": "https://twitter.com/mybmc/status/1284862738351546368/photo/1"
+            "last_updated": "2020-07-20",
+            "source": "https://twitter.com/mybmc/status/1285220016669945856/photo/1"
           }
         },
         "total": {
@@ -4627,7 +4639,7 @@
           "deceased": 5817,
           "migrated": 292,
           "recovered": 73555,
-          "tested": 438216
+          "tested": 443083
         }
       },
       "Nagpur": {
@@ -4680,15 +4692,15 @@
         "meta": {
           "population": 6109052,
           "tested": {
-            "last_updated": "2020-07-20",
-            "source": "https://twitter.com/InfoNashik/status/1285218509627076608/photo/1"
+            "last_updated": "2020-07-21",
+            "source": "https://twitter.com/InfoNashik/status/1285568049664286721/photo/1"
           }
         },
         "total": {
           "confirmed": 10255,
           "deceased": 376,
           "recovered": 5658,
-          "tested": 35332
+          "tested": 36362
         }
       },
       "Osmanabad": {
@@ -4716,8 +4728,7 @@
         "meta": {
           "population": 2990116,
           "tested": {
-            "last_updated": "2020-07-20",
-            "source": "https://datastudio.google.com/embed/reporting/3f20951b-561b-4a87-a919-8134ce69bb43/page/r0ZUB"
+            "last_updated": "2020-07-21"
           }
         },
         "total": {
@@ -6218,7 +6229,8 @@
   },
   "OR": {
     "delta": {
-      "confirmed": 1078
+      "confirmed": 1078,
+      "deceased": 6
     },
     "districts": {
       "Angul": {
@@ -6373,7 +6385,8 @@
       },
       "Gajapati": {
         "delta": {
-          "confirmed": 24
+          "confirmed": 24,
+          "deceased": 1
         },
         "meta": {
           "population": 575880,
@@ -6384,14 +6397,15 @@
         },
         "total": {
           "confirmed": 742,
-          "deceased": 5,
+          "deceased": 6,
           "recovered": 562,
           "tested": 715
         }
       },
       "Ganjam": {
         "delta": {
-          "confirmed": 371
+          "confirmed": 371,
+          "deceased": 4
         },
         "meta": {
           "population": 3520151,
@@ -6402,7 +6416,7 @@
         },
         "total": {
           "confirmed": 6362,
-          "deceased": 63,
+          "deceased": 67,
           "recovered": 4008,
           "tested": 6632
         }
@@ -6479,7 +6493,8 @@
       },
       "Kandhamal": {
         "delta": {
-          "confirmed": 13
+          "confirmed": 13,
+          "deceased": 1
         },
         "meta": {
           "population": 731952,
@@ -6490,6 +6505,7 @@
         },
         "total": {
           "confirmed": 268,
+          "deceased": 1,
           "recovered": 199,
           "tested": 1516
         }
@@ -6715,7 +6731,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-22T11:17:04+05:30",
+      "last_updated": "2020-07-22T11:48:09+05:30",
       "notes": "[July 12th] 20 non-covid deaths reported in state dashboard are included in the deceased count\n[June 22nd]: NDRF/ODRF cases have been redistributed to districts based on state dashboard",
       "population": 43671000,
       "tested": {
@@ -6724,7 +6740,7 @@
     },
     "total": {
       "confirmed": 19835,
-      "deceased": 133,
+      "deceased": 139,
       "recovered": 13310,
       "tested": 401644
     }
@@ -7741,7 +7757,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-22T11:37:12+05:30",
+      "last_updated": "2020-07-22T11:42:09+05:30",
       "population": 77264000,
       "tested": {
         "last_updated": "2020-07-21",
@@ -8886,12 +8902,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 1502,
-      "deceased": 5,
+      "confirmed": 1550,
+      "deceased": 11,
       "recovered": 196
     },
     "meta": {
-      "last_updated": "2020-07-22T11:37:09+05:30",
+      "last_updated": "2020-07-22T11:48:05+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-21",
@@ -8899,8 +8915,8 @@
       }
     },
     "total": {
-      "confirmed": 1195587,
-      "deceased": 28775,
+      "confirmed": 1195635,
+      "deceased": 28781,
       "migrated": 405,
       "recovered": 752589,
       "tested": 14724546
