@@ -4319,7 +4319,8 @@
     "delta": {
       "confirmed": 5030,
       "deceased": 97,
-      "recovered": 2071
+      "recovered": 2071,
+      "tested": 27773
     },
     "districts": {
       "Bagalkote": {
@@ -4935,8 +4936,7 @@
       "notes": "9 cases are classified as non-covid related deaths in KA bulletin. They have been reduced from active cases",
       "population": 65798000,
       "tested": {
-        "last_updated": "2020-07-22",
-        "source": "https://t.co/v4NmoLigYy?amp=1"
+        "last_updated": "2020-07-23"
       }
     },
     "total": {
@@ -4944,7 +4944,7 @@
       "deceased": 1616,
       "migrated": 9,
       "recovered": 29310,
-      "tested": 1112874
+      "tested": 1107522
     }
   },
   "KL": {
@@ -5935,7 +5935,8 @@
   "ML": {
     "delta": {
       "confirmed": 20,
-      "recovered": 1
+      "recovered": 1,
+      "tested": 223
     },
     "districts": {
       "East Garo Hills": {
@@ -6052,15 +6053,14 @@
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
-        "last_updated": "2020-07-22",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1308"
+        "last_updated": "2020-07-23"
       }
     },
     "total": {
       "confirmed": 534,
       "deceased": 4,
       "recovered": 78,
-      "tested": 28962
+      "tested": 30232
     }
   },
   "MN": {
@@ -9165,13 +9165,20 @@
     }
   },
   "SK": {
+    "delta": {
+      "confirmed": 22,
+      "recovered": 10
+    },
     "districts": {
       "East Sikkim": {
+        "delta": {
+          "confirmed": 19
+        },
         "meta": {
           "population": 281293
         },
         "total": {
-          "confirmed": 329,
+          "confirmed": 348,
           "migrated": 13,
           "recovered": 74
         }
@@ -9194,18 +9201,29 @@
           "recovered": 26
         }
       },
+      "Unknown": {
+        "delta": {
+          "recovered": 10
+        },
+        "total": {
+          "recovered": 10
+        }
+      },
       "West Sikkim": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "population": 136299
         },
         "total": {
-          "confirmed": 30,
+          "confirmed": 33,
           "recovered": 11
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-22T22:18:19+05:30",
+      "last_updated": "2020-07-23T21:13:24+05:30",
       "notes": "13 Migrated cases reduced from Active count",
       "population": 664000,
       "tested": {
@@ -9214,15 +9232,25 @@
       }
     },
     "total": {
-      "confirmed": 451,
+      "confirmed": 473,
       "migrated": 13,
-      "recovered": 112,
+      "recovered": 122,
       "tested": 19484
     }
   },
   "TG": {
+    "delta": {
+      "confirmed": 1567,
+      "deceased": 9,
+      "recovered": 1661
+    },
     "districts": {
       "Unknown": {
+        "delta": {
+          "confirmed": 1567,
+          "deceased": 9,
+          "recovered": 1661
+        },
         "meta": {
           "tested": {
             "last_updated": "2020-07-22",
@@ -9230,15 +9258,15 @@
           }
         },
         "total": {
-          "confirmed": 49259,
-          "deceased": 438,
-          "recovered": 37666,
+          "confirmed": 50826,
+          "deceased": 447,
+          "recovered": 39327,
           "tested": 308959
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-22T22:18:06+05:30",
+      "last_updated": "2020-07-23T21:13:23+05:30",
       "population": 37220000,
       "tested": {
         "last_updated": "2020-07-22",
@@ -9246,9 +9274,9 @@
       }
     },
     "total": {
-      "confirmed": 49259,
-      "deceased": 438,
-      "recovered": 37666,
+      "confirmed": 50826,
+      "deceased": 447,
+      "recovered": 39327,
       "tested": 308959
     }
   },
@@ -10177,12 +10205,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 43365,
-      "deceased": 702,
-      "recovered": 28974
+      "confirmed": 44954,
+      "deceased": 711,
+      "recovered": 30645
     },
     "meta": {
-      "last_updated": "2020-07-23T20:51:21+05:30",
+      "last_updated": "2020-07-23T21:13:21+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-22",
@@ -10190,10 +10218,10 @@
       }
     },
     "total": {
-      "confirmed": 1283049,
-      "deceased": 30592,
+      "confirmed": 1284638,
+      "deceased": 30601,
       "migrated": 417,
-      "recovered": 813241,
+      "recovered": 814912,
       "tested": 15075369
     }
   },
