@@ -4011,7 +4011,8 @@
     "delta": {
       "confirmed": 400,
       "deceased": 9,
-      "recovered": 100
+      "recovered": 100,
+      "tested": 5652
     },
     "districts": {
       "Bokaro": {
@@ -4372,15 +4373,14 @@
       "last_updated": "2020-07-24T23:07:24+05:30",
       "population": 37403000,
       "tested": {
-        "last_updated": "2020-07-23",
-        "source": "https://twitter.com/FOBGumla/status/1286350549571588096?s=20"
+        "last_updated": "2020-07-24"
       }
     },
     "total": {
       "confirmed": 7564,
       "deceased": 76,
       "recovered": 3354,
-      "tested": 243276
+      "tested": 248928
     }
   },
   "JK": {
@@ -10480,6 +10480,9 @@
     },
     "districts": {
       "Dhalai": {
+        "delta": {
+          "confirmed": 6
+        },
         "meta": {
           "population": 377988,
           "tested": {
@@ -10488,7 +10491,7 @@
           }
         },
         "total": {
-          "confirmed": 575,
+          "confirmed": 583,
           "deceased": 2,
           "migrated": 1,
           "recovered": 279,
@@ -10496,6 +10499,9 @@
         }
       },
       "Gomati": {
+        "delta": {
+          "confirmed": 26
+        },
         "meta": {
           "population": 436868,
           "tested": {
@@ -10504,7 +10510,7 @@
           }
         },
         "total": {
-          "confirmed": 580,
+          "confirmed": 606,
           "deceased": 1,
           "migrated": 1,
           "recovered": 297,
@@ -10512,6 +10518,9 @@
         }
       },
       "Khowai": {
+        "delta": {
+          "confirmed": 10
+        },
         "meta": {
           "population": 327391,
           "tested": {
@@ -10520,13 +10529,16 @@
           }
         },
         "total": {
-          "confirmed": 292,
+          "confirmed": 302,
           "deceased": 3,
           "recovered": 204,
           "tested": 5285
         }
       },
       "North Tripura": {
+        "delta": {
+          "confirmed": 5
+        },
         "meta": {
           "population": 415946,
           "tested": {
@@ -10535,7 +10547,7 @@
           }
         },
         "total": {
-          "confirmed": 260,
+          "confirmed": 265,
           "deceased": 1,
           "migrated": 6,
           "recovered": 72,
@@ -10543,6 +10555,9 @@
         }
       },
       "Sipahijala": {
+        "delta": {
+          "confirmed": 18
+        },
         "meta": {
           "population": 484233,
           "tested": {
@@ -10551,13 +10566,16 @@
           }
         },
         "total": {
-          "confirmed": 906,
+          "confirmed": 925,
           "deceased": 1,
           "recovered": 646,
           "tested": 11893
         }
       },
       "South Tripura": {
+        "delta": {
+          "confirmed": 12
+        },
         "meta": {
           "population": 433737,
           "tested": {
@@ -10566,22 +10584,17 @@
           }
         },
         "total": {
-          "confirmed": 260,
+          "confirmed": 272,
           "deceased": 1,
           "migrated": 3,
           "recovered": 156,
           "tested": 14840
         }
       },
-      "Unknown": {
-        "delta": {
-          "confirmed": 106
-        },
-        "total": {
-          "confirmed": 109
-        }
-      },
       "Unokoti": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 277335,
           "tested": {
@@ -10590,12 +10603,15 @@
           }
         },
         "total": {
-          "confirmed": 113,
+          "confirmed": 114,
           "recovered": 82,
           "tested": 4952
         }
       },
       "West Tripura": {
+        "delta": {
+          "confirmed": 28
+        },
         "meta": {
           "population": 917534,
           "tested": {
@@ -10604,7 +10620,7 @@
           }
         },
         "total": {
-          "confirmed": 688,
+          "confirmed": 716,
           "deceased": 1,
           "migrated": 7,
           "recovered": 336,
