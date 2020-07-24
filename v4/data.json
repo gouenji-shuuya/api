@@ -6298,7 +6298,8 @@
   },
   "OR": {
     "delta": {
-      "confirmed": 1594
+      "confirmed": 1594,
+      "deceased": 8
     },
     "districts": {
       "Angul": {
@@ -6369,7 +6370,8 @@
       },
       "Bhadrak": {
         "delta": {
-          "confirmed": 60
+          "confirmed": 60,
+          "deceased": 1
         },
         "meta": {
           "population": 1506522,
@@ -6380,7 +6382,7 @@
         },
         "total": {
           "confirmed": 483,
-          "deceased": 4,
+          "deceased": 5,
           "recovered": 328,
           "tested": 14917
         }
@@ -6453,7 +6455,8 @@
       },
       "Gajapati": {
         "delta": {
-          "confirmed": 3
+          "confirmed": 3,
+          "deceased": 1
         },
         "meta": {
           "population": 575880,
@@ -6464,14 +6467,15 @@
         },
         "total": {
           "confirmed": 819,
-          "deceased": 6,
+          "deceased": 7,
           "recovered": 568,
           "tested": 715
         }
       },
       "Ganjam": {
         "delta": {
-          "confirmed": 732
+          "confirmed": 732,
+          "deceased": 3
         },
         "meta": {
           "population": 3520151,
@@ -6482,7 +6486,7 @@
         },
         "total": {
           "confirmed": 7634,
-          "deceased": 72,
+          "deceased": 75,
           "recovered": 4483,
           "tested": 6632
         }
@@ -6608,14 +6612,15 @@
       },
       "Khordha": {
         "delta": {
-          "confirmed": 320
+          "confirmed": 320,
+          "deceased": 1
         },
         "meta": {
           "population": 2246341
         },
         "total": {
           "confirmed": 2676,
-          "deceased": 22,
+          "deceased": 23,
           "recovered": 1375
         }
       },
@@ -6686,7 +6691,8 @@
       },
       "Nayagarh": {
         "delta": {
-          "confirmed": 10
+          "confirmed": 10,
+          "deceased": 1
         },
         "meta": {
           "population": 962215,
@@ -6697,7 +6703,7 @@
         },
         "total": {
           "confirmed": 420,
-          "deceased": 1,
+          "deceased": 2,
           "recovered": 276,
           "tested": 1104
         }
@@ -6738,6 +6744,9 @@
         }
       },
       "Rayagada": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 961959,
           "tested": {
@@ -6747,7 +6756,7 @@
         },
         "total": {
           "confirmed": 422,
-          "deceased": 2,
+          "deceased": 3,
           "recovered": 139,
           "tested": 578
         }
@@ -6796,7 +6805,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-24T11:55:23+05:30",
+      "last_updated": "2020-07-24T12:13:23+05:30",
       "notes": "[July 12th] 20 non-covid deaths reported in state dashboard are included in the deceased count\n[June 22nd]: NDRF/ODRF cases have been redistributed to districts based on state dashboard",
       "population": 43671000,
       "tested": {
@@ -6806,7 +6815,7 @@
     },
     "total": {
       "confirmed": 22693,
-      "deceased": 145,
+      "deceased": 153,
       "recovered": 14393,
       "tested": 421931
     }
@@ -8663,11 +8672,11 @@
   "TT": {
     "delta": {
       "confirmed": 2155,
-      "deceased": 4,
+      "deceased": 12,
       "recovered": 145
     },
     "meta": {
-      "last_updated": "2020-07-24T11:55:21+05:30",
+      "last_updated": "2020-07-24T12:13:21+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-23",
@@ -8676,7 +8685,7 @@
     },
     "total": {
       "confirmed": 1290284,
-      "deceased": 30649,
+      "deceased": 30657,
       "migrated": 418,
       "recovered": 817738,
       "tested": 15428170
