@@ -700,6 +700,9 @@
     }
   },
   "AS": {
+    "delta": {
+      "deceased": 6
+    },
     "districts": {
       "Airport Quarantine": {
         "total": {
@@ -876,12 +879,15 @@
         }
       },
       "Kamrup Metropolitan": {
+        "delta": {
+          "deceased": 3
+        },
         "meta": {
           "population": 1260419
         },
         "total": {
           "confirmed": 13538,
-          "deceased": 36,
+          "deceased": 39,
           "recovered": 6002
         }
       },
@@ -896,12 +902,15 @@
         }
       },
       "Karimganj": {
+        "delta": {
+          "deceased": 2
+        },
         "meta": {
           "population": 1217002
         },
         "total": {
           "confirmed": 390,
-          "deceased": 1,
+          "deceased": 3,
           "recovered": 303
         }
       },
@@ -953,11 +962,15 @@
         }
       },
       "Nalbari": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 769919
         },
         "total": {
           "confirmed": 280,
+          "deceased": 1,
           "recovered": 157
         }
       },
@@ -1034,7 +1047,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-24T00:40:23+05:30",
+      "last_updated": "2020-07-24T19:53:23+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1044,7 +1057,7 @@
     },
     "total": {
       "confirmed": 28792,
-      "deceased": 70,
+      "deceased": 76,
       "migrated": 3,
       "recovered": 20700,
       "tested": 723287
@@ -2514,6 +2527,9 @@
     }
   },
   "GJ": {
+    "delta": {
+      "tested": 15157
+    },
     "districts": {
       "Ahmedabad": {
         "meta": {
@@ -3032,15 +3048,14 @@
       "last_updated": "2020-07-23T22:26:22+05:30",
       "population": 67936000,
       "tested": {
-        "last_updated": "2020-07-23",
-        "source": "https://twitter.com/PIBAhmedabad/status/1286312215935672326?s=20"
+        "last_updated": "2020-07-24"
       }
     },
     "total": {
       "confirmed": 52563,
       "deceased": 2256,
       "recovered": 38059,
-      "tested": 591561
+      "tested": 606718
     }
   },
   "HP": {
@@ -3246,7 +3261,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-24T19:47:24+05:30",
+      "last_updated": "2020-07-24T19:51:26+05:30",
       "notes": "HP has 16 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -5818,6 +5833,10 @@
     }
   },
   "MN": {
+    "delta": {
+      "confirmed": 31,
+      "recovered": 31
+    },
     "districts": {
       "Bishnupur": {
         "meta": {
@@ -5838,38 +5857,50 @@
         }
       },
       "Churachandpur": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 271274
         },
         "total": {
-          "confirmed": 174,
+          "confirmed": 175,
           "recovered": 58
         }
       },
       "Imphal East": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 452661
         },
         "total": {
-          "confirmed": 74,
+          "confirmed": 75,
           "recovered": 16
         }
       },
       "Imphal West": {
+        "delta": {
+          "confirmed": 11
+        },
         "meta": {
           "population": 514683
         },
         "total": {
-          "confirmed": 202,
+          "confirmed": 213,
           "recovered": 52
         }
       },
       "Jiribam": {
+        "delta": {
+          "confirmed": 11
+        },
         "meta": {
           "population": 43818
         },
         "total": {
-          "confirmed": 102,
+          "confirmed": 113,
           "recovered": 2
         }
       },
@@ -5937,26 +5968,35 @@
         }
       },
       "Thoubal": {
+        "delta": {
+          "confirmed": 5
+        },
         "meta": {
           "population": 420517
         },
         "total": {
-          "confirmed": 173,
+          "confirmed": 178,
           "recovered": 23
         }
       },
       "Ukhrul": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 183115
         },
         "total": {
-          "confirmed": 260,
+          "confirmed": 262,
           "recovered": 18
         }
       },
       "Unknown": {
+        "delta": {
+          "recovered": 31
+        },
         "total": {
-          "recovered": 1067
+          "recovered": 1098
         }
       }
     },
@@ -5969,8 +6009,8 @@
       }
     },
     "total": {
-      "confirmed": 2115,
-      "recovered": 1460,
+      "confirmed": 2146,
+      "recovered": 1491,
       "tested": 74614
     }
   },
@@ -5978,7 +6018,8 @@
     "delta": {
       "confirmed": 736,
       "deceased": 11,
-      "recovered": 507
+      "recovered": 507,
+      "tested": 11286
     },
     "districts": {
       "Agar Malwa": {
@@ -6890,15 +6931,14 @@
       "last_updated": "2020-07-24T19:41:25+05:30",
       "population": 82232000,
       "tested": {
-        "last_updated": "2020-07-23",
-        "source": "https://twitter.com/healthminmp/status/1286302116558991360?s=20"
+        "last_updated": "2020-07-24"
       }
     },
     "total": {
       "confirmed": 26210,
       "deceased": 791,
       "recovered": 17866,
-      "tested": 658869
+      "tested": 670155
     }
   },
   "MZ": {
@@ -9494,15 +9534,14 @@
         "meta": {
           "population": 1883731,
           "tested": {
-            "last_updated": "2020-06-20",
-            "source": "https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/Media-Bulletin-20-06-20-COVID-19-6-PM.pdf"
+            "last_updated": "2020-07-23"
           }
         },
         "total": {
           "confirmed": 633,
           "deceased": 14,
           "recovered": 314,
-          "tested": 8290
+          "tested": 14284
         }
       },
       "Madurai": {
@@ -9596,15 +9635,14 @@
         "meta": {
           "population": 564511,
           "tested": {
-            "last_updated": "2020-06-20",
-            "source": "https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/Media-Bulletin-20-06-20-COVID-19-6-PM.pdf"
+            "last_updated": "2020-07-23"
           }
         },
         "total": {
           "confirmed": 271,
           "deceased": 3,
           "recovered": 204,
-          "tested": 4379
+          "tested": 7981
         }
       },
       "Pudukkottai": {
@@ -10137,12 +10175,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 26458,
-      "deceased": 306,
-      "recovered": 15856
+      "confirmed": 26489,
+      "deceased": 312,
+      "recovered": 15887
     },
     "meta": {
-      "last_updated": "2020-07-24T19:47:21+05:30",
+      "last_updated": "2020-07-24T19:53:21+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-23",
@@ -10150,10 +10188,10 @@
       }
     },
     "total": {
-      "confirmed": 1314585,
-      "deceased": 30951,
+      "confirmed": 1314616,
+      "deceased": 30957,
       "migrated": 418,
-      "recovered": 833449,
+      "recovered": 833480,
       "tested": 15428170
     }
   },
