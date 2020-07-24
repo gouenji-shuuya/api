@@ -7772,13 +7772,14 @@
   "NL": {
     "delta": {
       "confirmed": 90,
-      "recovered": 44,
+      "recovered": 395,
       "tested": 666
     },
     "districts": {
       "Dimapur": {
         "delta": {
-          "confirmed": 26
+          "confirmed": 26,
+          "recovered": 33
         },
         "meta": {
           "population": 379769,
@@ -7789,11 +7790,14 @@
         },
         "total": {
           "confirmed": 359,
-          "recovered": 30,
+          "recovered": 63,
           "tested": 896
         }
       },
       "Kiphire": {
+        "delta": {
+          "recovered": 4
+        },
         "meta": {
           "population": 74033,
           "tested": {
@@ -7803,12 +7807,14 @@
         },
         "total": {
           "confirmed": 4,
+          "recovered": 4,
           "tested": 18
         }
       },
       "Kohima": {
         "delta": {
-          "confirmed": 61
+          "confirmed": 61,
+          "recovered": 22
         },
         "meta": {
           "population": 270063,
@@ -7819,19 +7825,26 @@
         },
         "total": {
           "confirmed": 206,
-          "recovered": 16,
+          "recovered": 38,
           "tested": 485
         }
       },
       "Longleng": {
+        "delta": {
+          "recovered": 2
+        },
         "meta": {
           "population": 50593
         },
         "total": {
-          "confirmed": 5
+          "confirmed": 5,
+          "recovered": 2
         }
       },
       "Mokokchung": {
+        "delta": {
+          "recovered": 4
+        },
         "meta": {
           "population": 193171,
           "tested": {
@@ -7841,10 +7854,14 @@
         },
         "total": {
           "confirmed": 9,
+          "recovered": 4,
           "tested": 63
         }
       },
       "Mon": {
+        "delta": {
+          "recovered": 33
+        },
         "meta": {
           "population": 259604,
           "tested": {
@@ -7854,6 +7871,7 @@
         },
         "total": {
           "confirmed": 124,
+          "recovered": 33,
           "tested": 45
         }
       },
@@ -7864,7 +7882,8 @@
       },
       "Peren": {
         "delta": {
-          "confirmed": 2
+          "confirmed": 2,
+          "recovered": 192
         },
         "meta": {
           "population": 163294,
@@ -7875,13 +7894,14 @@
         },
         "total": {
           "confirmed": 328,
-          "recovered": 78,
+          "recovered": 270,
           "tested": 11
         }
       },
       "Phek": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 1,
+          "recovered": 1
         },
         "meta": {
           "population": 163294,
@@ -7892,11 +7912,14 @@
         },
         "total": {
           "confirmed": 19,
-          "recovered": 9,
+          "recovered": 10,
           "tested": 28
         }
       },
       "Tuensang": {
+        "delta": {
+          "recovered": 44
+        },
         "meta": {
           "population": 414801,
           "tested": {
@@ -7906,6 +7929,7 @@
         },
         "total": {
           "confirmed": 49,
+          "recovered": 44,
           "tested": 1
         }
       },
@@ -7918,6 +7942,9 @@
         }
       },
       "Wokha": {
+        "delta": {
+          "recovered": 10
+        },
         "meta": {
           "population": 166239,
           "tested": {
@@ -7927,15 +7954,20 @@
         },
         "total": {
           "confirmed": 11,
+          "recovered": 10,
           "tested": 7
         }
       },
       "Zunheboto": {
+        "delta": {
+          "recovered": 6
+        },
         "meta": {
           "population": 141014
         },
         "total": {
-          "confirmed": 14
+          "confirmed": 14,
+          "recovered": 6
         }
       }
     },
@@ -7949,7 +7981,7 @@
     },
     "total": {
       "confirmed": 1174,
-      "recovered": 530,
+      "recovered": 881,
       "tested": 32169
     }
   },
@@ -11209,7 +11241,7 @@
     "delta": {
       "confirmed": 48446,
       "deceased": 755,
-      "recovered": 33326
+      "recovered": 33677
     },
     "meta": {
       "last_updated": "2020-07-24T01:10:27+05:30",
@@ -11223,7 +11255,7 @@
       "confirmed": 1288130,
       "deceased": 30645,
       "migrated": 417,
-      "recovered": 817593,
+      "recovered": 817944,
       "tested": 15075369
     }
   },
