@@ -319,7 +319,8 @@
       "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin.",
       "population": 52221000,
       "tested": {
-        "last_updated": "2020-07-25"
+        "last_updated": "2020-07-25",
+        "source": "https://twitter.com/ArogyaAndhra/status/1286999100324319240?s=20"
       }
     },
     "total": {
@@ -697,6 +698,9 @@
     }
   },
   "AS": {
+    "delta": {
+      "deceased": 1
+    },
     "districts": {
       "Airport Quarantine": {
         "total": {
@@ -940,12 +944,15 @@
         }
       },
       "Nagaon": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 2826006
         },
         "total": {
           "confirmed": 1059,
-          "deceased": 1,
+          "deceased": 2,
           "recovered": 704
         }
       },
@@ -1032,7 +1039,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-24T23:17:24+05:30",
+      "last_updated": "2020-07-25T19:23:23+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1042,7 +1049,7 @@
     },
     "total": {
       "confirmed": 29922,
-      "deceased": 76,
+      "deceased": 77,
       "migrated": 3,
       "recovered": 21762,
       "tested": 739465
@@ -2261,27 +2268,28 @@
     "delta": {
       "confirmed": 1142,
       "deceased": 29,
-      "recovered": 2137
+      "recovered": 2137,
+      "tested": 20509
     },
     "districts": {
       "Delhi": {
         "delta": {
           "confirmed": 1142,
           "deceased": 29,
-          "recovered": 2137
+          "recovered": 2137,
+          "tested": 20509
         },
         "meta": {
           "population": 19814000,
           "tested": {
-            "last_updated": "2020-07-24",
-            "source": "https://twitter.com/ANI/status/1286687087152918529?s=20"
+            "last_updated": "2020-07-25"
           }
         },
         "total": {
           "confirmed": 129531,
           "deceased": 3806,
           "recovered": 113068,
-          "tested": 908735
+          "tested": 929244
         }
       }
     },
@@ -2290,15 +2298,14 @@
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
-        "last_updated": "2020-07-24",
-        "source": "https://twitter.com/ANI/status/1286687087152918529?s=20"
+        "last_updated": "2020-07-25"
       }
     },
     "total": {
       "confirmed": 129531,
       "deceased": 3806,
       "recovered": 113068,
-      "tested": 908735
+      "tested": 929244
     }
   },
   "DN": {
@@ -5647,10 +5654,14 @@
     },
     "districts": {
       "Agar Malwa": {
+        "delta": {
+          "confirmed": 6,
+          "recovered": 8
+        },
         "total": {
-          "confirmed": 68,
+          "confirmed": 74,
           "deceased": 3,
-          "recovered": 40
+          "recovered": 48
         }
       },
       "Alirajpur": {
@@ -5937,6 +5948,10 @@
         }
       },
       "Guna": {
+        "delta": {
+          "confirmed": 1,
+          "recovered": 1
+        },
         "meta": {
           "population": 1240938,
           "tested": {
@@ -5945,9 +5960,9 @@
           }
         },
         "total": {
-          "confirmed": 60,
+          "confirmed": 61,
           "deceased": 4,
-          "recovered": 32,
+          "recovered": 33,
           "tested": 3648
         }
       },
@@ -6063,6 +6078,10 @@
         }
       },
       "Katni": {
+        "delta": {
+          "confirmed": 6,
+          "recovered": 6
+        },
         "meta": {
           "population": 1291684,
           "tested": {
@@ -6071,9 +6090,9 @@
           }
         },
         "total": {
-          "confirmed": 73,
+          "confirmed": 79,
           "deceased": 3,
-          "recovered": 34,
+          "recovered": 40,
           "tested": 2066
         }
       },
@@ -6219,12 +6238,15 @@
         }
       },
       "Panna": {
+        "delta": {
+          "recovered": 10
+        },
         "meta": {
           "population": 1016028
         },
         "total": {
           "confirmed": 84,
-          "recovered": 60
+          "recovered": 70
         }
       },
       "Raisen": {
@@ -6318,6 +6340,10 @@
         }
       },
       "Satna": {
+        "delta": {
+          "confirmed": 5,
+          "recovered": 1
+        },
         "meta": {
           "population": 2228619,
           "tested": {
@@ -6326,9 +6352,9 @@
           }
         },
         "total": {
-          "confirmed": 101,
+          "confirmed": 106,
           "deceased": 7,
-          "recovered": 50,
+          "recovered": 51,
           "tested": 2912
         }
       },
@@ -6352,6 +6378,9 @@
         }
       },
       "Seoni": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 1378876,
           "tested": {
@@ -6360,7 +6389,7 @@
           }
         },
         "total": {
-          "confirmed": 30,
+          "confirmed": 32,
           "deceased": 1,
           "recovered": 21,
           "tested": 1237
@@ -6441,11 +6470,14 @@
         }
       },
       "Sidhi": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 1126515
         },
         "total": {
-          "confirmed": 63,
+          "confirmed": 65,
           "deceased": 1,
           "recovered": 39
         }
@@ -6521,16 +6553,6 @@
           "tested": 1980
         }
       },
-      "Unknown": {
-        "delta": {
-          "confirmed": 22,
-          "recovered": 26
-        },
-        "total": {
-          "confirmed": 22,
-          "recovered": 26
-        }
-      },
       "Vidisha": {
         "delta": {
           "confirmed": 22,
@@ -6552,7 +6574,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-25T19:13:23+05:30",
+      "last_updated": "2020-07-25T19:16:24+05:30",
       "population": 82232000,
       "tested": {
         "last_updated": "2020-07-24",
@@ -7725,28 +7747,27 @@
       "Karaikal": {
         "delta": {
           "confirmed": 3,
-          "recovered": 13
+          "recovered": 13,
+          "tested": 112
         },
         "meta": {
           "population": 200222,
           "tested": {
-            "last_updated": "2020-07-24",
-            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/24.07.2020%20bulletin-converted.pdf"
+            "last_updated": "2020-07-25"
           }
         },
         "total": {
           "confirmed": 150,
           "deceased": 2,
           "recovered": 106,
-          "tested": 4583
+          "tested": 4695
         }
       },
       "Mahe": {
         "meta": {
           "population": 41816,
           "tested": {
-            "last_updated": "2020-07-24",
-            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/24.07.2020%20bulletin-converted.pdf"
+            "last_updated": "2020-07-25"
           }
         },
         "total": {
@@ -7759,41 +7780,41 @@
         "delta": {
           "confirmed": 113,
           "deceased": 2,
-          "recovered": 65
+          "recovered": 65,
+          "tested": 588
         },
         "meta": {
           "notes": "30 cases(25 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
           "tested": {
-            "last_updated": "2020-07-24",
-            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/24.07.2020%20bulletin-converted.pdf"
+            "last_updated": "2020-07-25"
           }
         },
         "total": {
           "confirmed": 2375,
           "deceased": 34,
           "recovered": 1389,
-          "tested": 26666
+          "tested": 27254
         }
       },
       "Yanam": {
         "delta": {
           "confirmed": 23,
-          "deceased": 1
+          "deceased": 1,
+          "tested": 75
         },
         "meta": {
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
           "tested": {
-            "last_updated": "2020-07-24",
-            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/24.07.2020%20bulletin-converted.pdf"
+            "last_updated": "2020-07-25"
           }
         },
         "total": {
           "confirmed": 106,
           "deceased": 2,
           "recovered": 45,
-          "tested": 1772
+          "tested": 1847
         }
       }
     },
@@ -9408,11 +9429,11 @@
   "TT": {
     "delta": {
       "confirmed": 25241,
-      "deceased": 256,
+      "deceased": 257,
       "recovered": 18246
     },
     "meta": {
-      "last_updated": "2020-07-25T19:13:21+05:30",
+      "last_updated": "2020-07-25T19:23:22+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-24",
@@ -9421,7 +9442,7 @@
     },
     "total": {
       "confirmed": 1362262,
-      "deceased": 31659,
+      "deceased": 31660,
       "migrated": 420,
       "recovered": 868354,
       "tested": 15849068
