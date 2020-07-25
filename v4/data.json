@@ -1039,7 +1039,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-25T19:23:23+05:30",
+      "last_updated": "2020-07-25T19:27:23+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1805,8 +1805,16 @@
     }
   },
   "CH": {
+    "delta": {
+      "confirmed": 29,
+      "recovered": 20
+    },
     "districts": {
       "Chandigarh": {
+        "delta": {
+          "confirmed": 29,
+          "recovered": 20
+        },
         "meta": {
           "population": 1055450,
           "tested": {
@@ -1815,15 +1823,15 @@
           }
         },
         "total": {
-          "confirmed": 823,
+          "confirmed": 852,
           "deceased": 13,
-          "recovered": 535,
+          "recovered": 555,
           "tested": 12030
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-24T17:43:26+05:30",
+      "last_updated": "2020-07-25T19:36:31+05:30",
       "population": 1179000,
       "tested": {
         "last_updated": "2020-07-24",
@@ -1831,9 +1839,9 @@
       }
     },
     "total": {
-      "confirmed": 823,
+      "confirmed": 852,
       "deceased": 13,
-      "recovered": 535,
+      "recovered": 555,
       "tested": 12030
     }
   },
@@ -2282,7 +2290,8 @@
         "meta": {
           "population": 19814000,
           "tested": {
-            "last_updated": "2020-07-25"
+            "last_updated": "2020-07-25",
+            "source": "https://twitter.com/ANI/status/1286996987389321218?s=20"
           }
         },
         "total": {
@@ -2298,7 +2307,8 @@
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
-        "last_updated": "2020-07-25"
+        "last_updated": "2020-07-25",
+        "source": "https://twitter.com/ANI/status/1286996987389321218?s=20"
       }
     },
     "total": {
@@ -3848,7 +3858,8 @@
     "delta": {
       "confirmed": 523,
       "deceased": 9,
-      "recovered": 300
+      "recovered": 300,
+      "tested": 11109
     },
     "districts": {
       "Anantnag": {
@@ -4138,15 +4149,15 @@
       "last_updated": "2020-07-25T18:40:24+05:30",
       "population": 13203000,
       "tested": {
-        "last_updated": "2020-07-24",
-        "source": "https://twitter.com/diprjk/status/1286649001387814912?s=20"
+        "last_updated": "2020-07-25",
+        "source": "https://twitter.com/diprjk/status/1287001436463566848?s=20"
       }
     },
     "total": {
       "confirmed": 17305,
       "deceased": 305,
       "recovered": 9517,
-      "tested": 559399
+      "tested": 570508
     }
   },
   "KA": {
@@ -4633,6 +4644,9 @@
     }
   },
   "KL": {
+    "delta": {
+      "tested": 18710
+    },
     "districts": {
       "Alappuzha": {
         "meta": {
@@ -4785,8 +4799,7 @@
       "notes": "Mahe native who expired in Kannur included in Kerala's tally.\nOne patient who absconded from Palakkad to TN and one patient who returned back to Maharashtra has been reduced from active count",
       "population": 35125000,
       "tested": {
-        "last_updated": "2020-07-24",
-        "source": "https://dhs.kerala.gov.in/wp-content/uploads/2020/07/Bulletin-HFWD-English-July-24.pdf"
+        "last_updated": "2020-07-25"
       }
     },
     "total": {
@@ -4794,7 +4807,7 @@
       "deceased": 55,
       "migrated": 8,
       "recovered": 7562,
-      "tested": 635272
+      "tested": 653982
     }
   },
   "LA": {
@@ -7753,7 +7766,8 @@
         "meta": {
           "population": 200222,
           "tested": {
-            "last_updated": "2020-07-25"
+            "last_updated": "2020-07-25",
+            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/25.07.2020%20bulletin-converted.pdf"
           }
         },
         "total": {
@@ -7767,7 +7781,8 @@
         "meta": {
           "population": 41816,
           "tested": {
-            "last_updated": "2020-07-25"
+            "last_updated": "2020-07-25",
+            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/25.07.2020%20bulletin-converted.pdf"
           }
         },
         "total": {
@@ -7787,7 +7802,8 @@
           "notes": "30 cases(25 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
           "tested": {
-            "last_updated": "2020-07-25"
+            "last_updated": "2020-07-25",
+            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/25.07.2020%20bulletin-converted.pdf"
           }
         },
         "total": {
@@ -7807,7 +7823,8 @@
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
           "tested": {
-            "last_updated": "2020-07-25"
+            "last_updated": "2020-07-25",
+            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/25.07.2020%20bulletin-converted.pdf"
           }
         },
         "total": {
@@ -9428,12 +9445,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 25241,
+      "confirmed": 25270,
       "deceased": 257,
-      "recovered": 18246
+      "recovered": 18266
     },
     "meta": {
-      "last_updated": "2020-07-25T19:23:22+05:30",
+      "last_updated": "2020-07-25T19:36:22+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-24",
@@ -9441,10 +9458,10 @@
       }
     },
     "total": {
-      "confirmed": 1362262,
+      "confirmed": 1362291,
       "deceased": 31660,
       "migrated": 420,
-      "recovered": 868354,
+      "recovered": 868374,
       "tested": 15849068
     }
   },
