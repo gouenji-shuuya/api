@@ -3500,7 +3500,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-25T21:36:26+05:30",
+      "last_updated": "2020-07-25T21:39:27+05:30",
       "notes": "HP has 16 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -5415,8 +5415,16 @@
     }
   },
   "LA": {
+    "delta": {
+      "confirmed": 30,
+      "recovered": 22
+    },
     "districts": {
       "Kargil": {
+        "delta": {
+          "confirmed": 12,
+          "recovered": 4
+        },
         "meta": {
           "population": 143000,
           "tested": {
@@ -5425,13 +5433,17 @@
           }
         },
         "total": {
-          "confirmed": 749,
+          "confirmed": 761,
           "deceased": 1,
-          "recovered": 714,
+          "recovered": 718,
           "tested": 7300
         }
       },
       "Leh": {
+        "delta": {
+          "confirmed": 18,
+          "recovered": 18
+        },
         "meta": {
           "population": 147000,
           "tested": {
@@ -5440,15 +5452,15 @@
           }
         },
         "total": {
-          "confirmed": 497,
+          "confirmed": 515,
           "deceased": 1,
-          "recovered": 321,
+          "recovered": 339,
           "tested": 9550
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-24T20:19:27+05:30",
+      "last_updated": "2020-07-25T21:42:26+05:30",
       "population": 293000,
       "tested": {
         "last_updated": "2020-07-24",
@@ -5456,9 +5468,9 @@
       }
     },
     "total": {
-      "confirmed": 1246,
+      "confirmed": 1276,
       "deceased": 2,
-      "recovered": 1035,
+      "recovered": 1057,
       "tested": 17395
     }
   },
@@ -6455,7 +6467,8 @@
       "last_updated": "2020-07-25T19:58:25+05:30",
       "population": 3103000,
       "tested": {
-        "last_updated": "2020-07-25"
+        "last_updated": "2020-07-25",
+        "source": "https://twitter.com/covid19manipur/status/1287038201106857984?s=20"
       }
     },
     "total": {
@@ -10742,12 +10755,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 46728,
+      "confirmed": 46758,
       "deceased": 684,
-      "recovered": 34524
+      "recovered": 34546
     },
     "meta": {
-      "last_updated": "2020-07-25T21:36:23+05:30",
+      "last_updated": "2020-07-25T21:42:23+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-24",
@@ -10755,10 +10768,10 @@
       }
     },
     "total": {
-      "confirmed": 1383749,
+      "confirmed": 1383779,
       "deceased": 32087,
       "migrated": 420,
-      "recovered": 884632,
+      "recovered": 884654,
       "tested": 15849068
     }
   },
