@@ -4990,6 +4990,10 @@
     }
   },
   "ML": {
+    "delta": {
+      "confirmed": 23,
+      "recovered": 15
+    },
     "districts": {
       "East Garo Hills": {
         "meta": {
@@ -5000,39 +5004,52 @@
         }
       },
       "East Jaintia Hills": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 122436
         },
         "total": {
-          "confirmed": 10,
+          "confirmed": 11,
           "recovered": 2
         }
       },
       "East Khasi Hills": {
+        "delta": {
+          "confirmed": 9,
+          "recovered": 15
+        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 527,
+          "confirmed": 536,
           "deceased": 5,
-          "recovered": 56
+          "recovered": 71
         }
       },
       "North Garo Hills": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 118325
         },
         "total": {
-          "confirmed": 2,
+          "confirmed": 3,
           "recovered": 1
         }
       },
       "Ribhoi": {
+        "delta": {
+          "confirmed": 8
+        },
         "meta": {
           "population": 258380
         },
         "total": {
-          "confirmed": 43,
+          "confirmed": 51,
           "recovered": 2
         }
       },
@@ -5069,26 +5086,32 @@
         }
       },
       "West Jaintia Hills": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 270352
         },
         "total": {
-          "confirmed": 14,
+          "confirmed": 15,
           "recovered": 5
         }
       },
       "West Khasi Hills": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "population": 385601
         },
         "total": {
-          "confirmed": 1,
+          "confirmed": 4,
           "recovered": 1
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-25T22:39:26+05:30",
+      "last_updated": "2020-07-26T12:13:27+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -5097,9 +5120,9 @@
       }
     },
     "total": {
-      "confirmed": 646,
+      "confirmed": 669,
       "deceased": 5,
-      "recovered": 94,
+      "recovered": 109,
       "tested": 32401
     }
   },
@@ -7920,7 +7943,8 @@
       "Unknown": {
         "meta": {
           "tested": {
-            "last_updated": "2020-07-25"
+            "last_updated": "2020-07-25",
+            "source": "https://twitter.com/Eatala_Rajender/status/1287267542851915778?s=20"
           }
         },
         "total": {
@@ -7932,10 +7956,11 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-26T12:02:27+05:30",
+      "last_updated": "2020-07-26T12:06:27+05:30",
       "population": 37220000,
       "tested": {
-        "last_updated": "2020-07-25"
+        "last_updated": "2020-07-25",
+        "source": "https://twitter.com/Eatala_Rajender/status/1287267542851915778?s=20"
       }
     },
     "total": {
@@ -8684,12 +8709,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 1987,
+      "confirmed": 2010,
       "deceased": 19,
-      "recovered": 47
+      "recovered": 62
     },
     "meta": {
-      "last_updated": "2020-07-26T12:02:25+05:30",
+      "last_updated": "2020-07-26T12:13:24+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-25",
@@ -8697,10 +8722,10 @@
       }
     },
     "total": {
-      "confirmed": 1389074,
+      "confirmed": 1389097,
       "deceased": 32127,
       "migrated": 420,
-      "recovered": 887280,
+      "recovered": 887295,
       "tested": 16291331
     }
   },
