@@ -9375,7 +9375,7 @@
       },
       "Udaipur": {
         "delta": {
-          "confirmed": 23
+          "confirmed": 33
         },
         "meta": {
           "population": 3067549,
@@ -9385,23 +9385,15 @@
           }
         },
         "total": {
-          "confirmed": 1110,
+          "confirmed": 1120,
           "deceased": 12,
           "recovered": 923,
           "tested": 55811
         }
-      },
-      "Unknown": {
-        "delta": {
-          "confirmed": 10
-        },
-        "total": {
-          "confirmed": 10
-        }
       }
     },
     "meta": {
-      "last_updated": "2020-07-26T21:37:29+05:30",
+      "last_updated": "2020-07-26T21:40:29+05:30",
       "population": 77264000,
       "tested": {
         "last_updated": "2020-07-25",
@@ -9416,14 +9408,23 @@
     }
   },
   "SK": {
+    "delta": {
+      "confirmed": 45,
+      "deceased": 1,
+      "recovered": 4
+    },
     "districts": {
       "East Sikkim": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "notes": "13 migrated cases have been reduced from active count",
           "population": 281293
         },
         "total": {
           "confirmed": 359,
+          "deceased": 1,
           "migrated": 13,
           "recovered": 74
         }
@@ -9447,9 +9448,13 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 45,
+          "recovered": 4
+        },
         "total": {
-          "confirmed": 22,
-          "recovered": 5
+          "confirmed": 67,
+          "recovered": 9
         }
       },
       "West Sikkim": {
@@ -9463,7 +9468,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-25T22:07:27+05:30",
+      "last_updated": "2020-07-26T21:47:30+05:30",
       "notes": "13 Migrated cases reduced from Active count",
       "population": 664000,
       "tested": {
@@ -9472,9 +9477,10 @@
       }
     },
     "total": {
-      "confirmed": 512,
+      "confirmed": 557,
+      "deceased": 1,
       "migrated": 13,
-      "recovered": 142,
+      "recovered": 146,
       "tested": 21272
     }
   },
@@ -10436,12 +10442,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 46862,
-      "deceased": 698,
-      "recovered": 29113
+      "confirmed": 46907,
+      "deceased": 699,
+      "recovered": 29117
     },
     "meta": {
-      "last_updated": "2020-07-26T21:37:27+05:30",
+      "last_updated": "2020-07-26T21:47:27+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-25",
@@ -10449,10 +10455,10 @@
       }
     },
     "total": {
-      "confirmed": 1433949,
-      "deceased": 32806,
+      "confirmed": 1433994,
+      "deceased": 32807,
       "migrated": 420,
-      "recovered": 916346,
+      "recovered": 916350,
       "tested": 16291331
     }
   },
