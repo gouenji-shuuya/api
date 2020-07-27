@@ -2,6 +2,7 @@
   "AN": {
     "delta": {
       "confirmed": 28,
+      "other": -1,
       "recovered": 4,
       "tested": {
         "positives": 34,
@@ -12,6 +13,7 @@
       "Unknown": {
         "delta": {
           "confirmed": 28,
+          "other": -1,
           "recovered": 4,
           "tested": {
             "positives": 34,
@@ -26,7 +28,6 @@
         },
         "total": {
           "confirmed": 318,
-          "other": 1,
           "recovered": 180,
           "tested": {
             "positives": 324,
@@ -44,7 +45,6 @@
     },
     "total": {
       "confirmed": 318,
-      "other": 1,
       "recovered": 180,
       "tested": {
         "positives": 324,
@@ -5836,13 +5836,17 @@
       },
       "Bengaluru Rural": {
         "delta": {
-          "confirmed": 213
+          "confirmed": 213,
+          "tested": {
+            "positives": 213,
+            "samples": 208
+          }
         },
         "meta": {
           "population": 987257,
           "tested": {
-            "last_updated": "2020-07-25",
-            "source": "https://twitter.com/B_Rural_DIPR/status/1287084312697819138?s=20"
+            "last_updated": "2020-07-26",
+            "source": "https://twitter.com/B_Rural_DIPR/status/1287437965057298432?s=20"
           }
         },
         "total": {
@@ -5850,8 +5854,8 @@
           "deceased": 9,
           "recovered": 247,
           "tested": {
-            "positives": 1431,
-            "samples": 11995
+            "positives": 1644,
+            "samples": 12203
           }
         }
       },
@@ -12820,7 +12824,6 @@
     "delta": {
       "confirmed": 48932,
       "deceased": 704,
-      "other": 1,
       "recovered": 31502,
       "tested": {
         "samples": 515472
@@ -12836,7 +12839,7 @@
     "total": {
       "confirmed": 1436019,
       "deceased": 32812,
-      "other": 421,
+      "other": 420,
       "recovered": 918735,
       "tested": {
         "samples": 16806803

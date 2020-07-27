@@ -1,14 +1,16 @@
 {
   "AN": {
     "delta": {
-      "confirmed": 6,
-      "recovered": 2
+      "confirmed": 20,
+      "deceased": 1,
+      "recovered": 12
     },
     "districts": {
       "Unknown": {
         "delta": {
-          "confirmed": 6,
-          "recovered": 2
+          "confirmed": 20,
+          "deceased": 1,
+          "recovered": 12
         },
         "meta": {
           "tested": {
@@ -17,15 +19,15 @@
           }
         },
         "total": {
-          "confirmed": 324,
-          "migrated": 1,
-          "recovered": 182,
+          "confirmed": 338,
+          "deceased": 1,
+          "recovered": 192,
           "tested": 22049
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T08:57:30+05:30",
+      "last_updated": "2020-07-27T21:37:26+05:30",
       "population": 397000,
       "tested": {
         "last_updated": "2020-07-26",
@@ -33,9 +35,9 @@
       }
     },
     "total": {
-      "confirmed": 324,
-      "migrated": 1,
-      "recovered": 182,
+      "confirmed": 338,
+      "deceased": 1,
+      "recovered": 192,
       "tested": 22049
     }
   },
@@ -2398,43 +2400,51 @@
     },
     "districts": {
       "North Goa": {
+        "delta": {
+          "confirmed": 62
+        },
         "meta": {
           "population": 817761
         },
         "total": {
-          "confirmed": 857,
+          "confirmed": 919,
           "deceased": 8,
           "recovered": 469
         }
       },
       "Other State": {
+        "delta": {
+          "confirmed": 9
+        },
         "meta": {
           "notes": "Travelled by Road,Train,Flight"
         },
         "total": {
-          "confirmed": 177,
+          "confirmed": 186,
           "recovered": 83
         }
       },
       "South Goa": {
+        "delta": {
+          "confirmed": 54,
+          "deceased": 1
+        },
         "meta": {
           "population": 639962
         },
         "total": {
-          "confirmed": 1915,
-          "deceased": 27,
+          "confirmed": 1969,
+          "deceased": 28,
           "recovered": 813
         }
       },
       "Unknown": {
         "delta": {
-          "confirmed": 258,
-          "deceased": 1,
+          "confirmed": 133,
           "recovered": 133
         },
         "total": {
-          "confirmed": 2170,
-          "deceased": 1,
+          "confirmed": 2045,
           "recovered": 2045
         }
       }
@@ -4413,20 +4423,21 @@
         "delta": {
           "confirmed": 155,
           "deceased": 6,
-          "recovered": 38
+          "recovered": 38,
+          "tested": 1168
         },
         "meta": {
           "population": 4778439,
           "tested": {
-            "last_updated": "2020-07-25",
-            "source": "https://twitter.com/deobelagavi/status/1287037948949454849?s=20"
+            "last_updated": "2020-07-27",
+            "source": "https://twitter.com/deobelagavi/status/1287764297355948034?s=20"
           }
         },
         "total": {
           "confirmed": 2304,
           "deceased": 52,
           "recovered": 680,
-          "tested": 39005
+          "tested": 40173
         }
       },
       "Bengaluru Rural": {
@@ -4437,15 +4448,15 @@
         "meta": {
           "population": 987257,
           "tested": {
-            "last_updated": "2020-07-25",
-            "source": "https://twitter.com/B_Rural_DIPR/status/1287084312697819138?s=20"
+            "last_updated": "2020-07-26",
+            "source": "https://twitter.com/B_Rural_DIPR/status/1287437965057298432?s=20"
           }
         },
         "total": {
           "confirmed": 1771,
           "deceased": 10,
           "recovered": 247,
-          "tested": 11995
+          "tested": 12203
         }
       },
       "Bengaluru Urban": {
@@ -4572,13 +4583,14 @@
         "delta": {
           "confirmed": 119,
           "deceased": 9,
-          "recovered": 80
+          "recovered": 80,
+          "tested": 239
         },
         "meta": {
           "population": 2083625,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/deepthisTOI/status/1287377708511420416?s=20"
+            "last_updated": "2020-07-27",
+            "source": "https://twitter.com/deepthisTOI/status/1287737598983602177?s=20"
           }
         },
         "total": {
@@ -4586,7 +4598,7 @@
           "deceased": 113,
           "migrated": 2,
           "recovered": 2138,
-          "tested": 33649
+          "tested": 33888
         }
       },
       "Davanagere": {
@@ -4893,20 +4905,21 @@
       "Udupi": {
         "delta": {
           "confirmed": 225,
-          "recovered": 51
+          "recovered": 51,
+          "tested": 223
         },
         "meta": {
           "population": 1177908,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/deepthisTOI/status/1287365079025893382?s=20"
+            "last_updated": "2020-07-27",
+            "source": "https://twitter.com/deepthisTOI/status/1287729327803514880?s=20"
           }
         },
         "total": {
           "confirmed": 3612,
           "deceased": 14,
           "recovered": 2173,
-          "tested": 28287
+          "tested": 28510
         }
       },
       "Uttara Kannada": {
@@ -6094,7 +6107,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T21:23:25+05:30",
+      "last_updated": "2020-07-27T21:28:35+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -8628,7 +8641,8 @@
     "delta": {
       "confirmed": 448,
       "deceased": 7,
-      "recovered": 169
+      "recovered": 169,
+      "tested": 14758
     },
     "districts": {
       "Ajmer": {
@@ -9218,15 +9232,15 @@
       "last_updated": "2020-07-27T11:29:27+05:30",
       "population": 77264000,
       "tested": {
-        "last_updated": "2020-07-26",
-        "source": "https://twitter.com/DDNewsRajasthan/status/1287416527147241474?s=20"
+        "last_updated": "2020-07-27",
+        "source": "https://twitter.com/DDNewsRajasthan/status/1287780673248301056?s=20"
       }
     },
     "total": {
       "confirmed": 36878,
       "deceased": 631,
       "recovered": 26123,
-      "tested": 1403124
+      "tested": 1417882
     }
   },
   "SK": {
@@ -10254,13 +10268,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 43244,
-      "deceased": 624,
+      "confirmed": 43258,
+      "deceased": 625,
       "migrated": 2,
-      "recovered": 31625
+      "recovered": 31635
     },
     "meta": {
-      "last_updated": "2020-07-27T21:23:23+05:30",
+      "last_updated": "2020-07-27T21:37:23+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-26",
@@ -10268,10 +10282,10 @@
       }
     },
     "total": {
-      "confirmed": 1479263,
-      "deceased": 33436,
-      "migrated": 423,
-      "recovered": 950360,
+      "confirmed": 1479277,
+      "deceased": 33437,
+      "migrated": 422,
+      "recovered": 950370,
       "tested": 16806803
     }
   },

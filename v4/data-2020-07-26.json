@@ -2,6 +2,7 @@
   "AN": {
     "delta": {
       "confirmed": 28,
+      "migrated": -1,
       "recovered": 4,
       "tested": 84
     },
@@ -9,6 +10,7 @@
       "Unknown": {
         "delta": {
           "confirmed": 28,
+          "migrated": -1,
           "recovered": 4,
           "tested": 84
         },
@@ -20,7 +22,6 @@
         },
         "total": {
           "confirmed": 318,
-          "migrated": 1,
           "recovered": 180,
           "tested": 22049
         }
@@ -35,7 +36,6 @@
     },
     "total": {
       "confirmed": 318,
-      "migrated": 1,
       "recovered": 180,
       "tested": 22049
     }
@@ -4888,20 +4888,21 @@
       },
       "Bengaluru Rural": {
         "delta": {
-          "confirmed": 213
+          "confirmed": 213,
+          "tested": 208
         },
         "meta": {
           "population": 987257,
           "tested": {
-            "last_updated": "2020-07-25",
-            "source": "https://twitter.com/B_Rural_DIPR/status/1287084312697819138?s=20"
+            "last_updated": "2020-07-26",
+            "source": "https://twitter.com/B_Rural_DIPR/status/1287437965057298432?s=20"
           }
         },
         "total": {
           "confirmed": 1633,
           "deceased": 9,
           "recovered": 247,
-          "tested": 11995
+          "tested": 12203
         }
       },
       "Bengaluru Urban": {
@@ -10865,7 +10866,6 @@
     "delta": {
       "confirmed": 48932,
       "deceased": 704,
-      "migrated": 1,
       "recovered": 31502,
       "tested": 515472
     },
@@ -10879,7 +10879,7 @@
     "total": {
       "confirmed": 1436019,
       "deceased": 32812,
-      "migrated": 421,
+      "migrated": 420,
       "recovered": 918735,
       "tested": 16806803
     }
