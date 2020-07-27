@@ -1605,7 +1605,11 @@
       "2020-07-24": {
         "delta": {
           "confirmed": 44,
-          "recovered": 18
+          "recovered": 18,
+          "tested": {
+            "positives": 121,
+            "samples": 1226
+          }
         },
         "total": {
           "confirmed": 864,
@@ -1613,15 +1617,19 @@
           "other": 10,
           "recovered": 531,
           "tested": {
-            "positives": 733,
-            "samples": 39199
+            "positives": 854,
+            "samples": 40425
           }
         }
       },
       "2020-07-25": {
         "delta": {
           "confirmed": 37,
-          "recovered": 13
+          "recovered": 13,
+          "tested": {
+            "positives": 36,
+            "samples": 456
+          }
         },
         "total": {
           "confirmed": 901,
@@ -1629,15 +1637,19 @@
           "other": 10,
           "recovered": 544,
           "tested": {
-            "positives": 733,
-            "samples": 39199
+            "positives": 890,
+            "samples": 40881
           }
         }
       },
       "2020-07-26": {
         "delta": {
           "confirmed": 49,
-          "recovered": 21
+          "recovered": 21,
+          "tested": {
+            "positives": 50,
+            "samples": 262
+          }
         },
         "total": {
           "confirmed": 950,
@@ -1645,8 +1657,8 @@
           "other": 10,
           "recovered": 565,
           "tested": {
-            "positives": 733,
-            "samples": 39199
+            "positives": 940,
+            "samples": 41143
           }
         }
       },
@@ -1661,8 +1673,8 @@
           "other": 10,
           "recovered": 588,
           "tested": {
-            "positives": 733,
-            "samples": 39199
+            "positives": 940,
+            "samples": 41143
           }
         }
       }
@@ -2550,7 +2562,11 @@
           "2020-07-24": {
             "delta": {
               "confirmed": 23,
-              "recovered": 3
+              "recovered": 3,
+              "tested": {
+                "positives": 73,
+                "samples": 877
+              }
             },
             "total": {
               "confirmed": 389,
@@ -2558,15 +2574,19 @@
               "other": 5,
               "recovered": 222,
               "tested": {
-                "positives": 314,
-                "samples": 23825
+                "positives": 387,
+                "samples": 24702
               }
             }
           },
           "2020-07-25": {
             "delta": {
               "confirmed": 19,
-              "recovered": 3
+              "recovered": 3,
+              "tested": {
+                "positives": 18,
+                "samples": 359
+              }
             },
             "total": {
               "confirmed": 408,
@@ -2574,8 +2594,8 @@
               "other": 5,
               "recovered": 225,
               "tested": {
-                "positives": 314,
-                "samples": 23825
+                "positives": 405,
+                "samples": 25061
               }
             }
           },
@@ -2590,8 +2610,8 @@
               "other": 5,
               "recovered": 232,
               "tested": {
-                "positives": 314,
-                "samples": 23825
+                "positives": 405,
+                "samples": 25061
               }
             }
           },
@@ -2606,8 +2626,8 @@
               "other": 5,
               "recovered": 239,
               "tested": {
-                "positives": 314,
-                "samples": 23825
+                "positives": 405,
+                "samples": 25061
               }
             }
           }
@@ -3231,7 +3251,11 @@
           "2020-07-24": {
             "delta": {
               "confirmed": 14,
-              "recovered": 15
+              "recovered": 15,
+              "tested": {
+                "positives": 42,
+                "samples": 225
+              }
             },
             "total": {
               "confirmed": 424,
@@ -3239,15 +3263,19 @@
               "other": 1,
               "recovered": 287,
               "tested": {
-                "positives": 381,
-                "samples": 11052
+                "positives": 423,
+                "samples": 11277
               }
             }
           },
           "2020-07-25": {
             "delta": {
               "confirmed": 18,
-              "recovered": 10
+              "recovered": 10,
+              "tested": {
+                "positives": 18,
+                "samples": 64
+              }
             },
             "total": {
               "confirmed": 442,
@@ -3255,8 +3283,8 @@
               "other": 1,
               "recovered": 297,
               "tested": {
-                "positives": 381,
-                "samples": 11052
+                "positives": 441,
+                "samples": 11341
               }
             }
           },
@@ -3271,8 +3299,8 @@
               "other": 1,
               "recovered": 311,
               "tested": {
-                "positives": 381,
-                "samples": 11052
+                "positives": 441,
+                "samples": 11341
               }
             }
           },
@@ -3287,8 +3315,8 @@
               "other": 1,
               "recovered": 327,
               "tested": {
-                "positives": 381,
-                "samples": 11052
+                "positives": 441,
+                "samples": 11341
               }
             }
           }
@@ -3800,26 +3828,35 @@
           },
           "2020-07-24": {
             "delta": {
-              "confirmed": 7
+              "confirmed": 7,
+              "tested": {
+                "positives": 12,
+                "samples": 124
+              }
             },
             "total": {
               "confirmed": 51,
               "other": 4,
               "recovered": 22,
               "tested": {
-                "positives": 38,
-                "samples": 4322
+                "positives": 50,
+                "samples": 4446
               }
             }
           },
           "2020-07-25": {
+            "delta": {
+              "tested": {
+                "samples": 33
+              }
+            },
             "total": {
               "confirmed": 51,
               "other": 4,
               "recovered": 22,
               "tested": {
-                "positives": 38,
-                "samples": 4322
+                "positives": 50,
+                "samples": 4479
               }
             }
           },
@@ -3832,8 +3869,8 @@
               "other": 4,
               "recovered": 22,
               "tested": {
-                "positives": 38,
-                "samples": 4322
+                "positives": 50,
+                "samples": 4479
               }
             }
           },
@@ -3843,8 +3880,8 @@
               "other": 4,
               "recovered": 22,
               "tested": {
-                "positives": 38,
-                "samples": 4322
+                "positives": 50,
+                "samples": 4479
               }
             }
           }
