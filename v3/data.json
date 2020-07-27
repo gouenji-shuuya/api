@@ -1780,7 +1780,8 @@
     "delta": {
       "confirmed": 23,
       "deceased": 1,
-      "recovered": 4
+      "recovered": 4,
+      "tested": 178
     },
     "districts": {
       "Chandigarh": {
@@ -1808,15 +1809,15 @@
       "last_updated": "2020-07-27T17:07:27+05:30",
       "population": 1179000,
       "tested": {
-        "last_updated": "2020-07-26",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1381"
+        "last_updated": "2020-07-27",
+        "source": "https://twitter.com/DDnewschd/status/1287737123211104257?s=20"
       }
     },
     "total": {
       "confirmed": 910,
       "deceased": 14,
       "recovered": 576,
-      "tested": 12608
+      "tested": 12786
     }
   },
   "CT": {
@@ -4199,7 +4200,8 @@
     "delta": {
       "confirmed": 5324,
       "deceased": 73,
-      "recovered": 1847
+      "recovered": 1847,
+      "tested": 28224
     },
     "districts": {
       "Bagalkote": {
@@ -4803,12 +4805,12 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T18:43:32+05:30",
+      "last_updated": "2020-07-27T18:48:25+05:30",
       "notes": "9 cases are classified as non-covid related deaths in KA bulletin. They have been reduced from active cases",
       "population": 65798000,
       "tested": {
-        "last_updated": "2020-07-26",
-        "source": "https://t.co/ZeRghagHVB?amp=1"
+        "last_updated": "2020-07-27",
+        "source": "https://t.me/c/1248471072/52661"
       }
     },
     "total": {
@@ -4816,7 +4818,7 @@
       "deceased": 1953,
       "migrated": 9,
       "recovered": 37685,
-      "tested": 1176827
+      "tested": 1205051
     }
   },
   "KL": {
@@ -6703,7 +6705,8 @@
   },
   "NL": {
     "delta": {
-      "confirmed": 45
+      "confirmed": 46,
+      "recovered": 20
     },
     "districts": {
       "Dimapur": {
@@ -6802,6 +6805,9 @@
         }
       },
       "Peren": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 163294,
           "tested": {
@@ -6810,7 +6816,7 @@
           }
         },
         "total": {
-          "confirmed": 330,
+          "confirmed": 331,
           "recovered": 273,
           "tested": 11
         }
@@ -6843,6 +6849,14 @@
           "tested": 1
         }
       },
+      "Unknown": {
+        "delta": {
+          "recovered": 20
+        },
+        "total": {
+          "recovered": 20
+        }
+      },
       "Wokha": {
         "meta": {
           "population": 166239,
@@ -6868,7 +6882,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T12:17:39+05:30",
+      "last_updated": "2020-07-27T18:53:26+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-07-26",
@@ -6876,9 +6890,9 @@
       }
     },
     "total": {
-      "confirmed": 1384,
+      "confirmed": 1385,
       "deceased": 4,
-      "recovered": 549,
+      "recovered": 569,
       "tested": 34389
     }
   },
@@ -9861,12 +9875,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 28971,
+      "confirmed": 28972,
       "deceased": 299,
-      "recovered": 16621
+      "recovered": 16641
     },
     "meta": {
-      "last_updated": "2020-07-27T18:43:31+05:30",
+      "last_updated": "2020-07-27T18:53:24+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-26",
@@ -9874,10 +9888,10 @@
       }
     },
     "total": {
-      "confirmed": 1464990,
+      "confirmed": 1464991,
       "deceased": 33111,
       "migrated": 421,
-      "recovered": 935356,
+      "recovered": 935376,
       "tested": 16806803
     }
   },
