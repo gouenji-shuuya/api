@@ -6802,7 +6802,7 @@
   "ML": {
     "delta": {
       "confirmed": 36,
-      "recovered": 38,
+      "recovered": 51,
       "tested": {
         "positives": 36,
         "samples": 1051
@@ -6832,7 +6832,7 @@
       "East Khasi Hills": {
         "delta": {
           "confirmed": 32,
-          "recovered": 38
+          "recovered": 51
         },
         "meta": {
           "population": 824059
@@ -6840,27 +6840,30 @@
         "total": {
           "confirmed": 596,
           "deceased": 5,
-          "recovered": 135
+          "recovered": 148
         }
       },
       "North Garo Hills": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 118325
         },
         "total": {
           "confirmed": 3,
-          "recovered": 1
+          "recovered": 2
         }
       },
       "Ribhoi": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 2
         },
         "meta": {
           "population": 258380
         },
         "total": {
-          "confirmed": 53,
+          "confirmed": 54,
           "recovered": 2
         }
       },
@@ -6882,9 +6885,13 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": -1,
+          "recovered": -1
+        },
         "total": {
-          "confirmed": 14,
-          "recovered": 14
+          "confirmed": 13,
+          "recovered": 13
         }
       },
       "West Garo Hills": {
@@ -6919,7 +6926,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T21:08:28+05:30",
+      "last_updated": "2020-07-27T21:23:25+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -6929,7 +6936,7 @@
     "total": {
       "confirmed": 738,
       "deceased": 5,
-      "recovered": 173,
+      "recovered": 186,
       "tested": {
         "positives": 738,
         "samples": 34127
@@ -11695,10 +11702,10 @@
       "confirmed": 43244,
       "deceased": 624,
       "other": 2,
-      "recovered": 31612
+      "recovered": 31625
     },
     "meta": {
-      "last_updated": "2020-07-27T21:08:24+05:30",
+      "last_updated": "2020-07-27T21:23:23+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-26",
@@ -11709,7 +11716,7 @@
       "confirmed": 1479263,
       "deceased": 33436,
       "other": 423,
-      "recovered": 950347,
+      "recovered": 950360,
       "tested": {
         "samples": 16806803
       }
