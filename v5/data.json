@@ -818,6 +818,9 @@
     }
   },
   "AS": {
+    "delta": {
+      "deceased": 7
+    },
     "districts": {
       "Airport Quarantine": {
         "total": {
@@ -917,12 +920,15 @@
         }
       },
       "Dibrugarh": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1327748
         },
         "total": {
           "confirmed": 1146,
-          "deceased": 2,
+          "deceased": 3,
           "recovered": 550
         }
       },
@@ -974,12 +980,15 @@
         }
       },
       "Jorhat": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1091295
         },
         "total": {
           "confirmed": 1408,
-          "deceased": 4,
+          "deceased": 5,
           "recovered": 691
         }
       },
@@ -994,22 +1003,28 @@
         }
       },
       "Kamrup Metropolitan": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1260419
         },
         "total": {
           "confirmed": 14031,
-          "deceased": 40,
+          "deceased": 41,
           "recovered": 8701
         }
       },
       "Karbi Anglong": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 965280
         },
         "total": {
           "confirmed": 319,
-          "deceased": 3,
+          "deceased": 4,
           "recovered": 238
         }
       },
@@ -1116,12 +1131,15 @@
         }
       },
       "Tinsukia": {
+        "delta": {
+          "deceased": 3
+        },
         "meta": {
           "population": 1316948
         },
         "total": {
           "confirmed": 900,
-          "deceased": 4,
+          "deceased": 7,
           "recovered": 629
         }
       },
@@ -1153,7 +1171,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-26T22:49:42+05:30",
+      "last_updated": "2020-07-27T19:49:26+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1163,7 +1181,7 @@
     },
     "total": {
       "confirmed": 32229,
-      "deceased": 79,
+      "deceased": 86,
       "other": 3,
       "recovered": 24041,
       "tested": {
@@ -2608,7 +2626,8 @@
         "meta": {
           "population": 19814000,
           "tested": {
-            "last_updated": "2020-07-27"
+            "last_updated": "2020-07-27",
+            "source": "https://twitter.com/ANI/status/1287660165982908418/photo/1"
           }
         },
         "total": {
@@ -2627,7 +2646,8 @@
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
-        "last_updated": "2020-07-27"
+        "last_updated": "2020-07-27",
+        "source": "https://twitter.com/ANI/status/1287660165982908418/photo/1"
       }
     },
     "total": {
@@ -5437,7 +5457,7 @@
       "population": 65798000,
       "tested": {
         "last_updated": "2020-07-27",
-        "source": "https://t.me/c/1248471072/52661"
+        "source": "https://t.co/mIz7QDxkJw?amp=1"
       }
     },
     "total": {
@@ -5452,6 +5472,12 @@
     }
   },
   "KL": {
+    "delta": {
+      "tested": {
+        "positives": 702,
+        "samples": 15415
+      }
+    },
     "districts": {
       "Alappuzha": {
         "meta": {
@@ -5605,8 +5631,8 @@
       "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nOne patient absconded from Palakkad to TN and one patient returned back to Maharashtra. Some non-covid deaths (accident,cancer etc.) have also been reported in the bulletin.\nIn total 9 such cases have been reduced from active count",
       "population": 35125000,
       "tested": {
-        "last_updated": "2020-07-26",
-        "source": "https://dhs.kerala.gov.in/wp-content/uploads/2020/07/Bulletin-HFWD-English-July-26.pdf"
+        "last_updated": "2020-07-27",
+        "source": "https://dhs.kerala.gov.in/wp-content/uploads/2020/07/Bulletin-HFWD-English-July-27.pdf"
       }
     },
     "total": {
@@ -5615,8 +5641,8 @@
       "other": 9,
       "recovered": 9300,
       "tested": {
-        "positives": 19026,
-        "samples": 672748
+        "positives": 19728,
+        "samples": 688163
       }
     }
   },
@@ -5671,7 +5697,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T19:25:29+05:30",
+      "last_updated": "2020-07-27T19:30:27+05:30",
       "population": 293000,
       "tested": {
         "last_updated": "2020-07-26",
@@ -7654,7 +7680,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T19:25:28+05:30",
+      "last_updated": "2020-07-27T19:30:26+05:30",
       "population": 82232000,
       "tested": {
         "last_updated": "2020-07-26",
@@ -7779,7 +7805,11 @@
     "delta": {
       "confirmed": 46,
       "deceased": 1,
-      "recovered": 20
+      "recovered": 20,
+      "tested": {
+        "positives": 46,
+        "samples": 579
+      }
     },
     "districts": {
       "Dimapur": {
@@ -7978,11 +8008,11 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T19:25:30+05:30",
+      "last_updated": "2020-07-27T19:30:28+05:30",
       "population": 2150000,
       "tested": {
-        "last_updated": "2020-07-26",
-        "source": "https://twitter.com/MyGovNagaland/status/1287359470578757633/photo/1"
+        "last_updated": "2020-07-27",
+        "source": "https://twitter.com/MyGovNagaland/status/1287739249450655745"
       }
     },
     "total": {
@@ -7990,8 +8020,8 @@
       "deceased": 5,
       "recovered": 569,
       "tested": {
-        "positives": 1339,
-        "samples": 34389
+        "positives": 1385,
+        "samples": 34968
       }
     }
   },
@@ -11017,11 +11047,11 @@
   "TT": {
     "delta": {
       "confirmed": 29782,
-      "deceased": 309,
+      "deceased": 316,
       "recovered": 17303
     },
     "meta": {
-      "last_updated": "2020-07-27T19:25:23+05:30",
+      "last_updated": "2020-07-27T19:49:24+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-26",
@@ -11030,7 +11060,7 @@
     },
     "total": {
       "confirmed": 1465801,
-      "deceased": 33121,
+      "deceased": 33128,
       "other": 421,
       "recovered": 936038,
       "tested": {
