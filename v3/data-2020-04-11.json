@@ -1,5 +1,13 @@
 {
   "AN": {
+    "districts": {
+      "Unknown": {
+        "total": {
+          "confirmed": 11,
+          "recovered": 10
+        }
+      }
+    },
     "meta": {
       "population": 397000
     },
@@ -80,6 +88,25 @@
     "delta": {
       "tested": 41
     },
+    "districts": {
+      "Chandigarh": {
+        "delta": {
+          "tested": 41
+        },
+        "meta": {
+          "population": 1055450,
+          "tested": {
+            "last_updated": "2020-04-11",
+            "source": "http://chdcovid19.in"
+          }
+        },
+        "total": {
+          "confirmed": 19,
+          "recovered": 7,
+          "tested": 264
+        }
+      }
+    },
     "meta": {
       "population": 1179000,
       "tested": {
@@ -116,6 +143,28 @@
       "confirmed": 166,
       "deceased": 5,
       "tested": 648
+    },
+    "districts": {
+      "Delhi": {
+        "delta": {
+          "confirmed": 166,
+          "deceased": 5,
+          "tested": 648
+        },
+        "meta": {
+          "population": 19814000,
+          "tested": {
+            "last_updated": "2020-04-11",
+            "source": "https://twitter.com/CMODelhi/status/1248998630888845313?s=19"
+          }
+        },
+        "total": {
+          "confirmed": 1069,
+          "deceased": 19,
+          "recovered": 27,
+          "tested": 11709
+        }
+      }
     },
     "meta": {
       "population": 19814000,
@@ -518,6 +567,20 @@
       "confirmed": 16,
       "deceased": 2,
       "recovered": 51
+    },
+    "districts": {
+      "Unknown": {
+        "delta": {
+          "confirmed": 16,
+          "deceased": 2,
+          "recovered": 51
+        },
+        "total": {
+          "confirmed": 503,
+          "deceased": 14,
+          "recovered": 96
+        }
+      }
     },
     "meta": {
       "population": 37220000
