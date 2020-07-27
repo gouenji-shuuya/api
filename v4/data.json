@@ -341,6 +341,11 @@
     }
   },
   "AR": {
+    "delta": {
+      "confirmed": 81,
+      "recovered": 69,
+      "tested": 4226
+    },
     "districts": {
       "Anjaw": {
         "meta": {
@@ -356,6 +361,9 @@
         }
       },
       "Changlang": {
+        "delta": {
+          "confirmed": 9
+        },
         "meta": {
           "population": 147951,
           "tested": {
@@ -364,7 +372,7 @@
           }
         },
         "total": {
-          "confirmed": 135,
+          "confirmed": 144,
           "recovered": 103,
           "tested": 7471
         }
@@ -381,6 +389,9 @@
         }
       },
       "East Kameng": {
+        "delta": {
+          "recovered": 2
+        },
         "meta": {
           "population": 78413,
           "tested": {
@@ -390,10 +401,14 @@
         },
         "total": {
           "confirmed": 13,
+          "recovered": 2,
           "tested": 464
         }
       },
       "East Siang": {
+        "delta": {
+          "recovered": 9
+        },
         "meta": {
           "population": 99019,
           "tested": {
@@ -403,7 +418,7 @@
         },
         "total": {
           "confirmed": 52,
-          "recovered": 13,
+          "recovered": 22,
           "tested": 3784
         }
       },
@@ -444,6 +459,9 @@
         }
       },
       "Lepa Rada": {
+        "delta": {
+          "recovered": 10
+        },
         "meta": {
           "tested": {
             "last_updated": "2020-07-26",
@@ -452,11 +470,14 @@
         },
         "total": {
           "confirmed": 11,
-          "recovered": 1,
+          "recovered": 11,
           "tested": 298
         }
       },
       "Lohit": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 145538,
           "tested": {
@@ -465,12 +486,15 @@
           }
         },
         "total": {
-          "confirmed": 9,
+          "confirmed": 10,
           "recovered": 4,
           "tested": 1750
         }
       },
       "Longding": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 60000,
           "tested": {
@@ -480,11 +504,14 @@
         },
         "total": {
           "confirmed": 8,
-          "recovered": 4,
+          "recovered": 5,
           "tested": 1363
         }
       },
       "Lower Dibang Valley": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 53986,
           "tested": {
@@ -493,7 +520,7 @@
           }
         },
         "total": {
-          "confirmed": 16,
+          "confirmed": 17,
           "recovered": 9,
           "tested": 1553
         }
@@ -554,6 +581,10 @@
         }
       },
       "Papum Pare": {
+        "delta": {
+          "confirmed": 51,
+          "recovered": 47
+        },
         "meta": {
           "notes": "Cases from Capital Complex are included in Papum Pare district",
           "population": 176385,
@@ -563,9 +594,9 @@
           }
         },
         "total": {
-          "confirmed": 685,
+          "confirmed": 736,
           "deceased": 1,
-          "recovered": 286,
+          "recovered": 333,
           "tested": 28138
         }
       },
@@ -595,6 +626,9 @@
         }
       },
       "Tawang": {
+        "delta": {
+          "confirmed": 12
+        },
         "meta": {
           "population": 49950,
           "tested": {
@@ -603,12 +637,15 @@
           }
         },
         "total": {
-          "confirmed": 15,
+          "confirmed": 27,
           "recovered": 1,
           "tested": 1108
         }
       },
       "Tirap": {
+        "delta": {
+          "confirmed": 4
+        },
         "meta": {
           "population": 111997,
           "tested": {
@@ -617,12 +654,15 @@
           }
         },
         "total": {
-          "confirmed": 30,
+          "confirmed": 34,
           "recovered": 6,
           "tested": 2841
         }
       },
       "Upper Siang": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 35289,
           "tested": {
@@ -631,7 +671,7 @@
           }
         },
         "total": {
-          "confirmed": 16,
+          "confirmed": 17,
           "recovered": 1,
           "tested": 718
         }
@@ -666,6 +706,9 @@
         }
       },
       "West Siang": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 112272,
           "tested": {
@@ -674,32 +717,33 @@
           }
         },
         "total": {
-          "confirmed": 20,
+          "confirmed": 22,
           "recovered": 2,
           "tested": 966
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-26T22:40:39+05:30",
+      "last_updated": "2020-07-27T23:05:28+05:30",
       "notes": "[July 25]: All numbers corresponding to Papum Pare and Captial Complex are tracked under Papum Pare district.",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-07-26",
-        "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432?s=20"
+        "last_updated": "2020-07-27",
+        "source": "https://twitter.com/DirectorateofHS/status/1287801040071356416?s=20"
       }
     },
     "total": {
-      "confirmed": 1158,
+      "confirmed": 1239,
       "deceased": 3,
-      "recovered": 505,
-      "tested": 59558
+      "recovered": 574,
+      "tested": 63784
     }
   },
   "AS": {
     "delta": {
       "confirmed": 1348,
-      "deceased": 7
+      "deceased": 7,
+      "recovered": 1362
     },
     "districts": {
       "Airport Quarantine": {
@@ -1036,12 +1080,13 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": 1193
+          "confirmed": 1193,
+          "recovered": 1362
         },
         "total": {
           "confirmed": 1565,
           "migrated": 3,
-          "recovered": 3332
+          "recovered": 4694
         }
       },
       "West Karbi Anglong": {
@@ -1055,7 +1100,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T22:28:25+05:30",
+      "last_updated": "2020-07-27T23:06:28+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1067,7 +1112,7 @@
       "confirmed": 33577,
       "deceased": 86,
       "migrated": 3,
-      "recovered": 24041,
+      "recovered": 25403,
       "tested": 774484
     }
   },
@@ -1123,7 +1168,8 @@
         "meta": {
           "population": 2511243,
           "tested": {
-            "last_updated": "2020-07-26"
+            "last_updated": "2020-07-25",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1377"
           }
         },
         "total": {
@@ -1216,7 +1262,8 @@
         "meta": {
           "population": 1707643,
           "tested": {
-            "last_updated": "2020-07-26"
+            "last_updated": "2020-07-25",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1377"
           }
         },
         "total": {
@@ -1361,7 +1408,8 @@
         "meta": {
           "population": 3068149,
           "tested": {
-            "last_updated": "2020-07-26"
+            "last_updated": "2020-07-21",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1301"
           }
         },
         "total": {
@@ -1746,7 +1794,8 @@
         "meta": {
           "population": 3495021,
           "tested": {
-            "last_updated": "2020-07-26"
+            "last_updated": "2020-07-25",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1377"
           }
         },
         "total": {
@@ -7543,7 +7592,8 @@
       "Dimapur": {
         "delta": {
           "confirmed": 14,
-          "deceased": 1
+          "deceased": 1,
+          "recovered": 4
         },
         "meta": {
           "population": 379769,
@@ -7555,7 +7605,7 @@
         "total": {
           "confirmed": 442,
           "deceased": 5,
-          "recovered": 61,
+          "recovered": 65,
           "tested": 896
         }
       },
@@ -7575,7 +7625,8 @@
       },
       "Kohima": {
         "delta": {
-          "confirmed": 23
+          "confirmed": 23,
+          "recovered": 1
         },
         "meta": {
           "population": 270063,
@@ -7586,7 +7637,7 @@
         },
         "total": {
           "confirmed": 285,
-          "recovered": 50,
+          "recovered": 51,
           "tested": 485
         }
       },
@@ -7600,6 +7651,9 @@
         }
       },
       "Mokokchung": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 193171,
           "tested": {
@@ -7609,7 +7663,7 @@
         },
         "total": {
           "confirmed": 13,
-          "recovered": 4,
+          "recovered": 5,
           "tested": 63
         }
       },
@@ -7638,7 +7692,8 @@
       },
       "Peren": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 1,
+          "recovered": 13
         },
         "meta": {
           "population": 163294,
@@ -7649,7 +7704,7 @@
         },
         "total": {
           "confirmed": 331,
-          "recovered": 273,
+          "recovered": 286,
           "tested": 11
         }
       },
@@ -7681,15 +7736,10 @@
           "tested": 1
         }
       },
-      "Unknown": {
-        "delta": {
-          "recovered": 20
-        },
-        "total": {
-          "recovered": 20
-        }
-      },
       "Wokha": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 166239,
           "tested": {
@@ -7699,7 +7749,7 @@
         },
         "total": {
           "confirmed": 11,
-          "recovered": 10,
+          "recovered": 11,
           "tested": 7
         }
       },
@@ -10401,8 +10451,14 @@
     }
   },
   "TR": {
+    "delta": {
+      "confirmed": 147
+    },
     "districts": {
       "Dhalai": {
+        "delta": {
+          "confirmed": 9
+        },
         "meta": {
           "population": 377988,
           "tested": {
@@ -10411,7 +10467,7 @@
           }
         },
         "total": {
-          "confirmed": 585,
+          "confirmed": 594,
           "deceased": 2,
           "migrated": 1,
           "recovered": 301,
@@ -10419,6 +10475,9 @@
         }
       },
       "Gomati": {
+        "delta": {
+          "confirmed": 22
+        },
         "meta": {
           "population": 436868,
           "tested": {
@@ -10427,7 +10486,7 @@
           }
         },
         "total": {
-          "confirmed": 630,
+          "confirmed": 652,
           "deceased": 3,
           "migrated": 1,
           "recovered": 370,
@@ -10435,6 +10494,9 @@
         }
       },
       "Khowai": {
+        "delta": {
+          "confirmed": 12
+        },
         "meta": {
           "population": 327391,
           "tested": {
@@ -10443,13 +10505,16 @@
           }
         },
         "total": {
-          "confirmed": 312,
+          "confirmed": 324,
           "deceased": 3,
           "recovered": 225,
           "tested": 5507
         }
       },
       "North Tripura": {
+        "delta": {
+          "confirmed": 18
+        },
         "meta": {
           "population": 415946,
           "tested": {
@@ -10458,7 +10523,7 @@
           }
         },
         "total": {
-          "confirmed": 279,
+          "confirmed": 297,
           "deceased": 1,
           "migrated": 6,
           "recovered": 107,
@@ -10466,6 +10531,9 @@
         }
       },
       "Sipahijala": {
+        "delta": {
+          "confirmed": 41
+        },
         "meta": {
           "population": 484233,
           "tested": {
@@ -10474,13 +10542,16 @@
           }
         },
         "total": {
-          "confirmed": 961,
+          "confirmed": 1002,
           "deceased": 1,
           "recovered": 698,
           "tested": 12818
         }
       },
       "South Tripura": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "population": 433737,
           "tested": {
@@ -10489,7 +10560,7 @@
           }
         },
         "total": {
-          "confirmed": 277,
+          "confirmed": 280,
           "deceased": 1,
           "migrated": 3,
           "recovered": 184,
@@ -10497,6 +10568,9 @@
         }
       },
       "Unokoti": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 277335,
           "tested": {
@@ -10505,12 +10579,15 @@
           }
         },
         "total": {
-          "confirmed": 117,
+          "confirmed": 119,
           "recovered": 93,
           "tested": 5359
         }
       },
       "West Tripura": {
+        "delta": {
+          "confirmed": 40
+        },
         "meta": {
           "population": 917534,
           "tested": {
@@ -10519,7 +10596,7 @@
           }
         },
         "total": {
-          "confirmed": 758,
+          "confirmed": 798,
           "deceased": 2,
           "migrated": 7,
           "recovered": 384,
@@ -10528,7 +10605,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T00:06:32+05:30",
+      "last_updated": "2020-07-27T23:05:26+05:30",
       "notes": "18 cases are marked as migrated in Tripura dashboard.",
       "population": 3992000,
       "tested": {
@@ -10537,7 +10614,7 @@
       }
     },
     "total": {
-      "confirmed": 3919,
+      "confirmed": 4066,
       "deceased": 13,
       "migrated": 18,
       "recovered": 2362,
@@ -10546,13 +10623,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 46139,
+      "confirmed": 46367,
       "deceased": 636,
       "migrated": 2,
-      "recovered": 32920
+      "recovered": 34351
     },
     "meta": {
-      "last_updated": "2020-07-27T22:28:24+05:30",
+      "last_updated": "2020-07-27T23:06:26+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-26",
@@ -10560,10 +10637,10 @@
       }
     },
     "total": {
-      "confirmed": 1482158,
+      "confirmed": 1482386,
       "deceased": 33448,
       "migrated": 423,
-      "recovered": 951665,
+      "recovered": 953096,
       "tested": 16806803
     }
   },
