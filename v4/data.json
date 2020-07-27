@@ -1888,7 +1888,7 @@
   },
   "CT": {
     "delta": {
-      "confirmed": 250,
+      "confirmed": 367,
       "deceased": 2,
       "recovered": 228,
       "tested": 6336
@@ -1896,7 +1896,7 @@
     "districts": {
       "Balod": {
         "delta": {
-          "confirmed": 1,
+          "confirmed": 2,
           "recovered": 9
         },
         "meta": {
@@ -1907,7 +1907,7 @@
           }
         },
         "total": {
-          "confirmed": 88,
+          "confirmed": 89,
           "recovered": 78,
           "tested": 2749
         }
@@ -1997,7 +1997,7 @@
       },
       "Bilaspur": {
         "delta": {
-          "confirmed": 50,
+          "confirmed": 72,
           "deceased": 1,
           "recovered": 16
         },
@@ -2009,7 +2009,7 @@
           }
         },
         "total": {
-          "confirmed": 580,
+          "confirmed": 602,
           "deceased": 3,
           "recovered": 426,
           "tested": 9823
@@ -2071,7 +2071,7 @@
       },
       "Gariaband": {
         "delta": {
-          "confirmed": 2,
+          "confirmed": 4,
           "recovered": 1
         },
         "meta": {
@@ -2082,7 +2082,7 @@
           }
         },
         "total": {
-          "confirmed": 83,
+          "confirmed": 85,
           "recovered": 61,
           "tested": 2096
         }
@@ -2135,7 +2135,7 @@
       },
       "Kabeerdham": {
         "delta": {
-          "confirmed": 4,
+          "confirmed": 5,
           "recovered": 2
         },
         "meta": {
@@ -2146,7 +2146,7 @@
           }
         },
         "total": {
-          "confirmed": 179,
+          "confirmed": 180,
           "recovered": 123,
           "tested": 2829
         }
@@ -2273,7 +2273,7 @@
       },
       "Raipur": {
         "delta": {
-          "confirmed": 88,
+          "confirmed": 179,
           "deceased": 1,
           "recovered": 87
         },
@@ -2285,7 +2285,7 @@
           }
         },
         "total": {
-          "confirmed": 2275,
+          "confirmed": 2366,
           "deceased": 20,
           "recovered": 1003,
           "tested": 12704
@@ -2381,7 +2381,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T22:28:28+05:30",
+      "last_updated": "2020-07-27T23:41:25+05:30",
       "population": 28724000,
       "tested": {
         "last_updated": "2020-07-27",
@@ -2389,7 +2389,7 @@
       }
     },
     "total": {
-      "confirmed": 7863,
+      "confirmed": 7980,
       "deceased": 45,
       "recovered": 5172,
       "tested": 292627
@@ -6333,7 +6333,8 @@
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
-        "last_updated": "2020-07-27"
+        "last_updated": "2020-07-27",
+        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1411"
       }
     },
     "total": {
@@ -10453,6 +10454,7 @@
   "TR": {
     "delta": {
       "confirmed": 147,
+      "recovered": 93,
       "tested": 4027
     },
     "districts": {
@@ -10568,6 +10570,14 @@
           "tested": 16328
         }
       },
+      "Unknown": {
+        "delta": {
+          "recovered": 93
+        },
+        "total": {
+          "recovered": 93
+        }
+      },
       "Unokoti": {
         "delta": {
           "confirmed": 2
@@ -10606,7 +10616,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T23:12:33+05:30",
+      "last_updated": "2020-07-27T23:41:27+05:30",
       "notes": "18 cases are marked as migrated in Tripura dashboard.",
       "population": 3992000,
       "tested": {
@@ -10618,19 +10628,19 @@
       "confirmed": 4066,
       "deceased": 13,
       "migrated": 18,
-      "recovered": 2362,
+      "recovered": 2455,
       "tested": 142127
     }
   },
   "TT": {
     "delta": {
-      "confirmed": 46367,
+      "confirmed": 46484,
       "deceased": 636,
       "migrated": 2,
-      "recovered": 34351
+      "recovered": 34444
     },
     "meta": {
-      "last_updated": "2020-07-27T23:12:29+05:30",
+      "last_updated": "2020-07-27T23:41:23+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-26",
@@ -10638,10 +10648,10 @@
       }
     },
     "total": {
-      "confirmed": 1482386,
+      "confirmed": 1482503,
       "deceased": 33448,
       "migrated": 423,
-      "recovered": 953096,
+      "recovered": 953189,
       "tested": 16806803
     }
   },
