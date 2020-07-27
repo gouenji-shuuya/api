@@ -6,23 +6,33 @@
       "tested": 267
     },
     "districts": {
+      "North and Middle Andaman": {
+        "meta": {
+          "population": 105597
+        },
+        "total": {
+          "confirmed": 1,
+          "recovered": 1
+        }
+      },
+      "South Andaman": {
+        "meta": {
+          "population": 238142
+        },
+        "total": {
+          "confirmed": 51,
+          "recovered": 32
+        }
+      },
       "Unknown": {
         "delta": {
           "confirmed": 19,
-          "recovered": 7,
-          "tested": 267
-        },
-        "meta": {
-          "tested": {
-            "last_updated": "2020-07-23",
-            "source": "https://dhs.andaman.gov.in/NewEvents/339.pdf"
-          }
+          "recovered": 7
         },
         "total": {
-          "confirmed": 240,
+          "confirmed": 188,
           "migrated": 1,
-          "recovered": 170,
-          "tested": 21310
+          "recovered": 137
         }
       }
     },
@@ -1887,21 +1897,20 @@
       "Chandigarh": {
         "delta": {
           "confirmed": 20,
-          "recovered": 5,
-          "tested": 233
+          "recovered": 5
         },
         "meta": {
           "population": 1055450,
           "tested": {
-            "last_updated": "2020-07-23",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1339"
+            "last_updated": "2020-07-21",
+            "source": "https://twitter.com/DDnewschd/status/1285560085108801536?s=20"
           }
         },
         "total": {
           "confirmed": 800,
           "deceased": 13,
           "recovered": 531,
-          "tested": 11780
+          "tested": 11271
         }
       }
     },
@@ -2448,25 +2457,99 @@
       "tested": 18226
     },
     "districts": {
-      "Delhi": {
+      "Central Delhi": {
+        "meta": {
+          "population": 582320
+        },
+        "total": {
+          "confirmed": 184
+        }
+      },
+      "East Delhi": {
+        "meta": {
+          "population": 1709346
+        },
+        "total": {
+          "confirmed": 38
+        }
+      },
+      "New Delhi": {
+        "meta": {
+          "population": 142004
+        },
+        "total": {
+          "confirmed": 37
+        }
+      },
+      "North Delhi": {
+        "meta": {
+          "population": 887978
+        },
+        "total": {
+          "confirmed": 60
+        }
+      },
+      "North East Delhi": {
+        "meta": {
+          "population": 2241624
+        },
+        "total": {
+          "confirmed": 25
+        }
+      },
+      "North West Delhi": {
+        "meta": {
+          "population": 3656539
+        },
+        "total": {
+          "confirmed": 32,
+          "deceased": 1
+        }
+      },
+      "Shahdara": {
+        "total": {
+          "confirmed": 48
+        }
+      },
+      "South Delhi": {
+        "meta": {
+          "population": 2731929
+        },
+        "total": {
+          "confirmed": 70
+        }
+      },
+      "South East Delhi": {
+        "total": {
+          "confirmed": 130
+        }
+      },
+      "South West Delhi": {
+        "meta": {
+          "population": 2292958
+        },
+        "total": {
+          "confirmed": 42
+        }
+      },
+      "Unknown": {
         "delta": {
           "confirmed": 1041,
           "deceased": 26,
-          "recovered": 1415,
-          "tested": 18226
-        },
-        "meta": {
-          "population": 19814000,
-          "tested": {
-            "last_updated": "2020-07-23",
-            "source": "https://twitter.com/ANI/status/1286319736565899266?s=20"
-          }
+          "recovered": 1415
         },
         "total": {
-          "confirmed": 127364,
-          "deceased": 3745,
-          "recovered": 109065,
-          "tested": 889597
+          "confirmed": 126576,
+          "deceased": 3744,
+          "recovered": 109065
+        }
+      },
+      "West Delhi": {
+        "meta": {
+          "population": 2543243
+        },
+        "total": {
+          "confirmed": 122
         }
       }
     },
@@ -9750,24 +9833,413 @@
       "tested": 13367
     },
     "districts": {
-      "Unknown": {
+      "Adilabad": {
         "delta": {
-          "confirmed": 1567,
-          "deceased": 9,
-          "recovered": 1661,
-          "tested": 13367
+          "confirmed": 17
         },
         "meta": {
-          "tested": {
-            "last_updated": "2020-07-23",
-            "source": "https://twitter.com/Eatala_Rajender/status/1286327602295140352?s=20"
-          }
+          "population": 708952
         },
         "total": {
-          "confirmed": 50826,
-          "deceased": 447,
-          "recovered": 39327,
-          "tested": 322326
+          "confirmed": 154,
+          "recovered": 15
+        }
+      },
+      "Bhadradri Kothagudem": {
+        "delta": {
+          "confirmed": 2
+        },
+        "meta": {
+          "population": 1304811
+        },
+        "total": {
+          "confirmed": 128,
+          "recovered": 4
+        }
+      },
+      "Foreign Evacuees": {
+        "total": {
+          "confirmed": 33
+        }
+      },
+      "Hyderabad": {
+        "delta": {
+          "confirmed": 662
+        },
+        "meta": {
+          "population": 3441992
+        },
+        "total": {
+          "confirmed": 34646,
+          "deceased": 23,
+          "recovered": 305
+        }
+      },
+      "Jagtial": {
+        "delta": {
+          "confirmed": 14
+        },
+        "meta": {
+          "population": 983414
+        },
+        "total": {
+          "confirmed": 140,
+          "recovered": 2
+        }
+      },
+      "Jangaon": {
+        "delta": {
+          "confirmed": 22
+        },
+        "meta": {
+          "population": 582457
+        },
+        "total": {
+          "confirmed": 187,
+          "recovered": 1
+        }
+      },
+      "Jayashankar Bhupalapally": {
+        "delta": {
+          "confirmed": 25
+        },
+        "meta": {
+          "population": 712257
+        },
+        "total": {
+          "confirmed": 150
+        }
+      },
+      "Jogulamba Gadwal": {
+        "delta": {
+          "confirmed": 2
+        },
+        "meta": {
+          "population": 664971
+        },
+        "total": {
+          "confirmed": 138,
+          "deceased": 1,
+          "recovered": 25
+        }
+      },
+      "Kamareddy": {
+        "delta": {
+          "confirmed": 17
+        },
+        "meta": {
+          "population": 972625
+        },
+        "total": {
+          "confirmed": 356,
+          "recovered": 8
+        }
+      },
+      "Karimnagar": {
+        "delta": {
+          "confirmed": 38
+        },
+        "meta": {
+          "population": 1016063
+        },
+        "total": {
+          "confirmed": 903,
+          "recovered": 16
+        }
+      },
+      "Khammam": {
+        "delta": {
+          "confirmed": 10
+        },
+        "meta": {
+          "population": 1401639
+        },
+        "total": {
+          "confirmed": 277,
+          "recovered": 3
+        }
+      },
+      "Komaram Bheem": {
+        "delta": {
+          "confirmed": 4
+        },
+        "meta": {
+          "population": 515835
+        },
+        "total": {
+          "confirmed": 58,
+          "recovered": 2
+        }
+      },
+      "Mahabubabad": {
+        "delta": {
+          "confirmed": 18
+        },
+        "meta": {
+          "population": 1318110
+        },
+        "total": {
+          "confirmed": 228,
+          "recovered": 1
+        }
+      },
+      "Mahabubnagar": {
+        "delta": {
+          "confirmed": 61
+        },
+        "total": {
+          "confirmed": 409,
+          "recovered": 8
+        }
+      },
+      "Mancherial": {
+        "delta": {
+          "confirmed": 1
+        },
+        "meta": {
+          "population": 807037
+        },
+        "total": {
+          "confirmed": 203,
+          "deceased": 1
+        }
+      },
+      "Medak": {
+        "delta": {
+          "confirmed": 27
+        },
+        "meta": {
+          "population": 767428
+        },
+        "total": {
+          "confirmed": 404,
+          "recovered": 4
+        }
+      },
+      "Medchal Malkajgiri": {
+        "delta": {
+          "confirmed": 33
+        },
+        "meta": {
+          "population": 2542203
+        },
+        "total": {
+          "confirmed": 2446,
+          "deceased": 1,
+          "recovered": 9
+        }
+      },
+      "Mulugu": {
+        "delta": {
+          "confirmed": 17
+        },
+        "meta": {
+          "population": 294671
+        },
+        "total": {
+          "confirmed": 83,
+          "recovered": 2
+        }
+      },
+      "Nagarkurnool": {
+        "delta": {
+          "confirmed": 51
+        },
+        "meta": {
+          "population": 893308
+        },
+        "total": {
+          "confirmed": 238,
+          "recovered": 2
+        }
+      },
+      "Nalgonda": {
+        "delta": {
+          "confirmed": 44
+        },
+        "meta": {
+          "population": 1631399
+        },
+        "total": {
+          "confirmed": 732,
+          "recovered": 12
+        }
+      },
+      "Narayanpet": {
+        "meta": {
+          "population": 566874
+        },
+        "total": {
+          "confirmed": 48,
+          "deceased": 1
+        }
+      },
+      "Nirmal": {
+        "delta": {
+          "confirmed": 1
+        },
+        "meta": {
+          "population": 709415
+        },
+        "total": {
+          "confirmed": 56,
+          "recovered": 13
+        }
+      },
+      "Nizamabad": {
+        "delta": {
+          "confirmed": 38
+        },
+        "meta": {
+          "population": 1534428
+        },
+        "total": {
+          "confirmed": 477,
+          "recovered": 30
+        }
+      },
+      "Other State": {
+        "total": {
+          "confirmed": 250
+        }
+      },
+      "Peddapalli": {
+        "delta": {
+          "confirmed": 2
+        },
+        "meta": {
+          "population": 795332
+        },
+        "total": {
+          "confirmed": 200,
+          "recovered": 1
+        }
+      },
+      "Rajanna Sircilla": {
+        "delta": {
+          "confirmed": 62
+        },
+        "meta": {
+          "population": 546121
+        },
+        "total": {
+          "confirmed": 268,
+          "recovered": 2
+        }
+      },
+      "Ranga Reddy": {
+        "delta": {
+          "confirmed": 213
+        },
+        "meta": {
+          "population": 2551731
+        },
+        "total": {
+          "confirmed": 4114,
+          "deceased": 2,
+          "recovered": 17
+        }
+      },
+      "Sangareddy": {
+        "delta": {
+          "confirmed": 32
+        },
+        "meta": {
+          "population": 1527628
+        },
+        "total": {
+          "confirmed": 853,
+          "recovered": 6
+        }
+      },
+      "Siddipet": {
+        "delta": {
+          "confirmed": 9
+        },
+        "meta": {
+          "population": 993376
+        },
+        "total": {
+          "confirmed": 167,
+          "recovered": 1
+        }
+      },
+      "Suryapet": {
+        "delta": {
+          "confirmed": 39
+        },
+        "meta": {
+          "population": 1099560
+        },
+        "total": {
+          "confirmed": 398,
+          "recovered": 24
+        }
+      },
+      "Unknown": {
+        "delta": {
+          "deceased": 9,
+          "recovered": 1661
+        },
+        "total": {
+          "confirmed": 457,
+          "deceased": 417,
+          "recovered": 38776
+        }
+      },
+      "Vikarabad": {
+        "delta": {
+          "confirmed": 5
+        },
+        "meta": {
+          "population": 881250
+        },
+        "total": {
+          "confirmed": 209,
+          "deceased": 1,
+          "recovered": 15
+        }
+      },
+      "Wanaparthy": {
+        "meta": {
+          "population": 751553
+        },
+        "total": {
+          "confirmed": 161
+        }
+      },
+      "Warangal Rural": {
+        "delta": {
+          "confirmed": 22
+        },
+        "meta": {
+          "population": 716457
+        },
+        "total": {
+          "confirmed": 307
+        }
+      },
+      "Warangal Urban": {
+        "delta": {
+          "confirmed": 75
+        },
+        "meta": {
+          "population": 1135707
+        },
+        "total": {
+          "confirmed": 822,
+          "recovered": 23
+        }
+      },
+      "Yadadri Bhuvanagiri": {
+        "delta": {
+          "confirmed": 4
+        },
+        "meta": {
+          "population": 726465
+        },
+        "total": {
+          "confirmed": 126
         }
       }
     },

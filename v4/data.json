@@ -1039,15 +1039,15 @@
         "meta": {
           "population": 2954367,
           "tested": {
-            "last_updated": "2020-07-24",
-            "source": "https://twitter.com/DM_Begusarai/status/1286624011091210245?s=20"
+            "last_updated": "2020-07-25",
+            "source": "https://twitter.com/DM_Begusarai/status/1286985822235811842?s=20"
           }
         },
         "total": {
           "confirmed": 1398,
           "deceased": 8,
           "recovered": 1099,
-          "tested": 13470
+          "tested": 14014
         }
       },
       "Bhagalpur": {
@@ -1339,15 +1339,15 @@
         "meta": {
           "population": 2216653,
           "tested": {
-            "last_updated": "2020-07-24",
-            "source": "https://twitter.com/OfficialNawada/status/1286673300593106944?s=20"
+            "last_updated": "2020-07-25",
+            "source": "https://twitter.com/OfficialNawada/status/1287300372042665984?s=20"
           }
         },
         "total": {
           "confirmed": 1097,
           "deceased": 5,
           "recovered": 868,
-          "tested": 9128
+          "tested": 9178
         }
       },
       "Patna": {
@@ -1366,18 +1366,21 @@
         }
       },
       "Purnia": {
+        "delta": {
+          "tested": 468
+        },
         "meta": {
           "population": 3273127,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/dmpurnea/status/1287218539951079424?s=20"
+            "last_updated": "2020-07-27",
+            "source": "https://twitter.com/dmpurnea/status/1287599468611698689?s=20"
           }
         },
         "total": {
           "confirmed": 871,
           "deceased": 4,
           "recovered": 590,
-          "tested": 12797
+          "tested": 13265
         }
       },
       "Rohtas": {
@@ -3261,7 +3264,8 @@
   },
   "JH": {
     "delta": {
-      "confirmed": 9
+      "confirmed": 130,
+      "deceased": 3
     },
     "districts": {
       "Bokaro": {
@@ -3331,12 +3335,16 @@
         }
       },
       "East Singhbhum": {
+        "delta": {
+          "confirmed": 110,
+          "deceased": 1
+        },
         "meta": {
           "population": 2291032
         },
         "total": {
-          "confirmed": 1334,
-          "deceased": 21,
+          "confirmed": 1444,
+          "deceased": 22,
           "recovered": 493
         }
       },
@@ -3424,12 +3432,15 @@
         }
       },
       "Koderma": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 717169
         },
         "total": {
           "confirmed": 469,
-          "deceased": 4,
+          "deceased": 5,
           "recovered": 237
         }
       },
@@ -3471,11 +3482,15 @@
         }
       },
       "Palamu": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1936319
         },
         "total": {
           "confirmed": 251,
+          "deceased": 1,
           "recovered": 164
         }
       },
@@ -3515,11 +3530,14 @@
         }
       },
       "Saraikela-Kharsawan": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "population": 1063458
         },
         "total": {
-          "confirmed": 200,
+          "confirmed": 203,
           "deceased": 4,
           "recovered": 80
         }
@@ -3535,18 +3553,21 @@
         }
       },
       "West Singhbhum": {
+        "delta": {
+          "confirmed": 8
+        },
         "meta": {
           "population": 1501619
         },
         "total": {
-          "confirmed": 214,
+          "confirmed": 222,
           "deceased": 1,
           "recovered": 134
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-26T22:26:33+05:30",
+      "last_updated": "2020-07-27T12:41:27+05:30",
       "population": 37403000,
       "tested": {
         "last_updated": "2020-07-26",
@@ -3554,8 +3575,8 @@
       }
     },
     "total": {
-      "confirmed": 8358,
-      "deceased": 83,
+      "confirmed": 8479,
+      "deceased": 86,
       "recovered": 3704,
       "tested": 259096
     }
@@ -4997,6 +5018,10 @@
     }
   },
   "ML": {
+    "delta": {
+      "confirmed": 19,
+      "recovered": 38
+    },
     "districts": {
       "East Garo Hills": {
         "meta": {
@@ -5007,22 +5032,29 @@
         }
       },
       "East Jaintia Hills": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 122436
         },
         "total": {
-          "confirmed": 15,
+          "confirmed": 16,
           "recovered": 2
         }
       },
       "East Khasi Hills": {
+        "delta": {
+          "confirmed": 17,
+          "recovered": 38
+        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 564,
+          "confirmed": 581,
           "deceased": 5,
-          "recovered": 97
+          "recovered": 135
         }
       },
       "North Garo Hills": {
@@ -5067,11 +5099,14 @@
         }
       },
       "West Garo Hills": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 642923
         },
         "total": {
-          "confirmed": 21,
+          "confirmed": 22,
           "recovered": 6
         }
       },
@@ -5095,7 +5130,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-26T22:56:36+05:30",
+      "last_updated": "2020-07-27T12:45:27+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -5104,9 +5139,9 @@
       }
     },
     "total": {
-      "confirmed": 702,
+      "confirmed": 721,
       "deceased": 5,
-      "recovered": 135,
+      "recovered": 173,
       "tested": 32544
     }
   },
@@ -7950,6 +7985,7 @@
     },
     "meta": {
       "last_updated": "2020-07-27T12:35:26+05:30",
+      "notes": "[July 27]\nTelangana bulletin for the previous day is released on the next day. We will add the cases for Telangana against the date of release, as that is the convention that we are following for other states.",
       "population": 37220000,
       "tested": {
         "last_updated": "2020-07-27",
@@ -8702,12 +8738,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 3484,
-      "deceased": 22,
-      "recovered": 945
+      "confirmed": 3624,
+      "deceased": 25,
+      "recovered": 983
     },
     "meta": {
-      "last_updated": "2020-07-27T12:35:24+05:30",
+      "last_updated": "2020-07-27T12:45:24+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-26",
@@ -8715,10 +8751,10 @@
       }
     },
     "total": {
-      "confirmed": 1439503,
-      "deceased": 32834,
+      "confirmed": 1439643,
+      "deceased": 32837,
       "migrated": 421,
-      "recovered": 919680,
+      "recovered": 919718,
       "tested": 16806803
     }
   },
