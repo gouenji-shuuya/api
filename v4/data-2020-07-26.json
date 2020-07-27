@@ -2,7 +2,6 @@
   "AN": {
     "delta": {
       "confirmed": 28,
-      "migrated": -1,
       "recovered": 4,
       "tested": 84
     },
@@ -10,7 +9,6 @@
       "Unknown": {
         "delta": {
           "confirmed": 28,
-          "migrated": -1,
           "recovered": 4,
           "tested": 84
         },
@@ -22,6 +20,7 @@
         },
         "total": {
           "confirmed": 318,
+          "migrated": 1,
           "recovered": 180,
           "tested": 22049
         }
@@ -36,6 +35,7 @@
     },
     "total": {
       "confirmed": 318,
+      "migrated": 1,
       "recovered": 180,
       "tested": 22049
     }
@@ -3755,20 +3755,21 @@
       "Faridabad": {
         "delta": {
           "confirmed": 219,
-          "recovered": 270
+          "recovered": 270,
+          "tested": 692
         },
         "meta": {
           "population": 1798954,
           "tested": {
-            "last_updated": "2020-07-25",
-            "source": "https://twitter.com/SmartCityFbad/status/1286996179884990464?s=20"
+            "last_updated": "2020-07-26",
+            "source": "https://twitter.com/SmartCityFbad/status/1287371887379492864?s=20"
           }
         },
         "total": {
           "confirmed": 7693,
           "deceased": 120,
           "recovered": 6052,
-          "tested": 53143
+          "tested": 53835
         }
       },
       "Fatehabad": {
@@ -3799,20 +3800,21 @@
       "Gurugram": {
         "delta": {
           "confirmed": 121,
-          "recovered": 170
+          "recovered": 170,
+          "tested": 1668
         },
         "meta": {
           "population": 1514085,
           "tested": {
-            "last_updated": "2020-07-24",
-            "source": "https://cdn.s3waas.gov.in/s325b2822c2f5a3230abfadd476e8b04c9/uploads/2020/07/2020072575.pdf"
+            "last_updated": "2020-07-26",
+            "source": "https://cdn.s3waas.gov.in/s325b2822c2f5a3230abfadd476e8b04c9/uploads/2020/07/2020072693.pdf"
           }
         },
         "total": {
           "confirmed": 8612,
           "deceased": 120,
           "recovered": 7409,
-          "tested": 89985
+          "tested": 93903
         }
       },
       "Hisar": {
@@ -10866,6 +10868,7 @@
     "delta": {
       "confirmed": 48932,
       "deceased": 704,
+      "migrated": 1,
       "recovered": 31502,
       "tested": 515472
     },
@@ -10879,7 +10882,7 @@
     "total": {
       "confirmed": 1436019,
       "deceased": 32812,
-      "migrated": 420,
+      "migrated": 421,
       "recovered": 918735,
       "tested": 16806803
     }
