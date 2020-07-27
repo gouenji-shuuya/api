@@ -20864,15 +20864,19 @@
         "delta": {
           "confirmed": 258,
           "deceased": 1,
-          "recovered": 133
+          "recovered": 133,
+          "tested": {
+            "positives": 258,
+            "samples": 1616
+          }
         },
         "total": {
           "confirmed": 5119,
           "deceased": 36,
           "recovered": 3410,
           "tested": {
-            "positives": 4861,
-            "samples": 123130
+            "positives": 5119,
+            "samples": 124746
           }
         }
       }
@@ -23273,6 +23277,7 @@
       "2020-07-27": {
         "delta": {
           "tested": {
+            "positives": 1052,
             "samples": 25474
           }
         },
@@ -23281,7 +23286,7 @@
           "deceased": 2322,
           "recovered": 40467,
           "tested": {
-            "positives": 55822,
+            "positives": 56874,
             "samples": 667844
           }
         }
@@ -44004,15 +44009,19 @@
       "2020-07-27": {
         "delta": {
           "confirmed": 19,
-          "recovered": 38
+          "recovered": 38,
+          "tested": {
+            "positives": 36,
+            "samples": 1583
+          }
         },
         "total": {
           "confirmed": 721,
           "deceased": 5,
           "recovered": 173,
           "tested": {
-            "positives": 702,
-            "samples": 32544
+            "positives": 738,
+            "samples": 34127
           }
         }
       }
@@ -45722,9 +45731,13 @@
         }
       },
       "2020-07-27": {
+        "delta": {
+          "confirmed": 51,
+          "recovered": 38
+        },
         "total": {
-          "confirmed": 2235,
-          "recovered": 1521,
+          "confirmed": 2286,
+          "recovered": 1559,
           "tested": {
             "positives": 2235,
             "samples": 78368
@@ -53848,6 +53861,7 @@
         "delta": {
           "confirmed": 1503,
           "deceased": 7,
+          "recovered": 581,
           "tested": {
             "positives": 1503,
             "samples": 9327
@@ -53856,7 +53870,7 @@
         "total": {
           "confirmed": 26892,
           "deceased": 181,
-          "recovered": 16793,
+          "recovered": 17374,
           "tested": {
             "positives": 26892,
             "samples": 467447
@@ -71333,16 +71347,16 @@
       },
       "2020-07-27": {
         "delta": {
-          "confirmed": 38666,
+          "confirmed": 38717,
           "deceased": 546,
           "other": 1,
-          "recovered": 26887
+          "recovered": 27506
         },
         "total": {
-          "confirmed": 1474685,
+          "confirmed": 1474736,
           "deceased": 33358,
           "other": 422,
-          "recovered": 945622,
+          "recovered": 946241,
           "tested": {
             "samples": 16806803
           }
