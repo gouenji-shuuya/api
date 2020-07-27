@@ -321,7 +321,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T18:15:25+05:30",
+      "last_updated": "2020-07-27T18:20:25+05:30",
       "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin.",
       "population": 52221000,
       "tested": {
@@ -1048,7 +1048,8 @@
     "delta": {
       "confirmed": 2192,
       "deceased": 6,
-      "recovered": 1536
+      "recovered": 1536,
+      "tested": 14236
     },
     "districts": {
       "Araria": {
@@ -1752,8 +1753,8 @@
       "last_updated": "2020-07-27T17:17:24+05:30",
       "population": 119520000,
       "tested": {
-        "last_updated": "2020-07-26",
-        "source": "https://twitter.com/PIB_Patna/status/1287350865687269379"
+        "last_updated": "2020-07-27",
+        "source": "https://twitter.com/PIB_Patna/status/1287720048052678657"
       }
     },
     "total": {
@@ -1761,7 +1762,7 @@
       "deceased": 255,
       "migrated": 1,
       "recovered": 27844,
-      "tested": 456324
+      "tested": 470560
     }
   },
   "CH": {
@@ -2345,7 +2346,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T18:15:27+05:30",
+      "last_updated": "2020-07-27T18:20:28+05:30",
       "notes": "10 Migrated cases reduced from Active count",
       "population": 959000,
       "tested": {
@@ -3803,6 +3804,9 @@
     }
   },
   "JK": {
+    "delta": {
+      "confirmed": 132
+    },
     "districts": {
       "Anantnag": {
         "meta": {
@@ -3987,11 +3991,14 @@
         }
       },
       "Srinagar": {
+        "delta": {
+          "confirmed": 132
+        },
         "meta": {
           "population": 1269751
         },
         "total": {
-          "confirmed": 4002,
+          "confirmed": 4134,
           "deceased": 88,
           "recovered": 1583
         }
@@ -4008,7 +4015,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-26T18:49:30+05:30",
+      "last_updated": "2020-07-27T18:24:25+05:30",
       "population": 13203000,
       "tested": {
         "last_updated": "2020-07-26",
@@ -4016,7 +4023,7 @@
       }
     },
     "total": {
-      "confirmed": 17920,
+      "confirmed": 18052,
       "deceased": 312,
       "recovered": 9928,
       "tested": 581707
@@ -7448,8 +7455,8 @@
         "meta": {
           "population": 200222,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/26.07.2020%20bulletin.pdf"
+            "last_updated": "2020-07-27",
+            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/27.07.2020%20bulletin.pdf"
           }
         },
         "total": {
@@ -7460,38 +7467,42 @@
         }
       },
       "Mahe": {
+        "delta": {
+          "tested": 38
+        },
         "meta": {
           "population": 41816,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/26.07.2020%20bulletin.pdf"
+            "last_updated": "2020-07-27",
+            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/27.07.2020%20bulletin.pdf"
           }
         },
         "total": {
           "confirmed": 23,
           "recovered": 21,
-          "tested": 1284
+          "tested": 1322
         }
       },
       "Puducherry": {
         "delta": {
           "confirmed": 85,
           "deceased": 3,
-          "recovered": 72
+          "recovered": 72,
+          "tested": 546
         },
         "meta": {
           "notes": "31 cases(26 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/26.07.2020%20bulletin.pdf"
+            "last_updated": "2020-07-27",
+            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/27.07.2020%20bulletin.pdf"
           }
         },
         "total": {
           "confirmed": 2588,
           "deceased": 39,
           "recovered": 1528,
-          "tested": 27692
+          "tested": 28238
         }
       },
       "Yanam": {
@@ -7499,8 +7510,8 @@
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/26.07.2020%20bulletin.pdf"
+            "last_updated": "2020-07-27",
+            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/27.07.2020%20bulletin.pdf"
           }
         },
         "total": {
@@ -8974,12 +8985,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 16184,
+      "confirmed": 16316,
       "deceased": 140,
       "recovered": 8577
     },
     "meta": {
-      "last_updated": "2020-07-27T18:15:23+05:30",
+      "last_updated": "2020-07-27T18:24:23+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-26",
@@ -8987,7 +8998,7 @@
       }
     },
     "total": {
-      "confirmed": 1452203,
+      "confirmed": 1452335,
       "deceased": 32952,
       "migrated": 421,
       "recovered": 927312,
