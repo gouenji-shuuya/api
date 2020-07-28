@@ -3,19 +3,27 @@
     "delta": {
       "confirmed": 20,
       "deceased": 1,
-      "recovered": 12
+      "recovered": 12,
+      "tested": {
+        "positives": 14,
+        "samples": 499
+      }
     },
     "districts": {
       "Unknown": {
         "delta": {
           "confirmed": 20,
           "deceased": 1,
-          "recovered": 12
+          "recovered": 12,
+          "tested": {
+            "positives": 14,
+            "samples": 499
+          }
         },
         "meta": {
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://dhs.andaman.gov.in/NewEvents/342.pdf"
+            "last_updated": "2020-07-27",
+            "source": "https://dhs.andaman.gov.in/NewEvents/343.pdf"
           }
         },
         "total": {
@@ -24,8 +32,8 @@
           "other": 1,
           "recovered": 192,
           "tested": {
-            "positives": 324,
-            "samples": 22049
+            "positives": 338,
+            "samples": 22548
           }
         }
       }
@@ -33,8 +41,8 @@
     "meta": {
       "population": 397000,
       "tested": {
-        "last_updated": "2020-07-26",
-        "source": "https://dhs.andaman.gov.in/NewEvents/342.pdf"
+        "last_updated": "2020-07-27",
+        "source": "https://dhs.andaman.gov.in/NewEvents/343.pdf"
       }
     },
     "total": {
@@ -43,8 +51,8 @@
       "other": 1,
       "recovered": 192,
       "tested": {
-        "positives": 324,
-        "samples": 22049
+        "positives": 338,
+        "samples": 22548
       }
     }
   },
@@ -454,8 +462,7 @@
         "meta": {
           "population": 21089,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -468,13 +475,15 @@
       },
       "Changlang": {
         "delta": {
-          "confirmed": 9
+          "confirmed": 9,
+          "tested": {
+            "samples": 490
+          }
         },
         "meta": {
           "population": 147951,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -482,15 +491,14 @@
           "recovered": 103,
           "tested": {
             "positives": 32,
-            "samples": 7471
+            "samples": 7961
           }
         }
       },
       "Dibang Valley": {
         "meta": {
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -501,13 +509,15 @@
       },
       "East Kameng": {
         "delta": {
-          "recovered": 2
+          "recovered": 2,
+          "tested": {
+            "samples": 79
+          }
         },
         "meta": {
           "population": 78413,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -515,19 +525,21 @@
           "recovered": 2,
           "tested": {
             "positives": 13,
-            "samples": 464
+            "samples": 543
           }
         }
       },
       "East Siang": {
         "delta": {
-          "recovered": 9
+          "recovered": 9,
+          "tested": {
+            "samples": 143
+          }
         },
         "meta": {
           "population": 99019,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -535,7 +547,7 @@
           "recovered": 22,
           "tested": {
             "positives": 39,
-            "samples": 3784
+            "samples": 3927
           }
         }
       },
@@ -543,8 +555,7 @@
         "meta": {
           "population": 22256,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -556,15 +567,19 @@
         }
       },
       "Kra-Daadi": {
+        "delta": {
+          "tested": {
+            "samples": 66
+          }
+        },
         "meta": {
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
           "tested": {
-            "samples": 13
+            "samples": 79
           }
         }
       },
@@ -572,8 +587,7 @@
         "meta": {
           "population": 89717,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -588,8 +602,7 @@
         },
         "meta": {
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -603,13 +616,15 @@
       },
       "Lohit": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 1,
+          "tested": {
+            "samples": 75
+          }
         },
         "meta": {
           "population": 145538,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -617,19 +632,21 @@
           "recovered": 4,
           "tested": {
             "positives": 5,
-            "samples": 1750
+            "samples": 1825
           }
         }
       },
       "Longding": {
         "delta": {
-          "recovered": 1
+          "recovered": 1,
+          "tested": {
+            "samples": 52
+          }
         },
         "meta": {
           "population": 60000,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -637,19 +654,21 @@
           "recovered": 5,
           "tested": {
             "positives": 4,
-            "samples": 1363
+            "samples": 1415
           }
         }
       },
       "Lower Dibang Valley": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 1,
+          "tested": {
+            "samples": 69
+          }
         },
         "meta": {
           "population": 53986,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -657,16 +676,20 @@
           "recovered": 9,
           "tested": {
             "positives": 7,
-            "samples": 1553
+            "samples": 1622
           }
         }
       },
       "Lower Siang": {
+        "delta": {
+          "tested": {
+            "samples": 70
+          }
+        },
         "meta": {
           "population": 80597,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -674,16 +697,20 @@
           "recovered": 5,
           "tested": {
             "positives": 13,
-            "samples": 962
+            "samples": 1032
           }
         }
       },
       "Lower Subansiri": {
+        "delta": {
+          "tested": {
+            "samples": 47
+          }
+        },
         "meta": {
           "population": 82839,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -691,16 +718,20 @@
           "recovered": 15,
           "tested": {
             "positives": 11,
-            "samples": 1142
+            "samples": 1189
           }
         }
       },
       "Namsai": {
+        "delta": {
+          "tested": {
+            "samples": 199
+          }
+        },
         "meta": {
           "population": 95950,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -708,15 +739,14 @@
           "recovered": 23,
           "tested": {
             "positives": 36,
-            "samples": 2964
+            "samples": 3163
           }
         }
       },
       "Pakke Kessang": {
         "meta": {
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -731,13 +761,15 @@
       "Papum Pare": {
         "delta": {
           "confirmed": 51,
-          "recovered": 47
+          "recovered": 47,
+          "tested": {
+            "samples": 2598
+          }
         },
         "meta": {
           "population": 176385,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -746,7 +778,7 @@
           "recovered": 333,
           "tested": {
             "positives": 398,
-            "samples": 28138
+            "samples": 30736
           }
         }
       },
@@ -754,8 +786,7 @@
         "meta": {
           "population": 13310,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -765,30 +796,36 @@
         }
       },
       "Siang": {
+        "delta": {
+          "tested": {
+            "samples": 2
+          }
+        },
         "meta": {
           "population": 31920,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
           "confirmed": 2,
           "tested": {
             "positives": 2,
-            "samples": 230
+            "samples": 232
           }
         }
       },
       "Tawang": {
         "delta": {
-          "confirmed": 12
+          "confirmed": 12,
+          "tested": {
+            "samples": 54
+          }
         },
         "meta": {
           "population": 49950,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -796,19 +833,21 @@
           "recovered": 1,
           "tested": {
             "positives": 14,
-            "samples": 1108
+            "samples": 1162
           }
         }
       },
       "Tirap": {
         "delta": {
-          "confirmed": 4
+          "confirmed": 4,
+          "tested": {
+            "samples": 110
+          }
         },
         "meta": {
           "population": 111997,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -816,19 +855,21 @@
           "recovered": 6,
           "tested": {
             "positives": 24,
-            "samples": 2841
+            "samples": 2951
           }
         }
       },
       "Upper Siang": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 1,
+          "tested": {
+            "samples": 42
+          }
         },
         "meta": {
           "population": 35289,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -836,16 +877,20 @@
           "recovered": 1,
           "tested": {
             "positives": 15,
-            "samples": 718
+            "samples": 760
           }
         }
       },
       "Upper Subansiri": {
+        "delta": {
+          "tested": {
+            "samples": 19
+          }
+        },
         "meta": {
           "population": 83205,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -853,16 +898,20 @@
           "recovered": 2,
           "tested": {
             "positives": 2,
-            "samples": 895
+            "samples": 914
           }
         }
       },
       "West Kameng": {
+        "delta": {
+          "tested": {
+            "samples": 111
+          }
+        },
         "meta": {
           "population": 87013,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -871,7 +920,7 @@
           "recovered": 29,
           "tested": {
             "positives": 2,
-            "samples": 1939
+            "samples": 2050
           }
         }
       },
@@ -882,8 +931,7 @@
         "meta": {
           "population": 112272,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/DirectorateofHS/status/1287431868774674432/photo/1"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -917,7 +965,11 @@
     "delta": {
       "confirmed": 1348,
       "deceased": 7,
-      "recovered": 1362
+      "recovered": 1362,
+      "tested": {
+        "positives": 1348,
+        "samples": 21742
+      }
     },
     "districts": {
       "Airport Quarantine": {
@@ -1276,8 +1328,8 @@
     "meta": {
       "population": 34293000,
       "tested": {
-        "last_updated": "2020-07-26",
-        "source": "https://twitter.com/nhm_assam/status/1287438896360337408?s=20"
+        "last_updated": "2020-07-27",
+        "source": "https://twitter.com/himantabiswa/status/1287791520980975616?s=20"
       }
     },
     "total": {
@@ -1286,8 +1338,8 @@
       "other": 3,
       "recovered": 25403,
       "tested": {
-        "positives": 32228,
-        "samples": 774484
+        "positives": 33576,
+        "samples": 796226
       }
     }
   },
@@ -4005,6 +4057,7 @@
         "delta": {
           "confirmed": 16,
           "tested": {
+            "positives": 12,
             "samples": 2720
           }
         },
@@ -4020,7 +4073,7 @@
           "other": 2,
           "recovered": 311,
           "tested": {
-            "positives": 410,
+            "positives": 422,
             "samples": 29391
           }
         }
@@ -4082,7 +4135,10 @@
       "Mandi": {
         "delta": {
           "confirmed": 10,
-          "recovered": 3
+          "recovered": 3,
+          "tested": {
+            "positives": 8
+          }
         },
         "meta": {
           "population": 999518,
@@ -4095,7 +4151,7 @@
           "deceased": 3,
           "recovered": 41,
           "tested": {
-            "positives": 111,
+            "positives": 119,
             "samples": 10417
           }
         }
@@ -4128,6 +4184,7 @@
         "delta": {
           "confirmed": 31,
           "tested": {
+            "positives": 31,
             "samples": 240
           }
         },
@@ -4143,7 +4200,7 @@
           "other": 7,
           "recovered": 55,
           "tested": {
-            "positives": 242,
+            "positives": 273,
             "samples": 9928
           }
         }
@@ -7705,13 +7762,16 @@
       "Ashoknagar": {
         "delta": {
           "deceased": 1,
-          "recovered": 3
+          "recovered": 3,
+          "tested": {
+            "samples": 17
+          }
         },
         "meta": {
           "population": 844979,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/PROJSAshokNagar/status/1287365487878258688?s=20"
+            "last_updated": "2020-07-27",
+            "source": "https://twitter.com/PROJSAshokNagar/status/1287705229178228736?s=20"
           }
         },
         "total": {
@@ -7720,7 +7780,7 @@
           "recovered": 69,
           "tested": {
             "positives": 78,
-            "samples": 3021
+            "samples": 3038
           }
         }
       },
@@ -7936,13 +7996,16 @@
       "Dewas": {
         "delta": {
           "confirmed": 3,
-          "recovered": 24
+          "recovered": 24,
+          "tested": {
+            "samples": 90
+          }
         },
         "meta": {
           "population": 1563107,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/PROJSDewas/status/1287577966126305281?s=20"
+            "last_updated": "2020-07-27",
+            "source": "https://twitter.com/PROJSDewas/status/1287966404667416576?s=20"
           }
         },
         "total": {
@@ -7951,7 +8014,7 @@
           "recovered": 332,
           "tested": {
             "positives": 416,
-            "samples": 17782
+            "samples": 17872
           }
         }
       },
@@ -8111,13 +8174,16 @@
         "delta": {
           "confirmed": 28,
           "deceased": 2,
-          "recovered": 35
+          "recovered": 35,
+          "tested": {
+            "samples": 685
+          }
         },
         "meta": {
           "population": 2460714,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://twitter.com/jabalpurdm/status/1287403575040122881?s=20"
+            "last_updated": "2020-07-27",
+            "source": "https://twitter.com/jabalpurdm/status/1287766250110631936?s=20"
           }
         },
         "total": {
@@ -8126,7 +8192,7 @@
           "recovered": 704,
           "tested": {
             "positives": 864,
-            "samples": 26482
+            "samples": 27167
           }
         }
       },
