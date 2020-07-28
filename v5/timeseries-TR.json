@@ -1886,6 +1886,7 @@
       "2020-07-28": {
         "delta": {
           "confirmed": 222,
+          "recovered": 142,
           "tested": {
             "positives": 222,
             "samples": 6196
@@ -1895,7 +1896,7 @@
           "confirmed": 4288,
           "deceased": 17,
           "other": 18,
-          "recovered": 2467,
+          "recovered": 2609,
           "tested": {
             "positives": 4288,
             "samples": 148471
@@ -9490,6 +9491,14 @@
           "2020-07-18": {
             "delta": {
               "confirmed": -118
+            }
+          },
+          "2020-07-28": {
+            "delta": {
+              "recovered": 142
+            },
+            "total": {
+              "recovered": 142
             }
           }
         }
