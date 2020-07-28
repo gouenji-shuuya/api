@@ -821,7 +821,12 @@
   "AS": {
     "delta": {
       "confirmed": 1371,
-      "deceased": 2
+      "deceased": 2,
+      "recovered": 1216,
+      "tested": {
+        "positives": 1371,
+        "samples": 22876
+      }
     },
     "districts": {
       "Airport Quarantine": {
@@ -1149,12 +1154,13 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": 855
+          "confirmed": 855,
+          "recovered": 1216
         },
         "total": {
           "confirmed": 2420,
           "other": 3,
-          "recovered": 4694
+          "recovered": 5910
         }
       },
       "West Karbi Anglong": {
@@ -1168,22 +1174,22 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T22:23:30+05:30",
+      "last_updated": "2020-07-28T22:37:39+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
-        "last_updated": "2020-07-27",
-        "source": "https://twitter.com/himantabiswa/status/1287791520980975616?s=20"
+        "last_updated": "2020-07-28",
+        "source": "https://twitter.com/himantabiswa/status/1288153340036096000?s=20"
       }
     },
     "total": {
       "confirmed": 34948,
       "deceased": 88,
       "other": 3,
-      "recovered": 25403,
+      "recovered": 26619,
       "tested": {
-        "positives": 33576,
-        "samples": 796226
+        "positives": 34947,
+        "samples": 819102
       }
     }
   },
@@ -1290,13 +1296,17 @@
         "delta": {
           "confirmed": 56,
           "deceased": 2,
-          "recovered": 5
+          "recovered": 5,
+          "tested": {
+            "positives": 137,
+            "samples": 889
+          }
         },
         "meta": {
           "population": 2954367,
           "tested": {
-            "last_updated": "2020-07-25",
-            "source": "https://twitter.com/DM_Begusarai/status/1286985822235811842?s=20"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/DM_Begusarai/status/1288074873529491456?s=20"
           }
         },
         "total": {
@@ -1304,8 +1314,8 @@
           "deceased": 10,
           "recovered": 1147,
           "tested": {
-            "positives": 1306,
-            "samples": 14014
+            "positives": 1443,
+            "samples": 14903
           }
         }
       },
@@ -1777,13 +1787,17 @@
       "Purnia": {
         "delta": {
           "confirmed": 73,
-          "recovered": 41
+          "recovered": 41,
+          "tested": {
+            "positives": 57,
+            "samples": 603
+          }
         },
         "meta": {
           "population": 3273127,
           "tested": {
-            "last_updated": "2020-07-27",
-            "source": "https://twitter.com/dmpurnea/status/1287599468611698689?s=20"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/dmpurnea/status/1288123332605353987?s=20"
           }
         },
         "total": {
@@ -1791,8 +1805,8 @@
           "deceased": 4,
           "recovered": 665,
           "tested": {
-            "positives": 973,
-            "samples": 13265
+            "positives": 1030,
+            "samples": 13868
           }
         }
       },
@@ -2113,7 +2127,11 @@
     "delta": {
       "confirmed": 277,
       "deceased": 1,
-      "recovered": 267
+      "recovered": 267,
+      "tested": {
+        "positives": 394,
+        "samples": 4854
+      }
     },
     "districts": {
       "Balod": {
@@ -2695,8 +2713,8 @@
       "last_updated": "2020-07-28T21:19:31+05:30",
       "population": 28724000,
       "tested": {
-        "last_updated": "2020-07-27",
-        "source": "https://twitter.com/HealthCgGov/status/1287781451375579142?s=20"
+        "last_updated": "2020-07-28",
+        "source": "https://twitter.com/HealthCgGov/status/1288132205579911168?s=20"
       }
     },
     "total": {
@@ -2704,8 +2722,8 @@
       "deceased": 46,
       "recovered": 5439,
       "tested": {
-        "positives": 7863,
-        "samples": 292627
+        "positives": 8257,
+        "samples": 297481
       }
     }
   },
@@ -3704,7 +3722,11 @@
   "HP": {
     "delta": {
       "confirmed": 60,
-      "recovered": 18
+      "recovered": 18,
+      "tested": {
+        "positives": 60,
+        "samples": 2645
+      }
     },
     "districts": {
       "Bilaspur": {
@@ -3967,12 +3989,12 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T22:23:32+05:30",
+      "last_updated": "2020-07-28T22:28:33+05:30",
       "notes": "HP has 16 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
-        "last_updated": "2020-07-27",
-        "source": "https://twitter.com/nhm_hp/status/1287782990630629376?s=20"
+        "last_updated": "2020-07-28",
+        "source": "https://twitter.com/nhm_hp/status/1288151089859059720?s=20"
       }
     },
     "total": {
@@ -3981,8 +4003,8 @@
       "other": 15,
       "recovered": 1234,
       "tested": {
-        "positives": 2270,
-        "samples": 134606
+        "positives": 2330,
+        "samples": 137251
       }
     }
   },
@@ -4498,7 +4520,11 @@
     "delta": {
       "confirmed": 760,
       "deceased": 4,
-      "recovered": 179
+      "recovered": 179,
+      "tested": {
+        "positives": 760,
+        "samples": 8264
+      }
     },
     "districts": {
       "Bokaro": {
@@ -4892,8 +4918,8 @@
       "last_updated": "2020-07-28T22:18:32+05:30",
       "population": 37403000,
       "tested": {
-        "last_updated": "2020-07-27",
-        "source": "https://twitter.com/FOBGumla/status/1287787159642968068?s=20"
+        "last_updated": "2020-07-28",
+        "source": "https://twitter.com/FOBGumla/status/1288150897533399040?s=20"
       }
     },
     "total": {
@@ -4901,8 +4927,8 @@
       "deceased": 94,
       "recovered": 3984,
       "tested": {
-        "positives": 8803,
-        "samples": 264449
+        "positives": 9563,
+        "samples": 272713
       }
     }
   },
@@ -8650,7 +8676,8 @@
       },
       "Kohima": {
         "delta": {
-          "confirmed": 51
+          "confirmed": 51,
+          "recovered": 3
         },
         "meta": {
           "population": 270063,
@@ -8661,7 +8688,7 @@
         },
         "total": {
           "confirmed": 336,
-          "recovered": 51,
+          "recovered": 54,
           "tested": {
             "positives": 2,
             "samples": 485
@@ -8719,6 +8746,9 @@
         }
       },
       "Peren": {
+        "delta": {
+          "recovered": 5
+        },
         "meta": {
           "population": 163294,
           "tested": {
@@ -8728,7 +8758,7 @@
         },
         "total": {
           "confirmed": 331,
-          "recovered": 286,
+          "recovered": 291,
           "tested": {
             "samples": 11
           }
@@ -8771,14 +8801,6 @@
             "positives": 1,
             "samples": 1
           }
-        }
-      },
-      "Unknown": {
-        "delta": {
-          "recovered": 8
-        },
-        "total": {
-          "recovered": 8
         }
       },
       "Wokha": {
@@ -12207,16 +12229,16 @@
     "delta": {
       "confirmed": 49280,
       "deceased": 770,
-      "recovered": 34268,
+      "recovered": 35484,
       "tested": {
         "states": {
-          "positives": 46703,
-          "samples": 501663
+          "positives": 49288,
+          "samples": 540302
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T22:23:28+05:30",
+      "last_updated": "2020-07-28T22:37:28+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-27",
@@ -12227,12 +12249,12 @@
       "confirmed": 1531783,
       "deceased": 34224,
       "other": 423,
-      "recovered": 987367,
+      "recovered": 988583,
       "tested": {
         "samples": 17334885,
         "states": {
-          "positives": 1535168,
-          "samples": 20223026
+          "positives": 1537753,
+          "samples": 20261665
         }
       }
     }
