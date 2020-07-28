@@ -913,7 +913,13 @@
     "delta": {
       "confirmed": 1239,
       "deceased": 33,
-      "recovered": 419
+      "recovered": 419,
+      "tested": {
+        "states": {
+          "positives": 1299,
+          "samples": 38964
+        }
+      }
     },
     "meta": {
       "population": 1332900000,
@@ -928,7 +934,11 @@
       "other": 3,
       "recovered": 3273,
       "tested": {
-        "samples": 401586
+        "samples": 401586,
+        "states": {
+          "positives": 18039,
+          "samples": 465758
+        }
       }
     }
   },
