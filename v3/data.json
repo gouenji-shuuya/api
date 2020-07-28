@@ -2394,11 +2394,15 @@
   },
   "DN": {
     "delta": {
-      "confirmed": 17,
-      "recovered": 19
+      "confirmed": 34,
+      "recovered": 49
     },
     "districts": {
       "Dadra and Nagar Haveli": {
+        "delta": {
+          "confirmed": 17,
+          "recovered": 30
+        },
         "meta": {
           "notes": "5 cases are migrated to different states which are reduced from active count.",
           "population": 343709,
@@ -2408,10 +2412,10 @@
           }
         },
         "total": {
-          "confirmed": 445,
+          "confirmed": 462,
           "deceased": 1,
           "migrated": 5,
-          "recovered": 239,
+          "recovered": 269,
           "tested": 25281
         }
       },
@@ -2454,7 +2458,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T13:28:35+05:30",
+      "last_updated": "2020-07-28T19:49:34+05:30",
       "notes": "11 Migrated cases reduced from Active count",
       "population": 959000,
       "tested": {
@@ -2463,10 +2467,10 @@
       }
     },
     "total": {
-      "confirmed": 1003,
+      "confirmed": 1020,
       "deceased": 2,
       "migrated": 11,
-      "recovered": 616,
+      "recovered": 646,
       "tested": 41143
     }
   },
@@ -4855,7 +4859,8 @@
       "notes": "9 cases are classified as non-covid related deaths in KA bulletin. They have been reduced from active cases",
       "population": 65798000,
       "tested": {
-        "last_updated": "2020-07-28"
+        "last_updated": "2020-07-28",
+        "source": "https://t.co/csIwHHS1HX?amp=1"
       }
     },
     "total": {
@@ -5083,7 +5088,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T19:37:40+05:30",
+      "last_updated": "2020-07-28T19:43:34+05:30",
       "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nOne patient absconded from Palakkad to TN and one patient returned back to Maharashtra. Some non-covid deaths (accident,cancer etc.) have also been reported in the bulletin.\nIn total 10 such cases have been reduced from active count",
       "population": 35125000,
       "tested": {
@@ -6884,7 +6889,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T19:37:36+05:30",
+      "last_updated": "2020-07-28T19:43:31+05:30",
       "population": 82232000,
       "tested": {
         "last_updated": "2020-07-28",
@@ -8062,7 +8067,8 @@
       "last_updated": "2020-07-27T20:42:29+05:30",
       "population": 29859000,
       "tested": {
-        "last_updated": "2020-07-28"
+        "last_updated": "2020-07-28",
+        "source": "http://diprpunjab.gov.in/sites/default/files/Media%20Bulletin%2028-07-2020.pdf"
       }
     },
     "total": {
@@ -10187,12 +10193,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 33350,
-      "deceased": 390,
-      "recovered": 17468
+      "confirmed": 33626,
+      "deceased": 394,
+      "recovered": 17543
     },
     "meta": {
-      "last_updated": "2020-07-28T19:37:34+05:30",
+      "last_updated": "2020-07-28T19:49:28+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-27",
@@ -10200,10 +10206,10 @@
       }
     },
     "total": {
-      "confirmed": 1515853,
-      "deceased": 33844,
+      "confirmed": 1516129,
+      "deceased": 33848,
       "migrated": 423,
-      "recovered": 970567,
+      "recovered": 970642,
       "tested": 17334885
     }
   },
@@ -11665,8 +11671,16 @@
     }
   },
   "UT": {
+    "delta": {
+      "confirmed": 259,
+      "deceased": 4,
+      "recovered": 45
+    },
     "districts": {
       "Almora": {
+        "delta": {
+          "confirmed": 10
+        },
         "meta": {
           "population": 621927,
           "tested": {
@@ -11675,7 +11689,7 @@
           }
         },
         "total": {
-          "confirmed": 270,
+          "confirmed": 280,
           "deceased": 2,
           "migrated": 1,
           "recovered": 211,
@@ -11683,6 +11697,9 @@
         }
       },
       "Bageshwar": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 259840,
           "tested": {
@@ -11691,13 +11708,16 @@
           }
         },
         "total": {
-          "confirmed": 98,
+          "confirmed": 99,
           "deceased": 1,
           "recovered": 94,
           "tested": 3463
         }
       },
       "Chamoli": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 391114,
           "tested": {
@@ -11706,12 +11726,15 @@
           }
         },
         "total": {
-          "confirmed": 83,
+          "confirmed": 85,
           "recovered": 82,
           "tested": 5090
         }
       },
       "Champawat": {
+        "delta": {
+          "confirmed": 5
+        },
         "meta": {
           "population": 259315,
           "tested": {
@@ -11720,13 +11743,17 @@
           }
         },
         "total": {
-          "confirmed": 96,
+          "confirmed": 101,
           "deceased": 1,
           "recovered": 69,
           "tested": 5653
         }
       },
       "Dehradun": {
+        "delta": {
+          "confirmed": 33,
+          "recovered": 41
+        },
         "meta": {
           "population": 1698560,
           "tested": {
@@ -11735,14 +11762,18 @@
           }
         },
         "total": {
-          "confirmed": 1447,
+          "confirmed": 1480,
           "deceased": 38,
           "migrated": 26,
-          "recovered": 956,
+          "recovered": 997,
           "tested": 33220
         }
       },
       "Haridwar": {
+        "delta": {
+          "confirmed": 42,
+          "deceased": 1
+        },
         "meta": {
           "population": 1927029,
           "tested": {
@@ -11751,14 +11782,18 @@
           }
         },
         "total": {
-          "confirmed": 1247,
-          "deceased": 1,
+          "confirmed": 1289,
+          "deceased": 2,
           "migrated": 8,
           "recovered": 372,
           "tested": 18901
         }
       },
       "Nainital": {
+        "delta": {
+          "confirmed": 45,
+          "deceased": 2
+        },
         "meta": {
           "population": 955128,
           "tested": {
@@ -11767,8 +11802,8 @@
           }
         },
         "total": {
-          "confirmed": 979,
-          "deceased": 9,
+          "confirmed": 1024,
+          "deceased": 11,
           "migrated": 1,
           "recovered": 565,
           "tested": 14439
@@ -11820,6 +11855,9 @@
         }
       },
       "Tehri Garhwal": {
+        "delta": {
+          "confirmed": 13
+        },
         "meta": {
           "population": 616409,
           "tested": {
@@ -11828,13 +11866,17 @@
           }
         },
         "total": {
-          "confirmed": 498,
+          "confirmed": 511,
           "deceased": 2,
           "recovered": 458,
           "tested": 7739
         }
       },
       "Udham Singh Nagar": {
+        "delta": {
+          "confirmed": 108,
+          "deceased": 1
+        },
         "meta": {
           "population": 1648367,
           "tested": {
@@ -11843,14 +11885,17 @@
           }
         },
         "total": {
-          "confirmed": 1055,
-          "deceased": 6,
+          "confirmed": 1163,
+          "deceased": 7,
           "migrated": 1,
           "recovered": 454,
           "tested": 22028
         }
       },
       "Uttarkashi": {
+        "delta": {
+          "recovered": 4
+        },
         "meta": {
           "population": 329686,
           "tested": {
@@ -11861,13 +11906,13 @@
         "total": {
           "confirmed": 178,
           "deceased": 1,
-          "recovered": 107,
+          "recovered": 111,
           "tested": 6380
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T22:07:26+05:30",
+      "last_updated": "2020-07-28T19:49:31+05:30",
       "notes": "38 Migrated cases reduced from Active count",
       "population": 11141000,
       "tested": {
@@ -11876,10 +11921,10 @@
       }
     },
     "total": {
-      "confirmed": 6328,
-      "deceased": 66,
+      "confirmed": 6587,
+      "deceased": 70,
       "migrated": 38,
-      "recovered": 3675,
+      "recovered": 3720,
       "tested": 145627
     }
   },
