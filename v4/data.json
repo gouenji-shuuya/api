@@ -5159,11 +5159,6 @@
           "recovered": 18
         }
       },
-      "Other State": {
-        "total": {
-          "confirmed": 27
-        }
-      },
       "Pherzawl": {
         "meta": {
           "population": 47250
@@ -5217,6 +5212,7 @@
       },
       "Unknown": {
         "total": {
+          "confirmed": 27,
           "recovered": 1166
         }
       }
@@ -7720,8 +7716,18 @@
     }
   },
   "TG": {
+    "delta": {
+      "confirmed": 1610,
+      "deceased": 9,
+      "recovered": 803
+    },
     "districts": {
       "Unknown": {
+        "delta": {
+          "confirmed": 1610,
+          "deceased": 9,
+          "recovered": 803
+        },
         "meta": {
           "tested": {
             "last_updated": "2020-07-27",
@@ -7729,15 +7735,15 @@
           }
         },
         "total": {
-          "confirmed": 55532,
-          "deceased": 471,
-          "recovered": 42106,
+          "confirmed": 57142,
+          "deceased": 480,
+          "recovered": 42909,
           "tested": 363242
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T12:35:26+05:30",
+      "last_updated": "2020-07-28T09:48:32+05:30",
       "notes": "[July 27]\nTelangana bulletin for the previous day is released on the next day. We will add the cases for Telangana against the date of release, as that is the convention that we are following for other states.",
       "population": 37220000,
       "tested": {
@@ -7746,9 +7752,9 @@
       }
     },
     "total": {
-      "confirmed": 55532,
-      "deceased": 471,
-      "recovered": 42106,
+      "confirmed": 57142,
+      "deceased": 480,
+      "recovered": 42909,
       "tested": 363242
     }
   },
@@ -8491,10 +8497,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 23
+      "confirmed": 1633,
+      "deceased": 9,
+      "recovered": 803
     },
     "meta": {
-      "last_updated": "2020-07-28T09:18:26+05:30",
+      "last_updated": "2020-07-28T09:48:30+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-26",
@@ -8502,10 +8510,10 @@
       }
     },
     "total": {
-      "confirmed": 1482526,
-      "deceased": 33452,
+      "confirmed": 1484136,
+      "deceased": 33461,
       "migrated": 423,
-      "recovered": 953201,
+      "recovered": 954004,
       "tested": 16806803
     }
   },
