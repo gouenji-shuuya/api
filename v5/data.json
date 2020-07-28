@@ -2807,7 +2807,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T20:38:31+05:30",
+      "last_updated": "2020-07-28T20:48:30+05:30",
       "population": 1540000,
       "tested": {
         "last_updated": "2020-07-28",
@@ -6611,7 +6611,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T20:38:27+05:30",
+      "last_updated": "2020-07-28T20:48:27+05:30",
       "notes": "304 cases are marked as non-covid deaths in MH bulletin. These have been reduced from active count\n[June 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[June 20]: 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -6748,7 +6748,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T20:38:35+05:30",
+      "last_updated": "2020-07-28T20:48:37+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -6933,7 +6933,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T20:38:33+05:30",
+      "last_updated": "2020-07-28T20:48:32+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-07-28",
@@ -8158,7 +8158,11 @@
     "delta": {
       "confirmed": 75,
       "deceased": -1,
-      "recovered": 8
+      "recovered": 8,
+      "tested": {
+        "positives": 75,
+        "samples": 708
+      }
     },
     "districts": {
       "Dimapur": {
@@ -8362,11 +8366,11 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T20:38:34+05:30",
+      "last_updated": "2020-07-28T20:48:33+05:30",
       "population": 2150000,
       "tested": {
-        "last_updated": "2020-07-27",
-        "source": "https://twitter.com/MyGovNagaland/status/1287739249450655745"
+        "last_updated": "2020-07-28",
+        "source": "https://twitter.com/MyGovNagaland/status/1288110295844401155?s=20"
       }
     },
     "total": {
@@ -8374,8 +8378,8 @@
       "deceased": 4,
       "recovered": 577,
       "tested": {
-        "positives": 1385,
-        "samples": 34968
+        "positives": 1460,
+        "samples": 35676
       }
     }
   },
@@ -8990,7 +8994,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T20:38:29+05:30",
+      "last_updated": "2020-07-28T20:48:29+05:30",
       "notes": "[July 12th] 20 non-covid deaths reported in state dashboard are included in the deceased count\n[June 22nd]: NDRF/ODRF cases have been redistributed to districts based on state dashboard",
       "population": 43671000,
       "tested": {
@@ -10338,6 +10342,12 @@
     }
   },
   "SK": {
+    "delta": {
+      "tested": {
+        "positives": 34,
+        "samples": 583
+      }
+    },
     "districts": {
       "East Sikkim": {
         "meta": {
@@ -10390,8 +10400,7 @@
       "notes": "13 Migrated cases reduced from Active count",
       "population": 664000,
       "tested": {
-        "last_updated": "2020-07-27",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1404"
+        "last_updated": "2020-07-28"
       }
     },
     "total": {
@@ -10400,8 +10409,8 @@
       "other": 13,
       "recovered": 174,
       "tested": {
-        "positives": 545,
-        "samples": 22410
+        "positives": 579,
+        "samples": 22993
       }
     }
   },
@@ -11528,13 +11537,13 @@
       "recovered": 29508,
       "tested": {
         "states": {
-          "positives": 38822,
-          "samples": 433745
+          "positives": 41065,
+          "samples": 452057
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T20:38:26+05:30",
+      "last_updated": "2020-07-28T20:48:26+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-27",
@@ -11549,8 +11558,8 @@
       "tested": {
         "samples": 17334885,
         "states": {
-          "positives": 1527287,
-          "samples": 20155108
+          "positives": 1529530,
+          "samples": 20173420
         }
       }
     }
@@ -13535,6 +13544,12 @@
     }
   },
   "WB": {
+    "delta": {
+      "tested": {
+        "positives": 2134,
+        "samples": 17021
+      }
+    },
     "districts": {
       "Alipurduar": {
         "meta": {
@@ -13775,8 +13790,8 @@
       "last_updated": "2020-07-27T20:42:26+05:30",
       "population": 96906000,
       "tested": {
-        "last_updated": "2020-07-27",
-        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_27th_JULY_REPORT_FINAL.pdf"
+        "last_updated": "2020-07-28",
+        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_28th_JULY_REPORT_FINAL.pdf"
       }
     },
     "total": {
@@ -13784,8 +13799,8 @@
       "deceased": 1411,
       "recovered": 39917,
       "tested": {
-        "positives": 60830,
-        "samples": 822190
+        "positives": 62964,
+        "samples": 839211
       }
     }
   }

@@ -1671,15 +1671,19 @@
         "delta": {
           "confirmed": 75,
           "deceased": -1,
-          "recovered": 8
+          "recovered": 8,
+          "tested": {
+            "positives": 75,
+            "samples": 708
+          }
         },
         "total": {
           "confirmed": 1460,
           "deceased": 4,
           "recovered": 577,
           "tested": {
-            "positives": 1385,
-            "samples": 34968
+            "positives": 1460,
+            "samples": 35676
           }
         }
       }
