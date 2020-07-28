@@ -3934,7 +3934,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T13:08:31+05:30",
+      "last_updated": "2020-07-28T22:13:30+05:30",
       "notes": "HP has 16 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -4463,11 +4463,16 @@
   },
   "JH": {
     "delta": {
-      "confirmed": 74,
-      "deceased": 3
+      "confirmed": 760,
+      "deceased": 4,
+      "recovered": 179
     },
     "districts": {
       "Bokaro": {
+        "delta": {
+          "confirmed": 3,
+          "recovered": 4
+        },
         "meta": {
           "population": 2061918,
           "tested": {
@@ -4476,9 +4481,9 @@
           }
         },
         "total": {
-          "confirmed": 156,
+          "confirmed": 159,
           "deceased": 2,
-          "recovered": 86,
+          "recovered": 90,
           "tested": {
             "positives": 147,
             "samples": 11798
@@ -4486,11 +4491,14 @@
         }
       },
       "Chatra": {
+        "delta": {
+          "confirmed": 12
+        },
         "meta": {
           "population": 1042304
         },
         "total": {
-          "confirmed": 269,
+          "confirmed": 281,
           "recovered": 158
         }
       },
@@ -4514,18 +4522,22 @@
       },
       "Dhanbad": {
         "delta": {
-          "confirmed": 2
+          "confirmed": 5,
+          "recovered": 22
         },
         "meta": {
           "population": 2682662
         },
         "total": {
-          "confirmed": 496,
+          "confirmed": 499,
           "deceased": 13,
-          "recovered": 179
+          "recovered": 201
         }
       },
       "Dumka": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 1321096,
           "tested": {
@@ -4534,7 +4546,7 @@
           }
         },
         "total": {
-          "confirmed": 58,
+          "confirmed": 59,
           "recovered": 34,
           "tested": {
             "positives": 42,
@@ -4544,29 +4556,37 @@
       },
       "East Singhbhum": {
         "delta": {
-          "confirmed": 62,
-          "deceased": 1
+          "confirmed": 70,
+          "deceased": 1,
+          "recovered": 15
         },
         "meta": {
           "population": 2291032
         },
         "total": {
-          "confirmed": 1516,
+          "confirmed": 1524,
           "deceased": 24,
-          "recovered": 518
+          "recovered": 533
         }
       },
       "Garhwa": {
+        "delta": {
+          "confirmed": 12
+        },
         "meta": {
           "population": 1322387
         },
         "total": {
-          "confirmed": 418,
+          "confirmed": 430,
           "deceased": 1,
           "recovered": 196
         }
       },
       "Giridih": {
+        "delta": {
+          "confirmed": 82,
+          "recovered": 13
+        },
         "meta": {
           "population": 2445203,
           "tested": {
@@ -4575,9 +4595,9 @@
           }
         },
         "total": {
-          "confirmed": 301,
+          "confirmed": 383,
           "deceased": 4,
-          "recovered": 140,
+          "recovered": 153,
           "tested": {
             "positives": 258,
             "samples": 11132
@@ -4585,6 +4605,9 @@
         }
       },
       "Godda": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 1311382,
           "tested": {
@@ -4593,7 +4616,7 @@
           }
         },
         "total": {
-          "confirmed": 109,
+          "confirmed": 111,
           "deceased": 2,
           "recovered": 19,
           "tested": {
@@ -4603,26 +4626,38 @@
         }
       },
       "Gumla": {
+        "delta": {
+          "confirmed": 9
+        },
         "meta": {
           "population": 1025656
         },
         "total": {
-          "confirmed": 285,
+          "confirmed": 294,
           "deceased": 1,
           "recovered": 103
         }
       },
       "Hazaribagh": {
+        "delta": {
+          "confirmed": 65,
+          "deceased": 1,
+          "recovered": 4
+        },
         "meta": {
           "population": 1734005
         },
         "total": {
-          "confirmed": 535,
-          "deceased": 7,
-          "recovered": 286
+          "confirmed": 600,
+          "deceased": 8,
+          "recovered": 290
         }
       },
       "Jamtara": {
+        "delta": {
+          "confirmed": 4,
+          "recovered": 2
+        },
         "meta": {
           "population": 790207,
           "tested": {
@@ -4630,8 +4665,8 @@
           }
         },
         "total": {
-          "confirmed": 63,
-          "recovered": 36,
+          "confirmed": 67,
+          "recovered": 38,
           "tested": {
             "positives": 42,
             "samples": 2880
@@ -4639,21 +4674,28 @@
         }
       },
       "Khunti": {
+        "delta": {
+          "confirmed": 5,
+          "recovered": 4
+        },
         "meta": {
           "population": 530299
         },
         "total": {
-          "confirmed": 67,
+          "confirmed": 72,
           "deceased": 1,
-          "recovered": 36
+          "recovered": 40
         }
       },
       "Koderma": {
+        "delta": {
+          "confirmed": 42
+        },
         "meta": {
           "population": 717169
         },
         "total": {
-          "confirmed": 476,
+          "confirmed": 518,
           "deceased": 5,
           "recovered": 253
         }
@@ -4669,6 +4711,7 @@
       },
       "Lohardaga": {
         "delta": {
+          "confirmed": 6,
           "deceased": 1
         },
         "meta": {
@@ -4679,7 +4722,7 @@
           }
         },
         "total": {
-          "confirmed": 228,
+          "confirmed": 234,
           "deceased": 1,
           "recovered": 120,
           "tested": {
@@ -4689,6 +4732,9 @@
         }
       },
       "Pakur": {
+        "delta": {
+          "confirmed": 17
+        },
         "meta": {
           "population": 899200,
           "tested": {
@@ -4697,7 +4743,7 @@
           }
         },
         "total": {
-          "confirmed": 203,
+          "confirmed": 220,
           "recovered": 79,
           "tested": {
             "positives": 193,
@@ -4706,40 +4752,50 @@
         }
       },
       "Palamu": {
+        "delta": {
+          "confirmed": 121
+        },
         "meta": {
           "population": 1936319
         },
         "total": {
-          "confirmed": 252,
+          "confirmed": 373,
           "deceased": 1,
           "recovered": 164
         }
       },
       "Ramgarh": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "population": 949159
         },
         "total": {
-          "confirmed": 348,
+          "confirmed": 351,
           "deceased": 2,
           "recovered": 161
         }
       },
       "Ranchi": {
         "delta": {
-          "confirmed": 10,
-          "deceased": 1
+          "confirmed": 241,
+          "deceased": 1,
+          "recovered": 59
         },
         "meta": {
           "population": 2912022
         },
         "total": {
-          "confirmed": 1680,
+          "confirmed": 1911,
           "deceased": 20,
-          "recovered": 438
+          "recovered": 497
         }
       },
       "Sahibganj": {
+        "delta": {
+          "recovered": 39
+        },
         "meta": {
           "population": 1150038,
           "tested": {
@@ -4750,7 +4806,7 @@
         "total": {
           "confirmed": 166,
           "deceased": 2,
-          "recovered": 20,
+          "recovered": 59,
           "tested": {
             "positives": 132,
             "samples": 5029
@@ -4758,38 +4814,49 @@
         }
       },
       "Saraikela-Kharsawan": {
+        "delta": {
+          "confirmed": 5
+        },
         "meta": {
           "population": 1063458
         },
         "total": {
-          "confirmed": 207,
+          "confirmed": 212,
           "deceased": 4,
           "recovered": 84
         }
       },
       "Simdega": {
+        "delta": {
+          "confirmed": 47,
+          "recovered": 4
+        },
         "meta": {
           "population": 599813
         },
         "total": {
-          "confirmed": 423,
+          "confirmed": 470,
           "deceased": 1,
-          "recovered": 370
+          "recovered": 374
         }
       },
       "West Singhbhum": {
+        "delta": {
+          "confirmed": 8,
+          "recovered": 13
+        },
         "meta": {
           "population": 1501619
         },
         "total": {
-          "confirmed": 232,
+          "confirmed": 240,
           "deceased": 1,
-          "recovered": 134
+          "recovered": 147
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T12:27:31+05:30",
+      "last_updated": "2020-07-28T22:13:28+05:30",
       "population": 37403000,
       "tested": {
         "last_updated": "2020-07-27",
@@ -4797,9 +4864,9 @@
       }
     },
     "total": {
-      "confirmed": 8877,
-      "deceased": 93,
-      "recovered": 3805,
+      "confirmed": 9563,
+      "deceased": 94,
+      "recovered": 3984,
       "tested": {
         "positives": 8803,
         "samples": 264449
@@ -10017,7 +10084,8 @@
         "meta": {
           "population": 2584913,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10042,7 +10110,8 @@
         "meta": {
           "population": 3671999,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10073,7 +10142,8 @@
         "meta": {
           "population": 1798194,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10090,14 +10160,15 @@
         "delta": {
           "confirmed": 5,
           "tested": {
-            "positives": 1171,
+            "positives": 40,
             "samples": 402
           }
         },
         "meta": {
           "population": 1223921,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10105,7 +10176,7 @@
           "deceased": 5,
           "recovered": 74,
           "tested": {
-            "positives": 1290,
+            "positives": 159,
             "samples": 12224
           }
         }
@@ -10115,14 +10186,15 @@
           "confirmed": 56,
           "recovered": 52,
           "tested": {
-            "positives": 1191,
+            "positives": 56,
             "samples": 296
           }
         },
         "meta": {
           "population": 2604453,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10130,7 +10202,7 @@
           "deceased": 10,
           "recovered": 760,
           "tested": {
-            "positives": 2425,
+            "positives": 1290,
             "samples": 32907
           }
         }
@@ -10141,14 +10213,15 @@
           "deceased": 2,
           "recovered": 15,
           "tested": {
-            "positives": -1827,
+            "positives": 33,
             "samples": 607
           }
         },
         "meta": {
           "population": 2549121,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10156,7 +10229,7 @@
           "deceased": 53,
           "recovered": 2035,
           "tested": {
-            "positives": 565,
+            "positives": 2425,
             "samples": 37799
           }
         }
@@ -10165,14 +10238,15 @@
         "delta": {
           "confirmed": 54,
           "tested": {
-            "positives": 1358,
+            "positives": 54,
             "samples": 984
           }
         },
         "meta": {
           "population": 2410459,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10180,7 +10254,7 @@
           "deceased": 6,
           "recovered": 315,
           "tested": {
-            "positives": 1869,
+            "positives": 565,
             "samples": 51747
           }
         }
@@ -10190,14 +10264,15 @@
           "confirmed": 80,
           "recovered": 26,
           "tested": {
-            "positives": -1670,
+            "positives": 80,
             "samples": 2006
           }
         },
         "meta": {
           "population": 2367745,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10205,7 +10280,7 @@
           "deceased": 34,
           "recovered": 1145,
           "tested": {
-            "positives": 119,
+            "positives": 1869,
             "samples": 64406
           }
         }
@@ -10214,21 +10289,22 @@
         "delta": {
           "confirmed": 9,
           "tested": {
-            "positives": 132,
+            "positives": 9,
             "samples": 272
           }
         },
         "meta": {
           "population": 1113725,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
           "confirmed": 119,
           "recovered": 31,
           "tested": {
-            "positives": 242,
+            "positives": 119,
             "samples": 9212
           }
         }
@@ -10237,14 +10313,15 @@
         "delta": {
           "confirmed": 2,
           "tested": {
-            "positives": 404,
+            "positives": 2,
             "samples": 355
           }
         },
         "meta": {
           "population": 1544392,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10252,7 +10329,7 @@
           "deceased": 6,
           "recovered": 210,
           "tested": {
-            "positives": 644,
+            "positives": 242,
             "samples": 15549
           }
         }
@@ -10262,14 +10339,15 @@
           "confirmed": 36,
           "recovered": 7,
           "tested": {
-            "positives": -314,
+            "positives": 36,
             "samples": 504
           }
         },
         "meta": {
           "population": 2041172,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10277,7 +10355,7 @@
           "deceased": 2,
           "recovered": 484,
           "tested": {
-            "positives": 294,
+            "positives": 644,
             "samples": 19522
           }
         }
@@ -10287,14 +10365,15 @@
           "confirmed": 3,
           "recovered": 10,
           "tested": {
-            "positives": 880,
+            "positives": 3,
             "samples": 269
           }
         },
         "meta": {
           "population": 1637226,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10302,7 +10381,7 @@
           "deceased": 4,
           "recovered": 260,
           "tested": {
-            "positives": 1171,
+            "positives": 294,
             "samples": 15843
           }
         }
@@ -10312,14 +10391,15 @@
           "confirmed": 22,
           "recovered": 20,
           "tested": {
-            "positives": -576,
+            "positives": 22,
             "samples": 854
           }
         },
         "meta": {
           "population": 1207293,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10327,7 +10407,7 @@
           "deceased": 15,
           "recovered": 985,
           "tested": {
-            "positives": 573,
+            "positives": 1171,
             "samples": 32395
           }
         }
@@ -10336,14 +10416,15 @@
         "delta": {
           "confirmed": 8,
           "tested": {
-            "positives": -377,
+            "positives": 8,
             "samples": 1149
           }
         },
         "meta": {
           "population": 1388906,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10351,7 +10432,7 @@
           "deceased": 1,
           "recovered": 509,
           "tested": {
-            "positives": 188,
+            "positives": 573,
             "samples": 42653
           }
         }
@@ -10367,14 +10448,15 @@
           "confirmed": 28,
           "recovered": 3,
           "tested": {
-            "positives": 39,
+            "positives": 28,
             "samples": 252
           }
         },
         "meta": {
           "population": 1969520,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10382,7 +10464,7 @@
           "deceased": 3,
           "recovered": 85,
           "tested": {
-            "positives": 199,
+            "positives": 188,
             "samples": 12726
           }
         }
@@ -10390,14 +10472,14 @@
       "Hanumangarh": {
         "delta": {
           "tested": {
-            "positives": 4838,
             "samples": 319
           }
         },
         "meta": {
           "population": 1779650,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10405,7 +10487,7 @@
           "deceased": 1,
           "recovered": 137,
           "tested": {
-            "positives": 5037,
+            "positives": 199,
             "samples": 15341
           }
         }
@@ -10422,14 +10504,15 @@
           "deceased": 1,
           "recovered": 118,
           "tested": {
-            "positives": -4783,
+            "positives": 83,
             "samples": 2299
           }
         },
         "meta": {
           "population": 6663971,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10437,7 +10520,7 @@
           "deceased": 183,
           "recovered": 3779,
           "tested": {
-            "positives": 171,
+            "positives": 5037,
             "samples": 170235
           }
         }
@@ -10446,21 +10529,22 @@
         "delta": {
           "confirmed": 7,
           "tested": {
-            "positives": 927,
+            "positives": 7,
             "samples": 482
           }
         },
         "meta": {
           "population": 672008,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
           "confirmed": 171,
           "recovered": 127,
           "tested": {
-            "positives": 1091,
+            "positives": 171,
             "samples": 26921
           }
         }
@@ -10477,7 +10561,8 @@
         "meta": {
           "population": 1830151,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10502,7 +10587,8 @@
         "meta": {
           "population": 1411327,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10526,7 +10612,8 @@
         "meta": {
           "population": 2139658,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10551,7 +10638,8 @@
         "meta": {
           "population": 3685681,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10576,7 +10664,8 @@
         "meta": {
           "population": 1458459,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10602,7 +10691,8 @@
         "meta": {
           "population": 1950491,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10626,7 +10716,8 @@
         "meta": {
           "population": 3309234,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10663,7 +10754,8 @@
         "meta": {
           "population": 2038533,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10688,7 +10780,8 @@
         "meta": {
           "population": 868231,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10713,7 +10806,8 @@
         "meta": {
           "population": 1158283,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10737,7 +10831,8 @@
         "meta": {
           "population": 1338114,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10762,7 +10857,8 @@
         "meta": {
           "population": 2677737,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10784,7 +10880,8 @@
         "meta": {
           "population": 1037185,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10809,7 +10906,8 @@
         "meta": {
           "population": 1421711,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -10834,7 +10932,8 @@
         "meta": {
           "population": 3067549,
           "tested": {
-            "last_updated": "2020-07-28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/ANI/status/1288136315460972544/photo/1"
           }
         },
         "total": {
@@ -12069,9 +12168,9 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 47175,
-      "deceased": 769,
-      "recovered": 34079,
+      "confirmed": 47861,
+      "deceased": 770,
+      "recovered": 34258,
       "tested": {
         "states": {
           "positives": 45631,
@@ -12080,7 +12179,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T21:52:28+05:30",
+      "last_updated": "2020-07-28T22:13:26+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-27",
@@ -12088,10 +12187,10 @@
       }
     },
     "total": {
-      "confirmed": 1529678,
-      "deceased": 34223,
+      "confirmed": 1530364,
+      "deceased": 34224,
       "other": 423,
-      "recovered": 987178,
+      "recovered": 987357,
       "tested": {
         "samples": 17334885,
         "states": {
@@ -13790,13 +13889,17 @@
     "districts": {
       "Almora": {
         "delta": {
-          "confirmed": 10
+          "confirmed": 10,
+          "tested": {
+            "positives": 10,
+            "samples": 218
+          }
         },
         "meta": {
           "population": 621927,
           "tested": {
-            "last_updated": "2020-07-27",
-            "source": "https://twitter.com/DDnews_dehradun/status/1287782988118233096?s=20"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/DDnews_dehradun/status/1288110758715252736?s=20"
           }
         },
         "total": {
@@ -13805,20 +13908,24 @@
           "other": 1,
           "recovered": 211,
           "tested": {
-            "positives": 270,
-            "samples": 8697
+            "positives": 280,
+            "samples": 8915
           }
         }
       },
       "Bageshwar": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 1,
+          "tested": {
+            "positives": 1,
+            "samples": 128
+          }
         },
         "meta": {
           "population": 259840,
           "tested": {
-            "last_updated": "2020-07-27",
-            "source": "https://twitter.com/DDnews_dehradun/status/1287782988118233096?s=21"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/DDnews_dehradun/status/1288110758715252736?s=21"
           }
         },
         "total": {
@@ -13826,40 +13933,48 @@
           "deceased": 1,
           "recovered": 94,
           "tested": {
-            "positives": 98,
-            "samples": 3463
+            "positives": 99,
+            "samples": 3591
           }
         }
       },
       "Chamoli": {
         "delta": {
-          "confirmed": 2
+          "confirmed": 2,
+          "tested": {
+            "positives": 2,
+            "samples": 246
+          }
         },
         "meta": {
           "population": 391114,
           "tested": {
-            "last_updated": "2020-07-27",
-            "source": "https://twitter.com/DDnews_dehradun/status/1287782988118233096?s=22"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/DDnews_dehradun/status/1288110758715252736?s=22"
           }
         },
         "total": {
           "confirmed": 85,
           "recovered": 82,
           "tested": {
-            "positives": 83,
-            "samples": 5090
+            "positives": 85,
+            "samples": 5336
           }
         }
       },
       "Champawat": {
         "delta": {
-          "confirmed": 5
+          "confirmed": 5,
+          "tested": {
+            "positives": 5,
+            "samples": 150
+          }
         },
         "meta": {
           "population": 259315,
           "tested": {
-            "last_updated": "2020-07-27",
-            "source": "https://twitter.com/DDnews_dehradun/status/1287782988118233096?s=23"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/DDnews_dehradun/status/1288110758715252736?s=23"
           }
         },
         "total": {
@@ -13867,21 +13982,25 @@
           "deceased": 1,
           "recovered": 69,
           "tested": {
-            "positives": 96,
-            "samples": 5653
+            "positives": 101,
+            "samples": 5803
           }
         }
       },
       "Dehradun": {
         "delta": {
           "confirmed": 33,
-          "recovered": 41
+          "recovered": 41,
+          "tested": {
+            "positives": 33,
+            "samples": 480
+          }
         },
         "meta": {
           "population": 1698560,
           "tested": {
-            "last_updated": "2020-07-27",
-            "source": "https://twitter.com/DDnews_dehradun/status/1287782988118233096?s=24"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/DDnews_dehradun/status/1288110758715252736?s=24"
           }
         },
         "total": {
@@ -13890,21 +14009,25 @@
           "other": 26,
           "recovered": 997,
           "tested": {
-            "positives": 1447,
-            "samples": 33220
+            "positives": 1480,
+            "samples": 33700
           }
         }
       },
       "Haridwar": {
         "delta": {
           "confirmed": 42,
-          "deceased": 1
+          "deceased": 1,
+          "tested": {
+            "positives": 42,
+            "samples": 1105
+          }
         },
         "meta": {
           "population": 1927029,
           "tested": {
-            "last_updated": "2020-07-27",
-            "source": "https://twitter.com/DDnews_dehradun/status/1287782988118233096?s=25"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/DDnews_dehradun/status/1288110758715252736?s=25"
           }
         },
         "total": {
@@ -13913,21 +14036,25 @@
           "other": 8,
           "recovered": 372,
           "tested": {
-            "positives": 1247,
-            "samples": 18901
+            "positives": 1289,
+            "samples": 20006
           }
         }
       },
       "Nainital": {
         "delta": {
           "confirmed": 45,
-          "deceased": 2
+          "deceased": 2,
+          "tested": {
+            "positives": 45,
+            "samples": 435
+          }
         },
         "meta": {
           "population": 955128,
           "tested": {
-            "last_updated": "2020-07-27",
-            "source": "https://twitter.com/DDnews_dehradun/status/1287782988118233096?s=26"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/DDnews_dehradun/status/1288110758715252736?s=26"
           }
         },
         "total": {
@@ -13936,17 +14063,22 @@
           "other": 1,
           "recovered": 565,
           "tested": {
-            "positives": 979,
-            "samples": 14439
+            "positives": 1024,
+            "samples": 14874
           }
         }
       },
       "Pauri Garhwal": {
+        "delta": {
+          "tested": {
+            "samples": 216
+          }
+        },
         "meta": {
           "population": 686527,
           "tested": {
-            "last_updated": "2020-07-27",
-            "source": "https://twitter.com/DDnews_dehradun/status/1287782988118233096?s=27"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/DDnews_dehradun/status/1288110758715252736?s=27"
           }
         },
         "total": {
@@ -13956,16 +14088,21 @@
           "recovered": 171,
           "tested": {
             "positives": 199,
-            "samples": 9381
+            "samples": 9597
           }
         }
       },
       "Pithoragarh": {
+        "delta": {
+          "tested": {
+            "samples": 223
+          }
+        },
         "meta": {
           "population": 485993,
           "tested": {
-            "last_updated": "2020-07-27",
-            "source": "https://twitter.com/DDnews_dehradun/status/1287782988118233096?s=28"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/DDnews_dehradun/status/1288110758715252736?s=28"
           }
         },
         "total": {
@@ -13973,16 +14110,21 @@
           "recovered": 70,
           "tested": {
             "positives": 108,
-            "samples": 6398
+            "samples": 6621
           }
         }
       },
       "Rudraprayag": {
+        "delta": {
+          "tested": {
+            "samples": 126
+          }
+        },
         "meta": {
           "population": 236857,
           "tested": {
-            "last_updated": "2020-07-27",
-            "source": "https://twitter.com/DDnews_dehradun/status/1287782988118233096?s=29"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/DDnews_dehradun/status/1288110758715252736?s=29"
           }
         },
         "total": {
@@ -13991,19 +14133,23 @@
           "recovered": 66,
           "tested": {
             "positives": 70,
-            "samples": 4238
+            "samples": 4364
           }
         }
       },
       "Tehri Garhwal": {
         "delta": {
-          "confirmed": 13
+          "confirmed": 13,
+          "tested": {
+            "positives": 13,
+            "samples": 465
+          }
         },
         "meta": {
           "population": 616409,
           "tested": {
-            "last_updated": "2020-07-27",
-            "source": "https://twitter.com/DDnews_dehradun/status/1287782988118233096?s=30"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/DDnews_dehradun/status/1288110758715252736?s=30"
           }
         },
         "total": {
@@ -14011,21 +14157,25 @@
           "deceased": 2,
           "recovered": 458,
           "tested": {
-            "positives": 498,
-            "samples": 7739
+            "positives": 511,
+            "samples": 8204
           }
         }
       },
       "Udham Singh Nagar": {
         "delta": {
           "confirmed": 108,
-          "deceased": 1
+          "deceased": 1,
+          "tested": {
+            "positives": 108,
+            "samples": 258
+          }
         },
         "meta": {
           "population": 1648367,
           "tested": {
-            "last_updated": "2020-07-27",
-            "source": "https://twitter.com/DDnews_dehradun/status/1287782988118233096?s=31"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/DDnews_dehradun/status/1288110758715252736?s=31"
           }
         },
         "total": {
@@ -14034,20 +14184,23 @@
           "other": 1,
           "recovered": 454,
           "tested": {
-            "positives": 1055,
-            "samples": 22028
+            "positives": 1163,
+            "samples": 22286
           }
         }
       },
       "Uttarkashi": {
         "delta": {
-          "recovered": 4
+          "recovered": 4,
+          "tested": {
+            "samples": 388
+          }
         },
         "meta": {
           "population": 329686,
           "tested": {
-            "last_updated": "2020-07-27",
-            "source": "https://twitter.com/DDnews_dehradun/status/1287782988118233096?s=32"
+            "last_updated": "2020-07-28",
+            "source": "https://twitter.com/DDnews_dehradun/status/1288110758715252736?s=32"
           }
         },
         "total": {
@@ -14056,7 +14209,7 @@
           "recovered": 111,
           "tested": {
             "positives": 178,
-            "samples": 6380
+            "samples": 6768
           }
         }
       }
