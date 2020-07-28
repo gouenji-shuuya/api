@@ -323,7 +323,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T17:03:32+05:30",
+      "last_updated": "2020-07-28T17:08:29+05:30",
       "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin.",
       "population": 52221000,
       "tested": {
@@ -6162,19 +6162,21 @@
   },
   "MZ": {
     "delta": {
-      "confirmed": 23
+      "confirmed": 23,
+      "recovered": 5
     },
     "districts": {
       "Aizawl": {
         "delta": {
-          "confirmed": 23
+          "confirmed": 23,
+          "recovered": 4
         },
         "meta": {
           "population": 404054
         },
         "total": {
           "confirmed": 205,
-          "recovered": 60
+          "recovered": 64
         }
       },
       "Champhai": {
@@ -6220,12 +6222,15 @@
         }
       },
       "Mamit": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 85757
         },
         "total": {
           "confirmed": 21,
-          "recovered": 20
+          "recovered": 21
         }
       },
       "Saiha": {
@@ -6254,7 +6259,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T09:07:30+05:30",
+      "last_updated": "2020-07-28T17:13:35+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-07-27",
@@ -6263,7 +6268,7 @@
     },
     "total": {
       "confirmed": 384,
-      "recovered": 193,
+      "recovered": 198,
       "tested": 20053
     }
   },
@@ -9249,10 +9254,10 @@
     "delta": {
       "confirmed": 11380,
       "deceased": 85,
-      "recovered": 3938
+      "recovered": 3943
     },
     "meta": {
-      "last_updated": "2020-07-28T17:03:28+05:30",
+      "last_updated": "2020-07-28T17:13:32+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-27",
@@ -9263,7 +9268,7 @@
       "confirmed": 1493883,
       "deceased": 33537,
       "migrated": 423,
-      "recovered": 957038,
+      "recovered": 957043,
       "tested": 17334885
     }
   },
