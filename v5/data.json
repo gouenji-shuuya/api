@@ -45,6 +45,7 @@
       "deceased": 58,
       "recovered": 3064,
       "tested": {
+        "positives": 7948,
         "samples": 62979
       }
     },
@@ -364,7 +365,8 @@
       "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin.",
       "population": 52221000,
       "tested": {
-        "last_updated": "2020-07-28"
+        "last_updated": "2020-07-28",
+        "source": "https://twitter.com/ArogyaAndhra/status/1288070442289213440?s=20"
       }
     },
     "total": {
@@ -372,7 +374,7 @@
       "deceased": 1148,
       "recovered": 52622,
       "tested": {
-        "positives": 102349,
+        "positives": 110297,
         "samples": 1749425
       }
     }
@@ -809,6 +811,9 @@
     }
   },
   "AS": {
+    "delta": {
+      "deceased": 2
+    },
     "districts": {
       "Airport Quarantine": {
         "total": {
@@ -985,12 +990,15 @@
         }
       },
       "Kamrup Metropolitan": {
+        "delta": {
+          "deceased": 2
+        },
         "meta": {
           "population": 1260419
         },
         "total": {
           "confirmed": 14186,
-          "deceased": 41,
+          "deceased": 43,
           "recovered": 8701
         }
       },
@@ -1144,7 +1152,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T23:12:31+05:30",
+      "last_updated": "2020-07-28T19:03:31+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1154,7 +1162,7 @@
     },
     "total": {
       "confirmed": 33577,
-      "deceased": 86,
+      "deceased": 88,
       "other": 3,
       "recovered": 25403,
       "tested": {
@@ -2012,8 +2020,16 @@
     }
   },
   "CH": {
+    "delta": {
+      "confirmed": 24,
+      "recovered": 23
+    },
     "districts": {
       "Chandigarh": {
+        "delta": {
+          "confirmed": 24,
+          "recovered": 23
+        },
         "meta": {
           "population": 1055450,
           "tested": {
@@ -2022,9 +2038,9 @@
           }
         },
         "total": {
-          "confirmed": 910,
+          "confirmed": 934,
           "deceased": 14,
-          "recovered": 576,
+          "recovered": 599,
           "tested": {
             "positives": 910,
             "samples": 12786
@@ -2033,7 +2049,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-27T17:07:27+05:30",
+      "last_updated": "2020-07-28T19:03:34+05:30",
       "population": 1179000,
       "tested": {
         "last_updated": "2020-07-27",
@@ -2041,9 +2057,9 @@
       }
     },
     "total": {
-      "confirmed": 910,
+      "confirmed": 934,
       "deceased": 14,
-      "recovered": 576,
+      "recovered": 599,
       "tested": {
         "positives": 910,
         "samples": 12786
@@ -4699,7 +4715,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T18:53:34+05:30",
+      "last_updated": "2020-07-28T18:57:35+05:30",
       "population": 13203000,
       "tested": {
         "last_updated": "2020-07-27",
@@ -5465,7 +5481,11 @@
   "LA": {
     "delta": {
       "confirmed": 21,
-      "recovered": 1
+      "recovered": 1,
+      "tested": {
+        "positives": 21,
+        "samples": 367
+      }
     },
     "districts": {
       "Kargil": {
@@ -5516,8 +5536,8 @@
       "last_updated": "2020-07-28T17:27:33+05:30",
       "population": 293000,
       "tested": {
-        "last_updated": "2020-07-27",
-        "source": "https://www.facebook.com/114874993303412/photos/pcb.201277367996507/201277261329851/?type=3&__tn__=HH-R&eid=ARBB9ietreJ5rW0ncKlRVYOjTvV2QbZ037oFzbZ9uNwNdDrJr4rxcIjnJiGLKBAPN6xHvtmAxGivafMk&__xts__%5B0%5D=68.ARCpv9nrGvNngcsECQQu7ySIR5PtB40rm8jylJPDl2yzEKfCe_ngPeP7hOcARE3lDDe2mVPOtCznzbHp1584Znyrxa_xTQzQTQKX_ayzE5lB_7_NM2zfGGPMlG0BBJfXTt5jpafyRJn2azKOTv9citScSvWIZs0N8rQXrnr5froVSv5S9PlfdBymSOssb91JHeA9AgVAsopMLGpyvnxXx80KKiQa0texs_E3jteyn4LGHJgrKZjKULjX0C-NlBY4InPODie3NS-4t3WxIuvF-cyqApYbzr9WwlvjsFoghGgBeaFJ9zTfUj7xdBITpnim0tpfBOkZx-si2_q2xiT4OzE"
+        "last_updated": "2020-07-28",
+        "source": "http://covid.ladakh.gov.in/Upload/getfileN/f96d48e9-2aae-47aa-bd97-c8ab98fc18a0_Covid-Ladakh%2028-July.pdf"
       }
     },
     "total": {
@@ -5525,8 +5545,8 @@
       "deceased": 4,
       "recovered": 1067,
       "tested": {
-        "positives": 1306,
-        "samples": 18071
+        "positives": 1327,
+        "samples": 18438
       }
     }
   },
@@ -8649,7 +8669,11 @@
     "delta": {
       "confirmed": 139,
       "deceased": 4,
-      "recovered": 62
+      "recovered": 62,
+      "tested": {
+        "positives": 139,
+        "samples": 874
+      }
     },
     "districts": {
       "Karaikal": {
@@ -8739,8 +8763,8 @@
       "last_updated": "2020-07-28T18:18:34+05:30",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-07-27",
-        "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/27.07.2020%20bulletin.pdf"
+        "last_updated": "2020-07-28",
+        "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/28.07.2020%20bulletin.pdf"
       }
     },
     "total": {
@@ -8748,8 +8772,8 @@
       "deceased": 47,
       "recovered": 1782,
       "tested": {
-        "positives": 2872,
-        "samples": 36288
+        "positives": 3011,
+        "samples": 37162
       }
     }
   },
@@ -10464,18 +10488,18 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 15565,
-      "deceased": 143,
-      "recovered": 7000,
+      "confirmed": 15589,
+      "deceased": 145,
+      "recovered": 7023,
       "tested": {
         "states": {
-          "positives": 11731,
-          "samples": 230936
+          "positives": 19839,
+          "samples": 232177
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T18:53:30+05:30",
+      "last_updated": "2020-07-28T19:03:29+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-27",
@@ -10483,15 +10507,15 @@
       }
     },
     "total": {
-      "confirmed": 1498068,
-      "deceased": 33595,
+      "confirmed": 1498092,
+      "deceased": 33597,
       "other": 423,
-      "recovered": 960100,
+      "recovered": 960123,
       "tested": {
         "samples": 17334885,
         "states": {
-          "positives": 1500196,
-          "samples": 19952299
+          "positives": 1508304,
+          "samples": 19953540
         }
       }
     }
