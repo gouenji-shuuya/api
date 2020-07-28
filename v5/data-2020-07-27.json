@@ -7462,15 +7462,15 @@
       },
       "South Garo Hills": {
         "delta": {
-          "confirmed": 2,
-          "recovered": 2
+          "confirmed": 3,
+          "recovered": 3
         },
         "meta": {
           "population": 142574
         },
         "total": {
-          "confirmed": 4,
-          "recovered": 2
+          "confirmed": 5,
+          "recovered": 3
         }
       },
       "South West Garo Hills": {
@@ -7515,12 +7515,15 @@
         }
       },
       "West Khasi Hills": {
+        "delta": {
+          "confirmed": -1,
+          "recovered": -1
+        },
         "meta": {
           "population": 385601
         },
         "total": {
-          "confirmed": 4,
-          "recovered": 1
+          "confirmed": 3
         }
       }
     },
@@ -12627,13 +12630,15 @@
       "Agra": {
         "delta": {
           "confirmed": 38,
-          "recovered": 16
+          "recovered": 16,
+          "tested": {
+            "samples": 1607
+          }
         },
         "meta": {
           "population": 4380793,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1398"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -12642,20 +12647,22 @@
           "recovered": 1367,
           "tested": {
             "positives": 1629,
-            "samples": 41544
+            "samples": 43151
           }
         }
       },
       "Aligarh": {
         "delta": {
           "confirmed": 38,
-          "recovered": 55
+          "recovered": 55,
+          "tested": {
+            "samples": 600
+          }
         },
         "meta": {
           "population": 3673849,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1398"
+            "last_updated": "2020-07-27"
           }
         },
         "total": {
@@ -12664,7 +12671,7 @@
           "recovered": 630,
           "tested": {
             "positives": 1152,
-            "samples": 32346
+            "samples": 32946
           }
         }
       },
