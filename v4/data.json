@@ -693,6 +693,9 @@
     }
   },
   "AS": {
+    "delta": {
+      "deceased": 4
+    },
     "districts": {
       "Airport Quarantine": {
         "total": {
@@ -738,12 +741,15 @@
         }
       },
       "Cachar": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1736319
         },
         "total": {
           "confirmed": 1182,
-          "deceased": 1,
+          "deceased": 2,
           "recovered": 800
         }
       },
@@ -849,12 +855,15 @@
         }
       },
       "Jorhat": {
+        "delta": {
+          "deceased": 2
+        },
         "meta": {
           "population": 1091295
         },
         "total": {
           "confirmed": 1408,
-          "deceased": 5,
+          "deceased": 7,
           "recovered": 691
         }
       },
@@ -991,12 +1000,15 @@
         }
       },
       "Tinsukia": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1316948
         },
         "total": {
           "confirmed": 900,
-          "deceased": 7,
+          "deceased": 8,
           "recovered": 629
         }
       },
@@ -1028,7 +1040,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-28T22:45:31+05:30",
+      "last_updated": "2020-07-29T19:13:36+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1038,7 +1050,7 @@
     },
     "total": {
       "confirmed": 34948,
-      "deceased": 88,
+      "deceased": 92,
       "migrated": 3,
       "recovered": 26619,
       "tested": 802674
@@ -6832,7 +6844,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-29T19:02:34+05:30",
+      "last_updated": "2020-07-29T19:13:38+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-07-28",
@@ -9256,7 +9268,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-29T19:02:31+05:30",
+      "last_updated": "2020-07-29T19:13:34+05:30",
       "notes": "[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.\n2 deaths cross notified to other states from Chennai and Coimbatore.\n1 patient died after turning negative for infection in Chengalpattu.\nThese cases have been added to TN deceased tally",
       "population": 75695000,
       "tested": {
@@ -9418,11 +9430,11 @@
   "TT": {
     "delta": {
       "confirmed": 32739,
-      "deceased": 339,
+      "deceased": 343,
       "recovered": 16481
     },
     "meta": {
-      "last_updated": "2020-07-29T19:02:29+05:30",
+      "last_updated": "2020-07-29T19:13:32+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-28",
@@ -9431,7 +9443,7 @@
     },
     "total": {
       "confirmed": 1564873,
-      "deceased": 34567,
+      "deceased": 34571,
       "migrated": 424,
       "recovered": 1005263,
       "tested": 17743740
