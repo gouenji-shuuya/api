@@ -2348,7 +2348,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-29T21:24:39+05:30",
+      "last_updated": "2020-07-29T21:37:38+05:30",
       "population": 28724000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -2573,44 +2573,53 @@
     },
     "districts": {
       "North Goa": {
+        "delta": {
+          "deceased": 1,
+          "recovered": 21
+        },
         "meta": {
           "population": 817761
         },
         "total": {
           "confirmed": 919,
-          "deceased": 8,
-          "recovered": 481
+          "deceased": 9,
+          "recovered": 502
         }
       },
       "Other State": {
+        "delta": {
+          "recovered": 4
+        },
         "meta": {
           "notes": "Travelled by Road,Train,Flight"
         },
         "total": {
           "confirmed": 186,
-          "recovered": 93
+          "recovered": 97
         }
       },
       "South Goa": {
+        "delta": {
+          "confirmed": 38,
+          "deceased": 2
+        },
         "meta": {
           "population": 639962
         },
         "total": {
-          "confirmed": 1974,
-          "deceased": 28,
+          "confirmed": 2012,
+          "deceased": 30,
           "recovered": 813
         }
       },
       "Unknown": {
         "delta": {
-          "confirmed": 202,
-          "deceased": 3,
-          "recovered": 189
+          "confirmed": 164,
+          "recovered": 164
         },
         "total": {
-          "confirmed": 2410,
-          "deceased": 3,
-          "recovered": 2397
+          "confirmed": 2372,
+          "recovered": 2372
         }
       }
     },
@@ -6214,8 +6223,8 @@
   },
   "ML": {
     "delta": {
-      "confirmed": 3,
-      "recovered": 2
+      "confirmed": 5,
+      "recovered": 13
     },
     "districts": {
       "East Garo Hills": {
@@ -6289,6 +6298,16 @@
           "recovered": 4
         }
       },
+      "Unknown": {
+        "delta": {
+          "confirmed": 2,
+          "recovered": 11
+        },
+        "total": {
+          "confirmed": 2,
+          "recovered": 11
+        }
+      },
       "West Garo Hills": {
         "meta": {
           "population": 642923
@@ -6317,7 +6336,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-29T11:54:29+05:30",
+      "last_updated": "2020-07-29T21:39:33+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -6326,9 +6345,9 @@
       }
     },
     "total": {
-      "confirmed": 782,
+      "confirmed": 784,
       "deceased": 5,
-      "recovered": 196,
+      "recovered": 207,
       "tested": 34687
     }
   },
@@ -6336,7 +6355,8 @@
     "delta": {
       "confirmed": 141,
       "deceased": 1,
-      "recovered": 38
+      "recovered": 38,
+      "tested": 2508
     },
     "districts": {
       "Bishnupur": {
@@ -6517,22 +6537,23 @@
       "last_updated": "2020-07-29T20:21:35+05:30",
       "population": 3103000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://twitter.com/DiprManipur/status/1288124919457316866?s=20"
+        "last_updated": "2020-07-29",
+        "source": "https://twitter.com/DiprManipur/status/1288487738006622211?s=20"
       }
     },
     "total": {
       "confirmed": 2458,
       "deceased": 1,
       "recovered": 1653,
-      "tested": 80603
+      "tested": 83111
     }
   },
   "MP": {
     "delta": {
       "confirmed": 917,
       "deceased": 14,
-      "recovered": 591
+      "recovered": 591,
+      "tested": 14313
     },
     "districts": {
       "Agar Malwa": {
@@ -7467,21 +7488,22 @@
       "last_updated": "2020-07-29T20:10:47+05:30",
       "population": 82232000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://twitter.com/healthminmp/status/1288109859011825664?s=20"
+        "last_updated": "2020-07-29",
+        "source": "https://twitter.com/healthminmp/status/1288474083651248128?s=20"
       }
     },
     "total": {
       "confirmed": 30134,
       "deceased": 844,
       "recovered": 20934,
-      "tested": 724673
+      "tested": 738986
     }
   },
   "MZ": {
     "delta": {
       "confirmed": 11,
-      "recovered": 17
+      "recovered": 17,
+      "tested": 155
     },
     "districts": {
       "Aizawl": {
@@ -7580,14 +7602,14 @@
       "last_updated": "2020-07-29T17:39:35+05:30",
       "population": 1192000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://dipr.mizoram.gov.in/post/status-of-state-surveillance-of-covid-19-time-2772020-500pm-2872020-500-pm"
+        "last_updated": "2020-07-29",
+        "source": "https://dipr.mizoram.gov.in/post/status-of-state-surveillance-of-covid-19-time-2872020-500pm-2972020-500-pm"
       }
     },
     "total": {
       "confirmed": 395,
       "recovered": 215,
-      "tested": 20442
+      "tested": 20597
     }
   },
   "NL": {
@@ -7786,7 +7808,8 @@
     "delta": {
       "confirmed": 1068,
       "deceased": 6,
-      "recovered": 878
+      "recovered": 878,
+      "tested": 10750
     },
     "districts": {
       "Angul": {
@@ -8326,15 +8349,14 @@
       "notes": "[July 12th] 20 non-covid deaths reported in state dashboard are included in the deceased count\n[June 22nd]: NDRF/ODRF cases have been redistributed to districts based on state dashboard",
       "population": 43671000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1420"
+        "last_updated": "2020-07-29"
       }
     },
     "total": {
       "confirmed": 29175,
       "deceased": 195,
       "recovered": 18939,
-      "tested": 476560
+      "tested": 487310
     }
   },
   "PB": {
@@ -9520,7 +9542,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-29T21:24:37+05:30",
+      "last_updated": "2020-07-29T21:37:36+05:30",
       "population": 77264000,
       "tested": {
         "last_updated": "2020-07-28",
@@ -10966,13 +10988,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 50445,
+      "confirmed": 50447,
       "deceased": 767,
       "migrated": 4,
-      "recovered": 31453
+      "recovered": 31464
     },
     "meta": {
-      "last_updated": "2020-07-29T21:24:32+05:30",
+      "last_updated": "2020-07-29T21:39:29+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-28",
@@ -10980,10 +11002,10 @@
       }
     },
     "total": {
-      "confirmed": 1582579,
+      "confirmed": 1582581,
       "deceased": 34995,
       "migrated": 428,
-      "recovered": 1020235,
+      "recovered": 1020246,
       "tested": 17743740
     }
   },
@@ -12990,7 +13012,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-29T21:24:35+05:30",
+      "last_updated": "2020-07-29T21:37:34+05:30",
       "population": 96906000,
       "tested": {
         "last_updated": "2020-07-28",
