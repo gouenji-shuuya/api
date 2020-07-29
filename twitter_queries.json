@@ -38,10 +38,10 @@
 		},
 		{
 			"destination": "data_ops,aux",
-			"finallink": "https://twitter.com/search?q=(Alert%20OR%20Active%20OR%20deeply%20OR%20Death%20OR%20Cases%20OR%20lost%20OR%20condolences%20OR%20Sad)%20%20(from%3Ahimantabiswa)&src=typed_query&f=live",
+			"finallink": "https://twitter.com/search?q=(Alert%20OR%20Active%20OR%20deeply%20OR%20Death%20OR%20Cases%20OR%20lost%20OR%20condolences%20OR%20Sad)%20%20(from%3Ahimantabiswa)%20-gossip&src=typed_query&f=live",
 			"link": "https://twitter.com/himantabiswa",
 			"remarks": "",
-			"searchcriteria": "(Alert OR Active OR deeply OR Death OR Cases OR lost OR condolences OR Sad)  (from:himantabiswa)",
+			"searchcriteria": "(Alert OR Active OR deeply OR Death OR Cases OR lost OR condolences OR Sad)  (from:himantabiswa) -gossip",
 			"state": "Assam",
 			"status": "Done"
 		},
@@ -146,10 +146,10 @@
 		},
 		{
 			"destination": "data_ops,aux",
-			"finallink": "https://twitter.com/search?q=%22Delhi%22%20(Positive%20OR%20Deaths%20OR%20Discharged)%20(from%3Aani)&src=typed_query&f=live",
+			"finallink": "https://twitter.com/search?q=%22Delhi%22%20(Positive%20OR%20Deaths%20OR%20Discharged)%20(from%3Aani)%20-prison&src=typed_query&f=live",
 			"link": "https://twitter.com/ani",
 			"remarks": "",
-			"searchcriteria": "\"Delhi\" (Positive OR Deaths OR Discharged) (from:ani)",
+			"searchcriteria": "\"Delhi\" (Positive OR Deaths OR Discharged) (from:ani) -prison",
 			"state": "Delhi",
 			"status": "Done"
 		},
@@ -308,10 +308,10 @@
 		},
 		{
 			"destination": "data_ops,aux",
-			"finallink": "https://twitter.com/search?q=(from%3Asanjayjog7)%20(active%20OR%20Deaths%20OR%20Discharged)%20-%40mybmc&src=typed_query&f=live",
+			"finallink": "https://twitter.com/search?q=(from%3Asanjayjog7)%20(active%20OR%20Deaths%20OR%20Discharged)%20-%40mybmc%20exclude%3Areplies&src=typed_query&f=live",
 			"link": "https://twitter.com/sanjayjog7",
 			"remarks": "",
-			"searchcriteria": "(from:sanjayjog7) (active OR Deaths OR Discharged) -@mybmc",
+			"searchcriteria": "(from:sanjayjog7) (active OR Deaths OR Discharged) -@mybmc exclude:replies",
 			"state": "Maharashtra",
 			"status": "Done"
 		},
@@ -371,10 +371,10 @@
 		},
 		{
 			"destination": "data_ops,aux",
-			"finallink": "https://twitter.com/search?q=(Meghalaya%E2%80%99s%20OR%20update%20OR%20active%20OR%20DHS)%20(from%3Ashillongtimesin)&src=typed_query&f=live",
+			"finallink": "https://twitter.com/search?q=(Meghalaya%E2%80%99s%20OR%20update%20OR%20active)%20(from%3Ashillongtimesin)&src=typed_query&f=live",
 			"link": "https://twitter.com/ShillongTimesIn",
 			"remarks": "",
-			"searchcriteria": "(Meghalaya’s OR update OR active OR DHS) (from:shillongtimesin)",
+			"searchcriteria": "(Meghalaya’s OR update OR active) (from:shillongtimesin)",
 			"state": "Meghalaya",
 			"status": "Done"
 		},
@@ -416,7 +416,7 @@
 		},
 		{
 			"destination": "data_ops,aux",
-			"finallink": "",
+			"finallink": "https://twitter.com/search?q=(Regret%20OR%20new%20OR%20recovered%20OR%20discharged%20OR%20Another)%20(from%3AHFWOdisha)%20filter%3Areplies&src=typed_query&f=live",
 			"link": "https://twitter.com/HFWOdisha",
 			"remarks": "",
 			"searchcriteria": "(Regret OR new OR recovered OR discharged OR Another) (from:HFWOdisha) filter:replies",
@@ -562,7 +562,7 @@
 			"destination": "data_ops,aux",
 			"finallink": "https://twitter.com/search?q=(bulletin)%20(from%3AshalabhTOI)&src=typed_query&f=live",
 			"link": "https://twitter.com/shalabhTOI",
-			"remarks": "\"+1\"",
+			"remarks": "",
 			"searchcriteria": "(bulletin) (from:shalabhTOI)",
 			"state": "Uttar Pradesh",
 			"status": "Done"
@@ -638,15 +638,6 @@
 			"searchcriteria": "\"cured/discharged/migrated\" (FROM:ANI)",
 			"state": "Daily MOHFW ANI",
 			"status": "Done"
-		},
-		{
-			"destination": "Re: Destination",
-			"finallink": "",
-			"link": "",
-			"remarks": "",
-			"searchcriteria": "",
-			"state": "",
-			"status": ""
 		}
 	]
 }
