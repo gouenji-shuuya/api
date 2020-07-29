@@ -6134,7 +6134,8 @@
   "ML": {
     "delta": {
       "confirmed": 5,
-      "recovered": 13
+      "recovered": 13,
+      "tested": 511
     },
     "districts": {
       "East Garo Hills": {
@@ -6246,19 +6247,18 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-29T21:39:33+05:30",
+      "last_updated": "2020-07-29T21:45:35+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1421"
+        "last_updated": "2020-07-29"
       }
     },
     "total": {
       "confirmed": 784,
       "deceased": 5,
       "recovered": 207,
-      "tested": 34687
+      "tested": 35198
     }
   },
   "MN": {
@@ -7525,7 +7525,8 @@
   "NL": {
     "delta": {
       "confirmed": 53,
-      "recovered": 18
+      "recovered": 18,
+      "tested": 679
     },
     "districts": {
       "Dimapur": {
@@ -7563,7 +7564,8 @@
       },
       "Kohima": {
         "delta": {
-          "confirmed": 19
+          "confirmed": 19,
+          "recovered": 1
         },
         "meta": {
           "population": 270063,
@@ -7574,7 +7576,7 @@
         },
         "total": {
           "confirmed": 355,
-          "recovered": 54,
+          "recovered": 55,
           "tested": 485
         }
       },
@@ -7603,7 +7605,8 @@
       },
       "Mon": {
         "delta": {
-          "confirmed": 5
+          "confirmed": 5,
+          "recovered": 2
         },
         "meta": {
           "population": 259604,
@@ -7614,7 +7617,7 @@
         },
         "total": {
           "confirmed": 173,
-          "recovered": 33,
+          "recovered": 35,
           "tested": 45
         }
       },
@@ -7625,6 +7628,9 @@
         }
       },
       "Peren": {
+        "delta": {
+          "recovered": 10
+        },
         "meta": {
           "population": 163294,
           "tested": {
@@ -7634,11 +7640,14 @@
         },
         "total": {
           "confirmed": 331,
-          "recovered": 291,
+          "recovered": 301,
           "tested": 11
         }
       },
       "Phek": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 163294,
           "tested": {
@@ -7648,11 +7657,14 @@
         },
         "total": {
           "confirmed": 29,
-          "recovered": 15,
+          "recovered": 16,
           "tested": 28
         }
       },
       "Tuensang": {
+        "delta": {
+          "recovered": 4
+        },
         "meta": {
           "population": 414801,
           "tested": {
@@ -7662,16 +7674,8 @@
         },
         "total": {
           "confirmed": 51,
-          "recovered": 43,
+          "recovered": 47,
           "tested": 1
-        }
-      },
-      "Unknown": {
-        "delta": {
-          "recovered": 18
-        },
-        "total": {
-          "recovered": 18
         }
       },
       "Wokha": {
@@ -7702,8 +7706,8 @@
       "last_updated": "2020-07-29T20:11:05+05:30",
       "population": 2150000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://twitter.com/MyGovNagaland/status/1288110295844401155?s=20"
+        "last_updated": "2020-07-29",
+        "source": "https://twitter.com/MyGovNagaland/status/1288463915773333506?s=20"
       }
     },
     "total": {
@@ -7711,7 +7715,7 @@
       "deceased": 4,
       "migrated": 1,
       "recovered": 595,
-      "tested": 35676
+      "tested": 36355
     }
   },
   "OR": {
@@ -9474,7 +9478,8 @@
     "districts": {
       "East Sikkim": {
         "delta": {
-          "confirmed": 17
+          "confirmed": 17,
+          "recovered": 51
         },
         "meta": {
           "notes": "13 migrated cases have been reduced from active count",
@@ -9484,7 +9489,7 @@
           "confirmed": 384,
           "deceased": 1,
           "migrated": 13,
-          "recovered": 74
+          "recovered": 125
         }
       },
       "North Sikkim": {
@@ -9507,11 +9512,10 @@
       },
       "Unknown": {
         "delta": {
-          "recovered": 12
+          "recovered": -39
         },
         "total": {
-          "confirmed": 10,
-          "recovered": 51
+          "confirmed": 10
         }
       },
       "West Sikkim": {
@@ -10509,7 +10513,7 @@
       "recovered": 31464
     },
     "meta": {
-      "last_updated": "2020-07-29T21:39:29+05:30",
+      "last_updated": "2020-07-29T21:45:32+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-28",
