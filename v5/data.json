@@ -3707,7 +3707,11 @@
   "HP": {
     "delta": {
       "confirmed": 73,
-      "recovered": 98
+      "recovered": 98,
+      "tested": {
+        "positives": 73,
+        "samples": 2704
+      }
     },
     "districts": {
       "Bilaspur": {
@@ -3962,12 +3966,12 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-29T22:03:36+05:30",
+      "last_updated": "2020-07-29T22:06:35+05:30",
       "notes": "HP has 16 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://twitter.com/nhm_hp/status/1288151089859059720?s=20"
+        "last_updated": "2020-07-29",
+        "source": "https://twitter.com/nhm_hp/status/1288509418099769344?s=20"
       }
     },
     "total": {
@@ -3976,8 +3980,8 @@
       "other": 15,
       "recovered": 1332,
       "tested": {
-        "positives": 2330,
-        "samples": 137251
+        "positives": 2403,
+        "samples": 139955
       }
     }
   },
@@ -4674,13 +4678,27 @@
         }
       },
       "Khunti": {
+        "delta": {
+          "tested": {
+            "positives": 75,
+            "samples": 3852
+          }
+        },
         "meta": {
-          "population": 530299
+          "population": 530299,
+          "tested": {
+            "last_updated": "2020-07-29",
+            "source": "https://twitter.com/DCkhunti/status/1288480044000505857?s=20"
+          }
         },
         "total": {
           "confirmed": 72,
           "deceased": 1,
-          "recovered": 40
+          "recovered": 40,
+          "tested": {
+            "positives": 75,
+            "samples": 3852
+          }
         }
       },
       "Koderma": {
@@ -7057,23 +7075,21 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": -1,
           "recovered": 11
         },
         "total": {
-          "confirmed": -1,
           "recovered": 11
         }
       },
       "West Garo Hills": {
         "delta": {
-          "confirmed": 3
+          "confirmed": 2
         },
         "meta": {
           "population": 642923
         },
         "total": {
-          "confirmed": 29,
+          "confirmed": 28,
           "recovered": 15
         }
       },
@@ -9891,6 +9907,7 @@
       "confirmed": 166,
       "recovered": 92,
       "tested": {
+        "positives": 166,
         "samples": 837
       }
     },
@@ -9995,7 +10012,7 @@
       "deceased": 47,
       "recovered": 1874,
       "tested": {
-        "positives": 3011,
+        "positives": 3177,
         "samples": 37999
       }
     }
@@ -10774,7 +10791,10 @@
   "SK": {
     "delta": {
       "confirmed": 17,
-      "recovered": 12
+      "recovered": 12,
+      "tested": {
+        "samples": 644
+      }
     },
     "districts": {
       "East Sikkim": {
@@ -10783,7 +10803,6 @@
           "recovered": 51
         },
         "meta": {
-          "notes": "13 migrated cases have been reduced from active count",
           "population": 281293
         },
         "total": {
@@ -10828,11 +10847,9 @@
     },
     "meta": {
       "last_updated": "2020-07-29T20:39:42+05:30",
-      "notes": "0 Migrated cases reduced from Active count",
       "population": 664000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://twitter.com/sikkimgovt/status/1288124869322797056?s=20"
+        "last_updated": "2020-07-29"
       }
     },
     "total": {
@@ -10841,7 +10858,7 @@
       "recovered": 198,
       "tested": {
         "positives": 579,
-        "samples": 22993
+        "samples": 23637
       }
     }
   },
@@ -11970,13 +11987,13 @@
       "recovered": 31473,
       "tested": {
         "states": {
-          "positives": 51237,
-          "samples": 524164
+          "positives": 51476,
+          "samples": 527512
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-29T22:03:33+05:30",
+      "last_updated": "2020-07-29T22:06:32+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-28",
@@ -11991,8 +12008,8 @@
       "tested": {
         "samples": 17743740,
         "states": {
-          "positives": 1589326,
-          "samples": 20780630
+          "positives": 1589565,
+          "samples": 20783978
         }
       }
     }

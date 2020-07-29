@@ -3223,7 +3223,8 @@
   "HP": {
     "delta": {
       "confirmed": 73,
-      "recovered": 98
+      "recovered": 98,
+      "tested": 2704
     },
     "districts": {
       "Bilaspur": {
@@ -3442,12 +3443,12 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-29T22:03:36+05:30",
+      "last_updated": "2020-07-29T22:06:35+05:30",
       "notes": "HP has 16 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://twitter.com/nhm_hp/status/1288151089859059720?s=20"
+        "last_updated": "2020-07-29",
+        "source": "https://twitter.com/nhm_hp/status/1288509418099769344?s=20"
       }
     },
     "total": {
@@ -3455,7 +3456,7 @@
       "deceased": 13,
       "migrated": 15,
       "recovered": 1332,
-      "tested": 137251
+      "tested": 139955
     }
   },
   "HR": {
@@ -4067,13 +4068,21 @@
         }
       },
       "Khunti": {
+        "delta": {
+          "tested": 3852
+        },
         "meta": {
-          "population": 530299
+          "population": 530299,
+          "tested": {
+            "last_updated": "2020-07-29",
+            "source": "https://twitter.com/DCkhunti/status/1288480044000505857?s=20"
+          }
         },
         "total": {
           "confirmed": 72,
           "deceased": 1,
-          "recovered": 40
+          "recovered": 40,
+          "tested": 3852
         }
       },
       "Koderma": {
@@ -6214,23 +6223,21 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": -1,
           "recovered": 11
         },
         "total": {
-          "confirmed": -1,
           "recovered": 11
         }
       },
       "West Garo Hills": {
         "delta": {
-          "confirmed": 3
+          "confirmed": 2
         },
         "meta": {
           "population": 642923
         },
         "total": {
-          "confirmed": 29,
+          "confirmed": 28,
           "recovered": 15
         }
       },
@@ -9480,7 +9487,8 @@
   "SK": {
     "delta": {
       "confirmed": 17,
-      "recovered": 12
+      "recovered": 12,
+      "tested": 644
     },
     "districts": {
       "East Sikkim": {
@@ -9489,7 +9497,6 @@
           "recovered": 51
         },
         "meta": {
-          "notes": "13 migrated cases have been reduced from active count",
           "population": 281293
         },
         "total": {
@@ -9534,18 +9541,16 @@
     },
     "meta": {
       "last_updated": "2020-07-29T20:39:42+05:30",
-      "notes": "0 Migrated cases reduced from Active count",
       "population": 664000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://twitter.com/sikkimgovt/status/1288124869322797056?s=20"
+        "last_updated": "2020-07-29"
       }
     },
     "total": {
       "confirmed": 596,
       "deceased": 1,
       "recovered": 198,
-      "tested": 22993
+      "tested": 23637
     }
   },
   "TG": {
@@ -10517,7 +10522,7 @@
       "recovered": 31473
     },
     "meta": {
-      "last_updated": "2020-07-29T22:03:33+05:30",
+      "last_updated": "2020-07-29T22:06:32+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-28",
