@@ -4674,7 +4674,11 @@
     "delta": {
       "confirmed": 331,
       "deceased": 5,
-      "recovered": 77
+      "recovered": 77,
+      "tested": {
+        "positives": 331,
+        "samples": 5271
+      }
     },
     "districts": {
       "Bokaro": {
@@ -5074,8 +5078,8 @@
       "last_updated": "2020-07-29T22:42:36+05:30",
       "population": 37403000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://twitter.com/FOBGumla/status/1288150897533399040?s=20"
+        "last_updated": "2020-07-29",
+        "source": "https://twitter.com/FOBGumla/status/1288516893070856192?s=20"
       }
     },
     "total": {
@@ -5083,8 +5087,8 @@
       "deceased": 99,
       "recovered": 4061,
       "tested": {
-        "positives": 9563,
-        "samples": 272713
+        "positives": 9894,
+        "samples": 277984
       }
     }
   },
@@ -6395,11 +6399,16 @@
     },
     "districts": {
       "Kargil": {
+        "delta": {
+          "tested": {
+            "samples": 66
+          }
+        },
         "meta": {
           "population": 143000,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "http://covid.ladakh.gov.in/Upload/getfileN/f96d48e9-2aae-47aa-bd97-c8ab98fc18a0_Covid-Ladakh%2028-July.pdf"
+            "last_updated": "2020-07-29",
+            "source": "https://www.facebook.com/Department-of-Information-Public-Relations-Leh-Ladakh-114874993303412/?tn-str=k*F"
           }
         },
         "total": {
@@ -6408,7 +6417,7 @@
           "recovered": 719,
           "tested": {
             "positives": 782,
-            "samples": 7728
+            "samples": 7794
           }
         }
       },
@@ -6416,13 +6425,17 @@
         "delta": {
           "confirmed": 20,
           "deceased": 2,
-          "recovered": 13
+          "recovered": 13,
+          "tested": {
+            "positives": 20,
+            "samples": 345
+          }
         },
         "meta": {
           "population": 147000,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "http://covid.ladakh.gov.in/Upload/getfileN/f96d48e9-2aae-47aa-bd97-c8ab98fc18a0_Covid-Ladakh%2028-July.pdf"
+            "last_updated": "2020-07-29",
+            "source": "https://www.facebook.com/Department-of-Information-Public-Relations-Leh-Ladakh-114874993303412/?tn-str=k*F"
           }
         },
         "total": {
@@ -6430,8 +6443,8 @@
           "deceased": 3,
           "recovered": 361,
           "tested": {
-            "positives": 545,
-            "samples": 10710
+            "positives": 565,
+            "samples": 11055
           }
         }
       }
@@ -12230,8 +12243,8 @@
       "recovered": 32829,
       "tested": {
         "states": {
-          "positives": 51556,
-          "samples": 532217
+          "positives": 51887,
+          "samples": 537488
         }
       }
     },
@@ -12251,8 +12264,8 @@
       "tested": {
         "samples": 17743740,
         "states": {
-          "positives": 1589645,
-          "samples": 20788683
+          "positives": 1589976,
+          "samples": 20793954
         }
       }
     }
