@@ -3307,11 +3307,14 @@
   },
   "HP": {
     "delta": {
-      "confirmed": 34,
-      "recovered": 89
+      "confirmed": 73,
+      "recovered": 98
     },
     "districts": {
       "Bilaspur": {
+        "delta": {
+          "recovered": 2
+        },
         "meta": {
           "population": 382056,
           "tested": {
@@ -3321,7 +3324,7 @@
         },
         "total": {
           "confirmed": 87,
-          "recovered": 51,
+          "recovered": 53,
           "tested": 5565
         }
       },
@@ -3360,8 +3363,8 @@
       },
       "Kangra": {
         "delta": {
-          "confirmed": 11,
-          "recovered": 1
+          "confirmed": 13,
+          "recovered": 8
         },
         "meta": {
           "notes": "Death of Tibetan refugee on March 22 included in Kangra district's tally",
@@ -3372,16 +3375,16 @@
           }
         },
         "total": {
-          "confirmed": 441,
+          "confirmed": 443,
           "deceased": 4,
           "migrated": 2,
-          "recovered": 314,
+          "recovered": 321,
           "tested": 29991
         }
       },
       "Kinnaur": {
         "delta": {
-          "confirmed": 2
+          "confirmed": 3
         },
         "meta": {
           "population": 84298,
@@ -3391,14 +3394,14 @@
           }
         },
         "total": {
-          "confirmed": 43,
+          "confirmed": 44,
           "recovered": 27,
           "tested": 2682
         }
       },
       "Kullu": {
         "delta": {
-          "confirmed": 7
+          "confirmed": 9
         },
         "meta": {
           "population": 437474,
@@ -3408,7 +3411,7 @@
           }
         },
         "total": {
-          "confirmed": 31,
+          "confirmed": 33,
           "recovered": 17,
           "tested": 5067
         }
@@ -3447,7 +3450,7 @@
       },
       "Shimla": {
         "delta": {
-          "confirmed": 2
+          "confirmed": 8
         },
         "meta": {
           "notes": "One death of COVID-19 positive patient has occured due to non-covid reasons",
@@ -3458,7 +3461,7 @@
           }
         },
         "total": {
-          "confirmed": 153,
+          "confirmed": 159,
           "deceased": 2,
           "recovered": 63,
           "tested": 12564
@@ -3466,7 +3469,7 @@
       },
       "Sirmaur": {
         "delta": {
-          "confirmed": 2,
+          "confirmed": 5,
           "recovered": 60
         },
         "meta": {
@@ -3477,7 +3480,7 @@
           }
         },
         "total": {
-          "confirmed": 302,
+          "confirmed": 305,
           "deceased": 1,
           "migrated": 7,
           "recovered": 115,
@@ -3486,7 +3489,7 @@
       },
       "Solan": {
         "delta": {
-          "confirmed": 1,
+          "confirmed": 26,
           "recovered": 28
         },
         "meta": {
@@ -3497,7 +3500,7 @@
           }
         },
         "total": {
-          "confirmed": 568,
+          "confirmed": 593,
           "migrated": 6,
           "recovered": 205,
           "tested": 21805
@@ -3524,7 +3527,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-29T18:40:35+05:30",
+      "last_updated": "2020-07-29T21:56:35+05:30",
       "notes": "HP has 16 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -3533,10 +3536,10 @@
       }
     },
     "total": {
-      "confirmed": 2364,
+      "confirmed": 2403,
       "deceased": 13,
       "migrated": 15,
-      "recovered": 1323,
+      "recovered": 1332,
       "tested": 137251
     }
   },
@@ -8367,7 +8370,8 @@
     "delta": {
       "confirmed": 568,
       "deceased": 25,
-      "recovered": 461
+      "recovered": 461,
+      "tested": 10854
     },
     "districts": {
       "Amritsar": {
@@ -8786,15 +8790,15 @@
       "last_updated": "2020-07-29T20:59:36+05:30",
       "population": 29859000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "http://diprpunjab.gov.in/sites/default/files/Media%20Bulletin%2028-07-2020.pdf"
+        "last_updated": "2020-07-29",
+        "source": "http://diprpunjab.gov.in/sites/default/files/Media%20Bulletin%2029-07-2020_0.pdf"
       }
     },
     "total": {
       "confirmed": 14946,
       "deceased": 361,
       "recovered": 10213,
-      "tested": 550267
+      "tested": 561121
     }
   },
   "PY": {
@@ -8898,7 +8902,8 @@
     "delta": {
       "confirmed": 1144,
       "deceased": 10,
-      "recovered": 992
+      "recovered": 992,
+      "tested": 27858
     },
     "districts": {
       "Ajmer": {
@@ -9549,15 +9554,14 @@
       "last_updated": "2020-07-29T21:37:36+05:30",
       "population": 77264000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://twitter.com/ANI/status/1288136315460972544?s=20"
+        "last_updated": "2020-07-29"
       }
     },
     "total": {
       "confirmed": 39780,
       "deceased": 654,
       "recovered": 28309,
-      "tested": 1445240
+      "tested": 1473098
     }
   },
   "SK": {
@@ -9568,7 +9572,7 @@
     "districts": {
       "East Sikkim": {
         "delta": {
-          "confirmed": 17,
+          "confirmed": 27,
           "recovered": 51
         },
         "meta": {
@@ -9576,9 +9580,8 @@
           "population": 281293
         },
         "total": {
-          "confirmed": 384,
+          "confirmed": 381,
           "deceased": 1,
-          "migrated": 13,
           "recovered": 125
         }
       },
@@ -9602,10 +9605,8 @@
       },
       "Unknown": {
         "delta": {
+          "confirmed": -10,
           "recovered": -39
-        },
-        "total": {
-          "confirmed": 10
         }
       },
       "West Sikkim": {
@@ -9620,7 +9621,7 @@
     },
     "meta": {
       "last_updated": "2020-07-29T20:39:42+05:30",
-      "notes": "13 Migrated cases reduced from Active count",
+      "notes": "0 Migrated cases reduced from Active count",
       "population": 664000,
       "tested": {
         "last_updated": "2020-07-28",
@@ -9628,9 +9629,8 @@
       }
     },
     "total": {
-      "confirmed": 609,
+      "confirmed": 596,
       "deceased": 1,
-      "migrated": 13,
       "recovered": 198,
       "tested": 22993
     }
@@ -10992,13 +10992,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 50447,
+      "confirmed": 50486,
       "deceased": 767,
       "migrated": 4,
-      "recovered": 31464
+      "recovered": 31473
     },
     "meta": {
-      "last_updated": "2020-07-29T21:45:32+05:30",
+      "last_updated": "2020-07-29T21:56:32+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-28",
@@ -11006,10 +11006,10 @@
       }
     },
     "total": {
-      "confirmed": 1582581,
+      "confirmed": 1582607,
       "deceased": 34995,
-      "migrated": 428,
-      "recovered": 1020246,
+      "migrated": 415,
+      "recovered": 1020255,
       "tested": 17743740
     }
   },
@@ -11023,7 +11023,8 @@
     "delta": {
       "confirmed": 3383,
       "deceased": 33,
-      "recovered": 1287
+      "recovered": 1287,
+      "tested": 87754
     },
     "districts": {
       "Agra": {
@@ -12405,22 +12406,22 @@
       "last_updated": "2020-07-29T16:56:30+05:30",
       "population": 224979000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://twitter.com/ShishirGoUP/status/1287987120984875008?s=20"
+        "last_updated": "2020-07-29"
       }
     },
     "total": {
       "confirmed": 77334,
       "deceased": 1530,
       "recovered": 45807,
-      "tested": 2033089
+      "tested": 2120843
     }
   },
   "UT": {
     "delta": {
       "confirmed": 279,
       "deceased": 2,
-      "recovered": 91
+      "recovered": 91,
+      "tested": 4919
     },
     "districts": {
       "Almora": {
@@ -12664,8 +12665,8 @@
       "notes": "38 Migrated cases reduced from Active count",
       "population": 11141000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://twitter.com/PIBDehradun/status/1288111016052580355?s=20"
+        "last_updated": "2020-07-29",
+        "source": "https://twitter.com/PIBDehradun/status/1288481186449301505?s=20"
       }
     },
     "total": {
@@ -12673,14 +12674,15 @@
       "deceased": 72,
       "migrated": 38,
       "recovered": 3811,
-      "tested": 150065
+      "tested": 154984
     }
   },
   "WB": {
     "delta": {
       "confirmed": 2294,
       "deceased": 41,
-      "recovered": 2094
+      "recovered": 2094,
+      "tested": 17144
     },
     "districts": {
       "Alipurduar": {
@@ -13019,15 +13021,15 @@
       "last_updated": "2020-07-29T21:37:34+05:30",
       "population": 96906000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_28th_JULY_REPORT_FINAL.pdf"
+        "last_updated": "2020-07-29",
+        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_29th_JULY_REPORT_FINAL(1).pdf"
       }
     },
     "total": {
       "confirmed": 65258,
       "deceased": 1490,
       "recovered": 44116,
-      "tested": 839211
+      "tested": 856355
     }
   }
 }
