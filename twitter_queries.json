@@ -363,10 +363,10 @@
 		{
 			"dataopsaux": "",
 			"destination": "data_ops",
-			"finallink": "https://twitter.com/search?q=(Active%20OR%20Recovered)%20(from%3Aairnews_imphal)&src=typed_query&f=live",
+			"finallink": "https://twitter.com/search?q=(Active%20OR%20Recovered)%20(from%3Aairnews_imphal)%20-filter%3Aretweets&src=typed_query&f=live",
 			"link": "https://twitter.com/airnews_imphal",
-			"remarks": "-bangladesh",
-			"searchcriteria": "(Active OR Recovered) (from:airnews_imphal)",
+			"remarks": "",
+			"searchcriteria": "(Active OR Recovered) (from:airnews_imphal) -filter:retweets",
 			"state": "Manipur",
 			"status": "Done"
 		},
@@ -891,12 +891,12 @@
 			"status": "Done"
 		},
 		{
-			"dataopsaux": "",
+			"dataopsaux": "Changed",
 			"destination": "aux",
-			"finallink": "https://twitter.com/search?q=(%23CoronavirusUpdates%20%23NaToCorona)%20(From%3Amybmc)&src=typed_query&f=live",
+			"finallink": "https://twitter.com/search?q=(%23CoronavirusUpdates)%20(From%3Amybmc)%20-filter%3Aretweets&src=typed_query&f=live",
 			"link": "https://twitter.com/mybmc",
 			"remarks": "Maharashtra",
-			"searchcriteria": "(#CoronavirusUpdates OR #NaToCorona) (From:mybmc)",
+			"searchcriteria": "(#CoronavirusUpdates) (From:mybmc) -filter:retweets",
 			"state": "Mumbai",
 			"status": "Done"
 		},
