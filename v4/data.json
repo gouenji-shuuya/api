@@ -2363,7 +2363,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:48:36+05:30",
+      "last_updated": "2020-07-30T20:54:38+05:30",
       "population": 28724000,
       "tested": {
         "last_updated": "2020-07-30",
@@ -6106,7 +6106,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:29:52+05:30",
+      "last_updated": "2020-07-30T20:53:30+05:30",
       "notes": "304 cases are marked as non-covid deaths in MH bulletin. These have been reduced from active count\n[June 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[June 20]: 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -6239,7 +6239,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:48:40+05:30",
+      "last_updated": "2020-07-30T20:54:42+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -6433,7 +6433,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:48:38+05:30",
+      "last_updated": "2020-07-30T20:54:40+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -7536,7 +7536,8 @@
     "districts": {
       "Dimapur": {
         "delta": {
-          "confirmed": 32
+          "confirmed": 32,
+          "recovered": 1
         },
         "meta": {
           "population": 379769,
@@ -7549,7 +7550,7 @@
           "confirmed": 506,
           "deceased": 4,
           "migrated": 1,
-          "recovered": 65,
+          "recovered": 66,
           "tested": 896
         }
       },
@@ -7585,12 +7586,15 @@
         }
       },
       "Longleng": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 50593
         },
         "total": {
           "confirmed": 5,
-          "recovered": 4
+          "recovered": 5
         }
       },
       "Mokokchung": {
@@ -7611,6 +7615,9 @@
         }
       },
       "Mon": {
+        "delta": {
+          "recovered": 29
+        },
         "meta": {
           "population": 259604,
           "tested": {
@@ -7620,7 +7627,7 @@
         },
         "total": {
           "confirmed": 173,
-          "recovered": 35,
+          "recovered": 64,
           "tested": 45
         }
       },
@@ -7674,10 +7681,10 @@
       },
       "Unknown": {
         "delta": {
-          "recovered": 30
+          "recovered": -1
         },
         "total": {
-          "recovered": 30
+          "recovered": -1
         }
       },
       "Wokha": {
@@ -8689,7 +8696,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:48:34+05:30",
+      "last_updated": "2020-07-30T20:54:35+05:30",
       "population": 29859000,
       "tested": {
         "last_updated": "2020-07-30",
@@ -8713,72 +8720,80 @@
     "districts": {
       "Karaikal": {
         "delta": {
-          "confirmed": 7
+          "confirmed": 7,
+          "tested": 164
         },
         "meta": {
           "notes": "1 case of TN has been transferred,so has been reduced from the total count.",
           "population": 200222,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/28.07.2020%20bulletin.pdf"
+            "last_updated": "2020-07-30",
+            "source": "https://health.py.gov.in/sites/default/files/30.07.2020-bulletin.pdf"
           }
         },
         "total": {
           "confirmed": 172,
           "deceased": 2,
           "recovered": 126,
-          "tested": 4937
+          "tested": 5101
         }
       },
       "Mahe": {
+        "delta": {
+          "tested": 75
+        },
         "meta": {
           "population": 41816,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/28.07.2020%20bulletin.pdf"
+            "last_updated": "2020-07-30",
+            "source": "https://health.py.gov.in/sites/default/files/30.07.2020-bulletin.pdf"
           }
         },
         "total": {
           "confirmed": 23,
           "recovered": 22,
-          "tested": 1357
+          "tested": 1432
         }
       },
       "Puducherry": {
         "delta": {
           "confirmed": 114,
           "deceased": 1,
-          "recovered": 84
+          "recovered": 84,
+          "tested": 1229
         },
         "meta": {
           "notes": "33 cases(28 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/28.07.2020%20bulletin.pdf"
+            "last_updated": "2020-07-30",
+            "source": "https://health.py.gov.in/sites/default/files/30.07.2020-bulletin.pdf"
           }
         },
         "total": {
           "confirmed": 2984,
           "deceased": 43,
           "recovered": 1752,
-          "tested": 28867
+          "tested": 30096
         }
       },
       "Yanam": {
+        "delta": {
+          "tested": 104
+        },
         "meta": {
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://health.py.gov.in/sites/default/files/NEET-PDF/28.07.2020%20bulletin.pdf"
+            "last_updated": "2020-07-30",
+            "source": "https://health.py.gov.in/sites/default/files/30.07.2020-bulletin.pdf"
           }
         },
         "total": {
           "confirmed": 119,
           "deceased": 3,
           "recovered": 58,
-          "tested": 2001
+          "tested": 2105
         }
       }
     },
@@ -10425,7 +10440,7 @@
       "recovered": 34565
     },
     "meta": {
-      "last_updated": "2020-07-30T20:48:30+05:30",
+      "last_updated": "2020-07-30T20:55:30+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -12405,7 +12420,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:48:32+05:30",
+      "last_updated": "2020-07-30T20:55:32+05:30",
       "population": 96906000,
       "tested": {
         "last_updated": "2020-07-30",
