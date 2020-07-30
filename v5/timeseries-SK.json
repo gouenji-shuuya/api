@@ -1309,6 +1309,7 @@
           "confirmed": 17,
           "recovered": 12,
           "tested": {
+            "positives": 17,
             "samples": 644
           }
         },
@@ -1317,19 +1318,24 @@
           "deceased": 1,
           "recovered": 198,
           "tested": {
-            "positives": 579,
+            "positives": 596,
             "samples": 23637
           }
         }
       },
       "2020-07-30": {
+        "delta": {
+          "tested": {
+            "samples": 513
+          }
+        },
         "total": {
           "confirmed": 596,
           "deceased": 1,
           "recovered": 198,
           "tested": {
-            "positives": 579,
-            "samples": 23637
+            "positives": 596,
+            "samples": 24150
           }
         }
       }
