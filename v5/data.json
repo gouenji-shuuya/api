@@ -826,7 +826,10 @@
     "delta": {
       "confirmed": 2112,
       "deceased": 2,
-      "recovered": 1248
+      "recovered": 1248,
+      "tested": {
+        "samples": 41028
+      }
     },
     "districts": {
       "Airport Quarantine": {
@@ -1183,12 +1186,12 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T22:37:39+05:30",
+      "last_updated": "2020-07-30T22:41:36+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
-        "last_updated": "2020-07-29",
-        "source": "https://twitter.com/nhm_assam/status/1288545054466899968?s=20"
+        "last_updated": "2020-07-30",
+        "source": "https://twitter.com/himantabiswa/status/1288868137387978752?s=20"
       }
     },
     "total": {
@@ -1198,7 +1201,7 @@
       "recovered": 29081,
       "tested": {
         "positives": 36295,
-        "samples": 838043
+        "samples": 879071
       }
     }
   },
@@ -1303,13 +1306,17 @@
       },
       "Begusarai": {
         "delta": {
-          "confirmed": 72
+          "confirmed": 72,
+          "tested": {
+            "positives": 106,
+            "samples": 431
+          }
         },
         "meta": {
           "population": 2954367,
           "tested": {
-            "last_updated": "2020-07-29",
-            "source": "https://twitter.com/DM_Begusarai/status/1288420031861157888?s=20"
+            "last_updated": "2020-07-30",
+            "source": "https://twitter.com/DM_Begusarai/status/1288795436627701761?s=20"
           }
         },
         "total": {
@@ -1317,8 +1324,8 @@
           "deceased": 10,
           "recovered": 1152,
           "tested": {
-            "positives": 1484,
-            "samples": 15372
+            "positives": 1590,
+            "samples": 15803
           }
         }
       },
@@ -1787,13 +1794,17 @@
       "Purnia": {
         "delta": {
           "confirmed": 16,
-          "recovered": 41
+          "recovered": 41,
+          "tested": {
+            "positives": 71,
+            "samples": 787
+          }
         },
         "meta": {
           "population": 3273127,
           "tested": {
-            "last_updated": "2020-07-29",
-            "source": "https://twitter.com/dmpurnea/status/1288520102024019968?s=20"
+            "last_updated": "2020-07-30",
+            "source": "https://twitter.com/dmpurnea/status/1288883255471734784?s=20"
           }
         },
         "total": {
@@ -1801,8 +1812,8 @@
           "deceased": 4,
           "recovered": 752,
           "tested": {
-            "positives": 1123,
-            "samples": 14977
+            "positives": 1194,
+            "samples": 15764
           }
         }
       },
@@ -3817,7 +3828,11 @@
     "delta": {
       "confirmed": 103,
       "other": 2,
-      "recovered": 55
+      "recovered": 55,
+      "tested": {
+        "positives": 103,
+        "samples": 2663
+      }
     },
     "districts": {
       "Bilaspur": {
@@ -4077,12 +4092,12 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T22:37:42+05:30",
+      "last_updated": "2020-07-30T22:41:38+05:30",
       "notes": "HP has 18 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
-        "last_updated": "2020-07-29",
-        "source": "https://twitter.com/nhm_hp/status/1288509418099769344?s=20"
+        "last_updated": "2020-07-30",
+        "source": "https://twitter.com/nhm_hp/status/1288874086576222209?s=20"
       }
     },
     "total": {
@@ -4091,8 +4106,8 @@
       "other": 17,
       "recovered": 1387,
       "tested": {
-        "positives": 2403,
-        "samples": 139955
+        "positives": 2506,
+        "samples": 142618
       }
     }
   },
@@ -12046,7 +12061,7 @@
           "population": 377988,
           "tested": {
             "last_updated": "2020-07-29",
-            "source": "https://twitter.com/airnews_jaipur/status/1288520369351962627?s=20"
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1456"
           }
         },
         "total": {
@@ -12055,8 +12070,8 @@
           "other": 1,
           "recovered": 342,
           "tested": {
-            "positives": 642,
-            "samples": 13306
+            "positives": 614,
+            "samples": 13451
           }
         }
       },
@@ -12065,7 +12080,7 @@
           "population": 436868,
           "tested": {
             "last_updated": "2020-07-29",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1444"
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1456"
           }
         },
         "total": {
@@ -12074,8 +12089,8 @@
           "other": 1,
           "recovered": 427,
           "tested": {
-            "positives": 703,
-            "samples": 18622
+            "positives": 732,
+            "samples": 19076
           }
         }
       },
@@ -12084,7 +12099,7 @@
           "population": 327391,
           "tested": {
             "last_updated": "2020-07-29",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1444"
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1456"
           }
         },
         "total": {
@@ -12092,8 +12107,8 @@
           "deceased": 3,
           "recovered": 259,
           "tested": {
-            "positives": 353,
-            "samples": 6504
+            "positives": 357,
+            "samples": 6171
           }
         }
       },
@@ -12102,7 +12117,7 @@
           "population": 415946,
           "tested": {
             "last_updated": "2020-07-29",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1444"
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1456"
           }
         },
         "total": {
@@ -12111,8 +12126,8 @@
           "other": 6,
           "recovered": 127,
           "tested": {
-            "positives": 331,
-            "samples": 31705
+            "positives": 341,
+            "samples": 32459
           }
         }
       },
@@ -12121,7 +12136,7 @@
           "population": 484233,
           "tested": {
             "last_updated": "2020-07-29",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1444"
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1456"
           }
         },
         "total": {
@@ -12129,8 +12144,8 @@
           "deceased": 1,
           "recovered": 769,
           "tested": {
-            "positives": 1029,
-            "samples": 14365
+            "positives": 1064,
+            "samples": 14055
           }
         }
       },
@@ -12139,7 +12154,7 @@
           "population": 433737,
           "tested": {
             "last_updated": "2020-07-29",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1444"
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1456"
           }
         },
         "total": {
@@ -12148,8 +12163,8 @@
           "other": 3,
           "recovered": 197,
           "tested": {
-            "positives": 384,
-            "samples": 19209
+            "positives": 314,
+            "samples": 18565
           }
         }
       },
@@ -12158,15 +12173,15 @@
           "population": 277335,
           "tested": {
             "last_updated": "2020-07-29",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1444"
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1456"
           }
         },
         "total": {
           "confirmed": 125,
           "recovered": 97,
           "tested": {
-            "positives": 165,
-            "samples": 7213
+            "positives": 125,
+            "samples": 7257
           }
         }
       },
@@ -12175,7 +12190,7 @@
           "population": 917534,
           "tested": {
             "last_updated": "2020-07-29",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1444"
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1456"
           }
         },
         "total": {
@@ -12184,8 +12199,8 @@
           "other": 7,
           "recovered": 460,
           "tested": {
-            "positives": 896,
-            "samples": 45458
+            "positives": 956,
+            "samples": 45348
           }
         }
       }
@@ -12218,13 +12233,13 @@
       "recovered": 36991,
       "tested": {
         "states": {
-          "positives": 52124,
-          "samples": 551404
+          "positives": 52227,
+          "samples": 595095
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T22:37:34+05:30",
+      "last_updated": "2020-07-30T22:41:32+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -12239,8 +12254,8 @@
       "tested": {
         "samples": 18190382,
         "states": {
-          "positives": 1643864,
-          "samples": 21389276
+          "positives": 1643967,
+          "samples": 21432967
         }
       }
     }

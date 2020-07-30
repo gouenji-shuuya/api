@@ -8283,7 +8283,10 @@
         "delta": {
           "confirmed": 2112,
           "deceased": 2,
-          "recovered": 1248
+          "recovered": 1248,
+          "tested": {
+            "samples": 41028
+          }
         },
         "total": {
           "confirmed": 38408,
@@ -8292,7 +8295,7 @@
           "recovered": 29081,
           "tested": {
             "positives": 36295,
-            "samples": 838043
+            "samples": 879071
           }
         }
       }
@@ -26356,7 +26359,11 @@
         "delta": {
           "confirmed": 103,
           "other": 2,
-          "recovered": 55
+          "recovered": 55,
+          "tested": {
+            "positives": 103,
+            "samples": 2663
+          }
         },
         "total": {
           "confirmed": 2506,
@@ -26364,8 +26371,8 @@
           "other": 17,
           "recovered": 1387,
           "tested": {
-            "positives": 2403,
-            "samples": 139955
+            "positives": 2506,
+            "samples": 142618
           }
         }
       }
@@ -74319,8 +74326,8 @@
           "recovered": 36991,
           "tested": {
             "states": {
-              "positives": 52124,
-              "samples": 551404
+              "positives": 52227,
+              "samples": 595095
             }
           }
         },
@@ -74332,8 +74339,8 @@
           "tested": {
             "samples": 18190382,
             "states": {
-              "positives": 1643864,
-              "samples": 21389276
+              "positives": 1643967,
+              "samples": 21432967
             }
           }
         }
