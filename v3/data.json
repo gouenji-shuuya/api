@@ -881,11 +881,14 @@
         }
       },
       "Kamrup": {
+        "delta": {
+          "confirmed": 210
+        },
         "meta": {
           "population": 1517202
         },
         "total": {
-          "confirmed": 822,
+          "confirmed": 1032,
           "deceased": 5,
           "recovered": 318
         }
@@ -1001,11 +1004,14 @@
         }
       },
       "Sonitpur": {
+        "delta": {
+          "confirmed": 132
+        },
         "meta": {
           "population": 1925975
         },
         "total": {
-          "confirmed": 829,
+          "confirmed": 961,
           "deceased": 1,
           "recovered": 498
         }
@@ -1041,10 +1047,10 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": 1618
+          "confirmed": 1276
         },
         "total": {
-          "confirmed": 4911,
+          "confirmed": 4569,
           "migrated": 3,
           "recovered": 7124
         }
@@ -1060,7 +1066,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T22:03:36+05:30",
+      "last_updated": "2020-07-30T22:07:47+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -4013,7 +4019,7 @@
   "JH": {
     "delta": {
       "confirmed": 505,
-      "deceased": 1,
+      "deceased": 4,
       "recovered": 115
     },
     "districts": {
@@ -4248,7 +4254,8 @@
       },
       "Lohardaga": {
         "delta": {
-          "confirmed": 3
+          "confirmed": 3,
+          "deceased": 1
         },
         "meta": {
           "population": 461738,
@@ -4259,7 +4266,7 @@
         },
         "total": {
           "confirmed": 247,
-          "deceased": 1,
+          "deceased": 2,
           "recovered": 123,
           "tested": 7526
         }
@@ -4310,14 +4317,15 @@
       },
       "Ranchi": {
         "delta": {
-          "confirmed": 101
+          "confirmed": 101,
+          "deceased": 1
         },
         "meta": {
           "population": 2912022
         },
         "total": {
           "confirmed": 2039,
-          "deceased": 23,
+          "deceased": 24,
           "recovered": 506
         }
       },
@@ -4367,20 +4375,21 @@
       },
       "West Singhbhum": {
         "delta": {
-          "confirmed": 51
+          "confirmed": 51,
+          "deceased": 1
         },
         "meta": {
           "population": 1501619
         },
         "total": {
           "confirmed": 309,
-          "deceased": 1,
+          "deceased": 2,
           "recovered": 147
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T22:03:39+05:30",
+      "last_updated": "2020-07-30T22:13:55+05:30",
       "population": 37403000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -4389,7 +4398,7 @@
     },
     "total": {
       "confirmed": 10399,
-      "deceased": 100,
+      "deceased": 103,
       "recovered": 4176,
       "tested": 277984
     }
@@ -5577,39 +5586,41 @@
       "Kargil": {
         "delta": {
           "confirmed": 1,
-          "recovered": 7
+          "recovered": 7,
+          "tested": 25
         },
         "meta": {
           "population": 143000,
           "tested": {
-            "last_updated": "2020-07-29",
-            "source": "https://www.facebook.com/Department-of-Information-Public-Relations-Leh-Ladakh-114874993303412/?tn-str=k*F"
+            "last_updated": "2020-07-30",
+            "source": "http://covid.ladakh.gov.in/Upload/getfileN/2982ea35-35d2-40cd-a466-3046cb99f9ed_Covid-Ladakh%2030-July.pdf"
           }
         },
         "total": {
           "confirmed": 783,
           "deceased": 3,
           "recovered": 726,
-          "tested": 7794
+          "tested": 7819
         }
       },
       "Leh": {
         "delta": {
           "confirmed": 30,
-          "recovered": 7
+          "recovered": 7,
+          "tested": 269
         },
         "meta": {
           "population": 147000,
           "tested": {
-            "last_updated": "2020-07-29",
-            "source": "https://www.facebook.com/Department-of-Information-Public-Relations-Leh-Ladakh-114874993303412/?tn-str=k*F"
+            "last_updated": "2020-07-30",
+            "source": "http://covid.ladakh.gov.in/Upload/getfileN/2982ea35-35d2-40cd-a466-3046cb99f9ed_Covid-Ladakh%2030-July.pdf"
           }
         },
         "total": {
           "confirmed": 595,
           "deceased": 3,
           "recovered": 368,
-          "tested": 11055
+          "tested": 11324
         }
       }
     },
@@ -11124,12 +11135,12 @@
   "TT": {
     "delta": {
       "confirmed": 54492,
-      "deceased": 780,
+      "deceased": 783,
       "migrated": 8,
       "recovered": 35727
     },
     "meta": {
-      "last_updated": "2020-07-30T22:03:34+05:30",
+      "last_updated": "2020-07-30T22:13:46+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -11138,7 +11149,7 @@
     },
     "total": {
       "confirmed": 1639092,
-      "deceased": 35783,
+      "deceased": 35786,
       "migrated": 423,
       "recovered": 1057395,
       "tested": 18190382
