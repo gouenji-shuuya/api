@@ -825,7 +825,8 @@
   "AS": {
     "delta": {
       "confirmed": 2112,
-      "deceased": 2
+      "deceased": 2,
+      "recovered": 1248
     },
     "districts": {
       "Airport Quarantine": {
@@ -1162,12 +1163,13 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": 1276
+          "confirmed": 1276,
+          "recovered": 1248
         },
         "total": {
           "confirmed": 4569,
           "other": 3,
-          "recovered": 7124
+          "recovered": 8372
         }
       },
       "West Karbi Anglong": {
@@ -1181,7 +1183,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T22:07:47+05:30",
+      "last_updated": "2020-07-30T22:37:39+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1193,7 +1195,7 @@
       "confirmed": 38408,
       "deceased": 94,
       "other": 3,
-      "recovered": 27833,
+      "recovered": 29081,
       "tested": {
         "positives": 36295,
         "samples": 838043
@@ -3813,14 +3815,15 @@
   },
   "HP": {
     "delta": {
-      "confirmed": 11,
+      "confirmed": 103,
       "other": 2,
-      "recovered": 39
+      "recovered": 55
     },
     "districts": {
       "Bilaspur": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 1,
+          "recovered": 3
         },
         "meta": {
           "population": 382056,
@@ -3831,7 +3834,7 @@
         },
         "total": {
           "confirmed": 88,
-          "recovered": 53,
+          "recovered": 56,
           "tested": {
             "positives": 87,
             "samples": 5841
@@ -3880,7 +3883,7 @@
       },
       "Kangra": {
         "delta": {
-          "confirmed": 1,
+          "confirmed": 9,
           "recovered": 4
         },
         "meta": {
@@ -3892,7 +3895,7 @@
           }
         },
         "total": {
-          "confirmed": 444,
+          "confirmed": 452,
           "deceased": 4,
           "other": 2,
           "recovered": 325,
@@ -3925,7 +3928,7 @@
       },
       "Kullu": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 2
         },
         "meta": {
           "population": 437474,
@@ -3935,7 +3938,7 @@
           }
         },
         "total": {
-          "confirmed": 34,
+          "confirmed": 35,
           "recovered": 17,
           "tested": {
             "positives": 33,
@@ -3962,6 +3965,7 @@
       },
       "Mandi": {
         "delta": {
+          "confirmed": 24,
           "recovered": 1
         },
         "meta": {
@@ -3972,7 +3976,7 @@
           }
         },
         "total": {
-          "confirmed": 133,
+          "confirmed": 157,
           "deceased": 3,
           "recovered": 43,
           "tested": {
@@ -3983,7 +3987,7 @@
       },
       "Shimla": {
         "delta": {
-          "confirmed": 3,
+          "confirmed": 6,
           "other": 1,
           "recovered": -1
         },
@@ -3996,7 +4000,7 @@
           }
         },
         "total": {
-          "confirmed": 162,
+          "confirmed": 165,
           "deceased": 2,
           "other": 1,
           "recovered": 62,
@@ -4007,6 +4011,9 @@
         }
       },
       "Sirmaur": {
+        "delta": {
+          "confirmed": 22
+        },
         "meta": {
           "population": 530164,
           "tested": {
@@ -4015,7 +4022,7 @@
           }
         },
         "total": {
-          "confirmed": 305,
+          "confirmed": 327,
           "deceased": 1,
           "other": 7,
           "recovered": 115,
@@ -4027,8 +4034,8 @@
       },
       "Solan": {
         "delta": {
-          "confirmed": 1,
-          "recovered": 23
+          "confirmed": 35,
+          "recovered": 28
         },
         "meta": {
           "population": 576670,
@@ -4038,9 +4045,9 @@
           }
         },
         "total": {
-          "confirmed": 594,
+          "confirmed": 628,
           "other": 3,
-          "recovered": 228,
+          "recovered": 233,
           "tested": {
             "positives": 593,
             "samples": 22260
@@ -4050,7 +4057,7 @@
       "Una": {
         "delta": {
           "confirmed": 3,
-          "recovered": 5
+          "recovered": 13
         },
         "meta": {
           "population": 521057,
@@ -4061,7 +4068,7 @@
         },
         "total": {
           "confirmed": 198,
-          "recovered": 141,
+          "recovered": 149,
           "tested": {
             "positives": 195,
             "samples": 13594
@@ -4070,7 +4077,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T13:31:35+05:30",
+      "last_updated": "2020-07-30T22:37:42+05:30",
       "notes": "HP has 18 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -4079,10 +4086,10 @@
       }
     },
     "total": {
-      "confirmed": 2414,
+      "confirmed": 2506,
       "deceased": 13,
       "other": 17,
-      "recovered": 1371,
+      "recovered": 1387,
       "tested": {
         "positives": 2403,
         "samples": 139955
@@ -7205,7 +7212,7 @@
       "East Khasi Hills": {
         "delta": {
           "confirmed": 15,
-          "recovered": 2
+          "recovered": 3
         },
         "meta": {
           "population": 824059
@@ -7213,7 +7220,7 @@
         "total": {
           "confirmed": 629,
           "deceased": 2,
-          "recovered": 135
+          "recovered": 136
         }
       },
       "North Garo Hills": {
@@ -7254,14 +7261,6 @@
         "total": {
           "confirmed": 8,
           "recovered": 4
-        }
-      },
-      "Unknown": {
-        "delta": {
-          "recovered": 1
-        },
-        "total": {
-          "recovered": 1
         }
       },
       "West Garo Hills": {
@@ -12213,10 +12212,10 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 54492,
+      "confirmed": 54584,
       "deceased": 783,
       "other": 8,
-      "recovered": 35727,
+      "recovered": 36991,
       "tested": {
         "states": {
           "positives": 52124,
@@ -12225,7 +12224,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T22:17:34+05:30",
+      "last_updated": "2020-07-30T22:37:34+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -12233,10 +12232,10 @@
       }
     },
     "total": {
-      "confirmed": 1639092,
+      "confirmed": 1639184,
       "deceased": 35786,
       "other": 423,
-      "recovered": 1057395,
+      "recovered": 1058659,
       "tested": {
         "samples": 18190382,
         "states": {
