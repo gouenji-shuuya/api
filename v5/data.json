@@ -2109,7 +2109,12 @@
   "CT": {
     "delta": {
       "confirmed": 175,
-      "recovered": 285
+      "deceased": 1,
+      "recovered": 285,
+      "tested": {
+        "positives": 260,
+        "samples": 8190
+      }
     },
     "districts": {
       "Balod": {
@@ -2578,6 +2583,7 @@
       "Raipur": {
         "delta": {
           "confirmed": 93,
+          "deceased": 1,
           "recovered": 106
         },
         "meta": {
@@ -2589,7 +2595,7 @@
         },
         "total": {
           "confirmed": 2752,
-          "deceased": 22,
+          "deceased": 23,
           "recovered": 1338,
           "tested": {
             "positives": 128,
@@ -2701,20 +2707,20 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:37:46+05:30",
+      "last_updated": "2020-07-30T20:48:36+05:30",
       "population": 28724000,
       "tested": {
-        "last_updated": "2020-07-29",
-        "source": "https://twitter.com/HealthCgGov/status/1288496501883154432?s=20"
+        "last_updated": "2020-07-30",
+        "source": "https://twitter.com/HealthCgGov/status/1288853098442584064?s=20"
       }
     },
     "total": {
       "confirmed": 8775,
-      "deceased": 50,
+      "deceased": 51,
       "recovered": 5921,
       "tested": {
-        "positives": 8515,
-        "samples": 302506
+        "positives": 8775,
+        "samples": 310696
       }
     }
   },
@@ -5537,13 +5543,17 @@
       },
       "Kodagu": {
         "delta": {
-          "confirmed": 24
+          "confirmed": 24,
+          "tested": {
+            "positives": 25,
+            "samples": 536
+          }
         },
         "meta": {
           "population": 554762,
           "tested": {
-            "last_updated": "2020-07-29",
-            "source": "https://twitter.com/DCKodagu/status/1288488280414019587?s=20"
+            "last_updated": "2020-07-30",
+            "source": "https://twitter.com/DCKodagu/status/1288837753568817152?s=20"
           }
         },
         "total": {
@@ -5551,8 +5561,8 @@
           "deceased": 6,
           "recovered": 266,
           "tested": {
-            "positives": 374,
-            "samples": 15250
+            "positives": 399,
+            "samples": 15786
           }
         }
       },
@@ -5628,13 +5638,17 @@
         "delta": {
           "confirmed": 430,
           "deceased": 9,
-          "recovered": 70
+          "recovered": 70,
+          "tested": {
+            "positives": 430,
+            "samples": 1762
+          }
         },
         "meta": {
           "population": 2994744,
           "tested": {
-            "last_updated": "2020-07-29",
-            "source": "https://twitter.com/mysuruvarthe/status/1288484183296208897?s=20"
+            "last_updated": "2020-07-30",
+            "source": "https://twitter.com/mysuruvarthe/status/1288851097436602368?s=20"
           }
         },
         "total": {
@@ -5642,8 +5656,8 @@
           "deceased": 137,
           "recovered": 1215,
           "tested": {
-            "positives": 3583,
-            "samples": 38598
+            "positives": 4013,
+            "samples": 40360
           }
         }
       },
@@ -5701,13 +5715,17 @@
       "Shivamogga": {
         "delta": {
           "confirmed": 143,
-          "deceased": 1
+          "deceased": 1,
+          "tested": {
+            "positives": 251,
+            "samples": 831
+          }
         },
         "meta": {
           "population": 1755512,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://twitter.com/DeputyCommissi8/status/1288123193916448775?s=20"
+            "last_updated": "2020-07-30",
+            "source": "https://twitter.com/DeputyCommissi8/status/1288850331615391744?s=20"
           }
         },
         "total": {
@@ -5715,8 +5733,8 @@
           "deceased": 23,
           "recovered": 582,
           "tested": {
-            "positives": 1476,
-            "samples": 26198
+            "positives": 1727,
+            "samples": 27029
           }
         }
       },
@@ -5724,13 +5742,17 @@
         "delta": {
           "confirmed": 104,
           "deceased": 1,
-          "recovered": 60
+          "recovered": 60,
+          "tested": {
+            "positives": 144,
+            "samples": 1734
+          }
         },
         "meta": {
           "population": 2681449,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://twitter.com/tumkurcityinfo/status/1288105718168588288?s=20"
+            "last_updated": "2020-07-30",
+            "source": "https://twitter.com/tumkurcityinfo/status/1288828235548176387?s=20"
           }
         },
         "total": {
@@ -5738,8 +5760,8 @@
           "deceased": 46,
           "recovered": 455,
           "tested": {
-            "positives": 1473,
-            "samples": 32270
+            "positives": 1617,
+            "samples": 34004
           }
         }
       },
@@ -7074,7 +7096,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:37:52+05:30",
+      "last_updated": "2020-07-30T20:48:40+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -7271,7 +7293,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:37:49+05:30",
+      "last_updated": "2020-07-30T20:48:38+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -8117,13 +8139,17 @@
         "delta": {
           "confirmed": 27,
           "deceased": 1,
-          "recovered": 2
+          "recovered": 2,
+          "tested": {
+            "positives": 29,
+            "samples": 101
+          }
         },
         "meta": {
           "population": 1311008,
           "tested": {
-            "last_updated": "2020-07-29",
-            "source": "https://twitter.com/CollectorSehore/status/1288484260714704896?s=20"
+            "last_updated": "2020-07-30",
+            "source": "https://twitter.com/CollectorSehore/status/1288848217635876865?s=20"
           }
         },
         "total": {
@@ -8131,8 +8157,8 @@
           "deceased": 9,
           "recovered": 98,
           "tested": {
-            "positives": 229,
-            "samples": 4674
+            "positives": 258,
+            "samples": 4775
           }
         }
       },
@@ -9846,7 +9872,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:37:36+05:30",
+      "last_updated": "2020-07-30T20:48:34+05:30",
       "population": 29859000,
       "tested": {
         "last_updated": "2020-07-30",
@@ -11862,18 +11888,18 @@
   "TT": {
     "delta": {
       "confirmed": 51005,
-      "deceased": 771,
+      "deceased": 772,
       "other": 7,
       "recovered": 34565,
       "tested": {
         "states": {
-          "positives": 50708,
-          "samples": 515619
+          "positives": 50968,
+          "samples": 523809
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:37:31+05:30",
+      "last_updated": "2020-07-30T20:48:30+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -11882,14 +11908,14 @@
     },
     "total": {
       "confirmed": 1635605,
-      "deceased": 35774,
+      "deceased": 35775,
       "other": 422,
       "recovered": 1056233,
       "tested": {
         "samples": 18190382,
         "states": {
-          "positives": 1642448,
-          "samples": 21353491
+          "positives": 1642708,
+          "samples": 21361681
         }
       }
     }
@@ -14132,7 +14158,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:37:33+05:30",
+      "last_updated": "2020-07-30T20:48:32+05:30",
       "population": 96906000,
       "tested": {
         "last_updated": "2020-07-30",

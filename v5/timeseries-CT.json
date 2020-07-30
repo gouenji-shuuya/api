@@ -2178,15 +2178,20 @@
       "2020-07-30": {
         "delta": {
           "confirmed": 175,
-          "recovered": 285
+          "deceased": 1,
+          "recovered": 285,
+          "tested": {
+            "positives": 260,
+            "samples": 8190
+          }
         },
         "total": {
           "confirmed": 8775,
-          "deceased": 50,
+          "deceased": 51,
           "recovered": 5921,
           "tested": {
-            "positives": 8515,
-            "samples": 302506
+            "positives": 8775,
+            "samples": 310696
           }
         }
       }
@@ -25368,11 +25373,12 @@
           "2020-07-30": {
             "delta": {
               "confirmed": 93,
+              "deceased": 1,
               "recovered": 106
             },
             "total": {
               "confirmed": 2752,
-              "deceased": 22,
+              "deceased": 23,
               "recovered": 1338,
               "tested": {
                 "positives": 128,
