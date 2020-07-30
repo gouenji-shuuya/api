@@ -2707,7 +2707,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:54:38+05:30",
+      "last_updated": "2020-07-30T21:03:35+05:30",
       "population": 28724000,
       "tested": {
         "last_updated": "2020-07-30",
@@ -7096,7 +7096,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:54:42+05:30",
+      "last_updated": "2020-07-30T21:03:41+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -7293,7 +7293,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:54:40+05:30",
+      "last_updated": "2020-07-30T21:03:38+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -8543,6 +8543,7 @@
   "NL": {
     "delta": {
       "confirmed": 53,
+      "other": 1,
       "recovered": 30,
       "tested": {
         "positives": 53,
@@ -8553,7 +8554,7 @@
       "Dimapur": {
         "delta": {
           "confirmed": 32,
-          "recovered": 1
+          "other": 1
         },
         "meta": {
           "population": 379769,
@@ -8565,8 +8566,8 @@
         "total": {
           "confirmed": 506,
           "deceased": 4,
-          "other": 1,
-          "recovered": 66,
+          "other": 2,
+          "recovered": 65,
           "tested": {
             "positives": 6,
             "samples": 896
@@ -8714,14 +8715,6 @@
           }
         }
       },
-      "Unknown": {
-        "delta": {
-          "recovered": -1
-        },
-        "total": {
-          "recovered": -1
-        }
-      },
       "Wokha": {
         "meta": {
           "population": 166239,
@@ -8749,7 +8742,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:31:08+05:30",
+      "last_updated": "2020-07-30T21:03:39+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-07-30",
@@ -8759,7 +8752,7 @@
     "total": {
       "confirmed": 1566,
       "deceased": 4,
-      "other": 1,
+      "other": 2,
       "recovered": 625,
       "tested": {
         "positives": 1566,
@@ -9879,7 +9872,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:54:35+05:30",
+      "last_updated": "2020-07-30T21:03:33+05:30",
       "population": 29859000,
       "tested": {
         "last_updated": "2020-07-30",
@@ -10730,6 +10723,8 @@
   },
   "SK": {
     "delta": {
+      "confirmed": 14,
+      "recovered": 16,
       "tested": {
         "positives": 14,
         "samples": 513
@@ -10737,11 +10732,14 @@
     },
     "districts": {
       "East Sikkim": {
+        "delta": {
+          "confirmed": 10
+        },
         "meta": {
           "population": 281293
         },
         "total": {
-          "confirmed": 397,
+          "confirmed": 407,
           "deceased": 1,
           "recovered": 125
         }
@@ -10756,12 +10754,23 @@
         }
       },
       "South Sikkim": {
+        "delta": {
+          "confirmed": 4
+        },
         "meta": {
           "population": 146742
         },
         "total": {
-          "confirmed": 159,
+          "confirmed": 163,
           "recovered": 61
+        }
+      },
+      "Unknown": {
+        "delta": {
+          "recovered": 16
+        },
+        "total": {
+          "recovered": 16
         }
       },
       "West Sikkim": {
@@ -10775,7 +10784,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-29T20:39:42+05:30",
+      "last_updated": "2020-07-30T21:03:46+05:30",
       "population": 664000,
       "tested": {
         "last_updated": "2020-07-30",
@@ -10783,9 +10792,9 @@
       }
     },
     "total": {
-      "confirmed": 596,
+      "confirmed": 610,
       "deceased": 1,
-      "recovered": 198,
+      "recovered": 214,
       "tested": {
         "positives": 610,
         "samples": 24150
@@ -11912,10 +11921,10 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 51005,
+      "confirmed": 51019,
       "deceased": 772,
-      "other": 7,
-      "recovered": 34565,
+      "other": 8,
+      "recovered": 34581,
       "tested": {
         "states": {
           "positives": 50968,
@@ -11924,7 +11933,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:55:30+05:30",
+      "last_updated": "2020-07-30T21:03:29+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -11932,10 +11941,10 @@
       }
     },
     "total": {
-      "confirmed": 1635605,
+      "confirmed": 1635619,
       "deceased": 35775,
-      "other": 422,
-      "recovered": 1056233,
+      "other": 423,
+      "recovered": 1056249,
       "tested": {
         "samples": 18190382,
         "states": {
@@ -14183,7 +14192,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T20:55:32+05:30",
+      "last_updated": "2020-07-30T21:03:31+05:30",
       "population": 96906000,
       "tested": {
         "last_updated": "2020-07-30",
