@@ -3,19 +3,27 @@
     "delta": {
       "confirmed": 65,
       "deceased": 1,
-      "recovered": 5
+      "recovered": 5,
+      "tested": {
+        "positives": 65,
+        "samples": 292
+      }
     },
     "districts": {
       "Unknown": {
         "delta": {
           "confirmed": 65,
           "deceased": 1,
-          "recovered": 5
+          "recovered": 5,
+          "tested": {
+            "positives": 65,
+            "samples": 292
+          }
         },
         "meta": {
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://dhs.andaman.gov.in/NewEvents/345.pdf"
+            "last_updated": "2020-07-29",
+            "source": "https://dhs.andaman.gov.in/NewEvents/346.pdf"
           }
         },
         "total": {
@@ -24,8 +32,8 @@
           "other": 1,
           "recovered": 201,
           "tested": {
-            "positives": 363,
-            "samples": 22925
+            "positives": 428,
+            "samples": 23217
           }
         }
       }
@@ -33,8 +41,8 @@
     "meta": {
       "population": 397000,
       "tested": {
-        "last_updated": "2020-07-28",
-        "source": "https://dhs.andaman.gov.in/NewEvents/345.pdf"
+        "last_updated": "2020-07-29",
+        "source": "https://dhs.andaman.gov.in/NewEvents/346.pdf"
       }
     },
     "total": {
@@ -43,8 +51,8 @@
       "other": 1,
       "recovered": 201,
       "tested": {
-        "positives": 363,
-        "samples": 22925
+        "positives": 428,
+        "samples": 23217
       }
     }
   },
@@ -3087,19 +3095,27 @@
   "DN": {
     "delta": {
       "confirmed": 38,
-      "recovered": 19
+      "recovered": 19,
+      "tested": {
+        "positives": 38,
+        "samples": 307
+      }
     },
     "districts": {
       "Dadra and Nagar Haveli": {
         "delta": {
           "confirmed": 19,
-          "recovered": 7
+          "recovered": 7,
+          "tested": {
+            "positives": 19,
+            "samples": 106
+          }
         },
         "meta": {
           "population": 343709,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://dddcovid19.in/uploads/report/BulletinDNHDD26072020.pdf"
+            "last_updated": "2020-07-29",
+            "source": "https://dddcovid19.in/uploads/report/BulletinDNHDD29072020.pdf"
           }
         },
         "total": {
@@ -3108,21 +3124,25 @@
           "other": 5,
           "recovered": 276,
           "tested": {
-            "positives": 423,
-            "samples": 25281
+            "positives": 478,
+            "samples": 25616
           }
         }
       },
       "Daman": {
         "delta": {
           "confirmed": 19,
-          "recovered": 12
+          "recovered": 12,
+          "tested": {
+            "positives": 19,
+            "samples": 81
+          }
         },
         "meta": {
           "population": 191173,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://dddcovid19.in/uploads/report/BulletinDNHDD26072020.pdf"
+            "last_updated": "2020-07-29",
+            "source": "https://dddcovid19.in/uploads/report/BulletinDNHDD29072020.pdf"
           }
         },
         "total": {
@@ -3131,17 +3151,22 @@
           "other": 2,
           "recovered": 358,
           "tested": {
-            "positives": 465,
-            "samples": 11354
+            "positives": 518,
+            "samples": 11570
           }
         }
       },
       "Diu": {
+        "delta": {
+          "tested": {
+            "samples": 120
+          }
+        },
         "meta": {
           "population": 52074,
           "tested": {
-            "last_updated": "2020-07-26",
-            "source": "https://dddcovid19.in/uploads/report/BulletinDNHDD26072020.pdf"
+            "last_updated": "2020-07-29",
+            "source": "https://dddcovid19.in/uploads/report/BulletinDNHDD29072020.pdf"
           }
         },
         "total": {
@@ -3149,8 +3174,8 @@
           "other": 4,
           "recovered": 33,
           "tested": {
-            "positives": 58,
-            "samples": 4508
+            "positives": 68,
+            "samples": 4709
           }
         }
       }
@@ -3158,7 +3183,8 @@
     "meta": {
       "population": 959000,
       "tested": {
-        "last_updated": "2020-07-28"
+        "last_updated": "2020-07-29",
+        "source": "https://dddcovid19.in/uploads/report/BulletinDNHDD29072020.pdf"
       }
     },
     "total": {
@@ -3167,8 +3193,8 @@
       "other": 11,
       "recovered": 667,
       "tested": {
-        "positives": 940,
-        "samples": 41588
+        "positives": 1058,
+        "samples": 41895
       }
     }
   },
@@ -12825,8 +12851,8 @@
       "tested": {
         "samples": 446642,
         "states": {
-          "positives": 53451,
-          "samples": 580362
+          "positives": 53554,
+          "samples": 580961
         }
       }
     },
@@ -12845,8 +12871,8 @@
       "tested": {
         "samples": 18190382,
         "states": {
-          "positives": 1591540,
-          "samples": 20837273
+          "positives": 1591723,
+          "samples": 20837872
         }
       }
     }
