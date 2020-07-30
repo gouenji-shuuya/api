@@ -1098,7 +1098,11 @@
     "delta": {
       "confirmed": 2082,
       "deceased": 12,
-      "recovered": 1169
+      "recovered": 1169,
+      "tested": {
+        "positives": 2082,
+        "samples": 20801
+      }
     },
     "districts": {
       "Araria": {
@@ -1940,8 +1944,8 @@
       "last_updated": "2020-07-30T17:16:28+05:30",
       "population": 119520000,
       "tested": {
-        "last_updated": "2020-07-29",
-        "source": "https://twitter.com/PIB_Patna/status/1288437360363843586"
+        "last_updated": "2020-07-30",
+        "source": "https://twitter.com/PIB_Patna/status/1288803751478718465"
       }
     },
     "total": {
@@ -1950,8 +1954,8 @@
       "other": 1,
       "recovered": 31673,
       "tested": {
-        "positives": 45919,
-        "samples": 504629
+        "positives": 48001,
+        "samples": 525430
       }
     }
   },
@@ -7180,11 +7184,15 @@
         }
       },
       "Kolasib": {
+        "delta": {
+          "other": 1
+        },
         "meta": {
           "population": 83054
         },
         "total": {
           "confirmed": 14,
+          "other": 1,
           "recovered": 12
         }
       },
@@ -7228,37 +7236,26 @@
         }
       },
       "Saitual": {
-        "delta": {
-          "recovered": 3
-        },
         "total": {
           "confirmed": 3,
-          "recovered": 6
+          "recovered": 3
         }
       },
       "Serchhip": {
         "delta": {
-          "recovered": 1
+          "recovered": 4
         },
         "meta": {
           "population": 64875
         },
         "total": {
           "confirmed": 7,
-          "recovered": 4
-        }
-      },
-      "Unknown": {
-        "delta": {
-          "other": 1
-        },
-        "total": {
-          "other": 1
+          "recovered": 7
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T17:24:30+05:30",
+      "last_updated": "2020-07-30T17:29:32+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -10275,10 +10272,16 @@
       "confirmed": 5697,
       "deceased": 45,
       "other": 3,
-      "recovered": 2162
+      "recovered": 2162,
+      "tested": {
+        "states": {
+          "positives": 2082,
+          "samples": 20801
+        }
+      }
     },
     "meta": {
-      "last_updated": "2020-07-30T17:24:27+05:30",
+      "last_updated": "2020-07-30T17:29:28+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -10293,8 +10296,8 @@
       "tested": {
         "samples": 18190382,
         "states": {
-          "positives": 1591540,
-          "samples": 20836828
+          "positives": 1593622,
+          "samples": 20857629
         }
       }
     }
