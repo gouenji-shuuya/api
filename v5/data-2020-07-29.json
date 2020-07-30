@@ -7297,11 +7297,15 @@
     },
     "districts": {
       "East Garo Hills": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 317618
         },
         "total": {
-          "confirmed": 1
+          "confirmed": 1,
+          "recovered": 1
         }
       },
       "East Jaintia Hills": {
@@ -7328,17 +7332,21 @@
         }
       },
       "North Garo Hills": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 118325
         },
         "total": {
           "confirmed": 2,
-          "recovered": 1
+          "recovered": 2
         }
       },
       "Ribhoi": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 1,
+          "recovered": 9
         },
         "meta": {
           "population": 258380
@@ -7346,7 +7354,7 @@
         "total": {
           "confirmed": 89,
           "deceased": 3,
-          "recovered": 33
+          "recovered": 42
         }
       },
       "South Garo Hills": {
@@ -7365,14 +7373,6 @@
         "total": {
           "confirmed": 8,
           "recovered": 4
-        }
-      },
-      "Unknown": {
-        "delta": {
-          "recovered": 11
-        },
-        "total": {
-          "recovered": 11
         }
       },
       "West Garo Hills": {
@@ -7679,13 +7679,17 @@
       },
       "Ashoknagar": {
         "delta": {
-          "confirmed": 2
+          "confirmed": 2,
+          "tested": {
+            "positives": 2,
+            "samples": 214
+          }
         },
         "meta": {
           "population": 844979,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://twitter.com/PROJSAshokNagar/status/1288070761484296193?s=20"
+            "last_updated": "2020-07-29",
+            "source": "https://twitter.com/PROJSAshokNagar/status/1288431316183244802?s=20"
           }
         },
         "total": {
@@ -7693,8 +7697,8 @@
           "deceased": 2,
           "recovered": 71,
           "tested": {
-            "positives": 81,
-            "samples": 3038
+            "positives": 83,
+            "samples": 3252
           }
         }
       },
@@ -7911,13 +7915,17 @@
       "Dewas": {
         "delta": {
           "confirmed": 7,
-          "recovered": 9
+          "recovered": 9,
+          "tested": {
+            "positives": 1,
+            "samples": 304
+          }
         },
         "meta": {
           "population": 1563107,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://twitter.com/PROJSDewas/status/1288308386837094402?s=20"
+            "last_updated": "2020-07-29",
+            "source": "https://twitter.com/PROJSDewas/status/1288659436140077056?s=20"
           }
         },
         "total": {
@@ -7925,8 +7933,8 @@
           "deceased": 10,
           "recovered": 342,
           "tested": {
-            "positives": 425,
-            "samples": 18064
+            "positives": 426,
+            "samples": 18368
           }
         }
       },
@@ -8063,13 +8071,17 @@
         "delta": {
           "confirmed": 74,
           "deceased": 2,
-          "recovered": 50
+          "recovered": 50,
+          "tested": {
+            "positives": 84,
+            "samples": 889
+          }
         },
         "meta": {
           "population": 3272335,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://twitter.com/tarun28988/status/1288176788242223104?s=20"
+            "last_updated": "2020-07-29",
+            "source": "https://twitter.com/tarun28988/status/1288548151737999361?s=20"
           }
         },
         "total": {
@@ -8077,8 +8089,8 @@
           "deceased": 308,
           "recovered": 4808,
           "tested": {
-            "positives": 7132,
-            "samples": 133755
+            "positives": 7216,
+            "samples": 134644
           }
         }
       },
