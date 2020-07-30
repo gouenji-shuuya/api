@@ -3127,6 +3127,7 @@
   "HP": {
     "delta": {
       "confirmed": 11,
+      "other": 2,
       "recovered": 39
     },
     "districts": {
@@ -3151,6 +3152,9 @@
         }
       },
       "Chamba": {
+        "delta": {
+          "other": 1
+        },
         "meta": {
           "notes": "One death of COVID-19 positive patient has occured due to non-covid reasons",
           "population": 518844,
@@ -3161,6 +3165,7 @@
         },
         "total": {
           "confirmed": 103,
+          "other": 1,
           "recovered": 70,
           "tested": {
             "positives": 103,
@@ -3288,7 +3293,8 @@
       },
       "Shimla": {
         "delta": {
-          "confirmed": 3
+          "confirmed": 3,
+          "other": 1
         },
         "meta": {
           "notes": "One death of COVID-19 positive patient has occured due to non-covid reasons",
@@ -3301,6 +3307,7 @@
         "total": {
           "confirmed": 162,
           "deceased": 2,
+          "other": 1,
           "recovered": 63,
           "tested": {
             "positives": 151,
@@ -3330,7 +3337,6 @@
       "Solan": {
         "delta": {
           "confirmed": 1,
-          "other": -3,
           "recovered": 23
         },
         "meta": {
@@ -3370,16 +3376,11 @@
             "samples": 13594
           }
         }
-      },
-      "Unknown": {
-        "delta": {
-          "other": 3
-        }
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T13:09:36+05:30",
-      "notes": "HP has 16 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
+      "last_updated": "2020-07-30T13:26:32+05:30",
+      "notes": "HP has 18 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -3389,7 +3390,7 @@
     "total": {
       "confirmed": 2414,
       "deceased": 13,
-      "other": 15,
+      "other": 17,
       "recovered": 1371,
       "tested": {
         "positives": 2403,
@@ -5399,8 +5400,8 @@
         "meta": {
           "population": 4224442,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://twitter.com/InfoJalgaon/status/1288119503067349000/photo/1"
+            "last_updated": "2020-07-29",
+            "source": "https://twitter.com/InfoJalgaon/status/1288474313096478722/photo/1"
           }
         },
         "total": {
@@ -5408,8 +5409,8 @@
           "deceased": 507,
           "recovered": 6856,
           "tested": {
-            "positives": 10249,
-            "samples": 48832
+            "positives": 10591,
+            "samples": 49457
           }
         }
       },
@@ -5474,8 +5475,8 @@
         "meta": {
           "population": 4653171,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://twitter.com/ravigite5/status/1288103830983307266"
+            "last_updated": "2020-07-29",
+            "source": "https://twitter.com/ravigite5/status/1288474660963782659/photo/1"
           }
         },
         "total": {
@@ -5484,8 +5485,8 @@
           "other": 1,
           "recovered": 1898,
           "tested": {
-            "positives": 4487,
-            "samples": 68691
+            "positives": 4792,
+            "samples": 72323
           }
         }
       },
@@ -5529,8 +5530,8 @@
         "meta": {
           "population": 6109052,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://twitter.com/InfoNashik/status/1288090648877256708/photo/1"
+            "last_updated": "2020-07-29",
+            "source": "https://twitter.com/InfoNashik/status/1288472531301621761/photo/1"
           }
         },
         "total": {
@@ -5538,8 +5539,8 @@
           "deceased": 447,
           "recovered": 7907,
           "tested": {
-            "positives": 12657,
-            "samples": 43464
+            "positives": 13227,
+            "samples": 44457
           }
         }
       },
@@ -5572,7 +5573,7 @@
         "meta": {
           "population": 2990116,
           "tested": {
-            "last_updated": "2020-07-27",
+            "last_updated": "2020-07-28",
             "source": "https://datastudio.google.com/embed/reporting/3f20951b-561b-4a87-a919-8134ce69bb43/page/r0ZUB"
           }
         },
@@ -5581,8 +5582,8 @@
           "deceased": 317,
           "recovered": 9049,
           "tested": {
-            "positives": 14398,
-            "samples": 80890
+            "positives": 14551,
+            "samples": 82492
           }
         }
       },
@@ -5608,8 +5609,8 @@
         "meta": {
           "population": 9426959,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://twitter.com/Info_Pune/status/1288325814967181312?s=20"
+            "last_updated": "2020-07-29",
+            "source": "https://twitter.com/Info_Pune/status/1288325814967181312/photo/1"
           }
         },
         "total": {
@@ -5761,8 +5762,8 @@
         "meta": {
           "population": 2775457,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://twitter.com/InfoYavatmal/status/1288098286918762499/photo/1"
+            "last_updated": "2020-07-29",
+            "source": "https://twitter.com/InfoYavatmal/status/1288462390749618177/photo/1"
           }
         },
         "total": {
@@ -5770,8 +5771,8 @@
           "deceased": 27,
           "recovered": 460,
           "tested": {
-            "positives": 852,
-            "samples": 14251
+            "positives": 899,
+            "samples": 15196
           }
         }
       }
@@ -10074,10 +10075,11 @@
     "delta": {
       "confirmed": 3529,
       "deceased": 33,
+      "other": 2,
       "recovered": 938
     },
     "meta": {
-      "last_updated": "2020-07-30T13:09:30+05:30",
+      "last_updated": "2020-07-30T13:26:29+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -10087,7 +10089,7 @@
     "total": {
       "confirmed": 1588129,
       "deceased": 35036,
-      "other": 415,
+      "other": 417,
       "recovered": 1022606,
       "tested": {
         "samples": 18190382,

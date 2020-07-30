@@ -2756,6 +2756,7 @@
   "HP": {
     "delta": {
       "confirmed": 11,
+      "migrated": 2,
       "recovered": 39
     },
     "districts": {
@@ -2777,6 +2778,9 @@
         }
       },
       "Chamba": {
+        "delta": {
+          "migrated": 1
+        },
         "meta": {
           "notes": "One death of COVID-19 positive patient has occured due to non-covid reasons",
           "population": 518844,
@@ -2787,6 +2791,7 @@
         },
         "total": {
           "confirmed": 103,
+          "migrated": 1,
           "recovered": 70,
           "tested": 9461
         }
@@ -2893,7 +2898,8 @@
       },
       "Shimla": {
         "delta": {
-          "confirmed": 3
+          "confirmed": 3,
+          "migrated": 1
         },
         "meta": {
           "notes": "One death of COVID-19 positive patient has occured due to non-covid reasons",
@@ -2906,6 +2912,7 @@
         "total": {
           "confirmed": 162,
           "deceased": 2,
+          "migrated": 1,
           "recovered": 63,
           "tested": 12564
         }
@@ -2929,7 +2936,6 @@
       "Solan": {
         "delta": {
           "confirmed": 1,
-          "migrated": -3,
           "recovered": 23
         },
         "meta": {
@@ -2963,16 +2969,11 @@
           "recovered": 141,
           "tested": 13594
         }
-      },
-      "Unknown": {
-        "delta": {
-          "migrated": 3
-        }
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T13:09:36+05:30",
-      "notes": "HP has 16 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
+      "last_updated": "2020-07-30T13:26:32+05:30",
+      "notes": "HP has 18 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -2982,7 +2983,7 @@
     "total": {
       "confirmed": 2414,
       "deceased": 13,
-      "migrated": 15,
+      "migrated": 17,
       "recovered": 1371,
       "tested": 139955
     }
@@ -4757,15 +4758,15 @@
         "meta": {
           "population": 4224442,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://twitter.com/InfoJalgaon/status/1288119503067349000/photo/1"
+            "last_updated": "2020-07-29",
+            "source": "https://twitter.com/InfoJalgaon/status/1288474313096478722/photo/1"
           }
         },
         "total": {
           "confirmed": 10063,
           "deceased": 507,
           "recovered": 6856,
-          "tested": 48832
+          "tested": 49457
         }
       },
       "Jalna": {
@@ -4823,8 +4824,8 @@
         "meta": {
           "population": 4653171,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://twitter.com/ravigite5/status/1288103830983307266"
+            "last_updated": "2020-07-29",
+            "source": "https://twitter.com/ravigite5/status/1288474660963782659/photo/1"
           }
         },
         "total": {
@@ -4832,7 +4833,7 @@
           "deceased": 68,
           "migrated": 1,
           "recovered": 1898,
-          "tested": 68691
+          "tested": 72323
         }
       },
       "Nanded": {
@@ -4869,15 +4870,15 @@
         "meta": {
           "population": 6109052,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://twitter.com/InfoNashik/status/1288090648877256708/photo/1"
+            "last_updated": "2020-07-29",
+            "source": "https://twitter.com/InfoNashik/status/1288472531301621761/photo/1"
           }
         },
         "total": {
           "confirmed": 13792,
           "deceased": 447,
           "recovered": 7907,
-          "tested": 43464
+          "tested": 44457
         }
       },
       "Osmanabad": {
@@ -4906,7 +4907,7 @@
         "meta": {
           "population": 2990116,
           "tested": {
-            "last_updated": "2020-07-27",
+            "last_updated": "2020-07-28",
             "source": "https://datastudio.google.com/embed/reporting/3f20951b-561b-4a87-a919-8134ce69bb43/page/r0ZUB"
           }
         },
@@ -4914,7 +4915,7 @@
           "confirmed": 14904,
           "deceased": 317,
           "recovered": 9049,
-          "tested": 80890
+          "tested": 82492
         }
       },
       "Parbhani": {
@@ -4936,8 +4937,8 @@
         "meta": {
           "population": 9426959,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://twitter.com/Info_Pune/status/1288325814967181312?s=20"
+            "last_updated": "2020-07-29",
+            "source": "https://twitter.com/Info_Pune/status/1288325814967181312/photo/1"
           }
         },
         "total": {
@@ -5071,15 +5072,15 @@
         "meta": {
           "population": 2775457,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://twitter.com/InfoYavatmal/status/1288098286918762499/photo/1"
+            "last_updated": "2020-07-29",
+            "source": "https://twitter.com/InfoYavatmal/status/1288462390749618177/photo/1"
           }
         },
         "total": {
           "confirmed": 827,
           "deceased": 27,
           "recovered": 460,
-          "tested": 14251
+          "tested": 15196
         }
       }
     },
@@ -9196,10 +9197,11 @@
     "delta": {
       "confirmed": 3529,
       "deceased": 33,
+      "migrated": 2,
       "recovered": 938
     },
     "meta": {
-      "last_updated": "2020-07-30T13:09:30+05:30",
+      "last_updated": "2020-07-30T13:26:29+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -9209,7 +9211,7 @@
     "total": {
       "confirmed": 1588129,
       "deceased": 35036,
-      "migrated": 415,
+      "migrated": 417,
       "recovered": 1022606,
       "tested": 18190382
     }
