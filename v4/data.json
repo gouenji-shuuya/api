@@ -3267,11 +3267,15 @@
   },
   "HP": {
     "delta": {
-      "confirmed": 6,
-      "recovered": 1
+      "confirmed": 50,
+      "recovered": 30,
+      "tested": 2536
     },
     "districts": {
       "Bilaspur": {
+        "delta": {
+          "recovered": 7
+        },
         "meta": {
           "population": 382056,
           "tested": {
@@ -3281,7 +3285,7 @@
         },
         "total": {
           "confirmed": 88,
-          "recovered": 56,
+          "recovered": 63,
           "tested": 6002
         }
       },
@@ -3306,6 +3310,9 @@
         }
       },
       "Hamirpur": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 454293,
           "tested": {
@@ -3314,7 +3321,7 @@
           }
         },
         "total": {
-          "confirmed": 304,
+          "confirmed": 306,
           "deceased": 3,
           "recovered": 279,
           "tested": 16115
@@ -3383,6 +3390,9 @@
         }
       },
       "Mandi": {
+        "delta": {
+          "confirmed": 8
+        },
         "meta": {
           "population": 999518,
           "tested": {
@@ -3391,13 +3401,16 @@
           }
         },
         "total": {
-          "confirmed": 157,
+          "confirmed": 165,
           "deceased": 3,
           "recovered": 43,
           "tested": 11537
         }
       },
       "Shimla": {
+        "delta": {
+          "recovered": 13
+        },
         "meta": {
           "notes": "One death of COVID-19 positive patient has occured due to non-covid reasons",
           "population": 813384,
@@ -3410,11 +3423,15 @@
           "confirmed": 165,
           "deceased": 2,
           "migrated": 1,
-          "recovered": 62,
+          "recovered": 75,
           "tested": 12740
         }
       },
       "Sirmaur": {
+        "delta": {
+          "confirmed": 3,
+          "recovered": 3
+        },
         "meta": {
           "population": 530164,
           "tested": {
@@ -3423,14 +3440,18 @@
           }
         },
         "total": {
-          "confirmed": 327,
+          "confirmed": 330,
           "deceased": 1,
           "migrated": 7,
-          "recovered": 115,
+          "recovered": 118,
           "tested": 10381
         }
       },
       "Solan": {
+        "delta": {
+          "confirmed": 26,
+          "recovered": 6
+        },
         "meta": {
           "population": 576670,
           "tested": {
@@ -3439,15 +3460,15 @@
           }
         },
         "total": {
-          "confirmed": 628,
+          "confirmed": 654,
           "migrated": 3,
-          "recovered": 233,
+          "recovered": 239,
           "tested": 22711
         }
       },
       "Una": {
         "delta": {
-          "confirmed": 4
+          "confirmed": 9
         },
         "meta": {
           "population": 521057,
@@ -3457,27 +3478,26 @@
           }
         },
         "total": {
-          "confirmed": 202,
+          "confirmed": 207,
           "recovered": 149,
           "tested": 13676
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-31T13:42:36+05:30",
+      "last_updated": "2020-07-31T21:37:39+05:30",
       "notes": "HP has 18 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
-        "last_updated": "2020-07-30",
-        "source": "https://twitter.com/nhm_hp/status/1288874086576222209?s=20"
+        "last_updated": "2020-07-31"
       }
     },
     "total": {
-      "confirmed": 2512,
+      "confirmed": 2556,
       "deceased": 13,
       "migrated": 17,
-      "recovered": 1388,
-      "tested": 142618
+      "recovered": 1417,
+      "tested": 145154
     }
   },
   "HR": {
@@ -5182,14 +5202,14 @@
     "districts": {
       "Alappuzha": {
         "delta": {
-          "confirmed": 14,
+          "confirmed": 35,
           "recovered": 25
         },
         "meta": {
           "population": 2121943
         },
         "total": {
-          "confirmed": 1703,
+          "confirmed": 1724,
           "deceased": 5,
           "migrated": 6,
           "recovered": 986
@@ -5228,14 +5248,14 @@
       },
       "Kannur": {
         "delta": {
-          "confirmed": 35,
+          "confirmed": 14,
           "recovered": 41
         },
         "meta": {
           "population": 2525637
         },
         "total": {
-          "confirmed": 1406,
+          "confirmed": 1385,
           "deceased": 8,
           "recovered": 908
         }
@@ -10290,13 +10310,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 50978,
+      "confirmed": 51022,
       "deceased": 710,
       "migrated": 3,
-      "recovered": 31925
+      "recovered": 31954
     },
     "meta": {
-      "last_updated": "2020-07-31T20:58:32+05:30",
+      "last_updated": "2020-07-31T21:37:36+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-30",
@@ -10304,10 +10324,10 @@
       }
     },
     "total": {
-      "confirmed": 1690546,
+      "confirmed": 1690590,
       "deceased": 36497,
       "migrated": 426,
-      "recovered": 1091018,
+      "recovered": 1091047,
       "tested": 18832970
     }
   },
