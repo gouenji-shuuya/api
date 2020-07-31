@@ -43,7 +43,11 @@
     "delta": {
       "confirmed": 10376,
       "deceased": 68,
-      "recovered": 3840
+      "recovered": 3840,
+      "tested": {
+        "positives": 10376,
+        "samples": 61699
+      }
     },
     "districts": {
       "Anantapur": {
@@ -369,8 +373,8 @@
       "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin.",
       "population": 52221000,
       "tested": {
-        "last_updated": "2020-07-30",
-        "source": "https://twitter.com/ArogyaAndhra/status/1288818199895539713?s=20"
+        "last_updated": "2020-07-31",
+        "source": "https://twitter.com/ArogyaAndhra/status/1289165428242018305?s=20"
       }
     },
     "total": {
@@ -378,8 +382,8 @@
       "deceased": 1349,
       "recovered": 63864,
       "tested": {
-        "positives": 130557,
-        "samples": 1890077
+        "positives": 140933,
+        "samples": 1951776
       }
     }
   },
@@ -2078,7 +2082,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-31T18:24:01+05:30",
+      "last_updated": "2020-07-31T18:32:35+05:30",
       "population": 1179000,
       "tested": {
         "last_updated": "2020-07-30",
@@ -8692,8 +8696,17 @@
     }
   },
   "PY": {
+    "delta": {
+      "confirmed": 174,
+      "deceased": 1,
+      "recovered": 142
+    },
     "districts": {
       "Karaikal": {
+        "delta": {
+          "confirmed": 13,
+          "recovered": 6
+        },
         "meta": {
           "notes": "1 case of TN has been transferred,so has been reduced from the total count.",
           "population": 200222,
@@ -8703,9 +8716,9 @@
           }
         },
         "total": {
-          "confirmed": 172,
+          "confirmed": 185,
           "deceased": 2,
-          "recovered": 126,
+          "recovered": 132,
           "tested": {
             "positives": 172,
             "samples": 5101
@@ -8730,6 +8743,11 @@
         }
       },
       "Puducherry": {
+        "delta": {
+          "confirmed": 135,
+          "deceased": 1,
+          "recovered": 136
+        },
         "meta": {
           "notes": "33 cases(28 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
@@ -8739,9 +8757,9 @@
           }
         },
         "total": {
-          "confirmed": 2984,
-          "deceased": 43,
-          "recovered": 1752,
+          "confirmed": 3119,
+          "deceased": 44,
+          "recovered": 1888,
           "tested": {
             "positives": 2984,
             "samples": 30096
@@ -8749,6 +8767,9 @@
         }
       },
       "Yanam": {
+        "delta": {
+          "confirmed": 26
+        },
         "meta": {
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
@@ -8758,7 +8779,7 @@
           }
         },
         "total": {
-          "confirmed": 119,
+          "confirmed": 145,
           "deceased": 3,
           "recovered": 58,
           "tested": {
@@ -8769,7 +8790,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-30T17:57:29+05:30",
+      "last_updated": "2020-07-31T18:37:32+05:30",
       "population": 1504000,
       "tested": {
         "last_updated": "2020-07-30",
@@ -8777,9 +8798,9 @@
       }
     },
     "total": {
-      "confirmed": 3298,
-      "deceased": 48,
-      "recovered": 1958,
+      "confirmed": 3472,
+      "deceased": 49,
+      "recovered": 2100,
       "tested": {
         "positives": 3298,
         "samples": 38734
@@ -10467,18 +10488,18 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 23640,
-      "deceased": 195,
-      "recovered": 10428,
+      "confirmed": 23814,
+      "deceased": 196,
+      "recovered": 10570,
       "tested": {
         "states": {
-          "positives": 11336,
-          "samples": 79572
+          "positives": 21712,
+          "samples": 141271
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-31T18:23:58+05:30",
+      "last_updated": "2020-07-31T18:37:30+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-30",
@@ -10486,15 +10507,15 @@
       }
     },
     "total": {
-      "confirmed": 1663209,
-      "deceased": 35981,
+      "confirmed": 1663383,
+      "deceased": 35982,
       "other": 423,
-      "recovered": 1069521,
+      "recovered": 1069663,
       "tested": {
         "samples": 18832970,
         "states": {
-          "positives": 1658213,
-          "samples": 21532882
+          "positives": 1668589,
+          "samples": 21594581
         }
       }
     }
