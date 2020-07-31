@@ -66440,15 +66440,19 @@
         "delta": {
           "confirmed": 1986,
           "deceased": 14,
-          "recovered": 816
+          "recovered": 816,
+          "tested": {
+            "positives": 1986,
+            "samples": 21380
+          }
         },
         "total": {
           "confirmed": 62703,
           "deceased": 519,
           "recovered": 45388,
           "tested": {
-            "positives": 60717,
-            "samples": 416202
+            "positives": 62703,
+            "samples": 437582
           }
         }
       }
@@ -74734,7 +74738,13 @@
         "delta": {
           "confirmed": 1986,
           "deceased": 14,
-          "recovered": 816
+          "recovered": 816,
+          "tested": {
+            "states": {
+              "positives": 1986,
+              "samples": 21380
+            }
+          }
         },
         "total": {
           "confirmed": 1641555,
@@ -74744,8 +74754,8 @@
           "tested": {
             "samples": 18832970,
             "states": {
-              "positives": 1646658,
-              "samples": 21446052
+              "positives": 1648644,
+              "samples": 21467432
             }
           }
         }
