@@ -8714,20 +8714,28 @@
     "delta": {
       "confirmed": 174,
       "deceased": 1,
-      "recovered": 142
+      "recovered": 142,
+      "tested": {
+        "positives": 174,
+        "samples": 973
+      }
     },
     "districts": {
       "Karaikal": {
         "delta": {
           "confirmed": 13,
-          "recovered": 6
+          "recovered": 6,
+          "tested": {
+            "positives": 13,
+            "samples": 123
+          }
         },
         "meta": {
           "notes": "1 case of TN has been transferred,so has been reduced from the total count.",
           "population": 200222,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://health.py.gov.in/sites/default/files/30.07.2020-bulletin.pdf"
+            "last_updated": "2020-07-31",
+            "source": "https://health.py.gov.in/sites/default/files/31.07.2020-bulletin_1.pdf"
           }
         },
         "total": {
@@ -8735,17 +8743,22 @@
           "deceased": 2,
           "recovered": 132,
           "tested": {
-            "positives": 172,
-            "samples": 5101
+            "positives": 185,
+            "samples": 5224
           }
         }
       },
       "Mahe": {
+        "delta": {
+          "tested": {
+            "samples": 55
+          }
+        },
         "meta": {
           "population": 41816,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://health.py.gov.in/sites/default/files/30.07.2020-bulletin.pdf"
+            "last_updated": "2020-07-31",
+            "source": "https://health.py.gov.in/sites/default/files/31.07.2020-bulletin_1.pdf"
           }
         },
         "total": {
@@ -8753,7 +8766,7 @@
           "recovered": 22,
           "tested": {
             "positives": 23,
-            "samples": 1432
+            "samples": 1487
           }
         }
       },
@@ -8761,14 +8774,18 @@
         "delta": {
           "confirmed": 135,
           "deceased": 1,
-          "recovered": 136
+          "recovered": 136,
+          "tested": {
+            "positives": 135,
+            "samples": 739
+          }
         },
         "meta": {
           "notes": "33 cases(28 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://health.py.gov.in/sites/default/files/30.07.2020-bulletin.pdf"
+            "last_updated": "2020-07-31",
+            "source": "https://health.py.gov.in/sites/default/files/31.07.2020-bulletin_1.pdf"
           }
         },
         "total": {
@@ -8776,21 +8793,25 @@
           "deceased": 44,
           "recovered": 1888,
           "tested": {
-            "positives": 2984,
-            "samples": 30096
+            "positives": 3119,
+            "samples": 30835
           }
         }
       },
       "Yanam": {
         "delta": {
-          "confirmed": 26
+          "confirmed": 26,
+          "tested": {
+            "positives": 26,
+            "samples": 56
+          }
         },
         "meta": {
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://health.py.gov.in/sites/default/files/30.07.2020-bulletin.pdf"
+            "last_updated": "2020-07-31",
+            "source": "https://health.py.gov.in/sites/default/files/31.07.2020-bulletin_1.pdf"
           }
         },
         "total": {
@@ -8798,18 +8819,18 @@
           "deceased": 3,
           "recovered": 58,
           "tested": {
-            "positives": 119,
-            "samples": 2105
+            "positives": 145,
+            "samples": 2161
           }
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-31T18:42:32+05:30",
+      "last_updated": "2020-07-31T18:49:37+05:30",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-07-30",
-        "source": "https://health.py.gov.in/sites/default/files/30.07.2020-bulletin.pdf"
+        "last_updated": "2020-07-31",
+        "source": "https://health.py.gov.in/sites/default/files/31.07.2020-bulletin_1.pdf"
       }
     },
     "total": {
@@ -8817,8 +8838,8 @@
       "deceased": 49,
       "recovered": 2100,
       "tested": {
-        "positives": 3298,
-        "samples": 38734
+        "positives": 3472,
+        "samples": 39707
       }
     }
   },
@@ -10496,7 +10517,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-31T18:46:32+05:30",
+      "last_updated": "2020-07-31T18:52:33+05:30",
       "notes": "[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.\n2 deaths cross notified to other states from Chennai and Coimbatore.\n1 patient died after turning negative for infection in Chengalpattu.\nThese cases have been added to TN deceased tally",
       "population": 75695000,
       "tested": {
@@ -10691,13 +10712,13 @@
       "recovered": 16348,
       "tested": {
         "states": {
-          "positives": 23057,
-          "samples": 201266
+          "positives": 23231,
+          "samples": 202239
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-31T18:46:30+05:30",
+      "last_updated": "2020-07-31T18:52:31+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-30",
@@ -10712,8 +10733,8 @@
       "tested": {
         "samples": 18832970,
         "states": {
-          "positives": 1669934,
-          "samples": 21654576
+          "positives": 1670108,
+          "samples": 21655549
         }
       }
     }
