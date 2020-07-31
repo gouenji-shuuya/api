@@ -1733,7 +1733,11 @@
       "2020-07-31": {
         "delta": {
           "confirmed": 127,
-          "recovered": 10
+          "recovered": 10,
+          "tested": {
+            "positives": 127,
+            "samples": 739
+          }
         },
         "total": {
           "confirmed": 1693,
@@ -1741,8 +1745,8 @@
           "other": 2,
           "recovered": 635,
           "tested": {
-            "positives": 1566,
-            "samples": 37156
+            "positives": 1693,
+            "samples": 37895
           }
         }
       }
