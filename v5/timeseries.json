@@ -29101,15 +29101,19 @@
         "delta": {
           "confirmed": 711,
           "deceased": 4,
-          "recovered": 887
+          "recovered": 887,
+          "tested": {
+            "positives": 711,
+            "samples": 11698
+          }
         },
         "total": {
           "confirmed": 34965,
           "deceased": 421,
           "recovered": 28227,
           "tested": {
-            "positives": 34254,
-            "samples": 600893
+            "positives": 34965,
+            "samples": 612591
           }
         }
       }
@@ -74893,27 +74897,27 @@
       },
       "2020-07-31": {
         "delta": {
-          "confirmed": 38284,
-          "deceased": 398,
+          "confirmed": 38402,
+          "deceased": 402,
           "other": 3,
-          "recovered": 22637,
+          "recovered": 22809,
           "tested": {
             "states": {
-              "positives": 32588,
-              "samples": 430094
+              "positives": 33299,
+              "samples": 441792
             }
           }
         },
         "total": {
-          "confirmed": 1677853,
-          "deceased": 36185,
+          "confirmed": 1677971,
+          "deceased": 36189,
           "other": 426,
-          "recovered": 1081730,
+          "recovered": 1081902,
           "tested": {
             "samples": 18832970,
             "states": {
-              "positives": 1679465,
-              "samples": 21883404
+              "positives": 1680176,
+              "samples": 21895102
             }
           }
         }
@@ -80412,11 +80416,16 @@
         }
       },
       "2020-07-31": {
+        "delta": {
+          "confirmed": 118,
+          "deceased": 4,
+          "recovered": 172
+        },
         "total": {
-          "confirmed": 7065,
-          "deceased": 76,
+          "confirmed": 7183,
+          "deceased": 80,
           "other": 38,
-          "recovered": 3996,
+          "recovered": 4168,
           "tested": {
             "positives": 7065,
             "samples": 163683
