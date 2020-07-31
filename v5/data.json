@@ -2904,7 +2904,11 @@
     "delta": {
       "confirmed": 209,
       "deceased": 3,
-      "recovered": 206
+      "recovered": 206,
+      "tested": {
+        "positives": 209,
+        "samples": 1599
+      }
     },
     "districts": {
       "North Goa": {
@@ -2955,8 +2959,8 @@
       "last_updated": "2020-07-31T20:27:03+05:30",
       "population": 1540000,
       "tested": {
-        "last_updated": "2020-07-30",
-        "source": "https://www.goa.gov.in/wp-content/uploads/2020/07/Media-Bulletin-30-Jul-2020.pdf"
+        "last_updated": "2020-07-31",
+        "source": "https://twitter.com/ANI/status/1289218764748201984?s=20"
       }
     },
     "total": {
@@ -2964,8 +2968,8 @@
       "deceased": 45,
       "recovered": 4211,
       "tested": {
-        "positives": 5704,
-        "samples": 129719
+        "positives": 5913,
+        "samples": 131318
       }
     }
   },
@@ -9241,6 +9245,7 @@
       "deceased": 16,
       "recovered": 225,
       "tested": {
+        "positives": 663,
         "samples": 10506
       }
     },
@@ -9721,10 +9726,11 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-31T20:53:35+05:30",
+      "last_updated": "2020-07-31T20:58:34+05:30",
       "population": 29859000,
       "tested": {
-        "last_updated": "2020-07-31"
+        "last_updated": "2020-07-31",
+        "source": "http://diprpunjab.gov.in/sites/default/files/Media%20Bulletin%2031-07-2020.pdf"
       }
     },
     "total": {
@@ -9732,7 +9738,7 @@
       "deceased": 386,
       "recovered": 10734,
       "tested": {
-        "positives": 15456,
+        "positives": 16119,
         "samples": 582573
       }
     }
@@ -10561,7 +10567,11 @@
   "SK": {
     "delta": {
       "confirmed": 29,
-      "recovered": 17
+      "recovered": 17,
+      "tested": {
+        "positives": 29,
+        "samples": 789
+      }
     },
     "districts": {
       "East Sikkim": {
@@ -10620,8 +10630,8 @@
       "last_updated": "2020-07-31T19:30:18+05:30",
       "population": 664000,
       "tested": {
-        "last_updated": "2020-07-30",
-        "source": "https://twitter.com/sikkimgovt/status/1288859548216745986?s=20"
+        "last_updated": "2020-07-31",
+        "source": "https://twitter.com/sikkimgovt/status/1289191697868439557?s=20"
       }
     },
     "total": {
@@ -10629,8 +10639,8 @@
       "deceased": 1,
       "recovered": 231,
       "tested": {
-        "positives": 610,
-        "samples": 24150
+        "positives": 639,
+        "samples": 24939
       }
     }
   },
@@ -11762,13 +11772,13 @@
       "recovered": 31925,
       "tested": {
         "states": {
-          "positives": 42614,
-          "samples": 511695
+          "positives": 46011,
+          "samples": 533086
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-31T20:53:32+05:30",
+      "last_updated": "2020-07-31T20:58:32+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-30",
@@ -11783,8 +11793,8 @@
       "tested": {
         "samples": 18832970,
         "states": {
-          "positives": 1689491,
-          "samples": 21965005
+          "positives": 1692888,
+          "samples": 21986396
         }
       }
     }
@@ -13771,6 +13781,12 @@
     }
   },
   "WB": {
+    "delta": {
+      "tested": {
+        "positives": 2496,
+        "samples": 19003
+      }
+    },
     "districts": {
       "Alipurduar": {
         "meta": {
@@ -14011,8 +14027,8 @@
       "last_updated": "2020-07-30T21:24:31+05:30",
       "population": 96906000,
       "tested": {
-        "last_updated": "2020-07-30",
-        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_30th_JULY_REPORT_FINAL.pdf"
+        "last_updated": "2020-07-31",
+        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_31st_JULY_REPORT_FINAL.pdf"
       }
     },
     "total": {
@@ -14020,8 +14036,8 @@
       "deceased": 1536,
       "recovered": 46256,
       "tested": {
-        "positives": 67692,
-        "samples": 874397
+        "positives": 70188,
+        "samples": 893400
       }
     }
   }
