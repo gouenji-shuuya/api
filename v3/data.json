@@ -1040,7 +1040,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-01T19:23:43+05:30",
+      "last_updated": "2020-08-01T19:25:42+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1647,13 +1647,15 @@
   "CH": {
     "delta": {
       "confirmed": 28,
-      "recovered": 19
+      "deceased": 3,
+      "recovered": 16
     },
     "districts": {
       "Chandigarh": {
         "delta": {
           "confirmed": 28,
-          "recovered": 19
+          "deceased": 3,
+          "recovered": 16
         },
         "meta": {
           "population": 1055450,
@@ -1664,14 +1666,14 @@
         },
         "total": {
           "confirmed": 1079,
-          "deceased": 15,
-          "recovered": 686,
+          "deceased": 18,
+          "recovered": 683,
           "tested": 13683
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-01T19:23:50+05:30",
+      "last_updated": "2020-08-01T19:27:39+05:30",
       "population": 1179000,
       "tested": {
         "last_updated": "2020-07-31",
@@ -1680,8 +1682,8 @@
     },
     "total": {
       "confirmed": 1079,
-      "deceased": 15,
-      "recovered": 686,
+      "deceased": 18,
+      "recovered": 683,
       "tested": 13959
     }
   },
@@ -4689,7 +4691,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-01T19:23:35+05:30",
+      "last_updated": "2020-08-01T19:25:37+05:30",
       "notes": "9 cases are classified as non-covid related deaths in KA bulletin. They have been reduced from active cases",
       "population": 65798000,
       "tested": {
@@ -5530,7 +5532,8 @@
   "ML": {
     "delta": {
       "confirmed": 33,
-      "recovered": 37
+      "recovered": 37,
+      "tested": 769
     },
     "districts": {
       "East Garo Hills": {
@@ -5657,15 +5660,14 @@
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
-        "last_updated": "2020-07-31",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1470"
+        "last_updated": "2020-08-01"
       }
     },
     "total": {
       "confirmed": 856,
       "deceased": 5,
       "recovered": 252,
-      "tested": 35572
+      "tested": 36341
     }
   },
   "MN": {
@@ -6752,7 +6754,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-01T19:23:46+05:30",
+      "last_updated": "2020-08-01T19:27:36+05:30",
       "population": 82232000,
       "tested": {
         "last_updated": "2020-08-01",
@@ -7597,8 +7599,18 @@
     }
   },
   "PB": {
+    "delta": {
+      "confirmed": 944,
+      "deceased": 19,
+      "recovered": 341,
+      "tested": 9819
+    },
     "districts": {
       "Amritsar": {
+        "delta": {
+          "confirmed": 48,
+          "deceased": 1
+        },
         "meta": {
           "population": 2490891,
           "tested": {
@@ -7607,13 +7619,18 @@
           }
         },
         "total": {
-          "confirmed": 1863,
-          "deceased": 79,
+          "confirmed": 1911,
+          "deceased": 80,
           "recovered": 1321,
           "tested": 35591
         }
       },
       "Barnala": {
+        "delta": {
+          "confirmed": 26,
+          "deceased": 1,
+          "recovered": 3
+        },
         "meta": {
           "population": 596294,
           "tested": {
@@ -7622,13 +7639,16 @@
           }
         },
         "total": {
-          "confirmed": 223,
-          "deceased": 5,
-          "recovered": 78,
+          "confirmed": 249,
+          "deceased": 6,
+          "recovered": 81,
           "tested": 9562
         }
       },
       "Bathinda": {
+        "delta": {
+          "confirmed": 76
+        },
         "meta": {
           "population": 1388859,
           "tested": {
@@ -7637,13 +7657,17 @@
           }
         },
         "total": {
-          "confirmed": 349,
+          "confirmed": 425,
           "deceased": 5,
           "recovered": 182,
           "tested": 17291
         }
       },
       "Faridkot": {
+        "delta": {
+          "confirmed": 2,
+          "recovered": 14
+        },
         "meta": {
           "population": 618008,
           "tested": {
@@ -7652,12 +7676,15 @@
           }
         },
         "total": {
-          "confirmed": 292,
-          "recovered": 238,
+          "confirmed": 294,
+          "recovered": 252,
           "tested": 12344
         }
       },
       "Fatehgarh Sahib": {
+        "delta": {
+          "confirmed": 21
+        },
         "meta": {
           "population": 599814,
           "tested": {
@@ -7666,13 +7693,17 @@
           }
         },
         "total": {
-          "confirmed": 348,
+          "confirmed": 369,
           "deceased": 2,
           "recovered": 244,
           "tested": 13687
         }
       },
       "Fazilka": {
+        "delta": {
+          "confirmed": 37,
+          "recovered": 29
+        },
         "meta": {
           "population": 1180483,
           "tested": {
@@ -7681,13 +7712,17 @@
           }
         },
         "total": {
-          "confirmed": 266,
+          "confirmed": 303,
           "deceased": 1,
-          "recovered": 171,
+          "recovered": 200,
           "tested": 11880
         }
       },
       "Ferozepur": {
+        "delta": {
+          "confirmed": 48,
+          "recovered": 16
+        },
         "meta": {
           "population": 2026831,
           "tested": {
@@ -7696,13 +7731,16 @@
           }
         },
         "total": {
-          "confirmed": 410,
+          "confirmed": 458,
           "deceased": 6,
-          "recovered": 212,
+          "recovered": 228,
           "tested": 12900
         }
       },
       "Gurdaspur": {
+        "delta": {
+          "confirmed": 89
+        },
         "meta": {
           "population": 2299026,
           "tested": {
@@ -7711,13 +7749,17 @@
           }
         },
         "total": {
-          "confirmed": 505,
+          "confirmed": 594,
           "deceased": 18,
           "recovered": 338,
           "tested": 21936
         }
       },
       "Hoshiarpur": {
+        "delta": {
+          "confirmed": 14,
+          "recovered": 53
+        },
         "meta": {
           "population": 1582793,
           "tested": {
@@ -7726,13 +7768,17 @@
           }
         },
         "total": {
-          "confirmed": 532,
+          "confirmed": 546,
           "deceased": 15,
-          "recovered": 395,
+          "recovered": 448,
           "tested": 19623
         }
       },
       "Jalandhar": {
+        "delta": {
+          "confirmed": 162,
+          "deceased": 1
+        },
         "meta": {
           "population": 2181753,
           "tested": {
@@ -7741,13 +7787,17 @@
           }
         },
         "total": {
-          "confirmed": 2249,
-          "deceased": 53,
+          "confirmed": 2411,
+          "deceased": 54,
           "recovered": 1701,
           "tested": 32526
         }
       },
       "Kapurthala": {
+        "delta": {
+          "confirmed": 36,
+          "deceased": 2
+        },
         "meta": {
           "population": 817668,
           "tested": {
@@ -7756,13 +7806,18 @@
           }
         },
         "total": {
-          "confirmed": 255,
-          "deceased": 10,
+          "confirmed": 291,
+          "deceased": 12,
           "recovered": 154,
           "tested": 14841
         }
       },
       "Ludhiana": {
+        "delta": {
+          "confirmed": 166,
+          "deceased": 10,
+          "recovered": 152
+        },
         "meta": {
           "population": 3487882,
           "tested": {
@@ -7771,13 +7826,16 @@
           }
         },
         "total": {
-          "confirmed": 3211,
-          "deceased": 89,
-          "recovered": 1973,
+          "confirmed": 3377,
+          "deceased": 99,
+          "recovered": 2125,
           "tested": 51916
         }
       },
       "Mansa": {
+        "delta": {
+          "confirmed": 14
+        },
         "meta": {
           "population": 768808,
           "tested": {
@@ -7786,12 +7844,15 @@
           }
         },
         "total": {
-          "confirmed": 112,
+          "confirmed": 126,
           "recovered": 81,
           "tested": 13446
         }
       },
       "Moga": {
+        "delta": {
+          "confirmed": 16
+        },
         "meta": {
           "population": 992289,
           "tested": {
@@ -7800,13 +7861,17 @@
           }
         },
         "total": {
-          "confirmed": 327,
+          "confirmed": 343,
           "deceased": 5,
           "recovered": 214,
           "tested": 20886
         }
       },
       "Pathankot": {
+        "delta": {
+          "confirmed": 19,
+          "recovered": 13
+        },
         "meta": {
           "population": 626154,
           "tested": {
@@ -7815,13 +7880,16 @@
           }
         },
         "total": {
-          "confirmed": 401,
+          "confirmed": 420,
           "deceased": 12,
-          "recovered": 280,
+          "recovered": 293,
           "tested": 10598
         }
       },
       "Patiala": {
+        "delta": {
+          "confirmed": 66
+        },
         "meta": {
           "population": 2892282,
           "tested": {
@@ -7830,13 +7898,16 @@
           }
         },
         "total": {
-          "confirmed": 1719,
+          "confirmed": 1785,
           "deceased": 28,
           "recovered": 928,
           "tested": 32845
         }
       },
       "Rupnagar": {
+        "delta": {
+          "confirmed": 12
+        },
         "meta": {
           "population": 683349,
           "tested": {
@@ -7845,13 +7916,18 @@
           }
         },
         "total": {
-          "confirmed": 253,
+          "confirmed": 265,
           "deceased": 4,
           "recovered": 187,
           "tested": 17532
         }
       },
       "S.A.S. Nagar": {
+        "delta": {
+          "confirmed": 34,
+          "deceased": 1,
+          "recovered": 21
+        },
         "meta": {
           "population": 986147,
           "tested": {
@@ -7860,13 +7936,18 @@
           }
         },
         "total": {
-          "confirmed": 841,
-          "deceased": 14,
-          "recovered": 531,
+          "confirmed": 875,
+          "deceased": 15,
+          "recovered": 552,
           "tested": 16905
         }
       },
       "Sangrur": {
+        "delta": {
+          "confirmed": 37,
+          "deceased": 2,
+          "recovered": 29
+        },
         "meta": {
           "population": 1654408,
           "tested": {
@@ -7875,13 +7956,17 @@
           }
         },
         "total": {
-          "confirmed": 1056,
-          "deceased": 26,
-          "recovered": 814,
+          "confirmed": 1093,
+          "deceased": 28,
+          "recovered": 843,
           "tested": 20452
         }
       },
       "Shahid Bhagat Singh Nagar": {
+        "delta": {
+          "confirmed": 3,
+          "recovered": 10
+        },
         "meta": {
           "population": 614362,
           "tested": {
@@ -7890,13 +7975,18 @@
           }
         },
         "total": {
-          "confirmed": 313,
+          "confirmed": 316,
           "deceased": 3,
-          "recovered": 256,
+          "recovered": 266,
           "tested": 13838
         }
       },
       "Sri Muktsar Sahib": {
+        "delta": {
+          "confirmed": 4,
+          "deceased": 1,
+          "recovered": 1
+        },
         "meta": {
           "population": 902702,
           "tested": {
@@ -7905,13 +7995,16 @@
           }
         },
         "total": {
-          "confirmed": 235,
-          "deceased": 1,
-          "recovered": 200,
+          "confirmed": 239,
+          "deceased": 2,
+          "recovered": 201,
           "tested": 11484
         }
       },
       "Tarn Taran": {
+        "delta": {
+          "confirmed": 14
+        },
         "meta": {
           "population": 1120070,
           "tested": {
@@ -7920,7 +8013,7 @@
           }
         },
         "total": {
-          "confirmed": 359,
+          "confirmed": 373,
           "deceased": 10,
           "recovered": 236,
           "tested": 13446
@@ -7928,18 +8021,17 @@
       }
     },
     "meta": {
-      "last_updated": "2020-07-31T20:58:34+05:30",
+      "last_updated": "2020-08-01T19:37:35+05:30",
       "population": 29859000,
       "tested": {
-        "last_updated": "2020-07-31",
-        "source": "http://diprpunjab.gov.in/sites/default/files/Media%20Bulletin%2031-07-2020.pdf"
+        "last_updated": "2020-08-01"
       }
     },
     "total": {
-      "confirmed": 16119,
-      "deceased": 386,
-      "recovered": 10734,
-      "tested": 582573
+      "confirmed": 17063,
+      "deceased": 405,
+      "recovered": 11075,
+      "tested": 592392
     }
   },
   "PY": {
@@ -10114,13 +10206,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 32289,
-      "deceased": 299,
+      "confirmed": 33233,
+      "deceased": 321,
       "migrated": 2,
-      "recovered": 30835
+      "recovered": 31173
     },
     "meta": {
-      "last_updated": "2020-08-01T19:23:32+05:30",
+      "last_updated": "2020-08-01T19:37:33+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-31",
@@ -10128,10 +10220,10 @@
       }
     },
     "total": {
-      "confirmed": 1729343,
-      "deceased": 36850,
+      "confirmed": 1730287,
+      "deceased": 36872,
       "migrated": 428,
-      "recovered": 1126482,
+      "recovered": 1126820,
       "tested": 19358659
     }
   },
@@ -10195,15 +10287,14 @@
         "meta": {
           "population": 2398709,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 259,
           "deceased": 10,
           "recovered": 144,
-          "tested": 20335
+          "tested": 20580
         }
       },
       "Amethi": {
@@ -10214,15 +10305,14 @@
         "meta": {
           "population": 2549935,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://twitter.com/DmAmethi/status/1288783924714287105?s=20"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 469,
           "deceased": 2,
           "recovered": 363,
-          "tested": 18193
+          "tested": 18693
         }
       },
       "Amroha": {
@@ -10309,15 +10399,14 @@
         "meta": {
           "population": 1302156,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 622,
           "deceased": 12,
           "recovered": 534,
-          "tested": 46029
+          "tested": 46716
         }
       },
       "Bahraich": {
@@ -10328,8 +10417,7 @@
         "meta": {
           "population": 2384239,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
@@ -10481,15 +10569,14 @@
         "meta": {
           "population": 3683896,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 730,
           "deceased": 9,
           "recovered": 581,
-          "tested": 21202
+          "tested": 22214
         }
       },
       "Budaun": {
@@ -10518,15 +10605,14 @@
         "meta": {
           "population": 3498507,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 1372,
           "deceased": 32,
           "recovered": 1079,
-          "tested": 23160
+          "tested": 24160
         }
       },
       "Chandauli": {
@@ -10592,15 +10678,14 @@
         "meta": {
           "population": 1761152,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 344,
           "deceased": 10,
           "recovered": 134,
-          "tested": 12056
+          "tested": 12496
         }
       },
       "Etawah": {
@@ -10629,15 +10714,14 @@
         "meta": {
           "population": 1887577,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 491,
           "deceased": 12,
           "recovered": 332,
-          "tested": 15821
+          "tested": 16596
         }
       },
       "Fatehpur": {
@@ -10649,15 +10733,14 @@
         "meta": {
           "population": 2632684,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 512,
           "deceased": 9,
           "recovered": 283,
-          "tested": 13795
+          "tested": 13844
         }
       },
       "Firozabad": {
@@ -10765,15 +10848,14 @@
         "meta": {
           "population": 4436275,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 2222,
           "deceased": 52,
           "recovered": 1077,
-          "tested": 22485
+          "tested": 24053
         }
       },
       "Hamirpur": {
@@ -10785,15 +10867,14 @@
         "meta": {
           "population": 1104021,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 316,
           "deceased": 8,
           "recovered": 180,
-          "tested": 14457
+          "tested": 14653
         }
       },
       "Hapur": {
@@ -10824,15 +10905,14 @@
         "meta": {
           "population": 4091380,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 1119,
           "deceased": 13,
           "recovered": 637,
-          "tested": 32381
+          "tested": 34459
         }
       },
       "Hathras": {
@@ -10843,15 +10923,14 @@
         "meta": {
           "population": 1565678,
           "tested": {
-            "last_updated": "2020-07-29",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1447"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 273,
           "deceased": 6,
           "recovered": 231,
-          "tested": 14038
+          "tested": 15688
         }
       },
       "Jalaun": {
@@ -10862,15 +10941,14 @@
         "meta": {
           "population": 1670718,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 449,
           "deceased": 9,
           "recovered": 243,
-          "tested": 11410
+          "tested": 11516
         }
       },
       "Jaunpur": {
@@ -10915,15 +10993,14 @@
         "meta": {
           "population": 1658005,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 869,
           "deceased": 7,
           "recovered": 527,
-          "tested": 21092
+          "tested": 21596
         }
       },
       "Kanpur Dehat": {
@@ -10934,15 +11011,14 @@
         "meta": {
           "population": 1795092,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 277,
           "deceased": 3,
           "recovered": 93,
-          "tested": 14390
+          "tested": 14590
         }
       },
       "Kanpur Nagar": {
@@ -10954,15 +11030,14 @@
         "meta": {
           "population": 4572951,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 5330,
           "deceased": 202,
           "recovered": 2188,
-          "tested": 56735
+          "tested": 57563
         }
       },
       "Kasganj": {
@@ -11011,15 +11086,14 @@
         "meta": {
           "population": 3560830,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 714,
           "deceased": 7,
           "recovered": 364,
-          "tested": 15656
+          "tested": 16501
         }
       },
       "Lakhimpur Kheri": {
@@ -11030,15 +11104,14 @@
         "meta": {
           "population": 4013634,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 461,
           "deceased": 1,
           "recovered": 237,
-          "tested": 20175
+          "tested": 20514
         }
       },
       "Lalitpur": {
@@ -11064,15 +11137,14 @@
         "meta": {
           "population": 4588455,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 8340,
           "deceased": 101,
           "recovered": 4149,
-          "tested": 86119
+          "tested": 89921
         }
       },
       "Maharajganj": {
@@ -11084,15 +11156,14 @@
         "meta": {
           "population": 2665292,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 780,
           "deceased": 8,
           "recovered": 416,
-          "tested": 16629
+          "tested": 17444
         }
       },
       "Mahoba": {
@@ -11122,15 +11193,14 @@
         "meta": {
           "population": 1847194,
           "tested": {
-            "last_updated": "2020-07-28",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1429"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 721,
           "deceased": 15,
           "recovered": 587,
-          "tested": 32110
+          "tested": 27656
         }
       },
       "Mathura": {
@@ -11142,15 +11212,14 @@
         "meta": {
           "population": 2541894,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 905,
           "deceased": 32,
           "recovered": 588,
-          "tested": 20217
+          "tested": 20534
         }
       },
       "Mau": {
@@ -11181,15 +11250,14 @@
         "meta": {
           "population": 3447405,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 2285,
           "deceased": 108,
           "recovered": 1751,
-          "tested": 94576
+          "tested": 96475
         }
       },
       "Mirzapur": {
@@ -11220,15 +11288,14 @@
         "meta": {
           "population": 4773138,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 1947,
           "deceased": 54,
           "recovered": 1040,
-          "tested": 31682
+          "tested": 33293
         }
       },
       "Muzaffarnagar": {
@@ -11239,15 +11306,14 @@
         "meta": {
           "population": 4138605,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 867,
           "deceased": 20,
           "recovered": 578,
-          "tested": 18765
+          "tested": 18986
         }
       },
       "Pilibhit": {
@@ -11259,15 +11325,14 @@
         "meta": {
           "population": 2037225,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 770,
           "deceased": 6,
           "recovered": 293,
-          "tested": 23457
+          "tested": 24557
         }
       },
       "Pratapgarh": {
@@ -11278,15 +11343,14 @@
         "meta": {
           "population": 3173752,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 448,
           "deceased": 13,
           "recovered": 170,
-          "tested": 20462
+          "tested": 21782
         }
       },
       "Prayagraj": {
@@ -11298,15 +11362,14 @@
         "meta": {
           "population": 5959798,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 2618,
           "deceased": 55,
           "recovered": 951,
-          "tested": 67500
+          "tested": 69500
         }
       },
       "Rae Bareli": {
@@ -11317,15 +11380,14 @@
         "meta": {
           "population": 3404004,
           "tested": {
-            "last_updated": "2020-07-29",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1447"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 589,
           "deceased": 11,
           "recovered": 301,
-          "tested": 18567
+          "tested": 19589
         }
       },
       "Rampur": {
@@ -11337,15 +11399,14 @@
         "meta": {
           "population": 2335398,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 1054,
           "deceased": 16,
           "recovered": 608,
-          "tested": 26571
+          "tested": 26921
         }
       },
       "Saharanpur": {
@@ -11376,15 +11437,14 @@
         "meta": {
           "population": 2217020,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 995,
           "deceased": 19,
           "recovered": 800,
-          "tested": 24546
+          "tested": 25119
         }
       },
       "Sant Kabir Nagar": {
@@ -11395,15 +11455,14 @@
         "meta": {
           "population": 1714300,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 969,
           "deceased": 10,
           "recovered": 630,
-          "tested": 23211
+          "tested": 24233
         }
       },
       "Shahjahanpur": {
@@ -11415,15 +11474,14 @@
         "meta": {
           "population": 3002376,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 1102,
           "deceased": 8,
           "recovered": 505,
-          "tested": 22787
+          "tested": 23387
         }
       },
       "Shamli": {
@@ -11453,15 +11511,14 @@
         "meta": {
           "population": 1114615,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 165,
           "deceased": 2,
           "recovered": 99,
-          "tested": 15491
+          "tested": 15830
         }
       },
       "Siddharthnagar": {
@@ -11472,15 +11529,14 @@
         "meta": {
           "population": 2553526,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 833,
           "deceased": 12,
           "recovered": 472,
-          "tested": 25765
+          "tested": 26140
         }
       },
       "Sitapur": {
@@ -11529,15 +11585,14 @@
         "meta": {
           "population": 3790922,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 765,
           "deceased": 19,
           "recovered": 443,
-          "tested": 16043
+          "tested": 16682
         }
       },
       "Unnao": {
@@ -11548,15 +11603,14 @@
         "meta": {
           "population": 3110595,
           "tested": {
-            "last_updated": "2020-07-30",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1468"
+            "last_updated": "2020-07-31"
           }
         },
         "total": {
           "confirmed": 797,
           "deceased": 14,
           "recovered": 391,
-          "tested": 21468
+          "tested": 22778
         }
       },
       "Varanasi": {
