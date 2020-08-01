@@ -4463,162 +4463,237 @@
   },
   "KL": {
     "delta": {
+      "confirmed": 1129,
+      "deceased": 8,
+      "migrated": 2,
+      "recovered": 752,
       "tested": 19651
     },
     "districts": {
       "Alappuzha": {
+        "delta": {
+          "confirmed": 67,
+          "recovered": 100
+        },
         "meta": {
           "population": 2121943
         },
         "total": {
-          "confirmed": 1724,
+          "confirmed": 1791,
           "deceased": 5,
           "migrated": 6,
-          "recovered": 986
+          "recovered": 1086
         }
       },
       "Ernakulam": {
+        "delta": {
+          "confirmed": 59,
+          "deceased": 2,
+          "recovered": 35
+        },
         "meta": {
           "population": 3279860
         },
         "total": {
-          "confirmed": 1865,
-          "deceased": 10,
+          "confirmed": 1924,
+          "deceased": 12,
           "migrated": 4,
-          "recovered": 1044
+          "recovered": 1079
         }
       },
       "Idukki": {
+        "delta": {
+          "confirmed": 14,
+          "recovered": 32
+        },
         "meta": {
           "population": 1107453
         },
         "total": {
-          "confirmed": 804,
+          "confirmed": 818,
           "deceased": 2,
-          "recovered": 435
+          "recovered": 467
         }
       },
       "Kannur": {
+        "delta": {
+          "confirmed": 5,
+          "recovered": 35
+        },
         "meta": {
           "population": 2525637
         },
         "total": {
-          "confirmed": 1385,
+          "confirmed": 1390,
           "deceased": 8,
-          "recovered": 908
+          "recovered": 943
         }
       },
       "Kasaragod": {
+        "delta": {
+          "confirmed": 153,
+          "deceased": 1,
+          "recovered": 28
+        },
         "meta": {
           "population": 1302600
         },
         "total": {
-          "confirmed": 1643,
-          "deceased": 5,
+          "confirmed": 1796,
+          "deceased": 6,
           "migrated": 1,
-          "recovered": 997
+          "recovered": 1025
         }
       },
       "Kollam": {
+        "delta": {
+          "confirmed": 35,
+          "deceased": 1,
+          "recovered": 53
+        },
         "meta": {
           "population": 2629703
         },
         "total": {
-          "confirmed": 1746,
-          "deceased": 5,
+          "confirmed": 1781,
+          "deceased": 6,
           "migrated": 1,
-          "recovered": 1039
+          "recovered": 1092
         }
       },
       "Kottayam": {
+        "delta": {
+          "confirmed": 47,
+          "recovered": 57
+        },
         "meta": {
           "population": 1979384
         },
         "total": {
-          "confirmed": 1197,
+          "confirmed": 1244,
           "deceased": 1,
-          "recovered": 642
+          "recovered": 699
         }
       },
       "Kozhikode": {
+        "delta": {
+          "confirmed": 95,
+          "deceased": 1,
+          "recovered": 49
+        },
         "meta": {
           "population": 3089543
         },
         "total": {
-          "confirmed": 1464,
-          "deceased": 7,
+          "confirmed": 1559,
+          "deceased": 8,
           "migrated": 1,
-          "recovered": 745
+          "recovered": 794
         }
       },
       "Malappuram": {
+        "delta": {
+          "confirmed": 141,
+          "deceased": 1,
+          "recovered": 36
+        },
         "meta": {
           "population": 4110956
         },
         "total": {
-          "confirmed": 2059,
-          "deceased": 7,
+          "confirmed": 2200,
+          "deceased": 8,
           "migrated": 2,
-          "recovered": 1317
+          "recovered": 1353
         }
       },
       "Palakkad": {
+        "delta": {
+          "confirmed": 47,
+          "recovered": 42
+        },
         "meta": {
           "population": 2810892
         },
         "total": {
-          "confirmed": 1711,
+          "confirmed": 1758,
           "deceased": 2,
           "migrated": 1,
-          "recovered": 1280
+          "recovered": 1322
         }
       },
       "Pathanamthitta": {
+        "delta": {
+          "confirmed": 85,
+          "recovered": 58
+        },
         "meta": {
           "population": 1195537
         },
         "total": {
-          "confirmed": 1442,
+          "confirmed": 1527,
           "deceased": 1,
           "migrated": 2,
-          "recovered": 945
+          "recovered": 1003
         }
       },
       "Thiruvananthapuram": {
+        "delta": {
+          "confirmed": 259,
+          "deceased": 1,
+          "recovered": 168
+        },
         "meta": {
           "population": 3307284
         },
         "total": {
-          "confirmed": 4492,
-          "deceased": 12,
+          "confirmed": 4751,
+          "deceased": 13,
           "migrated": 4,
-          "recovered": 1428
+          "recovered": 1596
         }
       },
       "Thrissur": {
+        "delta": {
+          "confirmed": 76,
+          "deceased": 1,
+          "recovered": 54
+        },
         "meta": {
           "population": 3110327
         },
         "total": {
-          "confirmed": 1457,
-          "deceased": 8,
-          "recovered": 947
+          "confirmed": 1533,
+          "deceased": 9,
+          "recovered": 1001
+        }
+      },
+      "Unknown": {
+        "delta": {
+          "migrated": 2
+        },
+        "total": {
+          "migrated": 2
         }
       },
       "Wayanad": {
+        "delta": {
+          "confirmed": 46,
+          "recovered": 5
+        },
         "meta": {
           "population": 816558
         },
         "total": {
-          "confirmed": 625,
+          "confirmed": 671,
           "deceased": 1,
-          "recovered": 310
+          "recovered": 315
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-31T19:52:01+05:30",
-      "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nOne patient absconded from Palakkad to TN and one patient returned back to Maharashtra. Some non-covid deaths (accident,cancer etc.) have also been reported in the bulletin.\nIn total 22 such cases have been reduced from active count",
+      "last_updated": "2020-08-01T19:03:36+05:30",
+      "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nOne patient absconded from Palakkad to TN and one patient returned back to Maharashtra. Some non-covid deaths (accident,cancer etc.) have also been reported in the bulletin.\nIn total 24 such cases have been reduced from active count",
       "population": 35125000,
       "tested": {
         "last_updated": "2020-08-01",
@@ -4626,10 +4701,10 @@
       }
     },
     "total": {
-      "confirmed": 23614,
-      "deceased": 74,
-      "migrated": 22,
-      "recovered": 13023,
+      "confirmed": 24743,
+      "deceased": 82,
+      "migrated": 24,
+      "recovered": 13775,
       "tested": 795919
     }
   },
@@ -9170,12 +9245,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 25152,
-      "deceased": 279,
-      "recovered": 25506
+      "confirmed": 26281,
+      "deceased": 287,
+      "migrated": 2,
+      "recovered": 26258
     },
     "meta": {
-      "last_updated": "2020-08-01T18:52:33+05:30",
+      "last_updated": "2020-08-01T19:03:33+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-31",
@@ -9183,10 +9259,10 @@
       }
     },
     "total": {
-      "confirmed": 1722206,
-      "deceased": 36830,
-      "migrated": 426,
-      "recovered": 1121153,
+      "confirmed": 1723335,
+      "deceased": 36838,
+      "migrated": 428,
+      "recovered": 1121905,
       "tested": 19358659
     }
   },
