@@ -688,6 +688,7 @@
   },
   "AS": {
     "delta": {
+      "confirmed": 1457,
       "deceased": 3
     },
     "districts": {
@@ -792,11 +793,14 @@
         }
       },
       "Dibrugarh": {
+        "delta": {
+          "confirmed": 136
+        },
         "meta": {
           "population": 1327748
         },
         "total": {
-          "confirmed": 1263,
+          "confirmed": 1399,
           "deceased": 4,
           "recovered": 550
         }
@@ -873,11 +877,14 @@
         }
       },
       "Kamrup Metropolitan": {
+        "delta": {
+          "confirmed": 275
+        },
         "meta": {
           "population": 1260419
         },
         "total": {
-          "confirmed": 15393,
+          "confirmed": 15668,
           "deceased": 45,
           "recovered": 8701
         }
@@ -976,11 +983,14 @@
         }
       },
       "Sonitpur": {
+        "delta": {
+          "confirmed": 116
+        },
         "meta": {
           "population": 1925975
         },
         "total": {
-          "confirmed": 1090,
+          "confirmed": 1206,
           "deceased": 1,
           "recovered": 498
         }
@@ -1015,8 +1025,11 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 930
+        },
         "total": {
-          "confirmed": 5343,
+          "confirmed": 6273,
           "migrated": 3,
           "recovered": 9649
         }
@@ -1032,7 +1045,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-01T19:25:42+05:30",
+      "last_updated": "2020-08-01T21:13:36+05:30",
       "notes": "Includes one case from Nagaland.\nTotal of 3 patients who migrated to other states has been reduced from Active count",
       "population": 34293000,
       "tested": {
@@ -1041,7 +1054,7 @@
       }
     },
     "total": {
-      "confirmed": 40270,
+      "confirmed": 41727,
       "deceased": 101,
       "migrated": 3,
       "recovered": 30358,
@@ -2397,6 +2410,9 @@
   },
   "GA": {
     "delta": {
+      "confirmed": 280,
+      "deceased": 3,
+      "recovered": 227,
       "tested": 1512
     },
     "districts": {
@@ -2432,23 +2448,30 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 280,
+          "deceased": 3,
+          "recovered": 227
+        },
         "total": {
-          "confirmed": 2749,
-          "recovered": 2749
+          "confirmed": 3029,
+          "deceased": 3,
+          "recovered": 2976
         }
       }
     },
     "meta": {
-      "last_updated": "2020-07-31T20:27:03+05:30",
+      "last_updated": "2020-08-01T21:13:39+05:30",
       "population": 1540000,
       "tested": {
-        "last_updated": "2020-08-01"
+        "last_updated": "2020-08-01",
+        "source": "https://twitter.com/DHS_Goa/status/1289584275252101123"
       }
     },
     "total": {
-      "confirmed": 5913,
-      "deceased": 45,
-      "recovered": 4211,
+      "confirmed": 6193,
+      "deceased": 48,
+      "recovered": 4438,
       "tested": 132830
     }
   },
@@ -5493,7 +5516,8 @@
       },
       "Gadchiroli": {
         "delta": {
-          "confirmed": 3
+          "confirmed": 3,
+          "recovered": 9
         },
         "meta": {
           "population": 1071795,
@@ -5505,7 +5529,7 @@
         "total": {
           "confirmed": 272,
           "deceased": 1,
-          "recovered": 225,
+          "recovered": 234,
           "tested": 11993
         }
       },
@@ -5622,6 +5646,7 @@
         "delta": {
           "confirmed": 1047,
           "deceased": 45,
+          "migrated": 2,
           "recovered": 832
         },
         "meta": {
@@ -5634,7 +5659,7 @@
         "total": {
           "confirmed": 115331,
           "deceased": 6398,
-          "migrated": 294,
+          "migrated": 296,
           "recovered": 87906,
           "tested": 526982
         }
@@ -5741,11 +5766,12 @@
       },
       "Other State": {
         "delta": {
-          "confirmed": 7
+          "confirmed": 7,
+          "deceased": 1
         },
         "total": {
           "confirmed": 405,
-          "deceased": 48
+          "deceased": 49
         }
       },
       "Palghar": {
@@ -5810,6 +5836,7 @@
       "Raigad": {
         "delta": {
           "confirmed": 417,
+          "deceased": 28,
           "recovered": 92
         },
         "meta": {
@@ -5821,7 +5848,7 @@
         },
         "total": {
           "confirmed": 16955,
-          "deceased": 373,
+          "deceased": 401,
           "migrated": 2,
           "recovered": 10950,
           "tested": 44555
@@ -5934,18 +5961,6 @@
           "tested": 248002
         }
       },
-      "Unknown": {
-        "delta": {
-          "deceased": 29,
-          "migrated": 2,
-          "recovered": 9
-        },
-        "total": {
-          "deceased": 29,
-          "migrated": 2,
-          "recovered": 9
-        }
-      },
       "Wardha": {
         "delta": {
           "confirmed": 9,
@@ -6002,7 +6017,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-01T21:03:44+05:30",
+      "last_updated": "2020-08-01T21:07:36+05:30",
       "notes": "306 cases are marked as non-covid deaths in MH bulletin. These have been reduced from active count\n[June 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[June 20]: 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -8112,7 +8127,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-01T21:02:42+05:30",
+      "last_updated": "2020-08-01T21:07:40+05:30",
       "notes": "[July 12th] 20 non-covid deaths reported in state dashboard are included in the deceased count\n[June 22nd]: NDRF/ODRF cases have been redistributed to districts based on state dashboard",
       "population": 43671000,
       "tested": {
@@ -10316,13 +10331,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 50980,
-      "deceased": 836,
+      "confirmed": 52717,
+      "deceased": 839,
       "migrated": 6,
-      "recovered": 48403
+      "recovered": 48630
     },
     "meta": {
-      "last_updated": "2020-08-01T21:03:41+05:30",
+      "last_updated": "2020-08-01T21:13:33+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-31",
@@ -10330,10 +10345,10 @@
       }
     },
     "total": {
-      "confirmed": 1748034,
-      "deceased": 37387,
+      "confirmed": 1749771,
+      "deceased": 37390,
       "migrated": 432,
-      "recovered": 1144050,
+      "recovered": 1144277,
       "tested": 19358659
     }
   },
