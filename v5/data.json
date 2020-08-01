@@ -2543,7 +2543,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-01T18:46:47+05:30",
+      "last_updated": "2020-08-01T18:52:39+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -3412,6 +3412,9 @@
         }
       },
       "Shimla": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "notes": "One death of COVID-19 positive patient has occured due to non-covid reasons",
           "population": 813384,
@@ -3424,7 +3427,7 @@
           "confirmed": 165,
           "deceased": 2,
           "other": 1,
-          "recovered": 75,
+          "recovered": 76,
           "tested": {
             "positives": 165,
             "samples": 12740
@@ -3490,18 +3493,10 @@
             "samples": 13676
           }
         }
-      },
-      "Unknown": {
-        "delta": {
-          "recovered": 1
-        },
-        "total": {
-          "recovered": 1
-        }
       }
     },
     "meta": {
-      "last_updated": "2020-08-01T18:46:44+05:30",
+      "last_updated": "2020-08-01T18:52:37+05:30",
       "notes": "HP has 18 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -4593,6 +4588,12 @@
     }
   },
   "KA": {
+    "delta": {
+      "tested": {
+        "positives": 5172,
+        "samples": 34760
+      }
+    },
     "districts": {
       "Bagalkote": {
         "meta": {
@@ -5153,8 +5154,7 @@
       "notes": "9 cases are classified as non-covid related deaths in KA bulletin. They have been reduced from active cases",
       "population": 65798000,
       "tested": {
-        "last_updated": "2020-07-31",
-        "source": "https://t.co/vuIU4m6zzQ?amp=1"
+        "last_updated": "2020-08-01"
       }
     },
     "total": {
@@ -5163,8 +5163,8 @@
       "other": 9,
       "recovered": 49788,
       "tested": {
-        "positives": 124115,
-        "samples": 1350792
+        "positives": 129287,
+        "samples": 1385552
       }
     }
   },
@@ -5331,7 +5331,8 @@
       "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nOne patient absconded from Palakkad to TN and one patient returned back to Maharashtra. Some non-covid deaths (accident,cancer etc.) have also been reported in the bulletin.\nIn total 22 such cases have been reduced from active count",
       "population": 35125000,
       "tested": {
-        "last_updated": "2020-08-01"
+        "last_updated": "2020-08-01",
+        "source": "https://dhs.kerala.gov.in/wp-content/uploads/2020/08/Bulletin-HFWD-English-August-01.pdf"
       }
     },
     "total": {
@@ -6137,7 +6138,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-01T18:46:49+05:30",
+      "last_updated": "2020-08-01T18:52:42+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -10585,13 +10586,13 @@
       "recovered": 25506,
       "tested": {
         "states": {
-          "positives": 41294,
-          "samples": 363113
+          "positives": 46466,
+          "samples": 397873
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-01T18:46:39+05:30",
+      "last_updated": "2020-08-01T18:52:33+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-31",
@@ -10606,8 +10607,8 @@
       "tested": {
         "samples": 19358659,
         "states": {
-          "positives": 1738974,
-          "samples": 22446226
+          "positives": 1744146,
+          "samples": 22480986
         }
       }
     }
