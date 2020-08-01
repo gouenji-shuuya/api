@@ -6375,6 +6375,7 @@
               "confirmed": 28,
               "recovered": 5,
               "tested": {
+                "positives": 28,
                 "samples": 245
               }
             },
@@ -6383,7 +6384,7 @@
               "deceased": 10,
               "recovered": 141,
               "tested": {
-                "positives": 222,
+                "positives": 250,
                 "samples": 20580
               }
             }
@@ -6398,7 +6399,7 @@
               "deceased": 10,
               "recovered": 144,
               "tested": {
-                "positives": 222,
+                "positives": 250,
                 "samples": 20580
               }
             }
@@ -7403,6 +7404,7 @@
               "confirmed": 28,
               "recovered": 6,
               "tested": {
+                "positives": 16,
                 "samples": 500
               }
             },
@@ -7411,7 +7413,7 @@
               "deceased": 2,
               "recovered": 360,
               "tested": {
-                "positives": 446,
+                "positives": 462,
                 "samples": 18693
               }
             }
@@ -7426,7 +7428,7 @@
               "deceased": 2,
               "recovered": 363,
               "tested": {
-                "positives": 446,
+                "positives": 462,
                 "samples": 18693
               }
             }
@@ -9594,6 +9596,7 @@
             "delta": {
               "confirmed": 10,
               "tested": {
+                "positives": 10,
                 "samples": 433
               }
             },
@@ -9602,7 +9605,7 @@
               "deceased": 2,
               "recovered": 167,
               "tested": {
-                "positives": 357,
+                "positives": 367,
                 "samples": 15800
               }
             }
@@ -9617,7 +9620,7 @@
               "deceased": 2,
               "recovered": 184,
               "tested": {
-                "positives": 357,
+                "positives": 367,
                 "samples": 15800
               }
             }
@@ -10700,6 +10703,7 @@
               "deceased": 1,
               "recovered": 14,
               "tested": {
+                "positives": 142,
                 "samples": 726
               }
             },
@@ -10708,7 +10712,7 @@
               "deceased": 14,
               "recovered": 636,
               "tested": {
-                "positives": 1052,
+                "positives": 1194,
                 "samples": 34395
               }
             }
@@ -10723,7 +10727,7 @@
               "deceased": 14,
               "recovered": 657,
               "tested": {
-                "positives": 1052,
+                "positives": 1194,
                 "samples": 34395
               }
             }
@@ -12929,6 +12933,7 @@
               "confirmed": 7,
               "recovered": 4,
               "tested": {
+                "positives": 7,
                 "samples": 687
               }
             },
@@ -12937,7 +12942,7 @@
               "deceased": 12,
               "recovered": 526,
               "tested": {
-                "positives": 616,
+                "positives": 623,
                 "samples": 46716
               }
             }
@@ -12952,7 +12957,7 @@
               "deceased": 12,
               "recovered": 534,
               "tested": {
-                "positives": 616,
+                "positives": 623,
                 "samples": 46716
               }
             }
@@ -13974,14 +13979,17 @@
           "2020-07-31": {
             "delta": {
               "confirmed": 31,
-              "recovered": 10
+              "recovered": 10,
+              "tested": {
+                "positives": 31
+              }
             },
             "total": {
               "confirmed": 510,
               "deceased": 6,
               "recovered": 231,
               "tested": {
-                "positives": 479,
+                "positives": 510,
                 "samples": 20903
               }
             }
@@ -13996,7 +14004,7 @@
               "deceased": 6,
               "recovered": 242,
               "tested": {
-                "positives": 479,
+                "positives": 510,
                 "samples": 20903
               }
             }
@@ -16932,10 +16940,7 @@
           },
           "2020-07-31": {
             "delta": {
-              "confirmed": 11,
-              "tested": {
-                "samples": -1535
-              }
+              "confirmed": 11
             },
             "total": {
               "confirmed": 317,
@@ -16943,7 +16948,7 @@
               "recovered": 175,
               "tested": {
                 "positives": 306,
-                "samples": 12483
+                "samples": 14018
               }
             }
           },
@@ -16958,7 +16963,7 @@
               "recovered": 180,
               "tested": {
                 "positives": 306,
-                "samples": 12483
+                "samples": 14018
               }
             }
           }
@@ -19299,6 +19304,7 @@
               "deceased": 5,
               "recovered": 142,
               "tested": {
+                "positives": 294,
                 "samples": 1540
               }
             },
@@ -19307,7 +19313,7 @@
               "deceased": 57,
               "recovered": 802,
               "tested": {
-                "positives": 2042,
+                "positives": 2336,
                 "samples": 32880
               }
             }
@@ -19323,7 +19329,7 @@
               "deceased": 62,
               "recovered": 915,
               "tested": {
-                "positives": 2042,
+                "positives": 2336,
                 "samples": 32880
               }
             }
@@ -22684,6 +22690,7 @@
               "confirmed": 24,
               "recovered": 23,
               "tested": {
+                "positives": 24,
                 "samples": 1012
               }
             },
@@ -22692,7 +22699,7 @@
               "deceased": 9,
               "recovered": 569,
               "tested": {
-                "positives": 679,
+                "positives": 703,
                 "samples": 22214
               }
             }
@@ -22707,7 +22714,7 @@
               "deceased": 9,
               "recovered": 581,
               "tested": {
-                "positives": 679,
+                "positives": 703,
                 "samples": 22214
               }
             }
@@ -23841,6 +23848,7 @@
               "confirmed": 64,
               "recovered": 7,
               "tested": {
+                "positives": 64,
                 "samples": 740
               }
             },
@@ -23849,7 +23857,7 @@
               "deceased": 3,
               "recovered": 290,
               "tested": {
-                "positives": 366,
+                "positives": 430,
                 "samples": 16944
               }
             }
@@ -23864,7 +23872,7 @@
               "deceased": 3,
               "recovered": 303,
               "tested": {
-                "positives": 366,
+                "positives": 430,
                 "samples": 16944
               }
             }
@@ -25080,6 +25088,7 @@
               "deceased": 1,
               "recovered": 31,
               "tested": {
+                "positives": 46,
                 "samples": 1000
               }
             },
@@ -25088,7 +25097,7 @@
               "deceased": 32,
               "recovered": 1053,
               "tested": {
-                "positives": 1310,
+                "positives": 1356,
                 "samples": 24160
               }
             }
@@ -25103,7 +25112,7 @@
               "deceased": 32,
               "recovered": 1079,
               "tested": {
-                "positives": 1310,
+                "positives": 1356,
                 "samples": 24160
               }
             }
@@ -28057,6 +28066,7 @@
               "confirmed": 102,
               "recovered": 28,
               "tested": {
+                "positives": 102,
                 "samples": 924
               }
             },
@@ -28065,7 +28075,7 @@
               "deceased": 9,
               "recovered": 687,
               "tested": {
-                "positives": 1024,
+                "positives": 1126,
                 "samples": 17844
               }
             }
@@ -28080,7 +28090,7 @@
               "deceased": 9,
               "recovered": 721,
               "tested": {
-                "positives": 1024,
+                "positives": 1126,
                 "samples": 17844
               }
             }
@@ -29158,6 +29168,7 @@
               "confirmed": 6,
               "recovered": 1,
               "tested": {
+                "positives": 6,
                 "samples": 440
               }
             },
@@ -29166,7 +29177,7 @@
               "deceased": 10,
               "recovered": 130,
               "tested": {
-                "positives": 331,
+                "positives": 337,
                 "samples": 12496
               }
             }
@@ -29181,7 +29192,7 @@
               "deceased": 10,
               "recovered": 134,
               "tested": {
-                "positives": 331,
+                "positives": 337,
                 "samples": 12496
               }
             }
@@ -30313,6 +30324,7 @@
               "confirmed": 15,
               "recovered": 6,
               "tested": {
+                "positives": 15,
                 "samples": 1188
               }
             },
@@ -30321,7 +30333,7 @@
               "deceased": 23,
               "recovered": 447,
               "tested": {
-                "positives": 679,
+                "positives": 694,
                 "samples": 17580
               }
             }
@@ -30337,7 +30349,7 @@
               "deceased": 24,
               "recovered": 451,
               "tested": {
-                "positives": 679,
+                "positives": 694,
                 "samples": 17580
               }
             }
@@ -31343,6 +31355,7 @@
               "confirmed": 11,
               "recovered": 9,
               "tested": {
+                "positives": 11,
                 "samples": 775
               }
             },
@@ -31351,7 +31364,7 @@
               "deceased": 12,
               "recovered": 332,
               "tested": {
-                "positives": 454,
+                "positives": 465,
                 "samples": 16596
               }
             }
@@ -31365,7 +31378,7 @@
               "deceased": 12,
               "recovered": 332,
               "tested": {
-                "positives": 454,
+                "positives": 465,
                 "samples": 16596
               }
             }
@@ -32327,6 +32340,7 @@
             "delta": {
               "confirmed": 31,
               "tested": {
+                "positives": 31,
                 "samples": 49
               }
             },
@@ -32335,7 +32349,7 @@
               "deceased": 8,
               "recovered": 276,
               "tested": {
-                "positives": 453,
+                "positives": 484,
                 "samples": 13844
               }
             }
@@ -32351,7 +32365,7 @@
               "deceased": 9,
               "recovered": 283,
               "tested": {
-                "positives": 453,
+                "positives": 484,
                 "samples": 13844
               }
             }
@@ -33577,6 +33591,7 @@
               "confirmed": 20,
               "recovered": 12,
               "tested": {
+                "positives": 20,
                 "samples": 283
               }
             },
@@ -33585,7 +33600,7 @@
               "deceased": 41,
               "recovered": 577,
               "tested": {
-                "positives": 702,
+                "positives": 722,
                 "samples": 22968
               }
             }
@@ -33600,7 +33615,7 @@
               "deceased": 41,
               "recovered": 586,
               "tested": {
-                "positives": 702,
+                "positives": 722,
                 "samples": 22968
               }
             }
@@ -38201,6 +38216,7 @@
               "confirmed": 42,
               "recovered": 4,
               "tested": {
+                "positives": 42,
                 "samples": 854
               }
             },
@@ -38209,7 +38225,7 @@
               "deceased": 12,
               "recovered": 299,
               "tested": {
-                "positives": 649,
+                "positives": 691,
                 "samples": 21660
               }
             }
@@ -38224,7 +38240,7 @@
               "deceased": 12,
               "recovered": 317,
               "tested": {
-                "positives": 649,
+                "positives": 691,
                 "samples": 21660
               }
             }
@@ -39360,6 +39376,7 @@
               "deceased": 2,
               "recovered": 43,
               "tested": {
+                "positives": 155,
                 "samples": 1568
               }
             },
@@ -39368,7 +39385,7 @@
               "deceased": 49,
               "recovered": 906,
               "tested": {
-                "positives": 1955,
+                "positives": 2110,
                 "samples": 24053
               }
             }
@@ -39384,7 +39401,7 @@
               "deceased": 52,
               "recovered": 1077,
               "tested": {
-                "positives": 1955,
+                "positives": 2110,
                 "samples": 24053
               }
             }
@@ -40309,6 +40326,7 @@
               "confirmed": 18,
               "recovered": 2,
               "tested": {
+                "positives": 18,
                 "samples": 196
               }
             },
@@ -40317,7 +40335,7 @@
               "deceased": 7,
               "recovered": 171,
               "tested": {
-                "positives": 286,
+                "positives": 304,
                 "samples": 14653
               }
             }
@@ -40333,7 +40351,7 @@
               "deceased": 8,
               "recovered": 180,
               "tested": {
-                "positives": 286,
+                "positives": 304,
                 "samples": 14653
               }
             }
@@ -42542,6 +42560,7 @@
               "confirmed": 45,
               "recovered": 23,
               "tested": {
+                "positives": 45,
                 "samples": 2078
               }
             },
@@ -42550,7 +42569,7 @@
               "deceased": 11,
               "recovered": 624,
               "tested": {
-                "positives": 1034,
+                "positives": 1079,
                 "samples": 34459
               }
             }
@@ -42566,7 +42585,7 @@
               "deceased": 13,
               "recovered": 637,
               "tested": {
-                "positives": 1034,
+                "positives": 1079,
                 "samples": 34459
               }
             }
@@ -43596,6 +43615,7 @@
               "confirmed": 5,
               "recovered": 8,
               "tested": {
+                "positives": 6,
                 "samples": 1650
               }
             },
@@ -43604,7 +43624,7 @@
               "deceased": 6,
               "recovered": 224,
               "tested": {
-                "positives": 258,
+                "positives": 264,
                 "samples": 15688
               }
             }
@@ -43619,7 +43639,7 @@
               "deceased": 6,
               "recovered": 231,
               "tested": {
-                "positives": 258,
+                "positives": 264,
                 "samples": 15688
               }
             }
@@ -44700,6 +44720,7 @@
               "confirmed": 44,
               "recovered": 5,
               "tested": {
+                "positives": 44,
                 "samples": 106
               }
             },
@@ -44708,7 +44729,7 @@
               "deceased": 9,
               "recovered": 238,
               "tested": {
-                "positives": 373,
+                "positives": 417,
                 "samples": 11516
               }
             }
@@ -44723,7 +44744,7 @@
               "deceased": 9,
               "recovered": 243,
               "tested": {
-                "positives": 373,
+                "positives": 417,
                 "samples": 11516
               }
             }
@@ -47959,6 +47980,7 @@
               "confirmed": 46,
               "recovered": 32,
               "tested": {
+                "positives": 46,
                 "samples": 504
               }
             },
@@ -47967,7 +47989,7 @@
               "deceased": 7,
               "recovered": 491,
               "tested": {
-                "positives": 803,
+                "positives": 849,
                 "samples": 21596
               }
             }
@@ -47982,7 +48004,7 @@
               "deceased": 7,
               "recovered": 527,
               "tested": {
-                "positives": 803,
+                "positives": 849,
                 "samples": 21596
               }
             }
@@ -49001,6 +49023,7 @@
               "confirmed": 39,
               "recovered": 2,
               "tested": {
+                "positives": 39,
                 "samples": 200
               }
             },
@@ -49009,7 +49032,7 @@
               "deceased": 2,
               "recovered": 93,
               "tested": {
-                "positives": 220,
+                "positives": 259,
                 "samples": 14590
               }
             }
@@ -49024,7 +49047,7 @@
               "deceased": 3,
               "recovered": 93,
               "tested": {
-                "positives": 220,
+                "positives": 259,
                 "samples": 14590
               }
             }
@@ -50179,6 +50202,7 @@
               "deceased": 6,
               "recovered": 30,
               "tested": {
+                "positives": 321,
                 "samples": 828
               }
             },
@@ -50187,7 +50211,7 @@
               "deceased": 199,
               "recovered": 1998,
               "tested": {
-                "positives": 4697,
+                "positives": 5018,
                 "samples": 57563
               }
             }
@@ -50203,7 +50227,7 @@
               "deceased": 202,
               "recovered": 2188,
               "tested": {
-                "positives": 4697,
+                "positives": 5018,
                 "samples": 57563
               }
             }
@@ -53232,6 +53256,7 @@
               "confirmed": 40,
               "recovered": 19,
               "tested": {
+                "positives": 40,
                 "samples": 845
               }
             },
@@ -53240,7 +53265,7 @@
               "deceased": 7,
               "recovered": 350,
               "tested": {
-                "positives": 644,
+                "positives": 684,
                 "samples": 16501
               }
             }
@@ -53255,7 +53280,7 @@
               "deceased": 7,
               "recovered": 364,
               "tested": {
-                "positives": 644,
+                "positives": 684,
                 "samples": 16501
               }
             }
@@ -54358,6 +54383,7 @@
               "confirmed": 36,
               "recovered": 6,
               "tested": {
+                "positives": 36,
                 "samples": 339
               }
             },
@@ -54366,7 +54392,7 @@
               "deceased": 1,
               "recovered": 225,
               "tested": {
-                "positives": 407,
+                "positives": 443,
                 "samples": 20514
               }
             }
@@ -54381,7 +54407,7 @@
               "deceased": 1,
               "recovered": 237,
               "tested": {
-                "positives": 407,
+                "positives": 443,
                 "samples": 20514
               }
             }
@@ -56333,6 +56359,7 @@
               "deceased": 5,
               "recovered": 658,
               "tested": {
+                "positives": 563,
                 "samples": 3802
               }
             },
@@ -56341,7 +56368,7 @@
               "deceased": 95,
               "recovered": 3802,
               "tested": {
-                "positives": 7615,
+                "positives": 8178,
                 "samples": 89921
               }
             }
@@ -56357,7 +56384,7 @@
               "deceased": 101,
               "recovered": 4149,
               "tested": {
-                "positives": 7615,
+                "positives": 8178,
                 "samples": 89921
               }
             }
@@ -57460,6 +57487,7 @@
               "deceased": 1,
               "recovered": 14,
               "tested": {
+                "positives": 25,
                 "samples": 815
               }
             },
@@ -57468,7 +57496,7 @@
               "deceased": 7,
               "recovered": 410,
               "tested": {
-                "positives": 678,
+                "positives": 703,
                 "samples": 17444
               }
             }
@@ -57484,7 +57512,7 @@
               "deceased": 8,
               "recovered": 416,
               "tested": {
-                "positives": 678,
+                "positives": 703,
                 "samples": 17444
               }
             }
@@ -59588,10 +59616,7 @@
             "delta": {
               "confirmed": 9,
               "deceased": 1,
-              "recovered": 36,
-              "tested": {
-                "samples": -4454
-              }
+              "recovered": 36
             },
             "total": {
               "confirmed": 698,
@@ -59599,7 +59624,7 @@
               "recovered": 568,
               "tested": {
                 "positives": 682,
-                "samples": 27656
+                "samples": 32110
               }
             }
           },
@@ -59614,7 +59639,7 @@
               "recovered": 587,
               "tested": {
                 "positives": 682,
-                "samples": 27656
+                "samples": 32110
               }
             }
           }
@@ -60797,6 +60822,7 @@
               "deceased": 2,
               "recovered": 11,
               "tested": {
+                "positives": 11,
                 "samples": 317
               }
             },
@@ -60805,7 +60831,7 @@
               "deceased": 30,
               "recovered": 578,
               "tested": {
-                "positives": 867,
+                "positives": 878,
                 "samples": 20534
               }
             }
@@ -60821,7 +60847,7 @@
               "deceased": 32,
               "recovered": 588,
               "tested": {
-                "positives": 867,
+                "positives": 878,
                 "samples": 20534
               }
             }
@@ -63151,6 +63177,7 @@
               "confirmed": 42,
               "recovered": 69,
               "tested": {
+                "positives": 42,
                 "samples": 1899
               }
             },
@@ -63159,7 +63186,7 @@
               "deceased": 107,
               "recovered": 1732,
               "tested": {
-                "positives": 2210,
+                "positives": 2252,
                 "samples": 96475
               }
             }
@@ -63175,7 +63202,7 @@
               "deceased": 108,
               "recovered": 1751,
               "tested": {
-                "positives": 2210,
+                "positives": 2252,
                 "samples": 96475
               }
             }
@@ -65471,6 +65498,7 @@
               "confirmed": 62,
               "recovered": 36,
               "tested": {
+                "positives": 62,
                 "samples": 1611
               }
             },
@@ -65479,7 +65507,7 @@
               "deceased": 53,
               "recovered": 1033,
               "tested": {
-                "positives": 1729,
+                "positives": 1791,
                 "samples": 33293
               }
             }
@@ -65495,7 +65523,7 @@
               "deceased": 54,
               "recovered": 1040,
               "tested": {
-                "positives": 1729,
+                "positives": 1791,
                 "samples": 33293
               }
             }
@@ -66630,6 +66658,7 @@
               "confirmed": 28,
               "recovered": 7,
               "tested": {
+                "positives": 28,
                 "samples": 221
               }
             },
@@ -66638,7 +66667,7 @@
               "deceased": 20,
               "recovered": 553,
               "tested": {
-                "positives": 793,
+                "positives": 821,
                 "samples": 18986
               }
             }
@@ -66653,7 +66682,7 @@
               "deceased": 20,
               "recovered": 578,
               "tested": {
-                "positives": 793,
+                "positives": 821,
                 "samples": 18986
               }
             }
@@ -67967,6 +67996,7 @@
               "deceased": 1,
               "recovered": 20,
               "tested": {
+                "positives": 65,
                 "samples": 1100
               }
             },
@@ -67975,7 +68005,7 @@
               "deceased": 4,
               "recovered": 263,
               "tested": {
-                "positives": 633,
+                "positives": 698,
                 "samples": 24557
               }
             }
@@ -67991,7 +68021,7 @@
               "deceased": 6,
               "recovered": 293,
               "tested": {
-                "positives": 633,
+                "positives": 698,
                 "samples": 24557
               }
             }
@@ -69116,6 +69146,7 @@
               "deceased": 1,
               "recovered": 4,
               "tested": {
+                "positives": 45,
                 "samples": 1320
               }
             },
@@ -69124,7 +69155,7 @@
               "deceased": 13,
               "recovered": 164,
               "tested": {
-                "positives": 366,
+                "positives": 411,
                 "samples": 21782
               }
             }
@@ -69139,7 +69170,7 @@
               "deceased": 13,
               "recovered": 170,
               "tested": {
-                "positives": 366,
+                "positives": 411,
                 "samples": 21782
               }
             }
@@ -70329,6 +70360,7 @@
               "confirmed": 232,
               "recovered": 19,
               "tested": {
+                "positives": 232,
                 "samples": 2000
               }
             },
@@ -70337,7 +70369,7 @@
               "deceased": 51,
               "recovered": 910,
               "tested": {
-                "positives": 2154,
+                "positives": 2386,
                 "samples": 69500
               }
             }
@@ -70353,7 +70385,7 @@
               "deceased": 55,
               "recovered": 951,
               "tested": {
-                "positives": 2154,
+                "positives": 2386,
                 "samples": 69500
               }
             }
@@ -71450,6 +71482,7 @@
               "confirmed": 21,
               "recovered": 1,
               "tested": {
+                "positives": 43,
                 "samples": 1022
               }
             },
@@ -71458,7 +71491,7 @@
               "deceased": 11,
               "recovered": 286,
               "tested": {
-                "positives": 518,
+                "positives": 561,
                 "samples": 19589
               }
             }
@@ -71473,7 +71506,7 @@
               "deceased": 11,
               "recovered": 301,
               "tested": {
-                "positives": 518,
+                "positives": 561,
                 "samples": 19589
               }
             }
@@ -72594,6 +72627,7 @@
               "confirmed": 25,
               "recovered": 3,
               "tested": {
+                "positives": 25,
                 "samples": 350
               }
             },
@@ -72602,7 +72636,7 @@
               "deceased": 15,
               "recovered": 571,
               "tested": {
-                "positives": 990,
+                "positives": 1015,
                 "samples": 26921
               }
             }
@@ -72618,7 +72652,7 @@
               "deceased": 16,
               "recovered": 608,
               "tested": {
-                "positives": 990,
+                "positives": 1015,
                 "samples": 26921
               }
             }
@@ -73738,6 +73772,7 @@
               "deceased": 1,
               "recovered": 18,
               "tested": {
+                "positives": 17,
                 "samples": 1840
               }
             },
@@ -73746,7 +73781,7 @@
               "deceased": 12,
               "recovered": 647,
               "tested": {
-                "positives": 1020,
+                "positives": 1037,
                 "samples": 32930
               }
             }
@@ -73761,7 +73796,7 @@
               "deceased": 12,
               "recovered": 656,
               "tested": {
-                "positives": 1020,
+                "positives": 1037,
                 "samples": 32930
               }
             }
@@ -74904,6 +74939,7 @@
               "confirmed": 3,
               "recovered": 5,
               "tested": {
+                "positives": 3,
                 "samples": 573
               }
             },
@@ -74912,7 +74948,7 @@
               "deceased": 18,
               "recovered": 782,
               "tested": {
-                "positives": 978,
+                "positives": 981,
                 "samples": 25119
               }
             }
@@ -74928,7 +74964,7 @@
               "deceased": 19,
               "recovered": 800,
               "tested": {
-                "positives": 978,
+                "positives": 981,
                 "samples": 25119
               }
             }
@@ -76074,6 +76110,7 @@
               "confirmed": 69,
               "recovered": 15,
               "tested": {
+                "positives": 69,
                 "samples": 1022
               }
             },
@@ -76082,7 +76119,7 @@
               "deceased": 10,
               "recovered": 607,
               "tested": {
-                "positives": 883,
+                "positives": 952,
                 "samples": 24233
               }
             }
@@ -76097,7 +76134,7 @@
               "deceased": 10,
               "recovered": 630,
               "tested": {
-                "positives": 883,
+                "positives": 952,
                 "samples": 24233
               }
             }
@@ -77227,6 +77264,7 @@
               "deceased": 1,
               "recovered": 32,
               "tested": {
+                "positives": 89,
                 "samples": 600
               }
             },
@@ -77235,7 +77273,7 @@
               "deceased": 7,
               "recovered": 443,
               "tested": {
-                "positives": 896,
+                "positives": 985,
                 "samples": 23387
               }
             }
@@ -77251,7 +77289,7 @@
               "deceased": 8,
               "recovered": 505,
               "tested": {
-                "positives": 896,
+                "positives": 985,
                 "samples": 23387
               }
             }
@@ -78296,6 +78334,7 @@
               "confirmed": 8,
               "recovered": 16,
               "tested": {
+                "positives": 8,
                 "samples": 737
               }
             },
@@ -78304,7 +78343,7 @@
               "deceased": 7,
               "recovered": 298,
               "tested": {
-                "positives": 432,
+                "positives": 440,
                 "samples": 14434
               }
             }
@@ -78319,7 +78358,7 @@
               "deceased": 7,
               "recovered": 316,
               "tested": {
-                "positives": 432,
+                "positives": 440,
                 "samples": 14434
               }
             }
@@ -79344,6 +79383,7 @@
             "delta": {
               "confirmed": 11,
               "tested": {
+                "positives": 11,
                 "samples": 339
               }
             },
@@ -79352,7 +79392,7 @@
               "deceased": 2,
               "recovered": 98,
               "tested": {
-                "positives": 150,
+                "positives": 161,
                 "samples": 15830
               }
             }
@@ -79367,7 +79407,7 @@
               "deceased": 2,
               "recovered": 99,
               "tested": {
-                "positives": 150,
+                "positives": 161,
                 "samples": 15830
               }
             }
@@ -80450,6 +80490,7 @@
               "confirmed": 60,
               "recovered": 13,
               "tested": {
+                "positives": 60,
                 "samples": 375
               }
             },
@@ -80458,7 +80499,7 @@
               "deceased": 12,
               "recovered": 449,
               "tested": {
-                "positives": 756,
+                "positives": 816,
                 "samples": 26140
               }
             }
@@ -80473,7 +80514,7 @@
               "deceased": 12,
               "recovered": 472,
               "tested": {
-                "positives": 756,
+                "positives": 816,
                 "samples": 26140
               }
             }
@@ -81452,6 +81493,7 @@
               "confirmed": 20,
               "recovered": 11,
               "tested": {
+                "positives": 20,
                 "samples": 940
               }
             },
@@ -81460,7 +81502,7 @@
               "deceased": 1,
               "recovered": 128,
               "tested": {
-                "positives": 492,
+                "positives": 512,
                 "samples": 22403
               }
             }
@@ -81475,7 +81517,7 @@
               "deceased": 1,
               "recovered": 140,
               "tested": {
-                "positives": 492,
+                "positives": 512,
                 "samples": 22403
               }
             }
@@ -83370,6 +83412,7 @@
               "deceased": 1,
               "recovered": 20,
               "tested": {
+                "positives": 47,
                 "samples": 639
               }
             },
@@ -83378,7 +83421,7 @@
               "deceased": 17,
               "recovered": 431,
               "tested": {
-                "positives": 661,
+                "positives": 708,
                 "samples": 16682
               }
             }
@@ -83394,7 +83437,7 @@
               "deceased": 19,
               "recovered": 443,
               "tested": {
-                "positives": 661,
+                "positives": 708,
                 "samples": 16682
               }
             }
@@ -84497,6 +84540,7 @@
               "confirmed": 22,
               "recovered": 37,
               "tested": {
+                "positives": 22,
                 "samples": 1310
               }
             },
@@ -84505,7 +84549,7 @@
               "deceased": 14,
               "recovered": 338,
               "tested": {
-                "positives": 751,
+                "positives": 773,
                 "samples": 22778
               }
             }
@@ -84520,7 +84564,7 @@
               "deceased": 14,
               "recovered": 391,
               "tested": {
-                "positives": 751,
+                "positives": 773,
                 "samples": 22778
               }
             }
