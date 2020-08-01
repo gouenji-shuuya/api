@@ -7744,12 +7744,19 @@
   },
   "NL": {
     "delta": {
-      "confirmed": 130
+      "confirmed": 138,
+      "other": 2,
+      "recovered": 5,
+      "tested": {
+        "positives": 138,
+        "samples": 739
+      }
     },
     "districts": {
       "Dimapur": {
         "delta": {
-          "confirmed": 109
+          "confirmed": 117,
+          "other": 1
         },
         "meta": {
           "population": 379769,
@@ -7759,9 +7766,9 @@
           }
         },
         "total": {
-          "confirmed": 711,
+          "confirmed": 719,
           "deceased": 4,
-          "other": 2,
+          "other": 3,
           "recovered": 65,
           "tested": {
             "positives": 6,
@@ -7787,7 +7794,8 @@
       },
       "Kohima": {
         "delta": {
-          "confirmed": 21
+          "confirmed": 21,
+          "other": 1
         },
         "meta": {
           "population": 270063,
@@ -7798,6 +7806,7 @@
         },
         "total": {
           "confirmed": 423,
+          "other": 1,
           "recovered": 55,
           "tested": {
             "positives": 2,
@@ -7901,6 +7910,14 @@
           }
         }
       },
+      "Unknown": {
+        "delta": {
+          "recovered": 5
+        },
+        "total": {
+          "recovered": 5
+        }
+      },
       "Wokha": {
         "meta": {
           "population": 166239,
@@ -7928,21 +7945,21 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-01T12:59:36+05:30",
+      "last_updated": "2020-08-01T19:48:37+05:30",
       "population": 2150000,
       "tested": {
-        "last_updated": "2020-07-31",
-        "source": "https://twitter.com/MyGovNagaland/status/1289202160131960832?s=20"
+        "last_updated": "2020-08-01",
+        "source": "https://twitter.com/MyGovNagaland/status/1289564802600153088?s=20"
       }
     },
     "total": {
-      "confirmed": 1823,
+      "confirmed": 1831,
       "deceased": 4,
-      "other": 2,
-      "recovered": 635,
+      "other": 4,
+      "recovered": 640,
       "tested": {
-        "positives": 1693,
-        "samples": 37895
+        "positives": 1831,
+        "samples": 38634
       }
     }
   },
@@ -9040,10 +9057,11 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-01T19:37:35+05:30",
+      "last_updated": "2020-08-01T19:41:41+05:30",
       "population": 29859000,
       "tested": {
-        "last_updated": "2020-08-01"
+        "last_updated": "2020-08-01",
+        "source": "https://twitter.com/ANI/status/1289563237231366153?s=20"
       }
     },
     "total": {
@@ -11080,19 +11098,19 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 33233,
+      "confirmed": 33241,
       "deceased": 321,
-      "other": 2,
-      "recovered": 31173,
+      "other": 4,
+      "recovered": 31178,
       "tested": {
         "states": {
-          "positives": 48261,
-          "samples": 424835
+          "positives": 48399,
+          "samples": 425574
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-01T19:37:33+05:30",
+      "last_updated": "2020-08-01T19:48:34+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-07-31",
@@ -11100,15 +11118,15 @@
       }
     },
     "total": {
-      "confirmed": 1730287,
+      "confirmed": 1730295,
       "deceased": 36872,
-      "other": 428,
-      "recovered": 1126820,
+      "other": 430,
+      "recovered": 1126825,
       "tested": {
         "samples": 19358659,
         "states": {
-          "positives": 1745941,
-          "samples": 22507948
+          "positives": 1746079,
+          "samples": 22508687
         }
       }
     }
