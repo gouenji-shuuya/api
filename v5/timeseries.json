@@ -4322,15 +4322,19 @@
         "delta": {
           "confirmed": 8555,
           "deceased": 67,
-          "recovered": 6272
+          "recovered": 6272,
+          "tested": {
+            "positives": 8555,
+            "samples": 52834
+          }
         },
         "total": {
           "confirmed": 158764,
           "deceased": 1474,
           "recovered": 82886,
           "tested": {
-            "positives": 150209,
-            "samples": 2012573
+            "positives": 158764,
+            "samples": 2065407
           }
         }
       }
@@ -41842,15 +41846,19 @@
       },
       "2020-08-02": {
         "delta": {
-          "confirmed": 4
+          "confirmed": 4,
+          "tested": {
+            "positives": 4,
+            "samples": 27
+          }
         },
         "total": {
           "confirmed": 1466,
           "deceased": 7,
           "recovered": 1108,
           "tested": {
-            "positives": 1462,
-            "samples": 19833
+            "positives": 1466,
+            "samples": 19860
           }
         }
       }
@@ -52540,15 +52548,19 @@
       },
       "2020-08-02": {
         "delta": {
-          "confirmed": 55
+          "confirmed": 55,
+          "tested": {
+            "positives": 55,
+            "samples": 229
+          }
         },
         "total": {
           "confirmed": 468,
           "other": 1,
           "recovered": 253,
           "tested": {
-            "positives": 413,
-            "samples": 21294
+            "positives": 468,
+            "samples": 21523
           }
         }
       }
@@ -76176,8 +76188,8 @@
           "recovered": 18427,
           "tested": {
             "states": {
-              "positives": 24234,
-              "samples": 347955
+              "positives": 32848,
+              "samples": 401045
             }
           }
         },
@@ -76189,8 +76201,8 @@
           "tested": {
             "samples": 19821831,
             "states": {
-              "positives": 1781646,
-              "samples": 23015385
+              "positives": 1790260,
+              "samples": 23068475
             }
           }
         }
