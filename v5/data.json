@@ -8318,8 +8318,17 @@
     }
   },
   "PY": {
+    "delta": {
+      "confirmed": 200,
+      "deceased": 1,
+      "recovered": 111
+    },
     "districts": {
       "Karaikal": {
+        "delta": {
+          "confirmed": 7,
+          "recovered": 3
+        },
         "meta": {
           "notes": "1 case of TN has been transferred,so has been reduced from the total count.",
           "population": 200222,
@@ -8329,9 +8338,9 @@
           }
         },
         "total": {
-          "confirmed": 188,
+          "confirmed": 195,
           "deceased": 2,
-          "recovered": 139,
+          "recovered": 142,
           "tested": {
             "positives": 188,
             "samples": 5338
@@ -8356,6 +8365,11 @@
         }
       },
       "Puducherry": {
+        "delta": {
+          "confirmed": 161,
+          "deceased": 1,
+          "recovered": 98
+        },
         "meta": {
           "notes": "38 cases(33 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
@@ -8365,16 +8379,28 @@
           }
         },
         "total": {
-          "confirmed": 3208,
-          "deceased": 46,
-          "recovered": 1952,
+          "confirmed": 3369,
+          "deceased": 47,
+          "recovered": 2050,
           "tested": {
             "positives": 3208,
             "samples": 31629
           }
         }
       },
+      "Unknown": {
+        "delta": {
+          "recovered": 7
+        },
+        "total": {
+          "recovered": 7
+        }
+      },
       "Yanam": {
+        "delta": {
+          "confirmed": 32,
+          "recovered": 3
+        },
         "meta": {
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
@@ -8384,9 +8410,9 @@
           }
         },
         "total": {
-          "confirmed": 187,
+          "confirmed": 219,
           "deceased": 3,
-          "recovered": 84,
+          "recovered": 87,
           "tested": {
             "positives": 187,
             "samples": 2198
@@ -8403,9 +8429,9 @@
       }
     },
     "total": {
-      "confirmed": 3606,
-      "deceased": 51,
-      "recovered": 2198,
+      "confirmed": 3806,
+      "deceased": 52,
+      "recovered": 2309,
       "tested": {
         "positives": 3606,
         "samples": 40652
@@ -10103,9 +10129,9 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 4061,
-      "deceased": 31,
-      "recovered": 1148,
+      "confirmed": 4261,
+      "deceased": 32,
+      "recovered": 1259,
       "tested": {
         "states": {
           "positives": 3325,
@@ -10122,10 +10148,10 @@
       }
     },
     "total": {
-      "confirmed": 1756232,
-      "deceased": 37436,
+      "confirmed": 1756432,
+      "deceased": 37437,
       "other": 432,
-      "recovered": 1148163,
+      "recovered": 1148274,
       "tested": {
         "samples": 19821831,
         "states": {
