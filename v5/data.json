@@ -1571,7 +1571,8 @@
         "meta": {
           "population": 1657599,
           "tested": {
-            "last_updated": "2020-08-01"
+            "last_updated": "2020-08-01",
+            "source": "https://twitter.com/KhagariaDm/status/1289637024517955584?s=20"
           }
         },
         "total": {
@@ -1579,8 +1580,8 @@
           "deceased": 5,
           "recovered": 869,
           "tested": {
-            "positives": 1210,
-            "samples": 12844
+            "positives": 1259,
+            "samples": 13498
           }
         }
       },
@@ -6145,13 +6146,17 @@
     "districts": {
       "Kargil": {
         "delta": {
-          "confirmed": 4
+          "confirmed": 4,
+          "tested": {
+            "positives": 4,
+            "samples": 27
+          }
         },
         "meta": {
           "population": 143000,
           "tested": {
-            "last_updated": "2020-08-01",
-            "source": "https://www.facebook.com/114874993303412/photos/pcb.202704334520477/202704257853818/?type=3&theater"
+            "last_updated": "2020-08-02",
+            "source": "https://www.facebook.com/114874993303412/photos/pcb.202927797831464/202927721164805/?type=3&theater"
           }
         },
         "total": {
@@ -6159,8 +6164,8 @@
           "deceased": 3,
           "recovered": 726,
           "tested": {
-            "positives": 826,
-            "samples": 7954
+            "positives": 830,
+            "samples": 7981
           }
         }
       },
@@ -6168,8 +6173,8 @@
         "meta": {
           "population": 147000,
           "tested": {
-            "last_updated": "2020-08-01",
-            "source": "https://www.facebook.com/114874993303412/photos/pcb.202704334520477/202704257853818/?type=3&theater"
+            "last_updated": "2020-08-02",
+            "source": "https://www.facebook.com/114874993303412/photos/pcb.202927797831464/202927721164805/?type=3&theater"
           }
         },
         "total": {
@@ -7000,24 +7005,27 @@
         }
       },
       "East Jaintia Hills": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 122436
         },
         "total": {
-          "confirmed": 18,
+          "confirmed": 19,
           "recovered": 2
         }
       },
       "East Khasi Hills": {
         "delta": {
-          "confirmed": 12,
+          "confirmed": 13,
           "recovered": 2
         },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 686,
+          "confirmed": 687,
           "deceased": 2,
           "recovered": 178
         }
@@ -7032,11 +7040,14 @@
         }
       },
       "Ribhoi": {
+        "delta": {
+          "confirmed": 4
+        },
         "meta": {
           "population": 258380
         },
         "total": {
-          "confirmed": 92,
+          "confirmed": 96,
           "deceased": 3,
           "recovered": 43
         }
@@ -7061,11 +7072,9 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": 6,
           "recovered": 10
         },
         "total": {
-          "confirmed": 6,
           "recovered": 10
         }
       },
@@ -8574,7 +8583,8 @@
       },
       "Kohima": {
         "delta": {
-          "confirmed": 17
+          "confirmed": 17,
+          "recovered": 8
         },
         "meta": {
           "population": 270063,
@@ -8586,7 +8596,7 @@
         "total": {
           "confirmed": 440,
           "other": 1,
-          "recovered": 58,
+          "recovered": 66,
           "tested": {
             "positives": 2,
             "samples": 485
@@ -8693,14 +8703,6 @@
             "positives": 1,
             "samples": 1
           }
-        }
-      },
-      "Unknown": {
-        "delta": {
-          "recovered": 8
-        },
-        "total": {
-          "recovered": 8
         }
       },
       "Wokha": {
