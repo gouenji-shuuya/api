@@ -359,7 +359,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-02T19:13:32+05:30",
+      "last_updated": "2020-08-02T19:22:32+05:30",
       "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin.",
       "population": 52221000,
       "tested": {
@@ -5348,7 +5348,11 @@
     "delta": {
       "confirmed": 1169,
       "deceased": 1,
-      "recovered": 688
+      "recovered": 688,
+      "tested": {
+        "positives": 1169,
+        "samples": 21159
+      }
     },
     "districts": {
       "Alappuzha": {
@@ -5562,8 +5566,8 @@
       "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nOne patient absconded from Palakkad to TN and one patient returned back to Maharashtra. Some non-covid deaths (accident,cancer etc.) have also been reported in the bulletin.\nIn total 24 such cases have been reduced from active count",
       "population": 35125000,
       "tested": {
-        "last_updated": "2020-08-01",
-        "source": "https://dhs.kerala.gov.in/wp-content/uploads/2020/08/Bulletin-HFWD-English-August-01.pdf"
+        "last_updated": "2020-08-02",
+        "source": "https://dhs.kerala.gov.in/wp-content/uploads/2020/08/Bulletin-HFWD-English-August-02.pdf"
       }
     },
     "total": {
@@ -5572,8 +5576,8 @@
       "other": 24,
       "recovered": 14463,
       "tested": {
-        "positives": 24743,
-        "samples": 795919
+        "positives": 25912,
+        "samples": 817078
       }
     }
   },
@@ -5623,7 +5627,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-02T19:13:37+05:30",
+      "last_updated": "2020-08-02T19:22:35+05:30",
       "population": 293000,
       "tested": {
         "last_updated": "2020-08-01",
@@ -7758,7 +7762,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-02T19:13:39+05:30",
+      "last_updated": "2020-08-02T19:22:37+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-08-01",
@@ -8809,14 +8813,18 @@
       "Karaikal": {
         "delta": {
           "confirmed": 7,
-          "recovered": 3
+          "recovered": 3,
+          "tested": {
+            "positives": 7,
+            "samples": 35
+          }
         },
         "meta": {
           "notes": "1 case of TN has been transferred,so has been reduced from the total count.",
           "population": 200222,
           "tested": {
-            "last_updated": "2020-08-01",
-            "source": "https://health.py.gov.in/sites/default/files/1.08.2020.pdf"
+            "last_updated": "2020-08-02",
+            "source": "https://health.py.gov.in/sites/default/files/2.08.2020-bulletin.pdf"
           }
         },
         "total": {
@@ -8824,17 +8832,22 @@
           "deceased": 2,
           "recovered": 142,
           "tested": {
-            "positives": 188,
-            "samples": 5338
+            "positives": 195,
+            "samples": 5373
           }
         }
       },
       "Mahe": {
+        "delta": {
+          "tested": {
+            "samples": 14
+          }
+        },
         "meta": {
           "population": 41816,
           "tested": {
-            "last_updated": "2020-08-01",
-            "source": "https://health.py.gov.in/sites/default/files/1.08.2020.pdf"
+            "last_updated": "2020-08-02",
+            "source": "https://health.py.gov.in/sites/default/files/2.08.2020-bulletin.pdf"
           }
         },
         "total": {
@@ -8842,7 +8855,7 @@
           "recovered": 23,
           "tested": {
             "positives": 23,
-            "samples": 1487
+            "samples": 1501
           }
         }
       },
@@ -8850,14 +8863,18 @@
         "delta": {
           "confirmed": 161,
           "deceased": 1,
-          "recovered": 105
+          "recovered": 105,
+          "tested": {
+            "positives": 161,
+            "samples": 837
+          }
         },
         "meta": {
           "notes": "38 cases(33 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
           "tested": {
-            "last_updated": "2020-08-01",
-            "source": "https://health.py.gov.in/sites/default/files/1.08.2020.pdf"
+            "last_updated": "2020-08-02",
+            "source": "https://health.py.gov.in/sites/default/files/2.08.2020-bulletin.pdf"
           }
         },
         "total": {
@@ -8865,22 +8882,26 @@
           "deceased": 47,
           "recovered": 2057,
           "tested": {
-            "positives": 3208,
-            "samples": 31629
+            "positives": 3369,
+            "samples": 32466
           }
         }
       },
       "Yanam": {
         "delta": {
           "confirmed": 32,
-          "recovered": 3
+          "recovered": 3,
+          "tested": {
+            "positives": 32,
+            "samples": 2
+          }
         },
         "meta": {
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
           "tested": {
-            "last_updated": "2020-08-01",
-            "source": "https://health.py.gov.in/sites/default/files/1.08.2020.pdf"
+            "last_updated": "2020-08-02",
+            "source": "https://health.py.gov.in/sites/default/files/2.08.2020-bulletin.pdf"
           }
         },
         "total": {
@@ -8888,8 +8909,8 @@
           "deceased": 3,
           "recovered": 87,
           "tested": {
-            "positives": 187,
-            "samples": 2198
+            "positives": 219,
+            "samples": 2200
           }
         }
       }
@@ -10793,13 +10814,13 @@
       "recovered": 18427,
       "tested": {
         "states": {
-          "positives": 23065,
-          "samples": 326796
+          "positives": 24234,
+          "samples": 347955
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-02T19:13:30+05:30",
+      "last_updated": "2020-08-02T19:22:29+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-01",
@@ -10814,8 +10835,8 @@
       "tested": {
         "samples": 19821831,
         "states": {
-          "positives": 1780477,
-          "samples": 22994226
+          "positives": 1781646,
+          "samples": 23015385
         }
       }
     }
@@ -12481,7 +12502,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-02T19:13:34+05:30",
+      "last_updated": "2020-08-02T19:17:37+05:30",
       "population": 224979000,
       "tested": {
         "last_updated": "2020-08-02",
