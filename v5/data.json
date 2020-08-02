@@ -3743,11 +3743,17 @@
         }
       },
       "Faridabad": {
+        "delta": {
+          "tested": {
+            "positives": 172,
+            "samples": 3371
+          }
+        },
         "meta": {
           "population": 1798954,
           "tested": {
-            "last_updated": "2020-08-01",
-            "source": "https://twitter.com/SmartCityFbad/status/1289529289197592577?s=20"
+            "last_updated": "2020-08-02",
+            "source": "https://twitter.com/SmartCityFbad/status/1289903911394881536?s=20"
           }
         },
         "total": {
@@ -3755,8 +3761,8 @@
           "deceased": 134,
           "recovered": 7547,
           "tested": {
-            "positives": 8829,
-            "samples": 79052
+            "positives": 9001,
+            "samples": 82423
           }
         }
       },
@@ -4773,6 +4779,12 @@
     }
   },
   "KA": {
+    "delta": {
+      "tested": {
+        "positives": 5532,
+        "samples": 33017
+      }
+    },
     "districts": {
       "Bagalkote": {
         "meta": {
@@ -5333,8 +5345,8 @@
       "notes": "9 cases are classified as non-covid related deaths in KA bulletin. They have been reduced from active cases",
       "population": 65798000,
       "tested": {
-        "last_updated": "2020-08-01",
-        "source": "https://t.co/oFXSkN1Gsi?amp=1"
+        "last_updated": "2020-08-02",
+        "source": "http://twitter.com/DHFWKA/status/1289924665205374977"
       }
     },
     "total": {
@@ -5343,8 +5355,8 @@
       "other": 9,
       "recovered": 53648,
       "tested": {
-        "positives": 129287,
-        "samples": 1385552
+        "positives": 134819,
+        "samples": 1418569
       }
     }
   },
@@ -6264,7 +6276,10 @@
   "ML": {
     "delta": {
       "confirmed": 12,
-      "recovered": 2
+      "recovered": 2,
+      "tested": {
+        "positives": 12
+      }
     },
     "districts": {
       "East Garo Hills": {
@@ -6368,7 +6383,7 @@
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
-        "last_updated": "2020-08-01",
+        "last_updated": "2020-08-02",
         "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1482"
       }
     },
@@ -6377,7 +6392,7 @@
       "deceased": 5,
       "recovered": 254,
       "tested": {
-        "positives": 856,
+        "positives": 868,
         "samples": 36341
       }
     }
@@ -7442,6 +7457,7 @@
   "MZ": {
     "delta": {
       "confirmed": 55,
+      "recovered": 5,
       "tested": {
         "positives": 55,
         "samples": 229
@@ -7541,15 +7557,17 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": 46
+          "confirmed": 46,
+          "recovered": 5
         },
         "total": {
-          "confirmed": 51
+          "confirmed": 51,
+          "recovered": 5
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-02T08:58:36+05:30",
+      "last_updated": "2020-08-02T19:48:34+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-08-02",
@@ -7559,7 +7577,7 @@
     "total": {
       "confirmed": 468,
       "other": 1,
-      "recovered": 253,
+      "recovered": 258,
       "tested": {
         "positives": 468,
         "samples": 21523
@@ -7569,7 +7587,11 @@
   "NL": {
     "delta": {
       "confirmed": 104,
-      "recovered": 8
+      "recovered": 8,
+      "tested": {
+        "positives": 104,
+        "samples": 658
+      }
     },
     "districts": {
       "Dimapur": {
@@ -7777,8 +7799,7 @@
       "last_updated": "2020-08-02T19:22:37+05:30",
       "population": 2150000,
       "tested": {
-        "last_updated": "2020-08-01",
-        "source": "https://twitter.com/MyGovNagaland/status/1289564802600153088?s=20"
+        "last_updated": "2020-08-02"
       }
     },
     "total": {
@@ -7787,8 +7808,8 @@
       "other": 4,
       "recovered": 648,
       "tested": {
-        "positives": 1831,
-        "samples": 38634
+        "positives": 1935,
+        "samples": 39292
       }
     }
   },
@@ -10823,16 +10844,16 @@
       "confirmed": 28097,
       "deceased": 285,
       "other": 2,
-      "recovered": 18427,
+      "recovered": 18432,
       "tested": {
         "states": {
-          "positives": 32848,
-          "samples": 401045
+          "positives": 38496,
+          "samples": 434720
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-02T19:22:29+05:30",
+      "last_updated": "2020-08-02T19:48:30+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-01",
@@ -10843,12 +10864,12 @@
       "confirmed": 1780268,
       "deceased": 37690,
       "other": 434,
-      "recovered": 1165442,
+      "recovered": 1165447,
       "tested": {
         "samples": 19821831,
         "states": {
-          "positives": 1790260,
-          "samples": 23068475
+          "positives": 1795908,
+          "samples": 23102150
         }
       }
     }
