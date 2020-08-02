@@ -2392,8 +2392,9 @@
   },
   "DN": {
     "delta": {
-      "confirmed": 15,
-      "recovered": 13
+      "confirmed": 36,
+      "other": 1,
+      "recovered": 25
     },
     "districts": {
       "Dadra and Nagar Haveli": {
@@ -2416,6 +2417,11 @@
         }
       },
       "Daman": {
+        "delta": {
+          "confirmed": 21,
+          "other": 1,
+          "recovered": 12
+        },
         "meta": {
           "population": 191173,
           "tested": {
@@ -2424,10 +2430,10 @@
           }
         },
         "total": {
-          "confirmed": 578,
+          "confirmed": 599,
           "deceased": 1,
-          "other": 1,
-          "recovered": 399,
+          "other": 2,
+          "recovered": 411,
           "tested": {
             "positives": 518,
             "samples": 11570
@@ -2458,7 +2464,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-02T13:27:31+05:30",
+      "last_updated": "2020-08-02T18:04:08+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-07-29",
@@ -2466,10 +2472,10 @@
       }
     },
     "total": {
-      "confirmed": 1209,
+      "confirmed": 1230,
       "deceased": 2,
-      "other": 10,
-      "recovered": 768,
+      "other": 11,
+      "recovered": 780,
       "tested": {
         "positives": 1058,
         "samples": 41895
@@ -3166,8 +3172,8 @@
   },
   "HP": {
     "delta": {
-      "confirmed": 9,
-      "recovered": 3
+      "confirmed": 20,
+      "recovered": 6
     },
     "districts": {
       "Bilaspur": {
@@ -3229,8 +3235,8 @@
       },
       "Kangra": {
         "delta": {
-          "confirmed": 1,
-          "recovered": 1
+          "confirmed": 8,
+          "recovered": 4
         },
         "meta": {
           "notes": "Death of Tibetan refugee on March 22 included in Kangra district's tally",
@@ -3241,10 +3247,10 @@
           }
         },
         "total": {
-          "confirmed": 469,
+          "confirmed": 476,
           "deceased": 4,
           "other": 2,
-          "recovered": 335,
+          "recovered": 338,
           "tested": {
             "positives": 468,
             "samples": 31471
@@ -3303,6 +3309,9 @@
         }
       },
       "Mandi": {
+        "delta": {
+          "confirmed": 4
+        },
         "meta": {
           "population": 999518,
           "tested": {
@@ -3311,7 +3320,7 @@
           }
         },
         "total": {
-          "confirmed": 172,
+          "confirmed": 176,
           "deceased": 3,
           "recovered": 46,
           "tested": {
@@ -3400,7 +3409,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-02T13:42:35+05:30",
+      "last_updated": "2020-08-02T18:03:58+05:30",
       "notes": "HP has 18 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -3409,10 +3418,10 @@
       }
     },
     "total": {
-      "confirmed": 2643,
+      "confirmed": 2654,
       "deceased": 13,
       "other": 17,
-      "recovered": 1505,
+      "recovered": 1508,
       "tested": {
         "positives": 2634,
         "samples": 147997
@@ -10152,9 +10161,10 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 5222,
+      "confirmed": 5254,
       "deceased": 47,
-      "recovered": 2445,
+      "other": 1,
+      "recovered": 2460,
       "tested": {
         "states": {
           "positives": 13984,
@@ -10163,7 +10173,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-02T15:07:32+05:30",
+      "last_updated": "2020-08-02T18:03:42+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-01",
@@ -10171,10 +10181,10 @@
       }
     },
     "total": {
-      "confirmed": 1757393,
+      "confirmed": 1757425,
       "deceased": 37452,
-      "other": 432,
-      "recovered": 1149460,
+      "other": 433,
+      "recovered": 1149475,
       "tested": {
         "samples": 19821831,
         "states": {
