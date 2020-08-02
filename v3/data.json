@@ -359,6 +359,10 @@
     }
   },
   "AR": {
+    "delta": {
+      "confirmed": 24,
+      "recovered": 27
+    },
     "districts": {
       "Anjaw": {
         "meta": {
@@ -375,6 +379,9 @@
         }
       },
       "Changlang": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 147951,
           "tested": {
@@ -383,7 +390,7 @@
           }
         },
         "total": {
-          "confirmed": 236,
+          "confirmed": 237,
           "recovered": 115,
           "tested": 10492
         }
@@ -400,6 +407,9 @@
         }
       },
       "East Kameng": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 78413,
           "tested": {
@@ -408,12 +418,16 @@
           }
         },
         "total": {
-          "confirmed": 37,
+          "confirmed": 39,
           "recovered": 2,
           "tested": 847
         }
       },
       "East Siang": {
+        "delta": {
+          "confirmed": 4,
+          "recovered": 7
+        },
         "meta": {
           "population": 99019,
           "tested": {
@@ -422,8 +436,8 @@
           }
         },
         "total": {
-          "confirmed": 81,
-          "recovered": 39,
+          "confirmed": 85,
+          "recovered": 46,
           "tested": 5307
         }
       },
@@ -464,6 +478,9 @@
         }
       },
       "Lepa Rada": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "tested": {
             "last_updated": "2020-08-01",
@@ -471,12 +488,15 @@
           }
         },
         "total": {
-          "confirmed": 12,
+          "confirmed": 13,
           "recovered": 11,
           "tested": 369
         }
       },
       "Lohit": {
+        "delta": {
+          "confirmed": 6
+        },
         "meta": {
           "population": 145538,
           "tested": {
@@ -485,7 +505,7 @@
           }
         },
         "total": {
-          "confirmed": 23,
+          "confirmed": 29,
           "recovered": 4,
           "tested": 2157
         }
@@ -505,6 +525,9 @@
         }
       },
       "Lower Dibang Valley": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 53986,
           "tested": {
@@ -513,7 +536,7 @@
           }
         },
         "total": {
-          "confirmed": 21,
+          "confirmed": 22,
           "recovered": 13,
           "tested": 2221
         }
@@ -547,6 +570,9 @@
         }
       },
       "Namsai": {
+        "delta": {
+          "recovered": 5
+        },
         "meta": {
           "population": 95950,
           "tested": {
@@ -556,7 +582,7 @@
         },
         "total": {
           "confirmed": 89,
-          "recovered": 48,
+          "recovered": 53,
           "tested": 5458
         }
       },
@@ -574,6 +600,10 @@
         }
       },
       "Papum Pare": {
+        "delta": {
+          "confirmed": 8,
+          "recovered": 4
+        },
         "meta": {
           "population": 176385,
           "tested": {
@@ -582,9 +612,9 @@
           }
         },
         "total": {
-          "confirmed": 871,
+          "confirmed": 879,
           "deceased": 1,
-          "recovered": 599,
+          "recovered": 603,
           "tested": 41264
         }
       },
@@ -630,6 +660,9 @@
         }
       },
       "Tirap": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 111997,
           "tested": {
@@ -639,8 +672,18 @@
         },
         "total": {
           "confirmed": 58,
-          "recovered": 15,
+          "recovered": 16,
           "tested": 3455
+        }
+      },
+      "Unknown": {
+        "delta": {
+          "confirmed": -2,
+          "recovered": 10
+        },
+        "total": {
+          "confirmed": -2,
+          "recovered": 10
         }
       },
       "Upper Siang": {
@@ -672,6 +715,9 @@
         }
       },
       "West Kameng": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "population": 87013,
           "tested": {
@@ -680,7 +726,7 @@
           }
         },
         "total": {
-          "confirmed": 49,
+          "confirmed": 52,
           "deceased": 2,
           "recovered": 34,
           "tested": 2792
@@ -702,7 +748,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-01T23:17:39+05:30",
+      "last_updated": "2020-08-02T23:03:44+05:30",
       "notes": "[July 25]: All numbers corresponding to Papum Pare and Captial Complex are tracked under Papum Pare district.",
       "population": 1504000,
       "tested": {
@@ -711,9 +757,9 @@
       }
     },
     "total": {
-      "confirmed": 1674,
+      "confirmed": 1698,
       "deceased": 3,
-      "recovered": 969,
+      "recovered": 996,
       "tested": 86288
     }
   },
@@ -3569,7 +3615,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-02T22:54:35+05:30",
+      "last_updated": "2020-08-02T23:03:42+05:30",
       "notes": "HP has 18 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -4385,7 +4431,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-02T22:54:32+05:30",
+      "last_updated": "2020-08-02T23:03:39+05:30",
       "population": 37403000,
       "tested": {
         "last_updated": "2020-08-01",
@@ -11133,13 +11179,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 52507,
+      "confirmed": 52531,
       "deceased": 756,
       "migrated": 2,
-      "recovered": 40186
+      "recovered": 40213
     },
     "meta": {
-      "last_updated": "2020-08-02T22:54:30+05:30",
+      "last_updated": "2020-08-02T23:03:36+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-01",
@@ -11147,10 +11193,10 @@
       }
     },
     "total": {
-      "confirmed": 1804678,
+      "confirmed": 1804702,
       "deceased": 38161,
       "migrated": 434,
-      "recovered": 1187201,
+      "recovered": 1187228,
       "tested": 19821831
     }
   },
