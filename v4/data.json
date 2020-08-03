@@ -581,6 +581,9 @@
     }
   },
   "AS": {
+    "delta": {
+      "deceased": 4
+    },
     "districts": {
       "Airport Quarantine": {
         "total": {
@@ -680,6 +683,9 @@
         }
       },
       "Dibrugarh": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1327748,
           "tested": {
@@ -688,7 +694,7 @@
         },
         "total": {
           "confirmed": 1399,
-          "deceased": 4,
+          "deceased": 5,
           "recovered": 550,
           "tested": 26071
         }
@@ -762,12 +768,15 @@
         }
       },
       "Kamrup Metropolitan": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1260419
         },
         "total": {
           "confirmed": 15936,
-          "deceased": 46,
+          "deceased": 47,
           "recovered": 8701
         }
       },
@@ -855,12 +864,15 @@
         }
       },
       "Sivasagar": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1150253
         },
         "total": {
           "confirmed": 302,
-          "deceased": 1,
+          "deceased": 2,
           "recovered": 199
         }
       },
@@ -884,12 +896,15 @@
         }
       },
       "Tinsukia": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1316948
         },
         "total": {
           "confirmed": 900,
-          "deceased": 9,
+          "deceased": 10,
           "recovered": 629
         }
       },
@@ -921,7 +936,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-02T21:57:38+05:30",
+      "last_updated": "2020-08-03T19:07:48+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
@@ -931,7 +946,7 @@
     },
     "total": {
       "confirmed": 42905,
-      "deceased": 105,
+      "deceased": 109,
       "other": 3,
       "recovered": 32385,
       "tested": 964499
@@ -1643,7 +1658,8 @@
       "last_updated": "2020-08-03T18:42:48+05:30",
       "population": 119520000,
       "tested": {
-        "last_updated": "2020-08-03"
+        "last_updated": "2020-08-03",
+        "source": "https://twitter.com/PIB_Patna/status/1290272326429204484"
       }
     },
     "total": {
@@ -3920,7 +3936,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-03T18:47:54+05:30",
+      "last_updated": "2020-08-03T18:53:57+05:30",
       "population": 13203000,
       "tested": {
         "last_updated": "2020-08-02",
@@ -5221,13 +5237,20 @@
     }
   },
   "MN": {
+    "delta": {
+      "confirmed": 89,
+      "recovered": 29
+    },
     "districts": {
       "Bishnupur": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 240363
         },
         "total": {
-          "confirmed": 92,
+          "confirmed": 93,
           "recovered": 58
         }
       },
@@ -5260,11 +5283,14 @@
         }
       },
       "Imphal West": {
+        "delta": {
+          "confirmed": 51
+        },
         "meta": {
           "population": 514683
         },
         "total": {
-          "confirmed": 369,
+          "confirmed": 420,
           "deceased": 1,
           "recovered": 52
         }
@@ -5343,33 +5369,43 @@
         }
       },
       "Thoubal": {
+        "delta": {
+          "confirmed": 30
+        },
         "meta": {
           "population": 420517
         },
         "total": {
-          "confirmed": 259,
+          "confirmed": 289,
           "deceased": 3,
           "recovered": 23
         }
       },
       "Ukhrul": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 183115
         },
         "total": {
-          "confirmed": 263,
+          "confirmed": 265,
           "recovered": 18
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 5,
+          "recovered": 29
+        },
         "total": {
-          "confirmed": 122,
-          "recovered": 1344
+          "confirmed": 127,
+          "recovered": 1373
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-02T20:28:44+05:30",
+      "last_updated": "2020-08-03T19:05:30+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-07-31",
@@ -5377,9 +5413,9 @@
       }
     },
     "total": {
-      "confirmed": 2831,
+      "confirmed": 2920,
       "deceased": 7,
-      "recovered": 1737,
+      "recovered": 1766,
       "tested": 85441
     }
   },
@@ -7208,8 +7244,17 @@
     }
   },
   "PY": {
+    "delta": {
+      "confirmed": 176,
+      "deceased": 4,
+      "recovered": 102
+    },
     "districts": {
       "Karaikal": {
+        "delta": {
+          "confirmed": 9,
+          "recovered": 3
+        },
         "meta": {
           "notes": "1 case of TN has been transferred,so has been reduced from the total count.",
           "population": 200222,
@@ -7218,13 +7263,16 @@
           }
         },
         "total": {
-          "confirmed": 195,
+          "confirmed": 204,
           "deceased": 2,
-          "recovered": 142,
+          "recovered": 145,
           "tested": 5373
         }
       },
       "Mahe": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 41816,
           "tested": {
@@ -7232,27 +7280,36 @@
           }
         },
         "total": {
-          "confirmed": 23,
+          "confirmed": 25,
           "recovered": 23,
           "tested": 1501
         }
       },
       "Puducherry": {
+        "delta": {
+          "confirmed": 123,
+          "deceased": 4,
+          "recovered": 93
+        },
         "meta": {
-          "notes": "38 cases(33 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
+          "notes": "40 cases(35 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
           "tested": {
             "last_updated": "2020-08-02"
           }
         },
         "total": {
-          "confirmed": 3369,
-          "deceased": 47,
-          "recovered": 2057,
+          "confirmed": 3492,
+          "deceased": 51,
+          "recovered": 2150,
           "tested": 32466
         }
       },
       "Yanam": {
+        "delta": {
+          "confirmed": 42,
+          "recovered": 6
+        },
         "meta": {
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
@@ -7261,15 +7318,15 @@
           }
         },
         "total": {
-          "confirmed": 219,
+          "confirmed": 261,
           "deceased": 3,
-          "recovered": 87,
+          "recovered": 93,
           "tested": 2200
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-02T14:59:33+05:30",
+      "last_updated": "2020-08-03T19:05:16+05:30",
       "population": 1504000,
       "tested": {
         "last_updated": "2020-08-02",
@@ -7277,9 +7334,9 @@
       }
     },
     "total": {
-      "confirmed": 3806,
-      "deceased": 52,
-      "recovered": 2309,
+      "confirmed": 3982,
+      "deceased": 56,
+      "recovered": 2411,
       "tested": 41540
     }
   },
@@ -8822,13 +8879,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 17269,
-      "deceased": 235,
+      "confirmed": 17534,
+      "deceased": 243,
       "other": 2,
-      "recovered": 12933
+      "recovered": 13064
     },
     "meta": {
-      "last_updated": "2020-08-03T18:47:41+05:30",
+      "last_updated": "2020-08-03T19:07:50+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-02",
@@ -8836,10 +8893,10 @@
       }
     },
     "total": {
-      "confirmed": 1822112,
-      "deceased": 38400,
+      "confirmed": 1822377,
+      "deceased": 38408,
       "other": 436,
-      "recovered": 1200303,
+      "recovered": 1200434,
       "tested": 20202858
     }
   },
