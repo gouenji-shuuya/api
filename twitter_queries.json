@@ -238,18 +238,18 @@
 			"destination": "data_ops",
 			"districtname": "",
 			"finallink": "data_ops",
-			"link": "https://twitter.com/rnuddkranchi",
-			"remarks": "Check for Origin",
-			"searchcriteria": "(सक्रिय OR मृत्यु OR नए केस)  (from:rnuddkranchi)",
+			"link": "https://twitter.com/visualmedia2003",
+			"remarks": "",
+			"searchcriteria": "(from:visualmedia2003) (पॉजिटिव OR बुलेटिन OR एक्टिव OR मृत्यु )",
 			"statename": "Jharkhand"
 		},
 		{
 			"destination": "data_ops",
 			"districtname": "",
-			"finallink": "https://twitter.com/search?q=%22%E0%A4%9D%E0%A4%BE%E0%A4%B0%E0%A4%96%E0%A4%A3%E0%A5%8D%E0%A4%A1%20%E0%A4%AE%E0%A5%87%E0%A4%82%22%20%E0%A4%A8%E0%A4%8F%20%E0%A4%95%E0%A5%8B%E0%A4%B0%E0%A5%8B%E0%A4%A8%E0%A4%BE%20%20(from%3Ajhnewsrnc)&src=typed_query&f=live",
-			"link": "https://twitter.com/jhnewsrnc",
-			"remarks": "update or remove",
-			"searchcriteria": "झारखण्ड में नए कोरोना  (from:jhnewsrnc)",
+			"finallink": "data_ops",
+			"link": "https://twitter.com/rnuddkranchi",
+			"remarks": "",
+			"searchcriteria": "(सक्रिय OR मृत्यु OR नए केस)  (from:rnuddkranchi)",
 			"statename": "Jharkhand"
 		},
 		{
@@ -318,6 +318,15 @@
 		{
 			"destination": "data_ops",
 			"districtname": "",
+			"finallink": "data_ops",
+			"link": "https://twitter.com/sanjayjog7",
+			"remarks": "",
+			"searchcriteria": "(from:sanjayjog7) (active OR Deaths OR Discharged) -@mybmc exclude:replies",
+			"statename": "Maharashtra"
+		},
+		{
+			"destination": "data_ops",
+			"districtname": "",
 			"finallink": "https://twitter.com/search?q=(Active%20OR%20Recovered)%20(from%3Aairnews_imphal)%20-filter%3Aretweets&src=typed_query&f=live",
 			"link": "https://twitter.com/airnews_imphal",
 			"remarks": "",
@@ -338,7 +347,7 @@
 			"districtname": "",
 			"finallink": "https://twitter.com/search?q=(Status%20OR%20update%20OR%20Control%20Room)%20(from%3Adiprmanipur)&src=typed_query&f=live",
 			"link": "https://twitter.com/diprmanipur",
-			"remarks": "Everything good?",
+			"remarks": "",
 			"searchcriteria": "(Status OR update OR Control Room) (from:diprmanipur)",
 			"statename": "Manipur"
 		},
@@ -428,8 +437,8 @@
 			"districtname": "",
 			"finallink": "https://twitter.com/search?q=(Disctrict%20wise%20OR%20Recoveries%20OR%20Positive%20OR%20Recovered%20OR%20Active)%20(from%3Aipr_odisha)&src=typed_query&f=live",
 			"link": "https://twitter.com/IPR_Odisha",
-			"remarks": "First tweet not showing",
-			"searchcriteria": "(Disctrict wise OR Recoveries OR Positive OR Recovered OR Active) (from:ipr_odisha)",
+			"remarks": "",
+			"searchcriteria": "(Disctrict wise OR Recoveries OR Positive OR Recovered OR Active) (from:ipr_odisha) (include:replies) (include:retweets)",
 			"statename": "Odisha"
 		},
 		{
@@ -447,7 +456,7 @@
 			"finallink": "https://twitter.com/search?q=%22PUNJAB%22%20(Department%20OR%20active%20OR%20positive)%20(from%3Aani)&src=typed_query&f=live",
 			"link": "https://twitter.com/ani",
 			"remarks": "",
-			"searchcriteria": "\"PUNJAB\" (Department OR active OR positive) (from:ani) -liquor",
+			"searchcriteria": "PUNJAB (Department OR active OR positive) (from:ani) -liquor -smuggler -racket",
 			"statename": "Punjab"
 		},
 		{
@@ -483,7 +492,7 @@
 			"finallink": "",
 			"link": "https://twitter.com/dineshkumawat",
 			"remarks": "",
-			"searchcriteria": "(8.30pm) (from:dineshkumawat)",
+			"searchcriteria": "(8.30) (from:dineshkumawat)",
 			"statename": "Rajasthan"
 		},
 		{
@@ -500,7 +509,7 @@
 			"districtname": "",
 			"finallink": "https://twitter.com/search?q=(update%20OR%20active%20OR%20discharged%20OR%20migrated)%20(%23COVID19))%20(from%3Aairnews_gangtok)&src=typed_query&f=live",
 			"link": "https://twitter.com/airnews_gangtok",
-			"remarks": "Morning Tweet- Saved message",
+			"remarks": "",
 			"searchcriteria": "(update OR active OR discharged OR migrated) (#COVID19)) (from:airnews_gangtok) (from:airnews_gangtok)",
 			"statename": "Sikkim"
 		},
@@ -523,11 +532,12 @@
 			"statename": "Tamil Nadu"
 		},
 		{
+			"_clrrx": "hold: @telenganamulki + replies",
 			"destination": "data_ops",
 			"districtname": "",
 			"finallink": "https://twitter.com/search?q=(Media%20OR%20Bulletin%20OR%20status)%20(%23TelanganaFightsCorona)%20(from%3AEatala_Rajender)&src=typed_query&f=live",
 			"link": "https://twitter.com/Eatala_Rajender",
-			"remarks": "hold: @telenganamulki + replies",
+			"remarks": "",
 			"searchcriteria": "(Media OR Bulletin OR status) (#TelanganaFightsCorona) (from:Eatala_Rajender)",
 			"statename": "Telangana"
 		},
@@ -542,11 +552,20 @@
 		},
 		{
 			"destination": "data_ops",
+			"districtname": "Donotadd",
+			"finallink": "data_ops",
+			"link": "https://twitter.com/HeadlinesTripu2",
+			"remarks": "",
+			"searchcriteria": "(from:headlinestripu2) (Covid-19 OR Positive)",
+			"statename": "Tripura "
+		},
+		{
+			"destination": "data_ops",
 			"districtname": "",
 			"finallink": "https://twitter.com/search?q=(%23TripuraCOVID19Count)%20(from%3ABjpBiplab)&src=typed_query&f=live",
 			"link": "https://twitter.com/BjpBiplab",
-			"remarks": "update this (Include full)  Missing Hashtag",
-			"searchcriteria": "(#TripuraCOVID19Count) (from:BjpBiplab)",
+			"remarks": "",
+			"searchcriteria": "(Discharged OR Positve OR Tested OR #TripuraCOVID19Count) (from:BjpBiplab)",
 			"statename": "Tripura"
 		},
 		{
@@ -637,7 +656,7 @@
 			"link": "https://twitter.com/tarun28988",
 			"remarks": "",
 			"searchcriteria": "(samplesORcollected)(#IndoreUpdate)(from:tarun28988)",
-			"statename": "MadhyaPradesh"
+			"statename": "MadhyaPradesh "
 		},
 		{
 			"destination": "aux",
@@ -646,7 +665,7 @@
 			"link": "https://twitter.com/PROJSAshokNagar",
 			"remarks": "",
 			"searchcriteria": "(नोवल कोरोना वायरस) (from:projsashoknagar)",
-			"statename": "Madhya Pradesh"
+			"statename": "Madhya Pradesh "
 		},
 		{
 			"destination": "aux",
@@ -664,7 +683,7 @@
 			"link": "https://twitter.com/jabalpurdm",
 			"remarks": "",
 			"searchcriteria": "(कोरोना सम्बन्धी ) (from:jabalpurdm)",
-			"statename": "Madhya Pradesh"
+			"statename": "Madhya Pradesh "
 		},
 		{
 			"destination": "aux",
@@ -673,7 +692,7 @@
 			"link": "https://twitter.com/74_alok",
 			"remarks": "",
 			"searchcriteria": "(from:74_alok) (testing OR test)",
-			"statename": "Uttar Pradesh"
+			"statename": "Uttar Pradesh "
 		},
 		{
 			"destination": "aux",
@@ -682,7 +701,7 @@
 			"link": "https://twitter.com/collectorshivp1",
 			"remarks": "",
 			"searchcriteria": "जानकारी #MPFightsCorona (from:collectorshivp1)",
-			"statename": "Madhya Pradesh"
+			"statename": "MadhyaPradesh "
 		},
 		{
 			"destination": "aux",
@@ -691,7 +710,7 @@
 			"link": "https://twitter.com/CollectorSehore",
 			"remarks": "",
 			"searchcriteria": "(रिपोर्ट पॉजीटिव OR रिपोर्ट पॉजीटिव) (from:CollectorSehore)",
-			"statename": "Madhya Pradesh"
+			"statename": "MadhyaPradesh"
 		},
 		{
 			"destination": "aux",
@@ -700,7 +719,7 @@
 			"link": "https://twitter.com/probhopal",
 			"remarks": "",
 			"searchcriteria": "(बुलेटिन) (from:probhopal)",
-			"statename": "Madhya Pradesh"
+			"statename": "MadhyaPradesh"
 		},
 		{
 			"destination": "aux",
@@ -709,7 +728,7 @@
 			"link": "https://twitter.com/dmhoshangabad",
 			"remarks": "",
 			"searchcriteria": "हैल्‍थ बुलेटिन (from:dmhoshangabad)",
-			"statename": "Madhya Pradesh"
+			"statename": "MadhyaPradesh"
 		},
 		{
 			"destination": "aux",
@@ -718,7 +737,7 @@
 			"link": "https://twitter.com/CollectorKatni",
 			"remarks": "",
 			"searchcriteria": "कोरोना हेल्थ बुलेटिन (from:collectorkatni)",
-			"statename": "Madhya Pradesh"
+			"statename": "MadhyaPradesh"
 		},
 		{
 			"destination": "aux",
@@ -916,7 +935,7 @@
 			"link": "https://twitter.com/OfficeOfDMAgra",
 			"remarks": "",
 			"searchcriteria": "#Agra #CovidUpdates (from:OfficeOfDMAgra)",
-			"statename": "Uttar Pradesh"
+			"statename": "UttarPradesh"
 		},
 		{
 			"destination": "aux",
@@ -925,7 +944,7 @@
 			"link": "https://twitter.com/DmAmethi",
 			"remarks": "",
 			"searchcriteria": "जनपद अमेठी में कोविड-19 की वर्तमान स्थिति-प्रेस विज्ञप्ति। (from:DmAmethi )",
-			"statename": "Uttar Pradesh"
+			"statename": "UttarPradesh"
 		},
 		{
 			"destination": "aux",
@@ -934,7 +953,7 @@
 			"link": "https://twitter.com/BalrampurDm",
 			"remarks": "",
 			"searchcriteria": "Total sample (from:BalrampurDm)",
-			"statename": "Uttar Pradesh "
+			"statename": "UttarPradesh "
 		},
 		{
 			"destination": "aux",
@@ -943,7 +962,7 @@
 			"link": "https://twitter.com/BarabankiD",
 			"remarks": "",
 			"searchcriteria": "#aarogyasetu_app #COVID19 (from:BarabankiD)",
-			"statename": "Uttar Pradesh"
+			"statename": "UttarPradesh"
 		},
 		{
 			"destination": "aux",
@@ -952,7 +971,7 @@
 			"link": "https://twitter.com/dmbas_",
 			"remarks": "",
 			"searchcriteria": "#bastifightscorona (from:dmbas_)",
-			"statename": "Uttar Pradesh "
+			"statename": "UttarPradesh "
 		},
 		{
 			"destination": "aux",
@@ -961,7 +980,7 @@
 			"link": "https://twitter.com/dmgonda2",
 			"remarks": "",
 			"searchcriteria": "कोरोना बुलेटिन (from:dmgonda2)",
-			"statename": "Uttar Pradesh"
+			"statename": "UttarPradesh"
 		}
 	]
 }
