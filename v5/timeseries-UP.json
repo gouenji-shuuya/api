@@ -4289,7 +4289,10 @@
             "delta": {
               "confirmed": 34,
               "deceased": -2,
-              "recovered": 22
+              "recovered": 22,
+              "tested": {
+                "samples": 1603
+              }
             },
             "total": {
               "confirmed": 1895,
@@ -4297,7 +4300,7 @@
               "recovered": 1494,
               "tested": {
                 "positives": 1861,
-                "samples": 54960
+                "samples": 56563
               }
             }
           },
@@ -4312,7 +4315,7 @@
               "recovered": 1515,
               "tested": {
                 "positives": 1861,
-                "samples": 54960
+                "samples": 56563
               }
             }
           }
@@ -18800,15 +18803,19 @@
             "delta": {
               "confirmed": 35,
               "deceased": 1,
-              "recovered": 18
+              "recovered": 18,
+              "tested": {
+                "positives": 34,
+                "samples": 1582
+              }
             },
             "total": {
               "confirmed": 1321,
               "deceased": 12,
               "recovered": 838,
               "tested": {
-                "positives": 1317,
-                "samples": 42174
+                "positives": 1351,
+                "samples": 43756
               }
             }
           },
@@ -18822,8 +18829,8 @@
               "deceased": 12,
               "recovered": 881,
               "tested": {
-                "positives": 1317,
-                "samples": 42174
+                "positives": 1351,
+                "samples": 43756
               }
             }
           }
@@ -21376,15 +21383,19 @@
             "delta": {
               "confirmed": 29,
               "deceased": 1,
-              "recovered": 25
+              "recovered": 25,
+              "tested": {
+                "positives": 24,
+                "samples": 1702
+              }
             },
             "total": {
               "confirmed": 994,
               "deceased": 30,
               "recovered": 588,
               "tested": {
-                "positives": 937,
-                "samples": 30358
+                "positives": 961,
+                "samples": 32060
               }
             }
           },
@@ -21398,8 +21409,8 @@
               "deceased": 30,
               "recovered": 606,
               "tested": {
-                "positives": 937,
-                "samples": 30358
+                "positives": 961,
+                "samples": 32060
               }
             }
           }
