@@ -1171,7 +1171,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-04T21:48:52+05:30",
+      "last_updated": "2020-08-04T22:00:48+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
@@ -2730,7 +2730,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-04T21:48:57+05:30",
+      "last_updated": "2020-08-04T22:00:53+05:30",
       "population": 28724000,
       "tested": {
         "last_updated": "2020-08-04",
@@ -3755,7 +3755,11 @@
     "delta": {
       "confirmed": 29,
       "other": 8,
-      "recovered": 11
+      "recovered": 11,
+      "tested": {
+        "positives": 61,
+        "samples": 1384
+      }
     },
     "districts": {
       "Bilaspur": {
@@ -3998,8 +4002,7 @@
       "notes": "HP has 29 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
-        "last_updated": "2020-08-03",
-        "source": "https://twitter.com/nhm_hp/status/1290322937212309504?s=20"
+        "last_updated": "2020-08-04"
       }
     },
     "total": {
@@ -4008,8 +4011,8 @@
       "other": 28,
       "recovered": 1669,
       "tested": {
-        "positives": 2818,
-        "samples": 151574
+        "positives": 2879,
+        "samples": 152958
       }
     }
   },
@@ -4498,7 +4501,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-04T21:49:40+05:30",
+      "last_updated": "2020-08-04T22:00:45+05:30",
       "notes": "[Aug 2]: 21 Foreign Evacuees have been merged to Panchkula and 14 Italian tourists have been merged to Gurugram in HR bulletin.",
       "population": 28672000,
       "tested": {
@@ -6231,7 +6234,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-04T21:48:59+05:30",
+      "last_updated": "2020-08-04T22:00:56+05:30",
       "population": 293000,
       "tested": {
         "last_updated": "2020-08-03",
@@ -10790,13 +10793,20 @@
     }
   },
   "SK": {
+    "delta": {
+      "confirmed": 95,
+      "recovered": 2
+    },
     "districts": {
       "East Sikkim": {
+        "delta": {
+          "confirmed": 58
+        },
         "meta": {
           "population": 281293
         },
         "total": {
-          "confirmed": 487,
+          "confirmed": 545,
           "deceased": 1,
           "recovered": 208
         }
@@ -10811,17 +10821,23 @@
         }
       },
       "South Sikkim": {
+        "delta": {
+          "confirmed": 37
+        },
         "meta": {
           "population": 146742
         },
         "total": {
-          "confirmed": 158,
+          "confirmed": 195,
           "recovered": 65
         }
       },
       "Unknown": {
+        "delta": {
+          "recovered": 2
+        },
         "total": {
-          "recovered": 8
+          "recovered": 10
         }
       },
       "West Sikkim": {
@@ -10835,7 +10851,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-03T21:53:52+05:30",
+      "last_updated": "2020-08-04T22:04:43+05:30",
       "population": 664000,
       "tested": {
         "last_updated": "2020-08-03",
@@ -10843,9 +10859,9 @@
       }
     },
     "total": {
-      "confirmed": 688,
+      "confirmed": 783,
       "deceased": 1,
-      "recovered": 297,
+      "recovered": 299,
       "tested": {
         "positives": 688,
         "samples": 27115
@@ -12022,19 +12038,19 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 47172,
+      "confirmed": 47267,
       "deceased": 843,
       "other": 12,
-      "recovered": 49084,
+      "recovered": 49086,
       "tested": {
         "states": {
-          "positives": 47446,
-          "samples": 545470
+          "positives": 47507,
+          "samples": 546854
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-04T21:49:37+05:30",
+      "last_updated": "2020-08-04T22:04:39+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-03",
@@ -12042,15 +12058,15 @@
       }
     },
     "total": {
-      "confirmed": 1902503,
+      "confirmed": 1902598,
       "deceased": 39814,
       "other": 449,
-      "recovered": 1279524,
+      "recovered": 1279526,
       "tested": {
         "samples": 20864750,
         "states": {
-          "positives": 1910003,
-          "samples": 24358583
+          "positives": 1910064,
+          "samples": 24359967
         }
       }
     }
