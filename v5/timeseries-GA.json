@@ -2140,15 +2140,19 @@
         "delta": {
           "confirmed": 259,
           "deceased": 4,
-          "recovered": 238
+          "recovered": 238,
+          "tested": {
+            "positives": 259,
+            "samples": 1883
+          }
         },
         "total": {
           "confirmed": 7075,
           "deceased": 60,
           "recovered": 5114,
           "tested": {
-            "positives": 6816,
-            "samples": 135692
+            "positives": 7075,
+            "samples": 137575
           }
         }
       }
@@ -2972,9 +2976,13 @@
             }
           },
           "2020-08-04": {
+            "delta": {
+              "confirmed": 24,
+              "deceased": 1
+            },
             "total": {
-              "confirmed": 1107,
-              "deceased": 15,
+              "confirmed": 1131,
+              "deceased": 16,
               "recovered": 502
             }
           }
@@ -3458,9 +3466,12 @@
             }
           },
           "2020-08-04": {
+            "delta": {
+              "recovered": 9
+            },
             "total": {
               "confirmed": 186,
-              "recovered": 165
+              "recovered": 174
             }
           }
         }
@@ -4396,9 +4407,13 @@
             }
           },
           "2020-08-04": {
+            "delta": {
+              "confirmed": 6,
+              "deceased": 3
+            },
             "total": {
-              "confirmed": 2127,
-              "deceased": 41,
+              "confirmed": 2133,
+              "deceased": 44,
               "recovered": 813
             }
           }
@@ -5065,14 +5080,12 @@
           },
           "2020-08-04": {
             "delta": {
-              "confirmed": 259,
-              "deceased": 4,
-              "recovered": 238
+              "confirmed": 229,
+              "recovered": 229
             },
             "total": {
-              "confirmed": 3655,
-              "deceased": 4,
-              "recovered": 3634
+              "confirmed": 3625,
+              "recovered": 3625
             }
           }
         }
