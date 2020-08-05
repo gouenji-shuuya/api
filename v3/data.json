@@ -1075,8 +1075,7 @@
         "meta": {
           "population": 3032226,
           "tested": {
-            "last_updated": "2020-08-03",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1525"
+            "last_updated": "2020-08-04"
           }
         },
         "total": {
@@ -1375,15 +1374,14 @@
         "meta": {
           "population": 5772804,
           "tested": {
-            "last_updated": "2020-08-03",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1525"
+            "last_updated": "2020-08-04"
           }
         },
         "total": {
           "confirmed": 10510,
           "deceased": 54,
           "recovered": 7011,
-          "tested": 46271
+          "tested": 48721
         }
       },
       "Purnia": {
@@ -3001,7 +2999,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-05T13:13:42+05:30",
+      "last_updated": "2020-08-05T13:18:41+05:30",
       "notes": "HP has 29 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -4642,15 +4640,15 @@
         "meta": {
           "population": 2585962,
           "tested": {
-            "last_updated": "2020-08-03",
-            "source": "https://twitter.com/InfoBeed/status/1290276403762495488"
+            "last_updated": "2020-08-04",
+            "source": "http://epaper.lokmat.com/articlepage.php?articleid=LOK_HBED_20200805_3_3&width=74px"
           }
         },
         "total": {
           "confirmed": 989,
           "deceased": 23,
           "recovered": 302,
-          "tested": 16039
+          "tested": 16387
         }
       },
       "Bhandara": {
@@ -4778,15 +4776,15 @@
         "meta": {
           "population": 1958483,
           "tested": {
-            "last_updated": "2020-08-03",
-            "source": "http://epaper.lokmat.com/articlepage.php?articleid=LOK_HJAN_20200804_1_4&width=73px"
+            "last_updated": "2020-08-04",
+            "source": "http://epaper.lokmat.com/articlepage.php?articleid=LOK_HJAN_20200805_1_3&width=73px"
           }
         },
         "total": {
           "confirmed": 2010,
           "deceased": 78,
           "recovered": 1512,
-          "tested": 13491
+          "tested": 13925
         }
       },
       "Kolhapur": {
@@ -4890,15 +4888,15 @@
         "meta": {
           "population": 1660311,
           "tested": {
-            "last_updated": "2020-08-03",
-            "source": "http://epaper.lokmat.com/articlepage.php?articleid=LOK_HOBD_20200804_1_3&width=73px"
+            "last_updated": "2020-08-04",
+            "source": "http://epaper.lokmat.com/articlepage.php?articleid=LOK_HOBD_20200805_1_3&width=70px"
           }
         },
         "total": {
           "confirmed": 1471,
           "deceased": 56,
           "recovered": 561,
-          "tested": 9319
+          "tested": 9458
         }
       },
       "Other State": {
@@ -4956,8 +4954,8 @@
         "meta": {
           "population": 2635394,
           "tested": {
-            "last_updated": "2020-08-03",
-            "source": "https://cdn.s3waas.gov.in/s344c4c17332cace2124a1a836d9fc4b6f/uploads/2020/08/2020080433.pdf"
+            "last_updated": "2020-08-04",
+            "source": "https://cdn.s3waas.gov.in/s344c4c17332cace2124a1a836d9fc4b6f/uploads/2020/08/2020080591.pdf"
           }
         },
         "total": {
@@ -4965,7 +4963,7 @@
           "deceased": 417,
           "migrated": 2,
           "recovered": 13207,
-          "tested": 52761
+          "tested": 54067
         }
       },
       "Ratnagiri": {
@@ -5034,8 +5032,8 @@
         "meta": {
           "population": 11060148,
           "tested": {
-            "last_updated": "2020-08-03",
-            "source": "http://epaper.lokmat.com/articlepage.php?articleid=LOK_HVAS_20200804_1_9&width=73px"
+            "last_updated": "2020-08-04",
+            "source": "http://epaper.lokmat.com/articlepage.php?articleid=LOK_HVAS_20200805_1_6&width=152px"
           }
         },
         "total": {
@@ -5043,7 +5041,7 @@
           "deceased": 2754,
           "migrated": 1,
           "recovered": 64850,
-          "tested": 282574
+          "tested": 286687
         }
       },
       "Wardha": {
@@ -5106,6 +5104,10 @@
     }
   },
   "ML": {
+    "delta": {
+      "confirmed": 20,
+      "recovered": 8
+    },
     "districts": {
       "East Garo Hills": {
         "meta": {
@@ -5126,13 +5128,17 @@
         }
       },
       "East Khasi Hills": {
+        "delta": {
+          "confirmed": 19,
+          "recovered": 4
+        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 717,
+          "confirmed": 736,
           "deceased": 2,
-          "recovered": 242
+          "recovered": 246
         }
       },
       "North Garo Hills": {
@@ -5145,13 +5151,16 @@
         }
       },
       "Ribhoi": {
+        "delta": {
+          "recovered": 4
+        },
         "meta": {
           "population": 258380
         },
         "total": {
           "confirmed": 102,
           "deceased": 3,
-          "recovered": 44
+          "recovered": 48
         }
       },
       "South Garo Hills": {
@@ -5173,11 +5182,14 @@
         }
       },
       "West Garo Hills": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 642923
         },
         "total": {
-          "confirmed": 29,
+          "confirmed": 30,
           "recovered": 15
         }
       },
@@ -5201,7 +5213,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-04T19:29:57+05:30",
+      "last_updated": "2020-08-05T13:24:37+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -5210,9 +5222,9 @@
       }
     },
     "total": {
-      "confirmed": 917,
+      "confirmed": 937,
       "deceased": 5,
-      "recovered": 330,
+      "recovered": 338,
       "tested": 38596
     }
   },
@@ -9290,12 +9302,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 4068,
+      "confirmed": 4088,
       "deceased": 36,
-      "recovered": 1261
+      "recovered": 1269
     },
     "meta": {
-      "last_updated": "2020-08-05T13:13:38+05:30",
+      "last_updated": "2020-08-05T13:24:34+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-04",
@@ -9303,10 +9315,10 @@
       }
     },
     "total": {
-      "confirmed": 1910681,
+      "confirmed": 1910701,
       "deceased": 39856,
       "migrated": 449,
-      "recovered": 1282921,
+      "recovered": 1282929,
       "tested": 21484402
     }
   },
