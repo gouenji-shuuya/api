@@ -2583,8 +2583,14 @@
     }
   },
   "DN": {
+    "delta": {
+      "confirmed": 6
+    },
     "districts": {
       "Dadra and Nagar Haveli": {
+        "delta": {
+          "confirmed": 6
+        },
         "meta": {
           "population": 343709,
           "tested": {
@@ -2593,7 +2599,7 @@
           }
         },
         "total": {
-          "confirmed": 578,
+          "confirmed": 584,
           "deceased": 1,
           "other": 5,
           "recovered": 408,
@@ -2650,7 +2656,7 @@
       }
     },
     "total": {
-      "confirmed": 1327,
+      "confirmed": 1333,
       "deceased": 2,
       "other": 10,
       "recovered": 920,
@@ -8524,14 +8530,18 @@
       "Karaikal": {
         "delta": {
           "confirmed": 21,
-          "recovered": 2
+          "recovered": 2,
+          "tested": {
+            "positives": 21,
+            "samples": 116
+          }
         },
         "meta": {
           "notes": "1 case of TN has been transferred,so has been reduced from the total count.",
           "population": 200222,
           "tested": {
-            "last_updated": "2020-08-04",
-            "source": "https://health.py.gov.in/sites/default/files/4.08.2020-bulletin.pdf"
+            "last_updated": "2020-08-05",
+            "source": "https://health.py.gov.in/sites/default/files/5.08.2020-bulletin.pdf"
           }
         },
         "total": {
@@ -8539,29 +8549,33 @@
           "deceased": 2,
           "recovered": 150,
           "tested": {
-            "positives": 209,
-            "samples": 5555
+            "positives": 230,
+            "samples": 5671
           }
         }
       },
       "Mahe": {
         "delta": {
-          "confirmed": 3
+          "confirmed": 3,
+          "tested": {
+            "positives": 3,
+            "samples": 25
+          }
         },
         "meta": {
           "notes": "1 cases of KL have been transferred,so have been reduced from the total count",
           "population": 41816,
           "tested": {
-            "last_updated": "2020-08-04",
-            "source": "https://health.py.gov.in/sites/default/files/4.08.2020-bulletin.pdf"
+            "last_updated": "2020-08-05",
+            "source": "https://health.py.gov.in/sites/default/files/5.08.2020-bulletin.pdf"
           }
         },
         "total": {
           "confirmed": 27,
           "recovered": 23,
           "tested": {
-            "positives": 24,
-            "samples": 1550
+            "positives": 27,
+            "samples": 1575
           }
         }
       },
@@ -8569,14 +8583,18 @@
         "delta": {
           "confirmed": 182,
           "deceased": 4,
-          "recovered": 107
+          "recovered": 107,
+          "tested": {
+            "positives": 182,
+            "samples": 797
+          }
         },
         "meta": {
           "notes": "42 cases(37 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
           "tested": {
-            "last_updated": "2020-08-04",
-            "source": "https://health.py.gov.in/sites/default/files/4.08.2020-bulletin.pdf"
+            "last_updated": "2020-08-05",
+            "source": "https://health.py.gov.in/sites/default/files/5.08.2020-bulletin.pdf"
           }
         },
         "total": {
@@ -8584,8 +8602,8 @@
           "deceased": 57,
           "recovered": 2371,
           "tested": {
-            "positives": 3653,
-            "samples": 33653
+            "positives": 3835,
+            "samples": 34450
           }
         }
       },
@@ -8593,14 +8611,18 @@
         "delta": {
           "confirmed": 80,
           "deceased": 3,
-          "recovered": 22
+          "recovered": 22,
+          "tested": {
+            "positives": 80,
+            "samples": 86
+          }
         },
         "meta": {
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
           "tested": {
-            "last_updated": "2020-08-04",
-            "source": "https://health.py.gov.in/sites/default/files/4.08.2020-bulletin.pdf"
+            "last_updated": "2020-08-05",
+            "source": "https://health.py.gov.in/sites/default/files/5.08.2020-bulletin.pdf"
           }
         },
         "total": {
@@ -8608,14 +8630,14 @@
           "deceased": 6,
           "recovered": 124,
           "tested": {
-            "positives": 261,
-            "samples": 2376
+            "positives": 341,
+            "samples": 2462
           }
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-05T18:03:51+05:30",
+      "last_updated": "2020-08-05T18:10:20+05:30",
       "population": 1504000,
       "tested": {
         "last_updated": "2020-08-04",
@@ -10402,7 +10424,7 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 7169,
+      "confirmed": 7175,
       "deceased": 63,
       "recovered": 4269,
       "tested": {
@@ -10413,7 +10435,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-05T18:03:45+05:30",
+      "last_updated": "2020-08-05T18:14:00+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-04",
@@ -10421,7 +10443,7 @@
       }
     },
     "total": {
-      "confirmed": 1913782,
+      "confirmed": 1913788,
       "deceased": 39883,
       "other": 449,
       "recovered": 1285929,
