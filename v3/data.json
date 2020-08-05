@@ -1,5 +1,10 @@
 {
   "AN": {
+    "delta": {
+      "confirmed": 99,
+      "deceased": 2,
+      "recovered": 49
+    },
     "districts": {
       "Nicobars": {
         "meta": {
@@ -27,15 +32,20 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 99,
+          "deceased": 2,
+          "recovered": 49
+        },
         "total": {
-          "confirmed": 876,
-          "deceased": 12,
-          "recovered": 244
+          "confirmed": 975,
+          "deceased": 14,
+          "recovered": 293
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-04T20:56:00+05:30",
+      "last_updated": "2020-08-05T21:23:43+05:30",
       "population": 397000,
       "tested": {
         "last_updated": "2020-08-03",
@@ -43,9 +53,9 @@
       }
     },
     "total": {
-      "confirmed": 928,
-      "deceased": 12,
-      "recovered": 277,
+      "confirmed": 1027,
+      "deceased": 14,
+      "recovered": 326,
       "tested": 25034
     }
   },
@@ -2395,7 +2405,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-05T21:10:43+05:30",
+      "last_updated": "2020-08-05T21:17:50+05:30",
       "population": 28724000,
       "tested": {
         "last_updated": "2020-08-05",
@@ -6374,7 +6384,8 @@
   "MN": {
     "delta": {
       "confirmed": 75,
-      "recovered": 48
+      "recovered": 48,
+      "tested": 1716
     },
     "districts": {
       "Bishnupur": {
@@ -6559,15 +6570,14 @@
       "last_updated": "2020-08-05T19:44:49+05:30",
       "population": 3103000,
       "tested": {
-        "last_updated": "2020-08-04",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1537"
+        "last_updated": "2020-08-05"
       }
     },
     "total": {
       "confirmed": 3093,
       "deceased": 7,
       "recovered": 1862,
-      "tested": 90901
+      "tested": 92617
     }
   },
   "MP": {
@@ -9591,7 +9601,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-05T21:13:50+05:30",
+      "last_updated": "2020-08-05T21:19:40+05:30",
       "population": 77264000,
       "tested": {
         "last_updated": "2020-08-05",
@@ -9606,6 +9616,9 @@
     }
   },
   "SK": {
+    "delta": {
+      "tested": 946
+    },
     "districts": {
       "East Sikkim": {
         "meta": {
@@ -9649,15 +9662,14 @@
       "last_updated": "2020-08-04T22:09:46+05:30",
       "population": 664000,
       "tested": {
-        "last_updated": "2020-08-04",
-        "source": "https://twitter.com/sikkimgovt/status/1290683212448972801?s=20"
+        "last_updated": "2020-08-05"
       }
     },
     "total": {
       "confirmed": 783,
       "deceased": 1,
       "recovered": 299,
-      "tested": 28089
+      "tested": 29035
     }
   },
   "TG": {
@@ -11083,7 +11095,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-05T21:10:46+05:30",
+      "last_updated": "2020-08-05T21:17:52+05:30",
       "notes": "[Aug 4]\nTripura bulletin for the previous day is released on the next day. We will add the cases for Tripura against the date of release, as that is the convention that we are following for other states.",
       "population": 3992000,
       "tested": {
@@ -11101,13 +11113,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 52756,
-      "deceased": 907,
+      "confirmed": 52855,
+      "deceased": 909,
       "migrated": 1,
-      "recovered": 42859
+      "recovered": 42908
     },
     "meta": {
-      "last_updated": "2020-08-05T21:13:40+05:30",
+      "last_updated": "2020-08-05T21:23:37+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-04",
@@ -11115,10 +11127,10 @@
       }
     },
     "total": {
-      "confirmed": 1959369,
-      "deceased": 40727,
+      "confirmed": 1959468,
+      "deceased": 40729,
       "migrated": 450,
-      "recovered": 1324519,
+      "recovered": 1324568,
       "tested": 21484402
     }
   },
