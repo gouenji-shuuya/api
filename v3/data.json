@@ -128,6 +128,9 @@
         }
       },
       "Foreign Evacuees": {
+        "meta": {
+          "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin."
+        },
         "total": {
           "confirmed": 434,
           "recovered": 434
@@ -342,7 +345,6 @@
     },
     "meta": {
       "last_updated": "2020-08-05T21:04:41+05:30",
-      "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin.",
       "population": 52221000,
       "tested": {
         "last_updated": "2020-08-05",
@@ -774,7 +776,10 @@
   },
   "AS": {
     "delta": {
-      "deceased": 6
+      "confirmed": 2284,
+      "deceased": 6,
+      "recovered": 1471,
+      "tested": 59162
     },
     "districts": {
       "Airport Quarantine": {
@@ -883,6 +888,7 @@
       },
       "Dibrugarh": {
         "delta": {
+          "confirmed": 177,
           "deceased": 1
         },
         "meta": {
@@ -893,7 +899,7 @@
           }
         },
         "total": {
-          "confirmed": 1882,
+          "confirmed": 2059,
           "deceased": 8,
           "recovered": 550,
           "tested": 26459
@@ -958,24 +964,28 @@
         }
       },
       "Kamrup": {
+        "delta": {
+          "confirmed": 123
+        },
         "meta": {
           "population": 1517202
         },
         "total": {
-          "confirmed": 1720,
+          "confirmed": 1843,
           "deceased": 5,
           "recovered": 318
         }
       },
       "Kamrup Metropolitan": {
         "delta": {
+          "confirmed": 362,
           "deceased": 2
         },
         "meta": {
           "population": 1260419
         },
         "total": {
-          "confirmed": 16900,
+          "confirmed": 17262,
           "deceased": 49,
           "recovered": 8701
         }
@@ -1038,11 +1048,14 @@
         }
       },
       "Nagaon": {
+        "delta": {
+          "confirmed": 157
+        },
         "meta": {
           "population": 2826006
         },
         "total": {
-          "confirmed": 2226,
+          "confirmed": 2383,
           "deceased": 2,
           "recovered": 1009
         }
@@ -1116,10 +1129,14 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 1465,
+          "recovered": 1471
+        },
         "total": {
-          "confirmed": 10034,
+          "confirmed": 11499,
           "migrated": 3,
-          "recovered": 13700
+          "recovered": 15171
         }
       },
       "West Karbi Anglong": {
@@ -1133,20 +1150,20 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-05T20:19:04+05:30",
+      "last_updated": "2020-08-05T23:51:43+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
-        "last_updated": "2020-08-04",
-        "source": "https://twitter.com/himantabiswa/status/1290673414483501057?s=20"
+        "last_updated": "2020-08-05",
+        "source": "https://twitter.com/himantabiswa/status/1291073038973198336?s=20"
       }
     },
     "total": {
-      "confirmed": 48162,
+      "confirmed": 50446,
       "deceased": 121,
       "migrated": 3,
-      "recovered": 34422,
-      "tested": 1065521
+      "recovered": 35893,
+      "tested": 1124683
     }
   },
   "BR": {
@@ -2464,7 +2481,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-05T23:38:40+05:30",
+      "last_updated": "2020-08-05T23:43:46+05:30",
       "population": 28724000,
       "tested": {
         "last_updated": "2020-08-05",
@@ -5423,7 +5440,6 @@
     },
     "meta": {
       "last_updated": "2020-08-05T21:04:39+05:30",
-      "notes": "9 cases are classified as non-covid related deaths in KA bulletin. They have been reduced from active cases",
       "population": 65798000,
       "tested": {
         "last_updated": "2020-08-05",
@@ -6752,7 +6768,8 @@
       "last_updated": "2020-08-05T19:44:49+05:30",
       "population": 3103000,
       "tested": {
-        "last_updated": "2020-08-05"
+        "last_updated": "2020-08-05",
+        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1559"
       }
     },
     "total": {
@@ -9854,7 +9871,8 @@
       "last_updated": "2020-08-05T22:09:44+05:30",
       "population": 664000,
       "tested": {
-        "last_updated": "2020-08-05"
+        "last_updated": "2020-08-05",
+        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1558"
       }
     },
     "total": {
@@ -11305,13 +11323,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 54342,
+      "confirmed": 56626,
       "deceased": 919,
       "migrated": 1,
-      "recovered": 44069
+      "recovered": 45540
     },
     "meta": {
-      "last_updated": "2020-08-05T23:38:37+05:30",
+      "last_updated": "2020-08-05T23:51:36+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-04",
@@ -11319,10 +11337,10 @@
       }
     },
     "total": {
-      "confirmed": 1960955,
+      "confirmed": 1963239,
       "deceased": 40739,
       "migrated": 450,
-      "recovered": 1325729,
+      "recovered": 1327200,
       "tested": 21484402
     }
   },
