@@ -6024,6 +6024,7 @@
   "OR": {
     "delta": {
       "confirmed": 1337,
+      "deceased": 11,
       "tested": 14915
     },
     "districts": {
@@ -6125,7 +6126,8 @@
       },
       "Cuttack": {
         "delta": {
-          "confirmed": 168
+          "confirmed": 168,
+          "deceased": 1
         },
         "meta": {
           "population": 2618708,
@@ -6135,7 +6137,7 @@
         },
         "total": {
           "confirmed": 2626,
-          "deceased": 14,
+          "deceased": 15,
           "recovered": 1684,
           "tested": 5720
         }
@@ -6171,7 +6173,8 @@
       },
       "Gajapati": {
         "delta": {
-          "confirmed": 75
+          "confirmed": 75,
+          "deceased": 1
         },
         "meta": {
           "population": 575880,
@@ -6181,14 +6184,15 @@
         },
         "total": {
           "confirmed": 1775,
-          "deceased": 14,
+          "deceased": 15,
           "recovered": 1143,
           "tested": 715
         }
       },
       "Ganjam": {
         "delta": {
-          "confirmed": 201
+          "confirmed": 201,
+          "deceased": 5
         },
         "meta": {
           "population": 3520151,
@@ -6198,7 +6202,7 @@
         },
         "total": {
           "confirmed": 11812,
-          "deceased": 119,
+          "deceased": 124,
           "recovered": 8136,
           "tested": 6632
         }
@@ -6307,27 +6311,29 @@
       },
       "Kendujhar": {
         "delta": {
-          "confirmed": 80
+          "confirmed": 80,
+          "deceased": 1
         },
         "meta": {
           "population": 1802777
         },
         "total": {
           "confirmed": 936,
-          "deceased": 2,
+          "deceased": 3,
           "recovered": 688
         }
       },
       "Khordha": {
         "delta": {
-          "confirmed": 196
+          "confirmed": 196,
+          "deceased": 1
         },
         "meta": {
           "population": 2246341
         },
         "total": {
           "confirmed": 5311,
-          "deceased": 38,
+          "deceased": 39,
           "recovered": 2293
         }
       },
@@ -6349,7 +6355,8 @@
       },
       "Malkangiri": {
         "delta": {
-          "confirmed": 38
+          "confirmed": 38,
+          "deceased": 1
         },
         "meta": {
           "population": 612727,
@@ -6359,7 +6366,7 @@
         },
         "total": {
           "confirmed": 701,
-          "deceased": 4,
+          "deceased": 5,
           "recovered": 390,
           "tested": 1841
         }
@@ -6489,20 +6496,21 @@
       },
       "Sundargarh": {
         "delta": {
-          "confirmed": 83
+          "confirmed": 83,
+          "deceased": 1
         },
         "meta": {
           "population": 2080664
         },
         "total": {
           "confirmed": 1704,
-          "deceased": 13,
+          "deceased": 14,
           "recovered": 1060
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-05T10:59:38+05:30",
+      "last_updated": "2020-08-05T11:23:36+05:30",
       "notes": "[July 12th] 20 non-covid deaths reported in state dashboard are included in the deceased count\n[June 22nd]: NDRF/ODRF cases have been redistributed to districts based on state dashboard",
       "population": 43671000,
       "tested": {
@@ -6512,7 +6520,7 @@
     },
     "total": {
       "confirmed": 39018,
-      "deceased": 258,
+      "deceased": 269,
       "recovered": 24483,
       "tested": 585505
     }
@@ -7475,7 +7483,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-05T11:13:37+05:30",
+      "last_updated": "2020-08-05T11:18:36+05:30",
       "population": 77264000,
       "tested": {
         "last_updated": "2020-08-04",
@@ -8318,11 +8326,11 @@
   "TT": {
     "delta": {
       "confirmed": 4068,
-      "deceased": 25,
+      "deceased": 36,
       "recovered": 1257
     },
     "meta": {
-      "last_updated": "2020-08-05T11:13:35+05:30",
+      "last_updated": "2020-08-05T11:23:33+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-04",
@@ -8331,7 +8339,7 @@
     },
     "total": {
       "confirmed": 1910681,
-      "deceased": 39845,
+      "deceased": 39856,
       "other": 449,
       "recovered": 1282917,
       "tested": 21484402
