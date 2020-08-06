@@ -651,6 +651,9 @@
     }
   },
   "AS": {
+    "delta": {
+      "deceased": 5
+    },
     "districts": {
       "Airport Quarantine": {
         "total": {
@@ -751,6 +754,9 @@
         }
       },
       "Dibrugarh": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1327748,
           "tested": {
@@ -759,7 +765,7 @@
         },
         "total": {
           "confirmed": 2059,
-          "deceased": 8,
+          "deceased": 9,
           "recovered": 550,
           "tested": 26459
         }
@@ -833,12 +839,15 @@
         }
       },
       "Kamrup Metropolitan": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1260419
         },
         "total": {
           "confirmed": 17262,
-          "deceased": 49,
+          "deceased": 50,
           "recovered": 8701
         }
       },
@@ -853,12 +862,15 @@
         }
       },
       "Karimganj": {
+        "delta": {
+          "deceased": 2
+        },
         "meta": {
           "population": 1217002
         },
         "total": {
           "confirmed": 464,
-          "deceased": 4,
+          "deceased": 6,
           "recovered": 391
         }
       },
@@ -955,12 +967,15 @@
         }
       },
       "Tinsukia": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1316948
         },
         "total": {
           "confirmed": 900,
-          "deceased": 13,
+          "deceased": 14,
           "recovered": 629
         }
       },
@@ -992,7 +1007,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-06T11:26:16+05:30",
+      "last_updated": "2020-08-06T20:03:53+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
@@ -1002,7 +1017,7 @@
     },
     "total": {
       "confirmed": 50446,
-      "deceased": 121,
+      "deceased": 126,
       "other": 3,
       "recovered": 35893,
       "tested": 1124683
@@ -2282,7 +2297,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-06T19:56:54+05:30",
+      "last_updated": "2020-08-06T20:02:03+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-08-03",
@@ -4488,6 +4503,7 @@
     "delta": {
       "confirmed": 1298,
       "deceased": 3,
+      "other": 4,
       "recovered": 800,
       "tested": 24299
     },
@@ -4661,6 +4677,7 @@
         "delta": {
           "confirmed": 219,
           "deceased": 1,
+          "other": 4,
           "recovered": 137
         },
         "meta": {
@@ -4669,7 +4686,7 @@
         "total": {
           "confirmed": 6068,
           "deceased": 17,
-          "other": 7,
+          "other": 11,
           "recovered": 2890
         }
       },
@@ -4703,8 +4720,8 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-06T19:56:50+05:30",
-      "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nOne patient absconded from Palakkad to TN and one patient returned back to Maharashtra. Some non-covid deaths (accident,cancer etc.) have also been reported in the bulletin.\nIn total 31 such cases have been reduced from active count",
+      "last_updated": "2020-08-06T20:03:57+05:30",
+      "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nOne patient absconded from Palakkad to TN and one patient returned back to Maharashtra. Some non-covid deaths (accident,cancer etc.) have also been reported in the bulletin.\nIn total 35 such cases have been reduced from active count",
       "population": 35125000,
       "tested": {
         "last_updated": "2020-08-06",
@@ -4714,7 +4731,7 @@
     "total": {
       "confirmed": 30449,
       "deceased": 98,
-      "other": 31,
+      "other": 35,
       "recovered": 18333,
       "tested": 908355
     }
@@ -5263,7 +5280,7 @@
   },
   "ML": {
     "delta": {
-      "confirmed": 44,
+      "confirmed": 51,
       "recovered": 6
     },
     "districts": {
@@ -5287,14 +5304,14 @@
       },
       "East Khasi Hills": {
         "delta": {
-          "confirmed": 10,
+          "confirmed": 17,
           "recovered": 6
         },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 746,
+          "confirmed": 753,
           "deceased": 2,
           "recovered": 253
         }
@@ -5374,7 +5391,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-06T13:18:43+05:30",
+      "last_updated": "2020-08-06T20:04:01+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -5383,7 +5400,7 @@
       }
     },
     "total": {
-      "confirmed": 983,
+      "confirmed": 990,
       "deceased": 5,
       "recovered": 345,
       "tested": 38596
@@ -7650,7 +7667,8 @@
       "last_updated": "2020-08-06T11:26:28+05:30",
       "population": 29859000,
       "tested": {
-        "last_updated": "2020-08-06"
+        "last_updated": "2020-08-06",
+        "source": "https://twitter.com/ANI/status/1291381796970434560?s=20"
       }
     },
     "total": {
@@ -9361,12 +9379,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 33232,
-      "deceased": 354,
+      "confirmed": 33239,
+      "deceased": 359,
+      "other": 4,
       "recovered": 24744
     },
     "meta": {
-      "last_updated": "2020-08-06T19:56:44+05:30",
+      "last_updated": "2020-08-06T20:03:49+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-05",
@@ -9374,9 +9393,9 @@
       }
     },
     "total": {
-      "confirmed": 1996471,
-      "deceased": 41093,
-      "other": 450,
+      "confirmed": 1996478,
+      "deceased": 41098,
+      "other": 454,
       "recovered": 1351987,
       "tested": 22149351
     }
@@ -10769,6 +10788,9 @@
     }
   },
   "UT": {
+    "delta": {
+      "tested": 3932
+    },
     "districts": {
       "Almora": {
         "meta": {
@@ -10961,8 +10983,8 @@
       "last_updated": "2020-08-06T11:26:34+05:30",
       "population": 11141000,
       "tested": {
-        "last_updated": "2020-08-05",
-        "source": "https://twitter.com/ANI/status/1291009229080293377?s=20"
+        "last_updated": "2020-08-06",
+        "source": "https://twitter.com/DDnews_dehradun/status/1291376202620366857?s=20"
       }
     },
     "total": {
@@ -10970,7 +10992,7 @@
       "deceased": 98,
       "other": 38,
       "recovered": 5233,
-      "tested": 186966
+      "tested": 190898
     }
   },
   "WB": {
