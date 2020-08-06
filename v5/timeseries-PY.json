@@ -3204,15 +3204,19 @@
           },
           "2020-08-06": {
             "delta": {
-              "confirmed": 19
+              "confirmed": 19,
+              "tested": {
+                "positives": 19,
+                "samples": 95
+              }
             },
             "total": {
               "confirmed": 249,
               "deceased": 2,
               "recovered": 150,
               "tested": {
-                "positives": 230,
-                "samples": 5671
+                "positives": 249,
+                "samples": 5766
               }
             }
           }
@@ -4218,12 +4222,17 @@
             }
           },
           "2020-08-06": {
+            "delta": {
+              "tested": {
+                "samples": 24
+              }
+            },
             "total": {
               "confirmed": 27,
               "recovered": 23,
               "tested": {
                 "positives": 27,
-                "samples": 1575
+                "samples": 1599
               }
             }
           }
@@ -5543,15 +5552,19 @@
             "delta": {
               "confirmed": 168,
               "deceased": 5,
-              "recovered": 94
+              "recovered": 94,
+              "tested": {
+                "positives": 168,
+                "samples": 821
+              }
             },
             "total": {
               "confirmed": 4003,
               "deceased": 62,
               "recovered": 2465,
               "tested": {
-                "positives": 3835,
-                "samples": 34450
+                "positives": 4003,
+                "samples": 35271
               }
             }
           }
@@ -6268,14 +6281,17 @@
           "2020-08-06": {
             "delta": {
               "confirmed": 1,
-              "recovered": 46
+              "recovered": 46,
+              "tested": {
+                "positives": 1
+              }
             },
             "total": {
               "confirmed": 342,
               "deceased": 6,
               "recovered": 170,
               "tested": {
-                "positives": 341,
+                "positives": 342,
                 "samples": 2462
               }
             }
