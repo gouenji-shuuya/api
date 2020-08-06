@@ -2513,7 +2513,11 @@
         "delta": {
           "confirmed": 3416,
           "deceased": 19,
-          "recovered": 1450
+          "recovered": 1450,
+          "tested": {
+            "positives": 3416,
+            "samples": 60254
+          }
         },
         "total": {
           "confirmed": 68148,
@@ -2521,8 +2525,8 @@
           "other": 1,
           "recovered": 43820,
           "tested": {
-            "positives": 64732,
-            "samples": 739078
+            "positives": 68148,
+            "samples": 799332
           }
         }
       }
