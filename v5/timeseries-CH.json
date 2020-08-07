@@ -2371,7 +2371,11 @@
         "delta": {
           "confirmed": 47,
           "deceased": 3,
-          "recovered": 43
+          "recovered": 43,
+          "tested": {
+            "positives": 47,
+            "samples": 562
+          }
         },
         "total": {
           "confirmed": 1374,
@@ -2379,8 +2383,8 @@
           "other": 1,
           "recovered": 820,
           "tested": {
-            "positives": 1327,
-            "samples": 16034
+            "positives": 1374,
+            "samples": 16596
           }
         }
       }
@@ -4309,7 +4313,11 @@
             "delta": {
               "confirmed": 47,
               "deceased": 3,
-              "recovered": 43
+              "recovered": 43,
+              "tested": {
+                "positives": 47,
+                "samples": 562
+              }
             },
             "total": {
               "confirmed": 1374,
@@ -4317,8 +4325,8 @@
               "other": 1,
               "recovered": 820,
               "tested": {
-                "positives": 1327,
-                "samples": 16034
+                "positives": 1374,
+                "samples": 16596
               }
             }
           }
