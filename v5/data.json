@@ -41,7 +41,10 @@
     "delta": {
       "confirmed": 10171,
       "deceased": 89,
-      "recovered": 7594
+      "recovered": 7594,
+      "tested": {
+        "samples": 62938
+      }
     },
     "districts": {
       "Anantapur": {
@@ -361,8 +364,7 @@
       "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin.",
       "population": 52221000,
       "tested": {
-        "last_updated": "2020-08-06",
-        "source": "https://twitter.com/ArogyaAndhra/status/1291370819021488133?s=20"
+        "last_updated": "2020-08-07"
       }
     },
     "total": {
@@ -371,7 +373,7 @@
       "recovered": 120464,
       "tested": {
         "positives": 196789,
-        "samples": 2299332
+        "samples": 2362270
       }
     }
   },
@@ -1784,13 +1786,17 @@
       "Purnia": {
         "delta": {
           "confirmed": 104,
-          "recovered": 42
+          "recovered": 42,
+          "tested": {
+            "positives": 231,
+            "samples": 6229
+          }
         },
         "meta": {
           "population": 3273127,
           "tested": {
-            "last_updated": "2020-08-05",
-            "source": "https://twitter.com/dmpurnea/status/1290901934149443584?s=20"
+            "last_updated": "2020-08-07",
+            "source": "https://twitter.com/dmpurnea/status/1291619521443356672?s=20"
           }
         },
         "total": {
@@ -1798,8 +1804,8 @@
           "deceased": 4,
           "recovered": 1132,
           "tested": {
-            "positives": 1643,
-            "samples": 22163
+            "positives": 1874,
+            "samples": 28392
           }
         }
       },
@@ -5907,11 +5913,16 @@
   "LA": {
     "districts": {
       "Kargil": {
+        "delta": {
+          "tested": {
+            "samples": 156
+          }
+        },
         "meta": {
           "population": 143000,
           "tested": {
-            "last_updated": "2020-08-06",
-            "source": "https://www.facebook.com/114874993303412/photos/pcb.204031524387758/204031461054431/?type=3&theater"
+            "last_updated": "2020-08-07",
+            "source": "http://covid.ladakh.gov.in/Upload/getfileN/d44aa2ff-0981-4cad-9340-fa6514f81102_Covid-Ladakh%2007-August.pdf"
           }
         },
         "total": {
@@ -5920,16 +5931,22 @@
           "recovered": 727,
           "tested": {
             "positives": 854,
-            "samples": 8333
+            "samples": 8489
           }
         }
       },
       "Leh": {
+        "delta": {
+          "tested": {
+            "positives": 19,
+            "samples": 201
+          }
+        },
         "meta": {
           "population": 147000,
           "tested": {
-            "last_updated": "2020-08-06",
-            "source": "https://www.facebook.com/114874993303412/photos/pcb.204031524387758/204031461054431/?type=3&theater"
+            "last_updated": "2020-08-07",
+            "source": "http://covid.ladakh.gov.in/Upload/getfileN/d44aa2ff-0981-4cad-9340-fa6514f81102_Covid-Ladakh%2007-August.pdf"
           }
         },
         "total": {
@@ -5937,8 +5954,8 @@
           "deceased": 4,
           "recovered": 450,
           "tested": {
-            "positives": 741,
-            "samples": 13050
+            "positives": 760,
+            "samples": 13251
           }
         }
       }
@@ -11636,7 +11653,7 @@
       "tested": {
         "states": {
           "positives": 42602,
-          "samples": 517758
+          "samples": 580696
         }
       }
     },
@@ -11657,7 +11674,7 @@
         "samples": 22788393,
         "states": {
           "positives": 2076592,
-          "samples": 26182643
+          "samples": 26245581
         }
       }
     }
