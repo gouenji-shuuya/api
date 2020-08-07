@@ -7565,6 +7565,7 @@
     "delta": {
       "confirmed": 77,
       "deceased": 1,
+      "other": -1,
       "recovered": 5,
       "tested": 1011
     },
@@ -7603,7 +7604,8 @@
       "Kohima": {
         "delta": {
           "confirmed": 3,
-          "deceased": 1
+          "deceased": 1,
+          "other": -1
         },
         "meta": {
           "population": 270063,
@@ -7614,7 +7616,6 @@
         "total": {
           "confirmed": 492,
           "deceased": 1,
-          "other": 1,
           "recovered": 83,
           "tested": 485
         }
@@ -7699,14 +7700,6 @@
           "tested": 1
         }
       },
-      "Unknown": {
-        "delta": {
-          "recovered": 5
-        },
-        "total": {
-          "recovered": 5
-        }
-      },
       "Wokha": {
         "meta": {
           "population": 166239,
@@ -7721,17 +7714,20 @@
         }
       },
       "Zunheboto": {
+        "delta": {
+          "recovered": 5
+        },
         "meta": {
           "population": 141014
         },
         "total": {
           "confirmed": 68,
-          "recovered": 11
+          "recovered": 16
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-07T19:19:35+05:30",
+      "last_updated": "2020-08-08T00:13:41+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-08-07",
@@ -7741,7 +7737,7 @@
     "total": {
       "confirmed": 2657,
       "deceased": 7,
-      "other": 3,
+      "other": 2,
       "recovered": 824,
       "tested": 43911
     }
@@ -10486,11 +10482,11 @@
     "delta": {
       "confirmed": 61455,
       "deceased": 937,
-      "other": 4,
+      "other": 3,
       "recovered": 50387
     },
     "meta": {
-      "last_updated": "2020-08-07T23:43:40+05:30",
+      "last_updated": "2020-08-08T00:13:37+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-06",
@@ -10500,7 +10496,7 @@
     "total": {
       "confirmed": 2086864,
       "deceased": 42578,
-      "other": 458,
+      "other": 457,
       "recovered": 1427669,
       "tested": 22788393
     }
