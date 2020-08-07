@@ -2551,7 +2551,11 @@
       "2020-08-07": {
         "delta": {
           "confirmed": 103,
-          "recovered": 89
+          "recovered": 89,
+          "tested": {
+            "positives": 103,
+            "samples": 2695
+          }
         },
         "total": {
           "confirmed": 3150,
@@ -2559,8 +2563,8 @@
           "other": 28,
           "recovered": 1954,
           "tested": {
-            "positives": 3047,
-            "samples": 158537
+            "positives": 3150,
+            "samples": 161232
           }
         }
       }
