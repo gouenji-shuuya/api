@@ -995,6 +995,7 @@
     "delta": {
       "confirmed": 2679,
       "deceased": 6,
+      "recovered": 1585,
       "tested": {
         "positives": 2679,
         "samples": 58531
@@ -1354,12 +1355,13 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": 1550
+          "confirmed": 1550,
+          "recovered": 1585
         },
         "total": {
           "confirmed": 8221,
           "other": 3,
-          "recovered": 5341
+          "recovered": 6926
         }
       },
       "West Karbi Anglong": {
@@ -1373,7 +1375,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-07T21:55:40+05:30",
+      "last_updated": "2020-08-07T22:48:37+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
@@ -1385,7 +1387,7 @@
       "confirmed": 55497,
       "deceased": 132,
       "other": 3,
-      "recovered": 37225,
+      "recovered": 38810,
       "tested": {
         "positives": 55496,
         "samples": 1238867
@@ -5169,7 +5171,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-07T22:37:37+05:30",
+      "last_updated": "2020-08-07T22:42:45+05:30",
       "population": 37403000,
       "tested": {
         "last_updated": "2020-08-07",
@@ -10416,9 +10418,13 @@
   },
   "RJ": {
     "delta": {
-      "confirmed": 1163,
+      "confirmed": 1161,
       "deceased": 10,
-      "recovered": 1064
+      "recovered": 1064,
+      "tested": {
+        "positives": 1161,
+        "samples": 27093
+      }
     },
     "districts": {
       "Ajmer": {
@@ -10715,7 +10721,7 @@
       },
       "Dungarpur": {
         "delta": {
-          "confirmed": 11,
+          "confirmed": 9,
           "recovered": 2
         },
         "meta": {
@@ -10726,7 +10732,7 @@
           }
         },
         "total": {
-          "confirmed": 691,
+          "confirmed": 689,
           "deceased": 1,
           "recovered": 566,
           "tested": {
@@ -11163,33 +11169,41 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-07T22:37:34+05:30",
+      "last_updated": "2020-08-07T22:48:35+05:30",
       "population": 77264000,
       "tested": {
-        "last_updated": "2020-08-06",
-        "source": "https://twitter.com/airnews_jaipur/status/1291416687472816133?s=20"
+        "last_updated": "2020-08-07",
+        "source": "https://twitter.com/airnews_jaipur/status/1291767241936052224?s=20"
       }
     },
     "total": {
-      "confirmed": 50159,
+      "confirmed": 50157,
       "deceased": 767,
       "recovered": 36195,
       "tested": {
-        "positives": 48996,
-        "samples": 1651221
+        "positives": 50157,
+        "samples": 1678314
       }
     }
   },
   "SK": {
+    "delta": {
+      "confirmed": 25,
+      "recovered": 53
+    },
     "districts": {
       "East Sikkim": {
+        "delta": {
+          "confirmed": 54,
+          "recovered": 103
+        },
         "meta": {
           "population": 281293
         },
         "total": {
-          "confirmed": 613,
+          "confirmed": 667,
           "deceased": 1,
-          "recovered": 214
+          "recovered": 317
         }
       },
       "North Sikkim": {
@@ -11211,9 +11225,9 @@
         }
       },
       "Unknown": {
-        "total": {
-          "confirmed": 29,
-          "recovered": 50
+        "delta": {
+          "confirmed": -29,
+          "recovered": -50
         }
       },
       "West Sikkim": {
@@ -11227,7 +11241,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-06T23:01:46+05:30",
+      "last_updated": "2020-08-07T22:48:40+05:30",
       "population": 664000,
       "tested": {
         "last_updated": "2020-08-06",
@@ -11235,9 +11249,9 @@
       }
     },
     "total": {
-      "confirmed": 829,
+      "confirmed": 854,
       "deceased": 1,
-      "recovered": 353,
+      "recovered": 406,
       "tested": {
         "positives": 829,
         "samples": 29467
@@ -12448,19 +12462,19 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 61074,
+      "confirmed": 61097,
       "deceased": 923,
       "other": 4,
-      "recovered": 48435,
+      "recovered": 50073,
       "tested": {
         "states": {
-          "positives": 58103,
-          "samples": 688217
+          "positives": 59264,
+          "samples": 715310
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-07T22:37:32+05:30",
+      "last_updated": "2020-08-07T22:48:32+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-06",
@@ -12468,15 +12482,15 @@
       }
     },
     "total": {
-      "confirmed": 2086483,
+      "confirmed": 2086506,
       "deceased": 42564,
       "other": 458,
-      "recovered": 1425717,
+      "recovered": 1427355,
       "tested": {
         "samples": 22788393,
         "states": {
-          "positives": 2092093,
-          "samples": 26353102
+          "positives": 2093254,
+          "samples": 26380195
         }
       }
     }
