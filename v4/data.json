@@ -2572,6 +2572,10 @@
     }
   },
   "HP": {
+    "delta": {
+      "confirmed": 56,
+      "recovered": 54
+    },
     "districts": {
       "Bilaspur": {
         "meta": {
@@ -2587,6 +2591,9 @@
         }
       },
       "Chamba": {
+        "delta": {
+          "confirmed": 43
+        },
         "meta": {
           "notes": "One death of COVID-19 positive patient has occured due to non-covid reasons",
           "population": 518844,
@@ -2595,13 +2602,17 @@
           }
         },
         "total": {
-          "confirmed": 150,
+          "confirmed": 193,
           "other": 1,
           "recovered": 86,
           "tested": 10021
         }
       },
       "Hamirpur": {
+        "delta": {
+          "confirmed": 8,
+          "recovered": 3
+        },
         "meta": {
           "population": 454293,
           "tested": {
@@ -2609,9 +2620,9 @@
           }
         },
         "total": {
-          "confirmed": 339,
+          "confirmed": 347,
           "deceased": 3,
-          "recovered": 285,
+          "recovered": 288,
           "tested": 16512
         }
       },
@@ -2645,6 +2656,9 @@
         }
       },
       "Kullu": {
+        "delta": {
+          "confirmed": 4
+        },
         "meta": {
           "population": 437474,
           "tested": {
@@ -2652,7 +2666,7 @@
           }
         },
         "total": {
-          "confirmed": 92,
+          "confirmed": 96,
           "other": 1,
           "recovered": 26,
           "tested": 6754
@@ -2686,6 +2700,10 @@
         }
       },
       "Shimla": {
+        "delta": {
+          "confirmed": 1,
+          "recovered": 9
+        },
         "meta": {
           "notes": "One death of COVID-19 positive patient has occured due to non-covid reasons",
           "population": 813384,
@@ -2694,10 +2712,10 @@
           }
         },
         "total": {
-          "confirmed": 196,
+          "confirmed": 197,
           "deceased": 2,
           "other": 1,
-          "recovered": 127,
+          "recovered": 136,
           "tested": 13479
         }
       },
@@ -2717,6 +2735,9 @@
         }
       },
       "Solan": {
+        "delta": {
+          "recovered": 42
+        },
         "meta": {
           "population": 576670,
           "tested": {
@@ -2726,7 +2747,7 @@
         "total": {
           "confirmed": 794,
           "other": 13,
-          "recovered": 369,
+          "recovered": 411,
           "tested": 28721
         }
       },
@@ -2745,7 +2766,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-07T22:14:30+05:30",
+      "last_updated": "2020-08-08T14:37:38+05:30",
       "notes": "HP has 29 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -2754,10 +2775,10 @@
       }
     },
     "total": {
-      "confirmed": 3150,
+      "confirmed": 3206,
       "deceased": 13,
       "other": 28,
-      "recovered": 1954,
+      "recovered": 2008,
       "tested": 161232
     }
   },
@@ -3613,42 +3634,42 @@
         "meta": {
           "population": 2532383,
           "tested": {
-            "last_updated": "2020-08-06"
+            "last_updated": "2020-08-07"
           }
         },
         "total": {
           "confirmed": 9384,
           "deceased": 93,
           "recovered": 4926,
-          "tested": 62548
+          "tested": 65088
         }
       },
       "Belagavi": {
         "meta": {
           "population": 4778439,
           "tested": {
-            "last_updated": "2020-08-06"
+            "last_updated": "2020-08-07"
           }
         },
         "total": {
           "confirmed": 4856,
           "deceased": 93,
           "recovered": 1230,
-          "tested": 44148
+          "tested": 44537
         }
       },
       "Bengaluru Rural": {
         "meta": {
           "population": 987257,
           "tested": {
-            "last_updated": "2020-08-06"
+            "last_updated": "2020-08-07"
           }
         },
         "total": {
           "confirmed": 2734,
           "deceased": 10,
           "recovered": 796,
-          "tested": 15721
+          "tested": 16049
         }
       },
       "Bengaluru Urban": {
@@ -3771,14 +3792,14 @@
         "meta": {
           "population": 1846993,
           "tested": {
-            "last_updated": "2020-08-06"
+            "last_updated": "2020-08-07"
           }
         },
         "total": {
           "confirmed": 5512,
           "deceased": 181,
           "recovered": 2967,
-          "tested": 46627
+          "tested": 47238
         }
       },
       "Gadag": {
@@ -3828,14 +3849,14 @@
         "meta": {
           "population": 2564892,
           "tested": {
-            "last_updated": "2020-08-06"
+            "last_updated": "2020-08-07"
           }
         },
         "total": {
           "confirmed": 6886,
           "deceased": 129,
           "recovered": 4256,
-          "tested": 95301
+          "tested": 95841
         }
       },
       "Kodagu": {
@@ -4760,6 +4781,11 @@
     }
   },
   "ML": {
+    "delta": {
+      "confirmed": 17,
+      "deceased": 1,
+      "recovered": 12
+    },
     "districts": {
       "East Garo Hills": {
         "meta": {
@@ -4780,32 +4806,43 @@
         }
       },
       "East Khasi Hills": {
+        "delta": {
+          "confirmed": 12,
+          "deceased": 1,
+          "recovered": 4
+        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 764,
-          "deceased": 2,
-          "recovered": 316
+          "confirmed": 776,
+          "deceased": 3,
+          "recovered": 320
         }
       },
       "North Garo Hills": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 118325
         },
         "total": {
-          "confirmed": 2,
+          "confirmed": 4,
           "recovered": 2
         }
       },
       "Ribhoi": {
+        "delta": {
+          "recovered": 7
+        },
         "meta": {
           "population": 258380
         },
         "total": {
           "confirmed": 123,
           "deceased": 3,
-          "recovered": 48
+          "recovered": 55
         }
       },
       "South Garo Hills": {
@@ -4827,21 +4864,27 @@
         }
       },
       "West Garo Hills": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "population": 642923
         },
         "total": {
-          "confirmed": 45,
+          "confirmed": 48,
           "recovered": 17
         }
       },
       "West Jaintia Hills": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 270352
         },
         "total": {
           "confirmed": 23,
-          "recovered": 7
+          "recovered": 8
         }
       },
       "West Khasi Hills": {
@@ -4855,7 +4898,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-07T22:14:35+05:30",
+      "last_updated": "2020-08-08T14:37:41+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -4864,9 +4907,9 @@
       }
     },
     "total": {
-      "confirmed": 1006,
-      "deceased": 5,
-      "recovered": 411,
+      "confirmed": 1023,
+      "deceased": 6,
+      "recovered": 423,
       "tested": 40631
     }
   },
@@ -8350,12 +8393,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 4552,
-      "deceased": 39,
-      "recovered": 1431
+      "confirmed": 4625,
+      "deceased": 40,
+      "recovered": 1497
     },
     "meta": {
-      "last_updated": "2020-08-08T13:07:32+05:30",
+      "last_updated": "2020-08-08T14:37:32+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-07",
@@ -8363,10 +8406,10 @@
       }
     },
     "total": {
-      "confirmed": 2091416,
-      "deceased": 42617,
+      "confirmed": 2091489,
+      "deceased": 42618,
       "other": 457,
-      "recovered": 1429100,
+      "recovered": 1429166,
       "tested": 23387171
     }
   },
