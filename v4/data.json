@@ -652,6 +652,9 @@
     }
   },
   "AS": {
+    "delta": {
+      "deceased": 8
+    },
     "districts": {
       "Airport Quarantine": {
         "total": {
@@ -977,8 +980,12 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "deceased": 8
+        },
         "total": {
           "confirmed": 8221,
+          "deceased": 8,
           "other": 3,
           "recovered": 6926
         }
@@ -994,7 +1001,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-07T22:54:37+05:30",
+      "last_updated": "2020-08-08T20:37:36+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
@@ -1004,7 +1011,7 @@
     },
     "total": {
       "confirmed": 55497,
-      "deceased": 132,
+      "deceased": 140,
       "other": 3,
       "recovered": 38810,
       "tested": 1238867
@@ -5226,7 +5233,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-08T20:24:35+05:30",
+      "last_updated": "2020-08-08T20:29:36+05:30",
       "notes": "307 cases are marked as non-covid deaths in MH bulletin. These have been reduced from active count\n[June 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[June 20]: 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
@@ -6617,7 +6624,8 @@
     "delta": {
       "confirmed": 1643,
       "deceased": 15,
-      "recovered": 1544
+      "recovered": 1544,
+      "tested": 17444
     },
     "districts": {
       "Angul": {
@@ -7135,19 +7143,18 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-08T20:24:38+05:30",
+      "last_updated": "2020-08-08T20:29:40+05:30",
       "notes": "[July 12th] 20 non-covid deaths reported in state dashboard are included in the deceased count\n[June 22nd]: NDRF/ODRF cases have been redistributed to districts based on state dashboard",
       "population": 43671000,
       "tested": {
-        "last_updated": "2020-08-07",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1576"
+        "last_updated": "2020-08-08"
       }
     },
     "total": {
       "confirmed": 44193,
       "deceased": 307,
       "recovered": 30242,
-      "tested": 616646
+      "tested": 634090
     }
   },
   "PB": {
@@ -7573,7 +7580,8 @@
     "delta": {
       "confirmed": 261,
       "deceased": 5,
-      "recovered": 140
+      "recovered": 140,
+      "tested": 924
     },
     "districts": {
       "Karaikal": {
@@ -7657,15 +7665,15 @@
       "last_updated": "2020-08-08T16:44:36+05:30",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-08-07",
-        "source": "https://health.py.gov.in/sites/default/files/7.08.2020-bulletin.pdf"
+        "last_updated": "2020-08-08",
+        "source": "https://health.py.gov.in/sites/default/files/8.8.2020-bulletin.pdf"
       }
     },
     "total": {
       "confirmed": 5123,
       "deceased": 80,
       "recovered": 3054,
-      "tested": 45954
+      "tested": 46878
     }
   },
   "RJ": {
@@ -9073,12 +9081,12 @@
   "TT": {
     "delta": {
       "confirmed": 41096,
-      "deceased": 541,
+      "deceased": 549,
       "other": 4,
       "recovered": 33108
     },
     "meta": {
-      "last_updated": "2020-08-08T20:24:32+05:30",
+      "last_updated": "2020-08-08T20:37:33+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-07",
@@ -9087,7 +9095,7 @@
     },
     "total": {
       "confirmed": 2127960,
-      "deceased": 43119,
+      "deceased": 43127,
       "other": 461,
       "recovered": 1460777,
       "tested": 23387171
