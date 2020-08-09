@@ -6048,16 +6048,16 @@
       },
       "East Khasi Hills": {
         "delta": {
-          "confirmed": 18,
-          "recovered": 25
+          "confirmed": 19,
+          "recovered": 65
         },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 794,
+          "confirmed": 795,
           "deceased": 3,
-          "recovered": 345
+          "recovered": 385
         }
       },
       "North Garo Hills": {
@@ -6099,16 +6099,6 @@
         "total": {
           "confirmed": 10,
           "recovered": 8
-        }
-      },
-      "Unknown": {
-        "delta": {
-          "confirmed": 1,
-          "recovered": 40
-        },
-        "total": {
-          "confirmed": 1,
-          "recovered": 40
         }
       },
       "West Garo Hills": {
@@ -9303,6 +9293,11 @@
     }
   },
   "SK": {
+    "delta": {
+      "confirmed": 6,
+      "recovered": 80,
+      "tested": 199
+    },
     "districts": {
       "East Sikkim": {
         "meta": {
@@ -9333,9 +9328,13 @@
         }
       },
       "Unknown": {
-        "total": {
+        "delta": {
           "confirmed": 6,
-          "recovered": 11
+          "recovered": 80
+        },
+        "total": {
+          "confirmed": 12,
+          "recovered": 91
         }
       },
       "West Sikkim": {
@@ -9349,18 +9348,17 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-08T22:17:42+05:30",
+      "last_updated": "2020-08-09T22:13:38+05:30",
       "population": 664000,
       "tested": {
-        "last_updated": "2020-08-08",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1618"
+        "last_updated": "2020-08-09"
       }
     },
     "total": {
-      "confirmed": 860,
+      "confirmed": 866,
       "deceased": 1,
-      "recovered": 417,
-      "tested": 30533
+      "recovered": 497,
+      "tested": 30732
     }
   },
   "TG": {
@@ -10333,13 +10331,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 60409,
+      "confirmed": 60415,
       "deceased": 1004,
       "other": 3,
-      "recovered": 52045
+      "recovered": 52125
     },
     "meta": {
-      "last_updated": "2020-08-09T21:52:33+05:30",
+      "last_updated": "2020-08-09T22:13:32+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-08",
@@ -10347,10 +10345,10 @@
       }
     },
     "total": {
-      "confirmed": 2212429,
+      "confirmed": 2212435,
       "deceased": 44457,
       "other": 464,
-      "recovered": 1531849,
+      "recovered": 1531929,
       "tested": 24106535
     }
   },
@@ -10601,19 +10599,20 @@
         "delta": {
           "confirmed": 47,
           "deceased": 1,
-          "recovered": 51
+          "recovered": 51,
+          "tested": 1209
         },
         "meta": {
           "population": 3257983,
           "tested": {
-            "last_updated": "2020-08-07"
+            "last_updated": "2020-08-09"
           }
         },
         "total": {
           "confirmed": 1579,
           "deceased": 15,
           "recovered": 1078,
-          "tested": 47874
+          "tested": 50000
         }
       },
       "Bareilly": {
@@ -11489,7 +11488,7 @@
         "meta": {
           "population": 3404004,
           "tested": {
-            "last_updated": "2020-08-08"
+            "last_updated": "2020-08-07"
           }
         },
         "total": {
