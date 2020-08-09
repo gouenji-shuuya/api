@@ -2753,41 +2753,48 @@
     "districts": {
       "North Goa": {
         "delta": {
+          "confirmed": 124,
           "deceased": 2
         },
         "meta": {
           "population": 817761
         },
         "total": {
-          "confirmed": 1251,
+          "confirmed": 1375,
           "deceased": 24,
           "recovered": 508
         }
       },
       "Other State": {
+        "delta": {
+          "recovered": 7
+        },
         "total": {
           "confirmed": 188,
-          "recovered": 174
+          "recovered": 181
         }
       },
       "South Goa": {
+        "delta": {
+          "recovered": 65
+        },
         "meta": {
           "population": 639962
         },
         "total": {
           "confirmed": 2431,
           "deceased": 48,
-          "recovered": 836
+          "recovered": 901
         }
       },
       "Unknown": {
         "delta": {
-          "confirmed": 259,
-          "recovered": 207
+          "confirmed": 135,
+          "recovered": 135
         },
         "total": {
-          "confirmed": 4336,
-          "recovered": 4284
+          "confirmed": 4212,
+          "recovered": 4212
         }
       }
     },
@@ -4932,33 +4939,34 @@
       "Bengaluru Rural": {
         "delta": {
           "confirmed": 66,
-          "recovered": 14
+          "recovered": 14,
+          "tested": 445
         },
         "meta": {
           "population": 987257,
           "tested": {
-            "last_updated": "2020-08-07",
-            "source": "https://twitter.com/B_Rural_DIPR/status/1291917442550177792?s=20"
+            "last_updated": "2020-08-08"
           }
         },
         "total": {
           "confirmed": 2800,
           "deceased": 10,
           "recovered": 810,
-          "tested": 16049
+          "tested": 16494
         }
       },
       "Bengaluru Urban": {
         "delta": {
           "confirmed": 2665,
           "deceased": 18,
-          "recovered": 2229
+          "recovered": 2229,
+          "tested": 13043
         },
         "meta": {
           "population": 9588910,
           "tested": {
-            "last_updated": "2020-08-07",
-            "source": "https://dl.bbmpgov.in/covid/Covid_Bengaluru_07August_2020%20Bulletin-137%20English.pdf"
+            "last_updated": "2020-08-08",
+            "source": "https://dl.bbmpgov.in/covid/Covid_Bengaluru_08August_2020%20Bulletin-138%20English.pdf"
           }
         },
         "total": {
@@ -4966,7 +4974,7 @@
           "deceased": 1218,
           "migrated": 1,
           "recovered": 37292,
-          "tested": 391092
+          "tested": 404135
         }
       },
       "Bidar": {
@@ -7927,7 +7935,8 @@
     "districts": {
       "Dimapur": {
         "delta": {
-          "confirmed": 10
+          "confirmed": 10,
+          "recovered": 52
         },
         "meta": {
           "population": 379769,
@@ -7940,7 +7949,7 @@
           "confirmed": 1334,
           "deceased": 6,
           "migrated": 2,
-          "recovered": 153,
+          "recovered": 205,
           "tested": 896
         }
       },
@@ -7961,7 +7970,8 @@
       "Kohima": {
         "delta": {
           "confirmed": 12,
-          "migrated": 1
+          "migrated": 1,
+          "recovered": 9
         },
         "meta": {
           "population": 270063,
@@ -7974,7 +7984,7 @@
           "confirmed": 504,
           "deceased": 1,
           "migrated": 1,
-          "recovered": 83,
+          "recovered": 92,
           "tested": 485
         }
       },
@@ -7988,6 +7998,9 @@
         }
       },
       "Mokokchung": {
+        "delta": {
+          "recovered": 2
+        },
         "meta": {
           "population": 193171,
           "tested": {
@@ -7997,7 +8010,7 @@
         },
         "total": {
           "confirmed": 18,
-          "recovered": 11,
+          "recovered": 13,
           "tested": 63
         }
       },
@@ -8036,6 +8049,9 @@
         }
       },
       "Phek": {
+        "delta": {
+          "recovered": 5
+        },
         "meta": {
           "population": 163294,
           "tested": {
@@ -8045,7 +8061,7 @@
         },
         "total": {
           "confirmed": 32,
-          "recovered": 18,
+          "recovered": 23,
           "tested": 28
         }
       },
@@ -8063,17 +8079,10 @@
           "tested": 1
         }
       },
-      "Unknown": {
-        "delta": {
-          "recovered": 69
-        },
-        "total": {
-          "recovered": 69
-        }
-      },
       "Wokha": {
         "delta": {
-          "confirmed": 3
+          "confirmed": 3,
+          "recovered": 1
         },
         "meta": {
           "population": 166239,
@@ -8084,7 +8093,7 @@
         },
         "total": {
           "confirmed": 26,
-          "recovered": 11,
+          "recovered": 12,
           "tested": 7
         }
       },
