@@ -2752,12 +2752,15 @@
     },
     "districts": {
       "North Goa": {
+        "delta": {
+          "deceased": 2
+        },
         "meta": {
           "population": 817761
         },
         "total": {
           "confirmed": 1251,
-          "deceased": 22,
+          "deceased": 24,
           "recovered": 508
         }
       },
@@ -2780,12 +2783,10 @@
       "Unknown": {
         "delta": {
           "confirmed": 259,
-          "deceased": 2,
           "recovered": 207
         },
         "total": {
           "confirmed": 4336,
-          "deceased": 2,
           "recovered": 4284
         }
       }
@@ -4911,20 +4912,21 @@
         "delta": {
           "confirmed": 302,
           "deceased": 1,
-          "recovered": 378
+          "recovered": 378,
+          "tested": 616
         },
         "meta": {
           "population": 4778439,
           "tested": {
-            "last_updated": "2020-08-07",
-            "source": "https://twitter.com/deobelagavi/status/1291736832074366976?s=20"
+            "last_updated": "2020-08-08",
+            "source": "https://twitter.com/deobelagavi/status/1292117660914728960?s=20"
           }
         },
         "total": {
           "confirmed": 5158,
           "deceased": 94,
           "recovered": 1608,
-          "tested": 44537
+          "tested": 45153
         }
       },
       "Bengaluru Rural": {
@@ -4955,8 +4957,8 @@
         "meta": {
           "population": 9588910,
           "tested": {
-            "last_updated": "2020-08-06",
-            "source": "https://dl.bbmpgov.in/covid/Covid_Bengaluru_06August_2020%20Bulletin-136%20English.pdf"
+            "last_updated": "2020-08-07",
+            "source": "https://dl.bbmpgov.in/covid/Covid_Bengaluru_07August_2020%20Bulletin-137%20English.pdf"
           }
         },
         "total": {
@@ -4964,7 +4966,7 @@
           "deceased": 1218,
           "migrated": 1,
           "recovered": 37292,
-          "tested": 378533
+          "tested": 391092
         }
       },
       "Bidar": {
