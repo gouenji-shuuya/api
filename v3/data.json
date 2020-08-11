@@ -820,6 +820,7 @@
     "delta": {
       "confirmed": 2669,
       "deceased": 4,
+      "recovered": 1487,
       "tested": 52062
     },
     "districts": {
@@ -1171,12 +1172,13 @@
       },
       "Unknown": {
         "delta": {
-          "confirmed": 1641
+          "confirmed": 1641,
+          "recovered": 1487
         },
         "total": {
           "confirmed": 13860,
           "migrated": 3,
-          "recovered": 11703
+          "recovered": 13190
         }
       },
       "West Karbi Anglong": {
@@ -1202,7 +1204,7 @@
       "confirmed": 64407,
       "deceased": 155,
       "migrated": 3,
-      "recovered": 43587,
+      "recovered": 45074,
       "tested": 1430691
     }
   },
@@ -2769,13 +2771,16 @@
     },
     "districts": {
       "North Goa": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "notes": "District-wise numbers are out-dated as cumulative counts for each district are not reported in bulletin",
           "population": 817761
         },
         "total": {
           "confirmed": 1450,
-          "deceased": 26,
+          "deceased": 28,
           "recovered": 508
         }
       },
@@ -2789,25 +2794,26 @@
         }
       },
       "South Goa": {
+        "delta": {
+          "deceased": 5
+        },
         "meta": {
           "notes": "District-wise numbers are out-dated as cumulative counts for each district are not reported in bulletin",
           "population": 639962
         },
         "total": {
           "confirmed": 2670,
-          "deceased": 49,
+          "deceased": 58,
           "recovered": 901
         }
       },
       "Unknown": {
         "delta": {
           "confirmed": 415,
-          "deceased": 6,
           "recovered": 272
         },
         "total": {
           "confirmed": 5136,
-          "deceased": 11,
           "recovered": 4889
         }
       }
@@ -11425,7 +11431,7 @@
       "confirmed": 61252,
       "deceased": 835,
       "migrated": 6,
-      "recovered": 54974
+      "recovered": 56461
     },
     "meta": {
       "last_updated": "2020-08-11T23:17:43+05:30",
@@ -11439,7 +11445,7 @@
       "confirmed": 2328405,
       "deceased": 46188,
       "migrated": 473,
-      "recovered": 1636614,
+      "recovered": 1638101,
       "tested": 25281848
     }
   },
