@@ -2050,11 +2050,15 @@
   },
   "DN": {
     "delta": {
-      "confirmed": 20,
-      "recovered": 26
+      "confirmed": 39,
+      "recovered": 41
     },
     "districts": {
       "Dadra and Nagar Haveli": {
+        "delta": {
+          "confirmed": 19,
+          "recovered": 15
+        },
         "meta": {
           "population": 343709,
           "tested": {
@@ -2062,10 +2066,10 @@
           }
         },
         "total": {
-          "confirmed": 716,
+          "confirmed": 735,
           "deceased": 1,
           "other": 5,
-          "recovered": 507,
+          "recovered": 522,
           "tested": 27039
         }
       },
@@ -2104,7 +2108,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-11T18:37:41+05:30",
+      "last_updated": "2020-08-11T18:48:51+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-08-08",
@@ -2112,10 +2116,10 @@
       }
     },
     "total": {
-      "confirmed": 1637,
+      "confirmed": 1656,
       "deceased": 2,
       "other": 12,
-      "recovered": 1193,
+      "recovered": 1208,
       "tested": 44777
     }
   },
@@ -6117,12 +6121,16 @@
   },
   "NL": {
     "delta": {
-      "confirmed": 20
+      "confirmed": 20,
+      "deceased": -1,
+      "other": 4,
+      "recovered": 12
     },
     "districts": {
       "Dimapur": {
         "delta": {
-          "confirmed": 9
+          "confirmed": 9,
+          "deceased": -1
         },
         "meta": {
           "population": 379769,
@@ -6132,7 +6140,7 @@
         },
         "total": {
           "confirmed": 1509,
-          "deceased": 7,
+          "deceased": 6,
           "other": 2,
           "recovered": 237,
           "tested": 896
@@ -6153,7 +6161,9 @@
       },
       "Kohima": {
         "delta": {
-          "confirmed": 10
+          "confirmed": 10,
+          "other": 2,
+          "recovered": 10
         },
         "meta": {
           "population": 270063,
@@ -6164,8 +6174,8 @@
         "total": {
           "confirmed": 638,
           "deceased": 1,
-          "other": 1,
-          "recovered": 105,
+          "other": 3,
+          "recovered": 115,
           "tested": 485
         }
       },
@@ -6192,6 +6202,9 @@
         }
       },
       "Mon": {
+        "delta": {
+          "other": 2
+        },
         "meta": {
           "population": 259604,
           "tested": {
@@ -6200,6 +6213,7 @@
         },
         "total": {
           "confirmed": 283,
+          "other": 2,
           "recovered": 122,
           "tested": 45
         }
@@ -6252,6 +6266,14 @@
           "tested": 1
         }
       },
+      "Unknown": {
+        "delta": {
+          "recovered": 2
+        },
+        "total": {
+          "recovered": 2
+        }
+      },
       "Wokha": {
         "meta": {
           "population": 166239,
@@ -6276,7 +6298,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-11T15:58:37+05:30",
+      "last_updated": "2020-08-11T18:48:48+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-08-10",
@@ -6285,9 +6307,9 @@
     },
     "total": {
       "confirmed": 3031,
-      "deceased": 8,
-      "other": 3,
-      "recovered": 973,
+      "deceased": 7,
+      "other": 7,
+      "recovered": 985,
       "tested": 46518
     }
   },
@@ -8625,12 +8647,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 20339,
-      "deceased": 198,
-      "recovered": 16862
+      "confirmed": 20358,
+      "deceased": 197,
+      "other": 4,
+      "recovered": 16889
     },
     "meta": {
-      "last_updated": "2020-08-11T18:37:36+05:30",
+      "last_updated": "2020-08-11T18:48:43+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-10",
@@ -8638,10 +8661,10 @@
       }
     },
     "total": {
-      "confirmed": 2287492,
-      "deceased": 45551,
-      "other": 467,
-      "recovered": 1598502,
+      "confirmed": 2287511,
+      "deceased": 45550,
+      "other": 471,
+      "recovered": 1598529,
       "tested": 25281848
     }
   },
