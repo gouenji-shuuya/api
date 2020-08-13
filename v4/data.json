@@ -300,7 +300,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-13T16:37:39+05:30",
+      "last_updated": "2020-08-13T16:41:37+05:30",
       "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin.",
       "population": 52221000,
       "tested": {
@@ -3187,6 +3187,11 @@
     }
   },
   "JH": {
+    "delta": {
+      "confirmed": 64,
+      "deceased": 2,
+      "recovered": 215
+    },
     "districts": {
       "Bokaro": {
         "meta": {
@@ -3227,12 +3232,16 @@
         }
       },
       "Dhanbad": {
+        "delta": {
+          "confirmed": 62,
+          "deceased": 1
+        },
         "meta": {
           "population": 2682662
         },
         "total": {
-          "confirmed": 1250,
-          "deceased": 20,
+          "confirmed": 1312,
+          "deceased": 21,
           "recovered": 913
         }
       },
@@ -3250,13 +3259,17 @@
         }
       },
       "East Singhbhum": {
+        "delta": {
+          "confirmed": 2,
+          "recovered": 215
+        },
         "meta": {
           "population": 2291032
         },
         "total": {
-          "confirmed": 3359,
+          "confirmed": 3361,
           "deceased": 78,
-          "recovered": 1226
+          "recovered": 1441
         }
       },
       "Garhwa": {
@@ -3411,12 +3424,15 @@
         }
       },
       "Ranchi": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 2912022
         },
         "total": {
           "confirmed": 3918,
-          "deceased": 34,
+          "deceased": 35,
           "recovered": 2001
         }
       },
@@ -3474,9 +3490,9 @@
       }
     },
     "total": {
-      "confirmed": 20257,
-      "deceased": 202,
-      "recovered": 12197,
+      "confirmed": 20321,
+      "deceased": 204,
+      "recovered": 12412,
       "tested": 402072
     }
   },
@@ -4371,6 +4387,9 @@
     }
   },
   "MH": {
+    "delta": {
+      "tested": 67391
+    },
     "districts": {
       "Ahmednagar": {
         "meta": {
@@ -4851,8 +4870,8 @@
       "notes": "307 cases are marked as non-covid deaths in MH bulletin. These have been reduced from active count\n[June 16] : 1328 deceased cases have been retroactively added to MH bulletin.\n[June 20]: 69 deceased cases have been reduced based on state bulletin.",
       "population": 122153000,
       "tested": {
-        "last_updated": "2020-08-12",
-        "source": "https://t.co/ui2BBXyEIa?amp=1"
+        "last_updated": "2020-08-13",
+        "source": "https://t.co/BRga6toFjO?amp=1"
       }
     },
     "total": {
@@ -4860,7 +4879,7 @@
       "deceased": 18650,
       "other": 307,
       "recovered": 381843,
-      "tested": 2913686
+      "tested": 2981077
     }
   },
   "ML": {
@@ -8493,12 +8512,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 15044,
-      "deceased": 120,
-      "recovered": 11701
+      "confirmed": 15108,
+      "deceased": 122,
+      "recovered": 11916
     },
     "meta": {
-      "last_updated": "2020-08-13T16:37:35+05:30",
+      "last_updated": "2020-08-13T16:41:35+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-12",
@@ -8506,10 +8525,10 @@
       }
     },
     "total": {
-      "confirmed": 2410515,
-      "deceased": 47258,
+      "confirmed": 2410579,
+      "deceased": 47260,
       "other": 474,
-      "recovered": 1707561,
+      "recovered": 1707776,
       "tested": 26845688
     }
   },
