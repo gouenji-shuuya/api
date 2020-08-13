@@ -708,6 +708,9 @@
     }
   },
   "AS": {
+    "delta": {
+      "deceased": 8
+    },
     "districts": {
       "Airport Quarantine": {
         "total": {
@@ -745,21 +748,28 @@
         }
       },
       "Bongaigaon": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 732639
         },
         "total": {
           "confirmed": 1113,
+          "deceased": 1,
           "recovered": 834
         }
       },
       "Cachar": {
+        "delta": {
+          "deceased": 2
+        },
         "meta": {
           "population": 1736319
         },
         "total": {
           "confirmed": 3302,
-          "deceased": 10,
+          "deceased": 12,
           "recovered": 1498
         }
       },
@@ -810,6 +820,9 @@
         }
       },
       "Dibrugarh": {
+        "delta": {
+          "deceased": 3
+        },
         "meta": {
           "population": 1327748,
           "tested": {
@@ -819,7 +832,7 @@
         },
         "total": {
           "confirmed": 3927,
-          "deceased": 17,
+          "deceased": 20,
           "recovered": 2409,
           "tested": 26459
         }
@@ -913,12 +926,15 @@
         }
       },
       "Karimganj": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1217002
         },
         "total": {
           "confirmed": 1025,
-          "deceased": 8,
+          "deceased": 9,
           "recovered": 955
         }
       },
@@ -933,11 +949,15 @@
         }
       },
       "Lakhimpur": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1040644
         },
         "total": {
           "confirmed": 1266,
+          "deceased": 1,
           "recovered": 1135
         }
       },
@@ -1053,7 +1073,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-12T23:00:39+05:30",
+      "last_updated": "2020-08-13T21:05:38+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
@@ -1063,7 +1083,7 @@
     },
     "total": {
       "confirmed": 69000,
-      "deceased": 161,
+      "deceased": 169,
       "migrated": 3,
       "recovered": 47210,
       "tested": 1573800
@@ -1823,7 +1843,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-13T20:50:37+05:30",
+      "last_updated": "2020-08-13T20:57:37+05:30",
       "population": 1179000,
       "tested": {
         "last_updated": "2020-08-13"
@@ -5782,7 +5802,7 @@
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
-        "last_updated": "2020-08-12",
+        "last_updated": "2020-08-13",
         "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1592"
       }
     },
@@ -5797,7 +5817,8 @@
     "delta": {
       "confirmed": 130,
       "deceased": 1,
-      "recovered": 64
+      "recovered": 64,
+      "tested": 3206
     },
     "districts": {
       "Bishnupur": {
@@ -5988,15 +6009,15 @@
       "last_updated": "2020-08-13T19:08:41+05:30",
       "population": 3103000,
       "tested": {
-        "last_updated": "2020-08-11",
-        "source": "https://twitter.com/DiprManipur/status/1293199808597880835?s=20"
+        "last_updated": "2020-08-13",
+        "source": "https://twitter.com/ANI/status/1293912385770594304?s=20"
       }
     },
     "total": {
       "confirmed": 4112,
       "deceased": 13,
       "recovered": 2295,
-      "tested": 104263
+      "tested": 107469
     }
   },
   "MP": {
@@ -10503,11 +10524,11 @@
   "TT": {
     "delta": {
       "confirmed": 36178,
-      "deceased": 390,
+      "deceased": 398,
       "recovered": 30027
     },
     "meta": {
-      "last_updated": "2020-08-13T20:50:34+05:30",
+      "last_updated": "2020-08-13T21:05:35+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-12",
@@ -10516,7 +10537,7 @@
     },
     "total": {
       "confirmed": 2431649,
-      "deceased": 47528,
+      "deceased": 47536,
       "migrated": 474,
       "recovered": 1725887,
       "tested": 26845688
