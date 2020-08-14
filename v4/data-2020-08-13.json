@@ -2580,41 +2580,48 @@
     },
     "districts": {
       "North Goa": {
+        "delta": {
+          "confirmed": 218
+        },
         "meta": {
           "population": 817761
         },
         "total": {
-          "confirmed": 1772,
+          "confirmed": 1990,
           "deceased": 28,
           "recovered": 508
         }
       },
       "Other State": {
+        "delta": {
+          "confirmed": 1
+        },
         "total": {
-          "confirmed": 189,
+          "confirmed": 190,
           "recovered": 186
         }
       },
       "South Goa": {
         "delta": {
+          "confirmed": 80,
           "deceased": 2
         },
         "meta": {
           "population": 639962
         },
         "total": {
-          "confirmed": 2917,
+          "confirmed": 2997,
           "deceased": 63,
           "recovered": 901
         }
       },
       "Unknown": {
         "delta": {
-          "confirmed": 570,
+          "confirmed": 271,
           "recovered": 271
         },
         "total": {
-          "confirmed": 5616,
+          "confirmed": 5317,
           "recovered": 5317
         }
       }
@@ -6238,14 +6245,14 @@
       },
       "East Khasi Hills": {
         "delta": {
-          "confirmed": 11,
+          "confirmed": 13,
           "recovered": 20
         },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 849,
+          "confirmed": 851,
           "deceased": 3,
           "recovered": 410
         }
@@ -6299,14 +6306,6 @@
         },
         "total": {
           "confirmed": 1
-        }
-      },
-      "Unknown": {
-        "delta": {
-          "confirmed": 2
-        },
-        "total": {
-          "confirmed": 2
         }
       },
       "West Garo Hills": {
@@ -7603,7 +7602,8 @@
     "districts": {
       "Dimapur": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 1,
+          "recovered": -1
         },
         "meta": {
           "population": 379769,
@@ -7615,7 +7615,7 @@
           "confirmed": 1558,
           "deceased": 7,
           "other": 2,
-          "recovered": 312,
+          "recovered": 311,
           "tested": 896
         }
       },
@@ -7634,7 +7634,8 @@
       },
       "Kohima": {
         "delta": {
-          "confirmed": 40
+          "confirmed": 40,
+          "recovered": 27
         },
         "meta": {
           "population": 270063,
@@ -7645,7 +7646,7 @@
         "total": {
           "confirmed": 713,
           "other": 3,
-          "recovered": 121,
+          "recovered": 148,
           "tested": 485
         }
       },
@@ -7731,14 +7732,6 @@
           "confirmed": 52,
           "recovered": 50,
           "tested": 1
-        }
-      },
-      "Unknown": {
-        "delta": {
-          "recovered": 26
-        },
-        "total": {
-          "recovered": 26
         }
       },
       "Wokha": {
