@@ -35,7 +35,8 @@
     "delta": {
       "confirmed": 8732,
       "deceased": 87,
-      "recovered": 10414
+      "recovered": 10414,
+      "tested": 53712
     },
     "districts": {
       "Anantapur": {
@@ -303,15 +304,14 @@
       "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin.",
       "population": 52221000,
       "tested": {
-        "last_updated": "2020-08-14",
-        "source": "https://twitter.com/ArogyaAndhra/status/1294249709712707584?s=20"
+        "last_updated": "2020-08-15"
       }
     },
     "total": {
       "confirmed": 281817,
       "deceased": 2562,
       "recovered": 191117,
-      "tested": 2758485
+      "tested": 2812197
     }
   },
   "AR": {
@@ -2211,7 +2211,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-15T19:38:51+05:30",
+      "last_updated": "2020-08-15T19:50:42+05:30",
       "notes": "[July 14]: Value for the total tests conducted has been reduced by 97008 in the state bulletin. Reason given : \"Reconciled with ICMR figures\". We have made the same change.\n[June 16]: 344 deceased cases have been retroactively added to DL bulletin.",
       "population": 19814000,
       "tested": {
@@ -2837,7 +2837,7 @@
   },
   "HP": {
     "delta": {
-      "confirmed": 9,
+      "confirmed": 33,
       "recovered": 29
     },
     "districts": {
@@ -2892,7 +2892,7 @@
       },
       "Kangra": {
         "delta": {
-          "confirmed": 1,
+          "confirmed": 2,
           "recovered": 1
         },
         "meta": {
@@ -2903,7 +2903,7 @@
           }
         },
         "total": {
-          "confirmed": 563,
+          "confirmed": 564,
           "deceased": 4,
           "other": 2,
           "recovered": 472,
@@ -2925,6 +2925,7 @@
       },
       "Kullu": {
         "delta": {
+          "confirmed": 5,
           "recovered": 11
         },
         "meta": {
@@ -2934,7 +2935,7 @@
           }
         },
         "total": {
-          "confirmed": 200,
+          "confirmed": 205,
           "other": 1,
           "recovered": 50,
           "tested": 7602
@@ -2954,6 +2955,9 @@
         }
       },
       "Mandi": {
+        "delta": {
+          "confirmed": 14
+        },
         "meta": {
           "population": 999518,
           "tested": {
@@ -2961,7 +2965,7 @@
           }
         },
         "total": {
-          "confirmed": 290,
+          "confirmed": 304,
           "deceased": 6,
           "recovered": 177,
           "tested": 13791
@@ -2985,7 +2989,7 @@
       },
       "Sirmaur": {
         "delta": {
-          "confirmed": 4,
+          "confirmed": 8,
           "recovered": 6
         },
         "meta": {
@@ -2995,7 +2999,7 @@
           }
         },
         "total": {
-          "confirmed": 483,
+          "confirmed": 487,
           "deceased": 1,
           "other": 7,
           "recovered": 338,
@@ -3035,7 +3039,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-15T15:51:42+05:30",
+      "last_updated": "2020-08-15T19:50:49+05:30",
       "notes": "HP has 37 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -3044,7 +3048,7 @@
       }
     },
     "total": {
-      "confirmed": 3883,
+      "confirmed": 3907,
       "deceased": 18,
       "other": 36,
       "recovered": 2580,
@@ -4666,7 +4670,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-15T19:38:54+05:30",
+      "last_updated": "2020-08-15T19:50:45+05:30",
       "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nOne patient absconded from Palakkad to TN and one patient returned back to Maharashtra. Some non-covid deaths (accident,cancer etc.) have also been reported in the bulletin.\nIn total 48 such cases have been reduced from active count",
       "population": 35125000,
       "tested": {
@@ -5344,29 +5348,43 @@
     }
   },
   "MN": {
+    "delta": {
+      "confirmed": 192,
+      "recovered": 78
+    },
     "districts": {
       "Bishnupur": {
+        "delta": {
+          "confirmed": 4
+        },
         "meta": {
           "population": 240363
         },
         "total": {
-          "confirmed": 137,
+          "confirmed": 141,
           "deceased": 1,
           "recovered": 58
         }
       },
       "CAPF Personnel": {
+        "delta": {
+          "confirmed": 131,
+          "recovered": 37
+        },
         "total": {
-          "confirmed": 579,
-          "recovered": 42
+          "confirmed": 710,
+          "recovered": 79
         }
       },
       "Chandel": {
+        "delta": {
+          "confirmed": 8
+        },
         "meta": {
           "population": 144028
         },
         "total": {
-          "confirmed": 66,
+          "confirmed": 74,
           "deceased": 3,
           "recovered": 4
         }
@@ -5385,21 +5403,27 @@
         }
       },
       "Imphal East": {
+        "delta": {
+          "confirmed": 25
+        },
         "meta": {
           "population": 452661
         },
         "total": {
-          "confirmed": 245,
+          "confirmed": 270,
           "deceased": 2,
           "recovered": 16
         }
       },
       "Imphal West": {
+        "delta": {
+          "confirmed": 5
+        },
         "meta": {
           "population": 514683
         },
         "total": {
-          "confirmed": 699,
+          "confirmed": 704,
           "deceased": 2,
           "recovered": 52
         }
@@ -5414,20 +5438,26 @@
         }
       },
       "Kakching": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 135481
         },
         "total": {
-          "confirmed": 176,
+          "confirmed": 177,
           "recovered": 27
         }
       },
       "Kamjong": {
+        "delta": {
+          "confirmed": 2
+        },
         "meta": {
           "population": 45616
         },
         "total": {
-          "confirmed": 157,
+          "confirmed": 159,
           "recovered": 17
         }
       },
@@ -5439,8 +5469,11 @@
         }
       },
       "Noney": {
+        "delta": {
+          "confirmed": 8
+        },
         "total": {
-          "confirmed": 43,
+          "confirmed": 51,
           "recovered": 18
         }
       },
@@ -5454,11 +5487,14 @@
         }
       },
       "Senapati": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "population": 354772
         },
         "total": {
-          "confirmed": 251,
+          "confirmed": 254,
           "recovered": 21
         }
       },
@@ -5478,11 +5514,14 @@
         }
       },
       "Thoubal": {
+        "delta": {
+          "confirmed": 5
+        },
         "meta": {
           "population": 420517
         },
         "total": {
-          "confirmed": 474,
+          "confirmed": 479,
           "deceased": 3,
           "recovered": 23
         }
@@ -5497,14 +5536,17 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "recovered": 41
+        },
         "total": {
           "confirmed": 29,
-          "recovered": 1925
+          "recovered": 1966
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-14T19:54:54+05:30",
+      "last_updated": "2020-08-15T19:50:47+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-08-14",
@@ -5512,9 +5554,9 @@
       }
     },
     "total": {
-      "confirmed": 4198,
+      "confirmed": 4390,
       "deceased": 13,
-      "recovered": 2360,
+      "recovered": 2438,
       "tested": 110026
     }
   },
@@ -9087,12 +9129,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 32120,
+      "confirmed": 32336,
       "deceased": 348,
-      "recovered": 28084
+      "recovered": 28162
     },
     "meta": {
-      "last_updated": "2020-08-15T19:38:46+05:30",
+      "last_updated": "2020-08-15T19:50:40+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-14",
@@ -9100,10 +9142,10 @@
       }
     },
     "total": {
-      "confirmed": 2557342,
+      "confirmed": 2557558,
       "deceased": 49481,
       "other": 489,
-      "recovered": 1835640,
+      "recovered": 1835718,
       "tested": 28563095
     }
   },
