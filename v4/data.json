@@ -598,7 +598,8 @@
       },
       "Tawang": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 1,
+          "recovered": -2
         },
         "meta": {
           "population": 49950,
@@ -608,7 +609,7 @@
         },
         "total": {
           "confirmed": 68,
-          "recovered": 47,
+          "recovered": 45,
           "tested": 2587
         }
       },
@@ -626,14 +627,6 @@
           "confirmed": 78,
           "recovered": 60,
           "tested": 4443
-        }
-      },
-      "Unknown": {
-        "delta": {
-          "recovered": -2
-        },
-        "total": {
-          "recovered": -2
         }
       },
       "Upper Siang": {
@@ -7436,11 +7429,14 @@
         }
       },
       "Lunglei": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "population": 154094
         },
         "total": {
-          "confirmed": 105,
+          "confirmed": 108,
           "recovered": 69
         }
       },
@@ -7475,14 +7471,6 @@
         "total": {
           "confirmed": 10,
           "recovered": 7
-        }
-      },
-      "Unknown": {
-        "delta": {
-          "confirmed": 3
-        },
-        "total": {
-          "confirmed": 3
         }
       }
     },
@@ -10417,7 +10405,7 @@
       "recovered": 51523
     },
     "meta": {
-      "last_updated": "2020-08-15T23:27:37+05:30",
+      "last_updated": "2020-08-15T23:44:41+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-14",
