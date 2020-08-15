@@ -2779,7 +2779,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-15T15:38:44+05:30",
+      "last_updated": "2020-08-15T15:43:43+05:30",
       "notes": "HP has 37 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -6083,7 +6083,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-15T15:38:46+05:30",
+      "last_updated": "2020-08-15T15:43:45+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-08-14",
@@ -6932,8 +6932,16 @@
     }
   },
   "PY": {
+    "delta": {
+      "confirmed": 359,
+      "recovered": 215
+    },
     "districts": {
       "Karaikal": {
+        "delta": {
+          "confirmed": 52,
+          "recovered": 9
+        },
         "meta": {
           "notes": "2 case of TN has been transferred,so has been reduced from the total count.",
           "population": 200222,
@@ -6942,9 +6950,9 @@
           }
         },
         "total": {
-          "confirmed": 427,
+          "confirmed": 479,
           "deceased": 6,
-          "recovered": 245,
+          "recovered": 254,
           "tested": 6988
         }
       },
@@ -6963,21 +6971,28 @@
         }
       },
       "Puducherry": {
+        "delta": {
+          "confirmed": 307,
+          "recovered": 147
+        },
         "meta": {
-          "notes": "82 cases(77 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
+          "notes": "92 cases(87 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
           "tested": {
             "last_updated": "2020-08-14"
           }
         },
         "total": {
-          "confirmed": 6049,
+          "confirmed": 6356,
           "deceased": 90,
-          "recovered": 3469,
+          "recovered": 3616,
           "tested": 41369
         }
       },
       "Yanam": {
+        "delta": {
+          "recovered": 59
+        },
         "meta": {
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
@@ -6988,13 +7003,13 @@
         "total": {
           "confirmed": 491,
           "deceased": 10,
-          "recovered": 270,
+          "recovered": 329,
           "tested": 3346
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-14T19:23:48+05:30",
+      "last_updated": "2020-08-15T15:49:40+05:30",
       "population": 1504000,
       "tested": {
         "last_updated": "2020-08-14",
@@ -7002,9 +7017,9 @@
       }
     },
     "total": {
-      "confirmed": 6995,
+      "confirmed": 7354,
       "deceased": 106,
-      "recovered": 4009,
+      "recovered": 4224,
       "tested": 53503
     }
   },
@@ -8437,12 +8452,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 5295,
+      "confirmed": 5654,
       "deceased": 36,
-      "recovered": 2175
+      "recovered": 2390
     },
     "meta": {
-      "last_updated": "2020-08-15T15:38:40+05:30",
+      "last_updated": "2020-08-15T15:49:38+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-14",
@@ -8450,10 +8465,10 @@
       }
     },
     "total": {
-      "confirmed": 2530517,
+      "confirmed": 2530876,
       "deceased": 49170,
       "other": 488,
-      "recovered": 1809731,
+      "recovered": 1809946,
       "tested": 28563095
     }
   },
