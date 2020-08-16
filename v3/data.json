@@ -1864,7 +1864,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-16T19:13:54+05:30",
+      "last_updated": "2020-08-16T19:17:50+05:30",
       "population": 1179000,
       "tested": {
         "last_updated": "2020-08-15",
@@ -3754,7 +3754,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-16T19:13:43+05:30",
+      "last_updated": "2020-08-16T19:17:46+05:30",
       "notes": "[Aug 2]: 21 Foreign Evacuees have been merged to Panchkula and 14 Italian tourists have been merged to Gurugram in HR bulletin.",
       "population": 28672000,
       "tested": {
@@ -6914,12 +6914,14 @@
   },
   "NL": {
     "delta": {
-      "confirmed": 54
+      "confirmed": 54,
+      "recovered": 101
     },
     "districts": {
       "Dimapur": {
         "delta": {
-          "confirmed": 21
+          "confirmed": 21,
+          "recovered": 57
         },
         "meta": {
           "population": 379769,
@@ -6932,7 +6934,7 @@
           "confirmed": 1637,
           "deceased": 7,
           "migrated": 2,
-          "recovered": 403,
+          "recovered": 460,
           "tested": 896
         }
       },
@@ -6952,7 +6954,8 @@
       },
       "Kohima": {
         "delta": {
-          "confirmed": 26
+          "confirmed": 26,
+          "recovered": 2
         },
         "meta": {
           "population": 270063,
@@ -6964,7 +6967,7 @@
         "total": {
           "confirmed": 839,
           "migrated": 3,
-          "recovered": 230,
+          "recovered": 232,
           "tested": 485
         }
       },
@@ -6978,6 +6981,9 @@
         }
       },
       "Mokokchung": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 193171,
           "tested": {
@@ -6987,11 +6993,14 @@
         },
         "total": {
           "confirmed": 18,
-          "recovered": 16,
+          "recovered": 17,
           "tested": 63
         }
       },
       "Mon": {
+        "delta": {
+          "recovered": 41
+        },
         "meta": {
           "population": 259604,
           "tested": {
@@ -7002,7 +7011,7 @@
         "total": {
           "confirmed": 288,
           "migrated": 2,
-          "recovered": 170,
+          "recovered": 211,
           "tested": 45
         }
       },
@@ -7082,7 +7091,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-16T17:18:48+05:30",
+      "last_updated": "2020-08-16T19:24:44+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-08-15",
@@ -7093,7 +7102,7 @@
       "confirmed": 3394,
       "deceased": 7,
       "migrated": 7,
-      "recovered": 1321,
+      "recovered": 1422,
       "tested": 50200
     }
   },
@@ -7988,7 +7997,8 @@
     "delta": {
       "confirmed": 378,
       "deceased": 4,
-      "recovered": 219
+      "recovered": 219,
+      "tested": 1085
     },
     "districts": {
       "Karaikal": {
@@ -8078,15 +8088,15 @@
       "last_updated": "2020-08-16T17:18:44+05:30",
       "population": 1504000,
       "tested": {
-        "last_updated": "2020-08-15",
-        "source": "https://health.py.gov.in/sites/default/files/15.08.2020-bulletin.pdf"
+        "last_updated": "2020-08-16",
+        "source": "https://health.py.gov.in/sites/default/files/16.08.2020-bulletin.pdf"
       }
     },
     "total": {
       "confirmed": 7732,
       "deceased": 110,
       "recovered": 4443,
-      "tested": 54852
+      "tested": 55937
     }
   },
   "RJ": {
@@ -9258,7 +9268,8 @@
     "delta": {
       "confirmed": 5950,
       "deceased": 125,
-      "recovered": 6019
+      "recovered": 6019,
+      "tested": 70450
     },
     "districts": {
       "Airport Quarantine": {
@@ -10022,15 +10033,14 @@
       "notes": "[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.\n2 deaths cross notified to other states from Chennai and Coimbatore.\n1 patient died after turning negative for infection in Chengalpattu.\nThese cases have been added to TN deceased tally",
       "population": 75695000,
       "tested": {
-        "last_updated": "2020-08-15",
-        "source": "https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/Media-Bulletin-15-08-20-COVID-19-6-PM.pdf%22"
+        "last_updated": "2020-08-16"
       }
     },
     "total": {
       "confirmed": 338055,
       "deceased": 5766,
       "recovered": 278270,
-      "tested": 3640796
+      "tested": 3711246
     }
   },
   "TR": {
@@ -10229,10 +10239,10 @@
       "confirmed": 29669,
       "deceased": 379,
       "migrated": 8,
-      "recovered": 30412
+      "recovered": 30513
     },
     "meta": {
-      "last_updated": "2020-08-16T19:13:40+05:30",
+      "last_updated": "2020-08-16T19:24:41+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-15",
@@ -10243,7 +10253,7 @@
       "confirmed": 2618877,
       "deceased": 50464,
       "migrated": 504,
-      "recovered": 1891084,
+      "recovered": 1891185,
       "tested": 29309703
     }
   },
