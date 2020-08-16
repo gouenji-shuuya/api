@@ -2244,7 +2244,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-16T17:13:51+05:30",
+      "last_updated": "2020-08-16T17:18:50+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-08-13",
@@ -3036,7 +3036,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-16T17:13:47+05:30",
+      "last_updated": "2020-08-16T17:18:46+05:30",
       "notes": "HP has 37 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -5145,6 +5145,10 @@
     }
   },
   "ML": {
+    "delta": {
+      "confirmed": 63,
+      "recovered": 60
+    },
     "districts": {
       "East Garo Hills": {
         "meta": {
@@ -5165,13 +5169,17 @@
         }
       },
       "East Khasi Hills": {
+        "delta": {
+          "confirmed": 6,
+          "recovered": 56
+        },
         "meta": {
           "population": 824059
         },
         "total": {
-          "confirmed": 884,
+          "confirmed": 890,
           "deceased": 3,
-          "recovered": 441
+          "recovered": 497
         }
       },
       "North Garo Hills": {
@@ -5184,13 +5192,17 @@
         }
       },
       "Ribhoi": {
+        "delta": {
+          "confirmed": 9,
+          "recovered": 3
+        },
         "meta": {
           "population": 258380
         },
         "total": {
-          "confirmed": 163,
+          "confirmed": 172,
           "deceased": 3,
-          "recovered": 71
+          "recovered": 74
         }
       },
       "South Garo Hills": {
@@ -5220,21 +5232,27 @@
         }
       },
       "West Garo Hills": {
+        "delta": {
+          "confirmed": 48
+        },
         "meta": {
           "population": 642923
         },
         "total": {
-          "confirmed": 158,
+          "confirmed": 206,
           "recovered": 25
         }
       },
       "West Jaintia Hills": {
+        "delta": {
+          "recovered": 1
+        },
         "meta": {
           "population": 270352
         },
         "total": {
           "confirmed": 24,
-          "recovered": 18
+          "recovered": 19
         }
       },
       "West Khasi Hills": {
@@ -5248,7 +5266,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-15T20:52:02+05:30",
+      "last_updated": "2020-08-16T17:23:44+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -5257,9 +5275,9 @@
       }
     },
     "total": {
-      "confirmed": 1292,
+      "confirmed": 1355,
       "deceased": 6,
-      "recovered": 596,
+      "recovered": 656,
       "tested": 42706
     }
   },
@@ -6301,7 +6319,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-16T17:13:54+05:30",
+      "last_updated": "2020-08-16T17:18:52+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-08-15",
@@ -6484,7 +6502,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-16T17:13:49+05:30",
+      "last_updated": "2020-08-16T17:18:48+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-08-15",
@@ -7477,7 +7495,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-16T17:13:45+05:30",
+      "last_updated": "2020-08-16T17:18:44+05:30",
       "population": 1504000,
       "tested": {
         "last_updated": "2020-08-15",
@@ -9441,13 +9459,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 5341,
+      "confirmed": 5404,
       "deceased": 41,
       "migrated": 1,
-      "recovered": 2507
+      "recovered": 2567
     },
     "meta": {
-      "last_updated": "2020-08-16T17:13:42+05:30",
+      "last_updated": "2020-08-16T17:23:40+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-15",
@@ -9455,10 +9473,10 @@
       }
     },
     "total": {
-      "confirmed": 2594549,
+      "confirmed": 2594612,
       "deceased": 50126,
       "migrated": 493,
-      "recovered": 1863179,
+      "recovered": 1863239,
       "tested": 29309703
     }
   },
