@@ -2314,15 +2314,24 @@
     }
   },
   "GA": {
+    "delta": {
+      "confirmed": 300,
+      "deceased": 6,
+      "recovered": 287
+    },
     "districts": {
       "North Goa": {
+        "delta": {
+          "confirmed": 47,
+          "deceased": 2
+        },
         "meta": {
           "notes": "District-wise numbers are out-dated as cumulative counts for each district are not reported in bulletin",
           "population": 817761
         },
         "total": {
-          "confirmed": 2194,
-          "deceased": 31,
+          "confirmed": 2241,
+          "deceased": 33,
           "recovered": 508
         }
       },
@@ -2336,25 +2345,33 @@
         }
       },
       "South Goa": {
+        "delta": {
+          "deceased": 4,
+          "recovered": 34
+        },
         "meta": {
           "notes": "District-wise numbers are out-dated as cumulative counts for each district are not reported in bulletin",
           "population": 639962
         },
         "total": {
           "confirmed": 3085,
-          "deceased": 67,
-          "recovered": 924
+          "deceased": 71,
+          "recovered": 958
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 253,
+          "recovered": 253
+        },
         "total": {
-          "confirmed": 5870,
-          "recovered": 5870
+          "confirmed": 6123,
+          "recovered": 6123
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-15T20:13:48+05:30",
+      "last_updated": "2020-08-16T19:38:39+05:30",
       "population": 1540000,
       "tested": {
         "last_updated": "2020-08-15",
@@ -2362,9 +2379,9 @@
       }
     },
     "total": {
-      "confirmed": 11339,
-      "deceased": 98,
-      "recovered": 7488,
+      "confirmed": 11639,
+      "deceased": 104,
+      "recovered": 7775,
       "tested": 163874
     }
   },
@@ -4717,6 +4734,7 @@
       "Thiruvananthapuram": {
         "delta": {
           "confirmed": 519,
+          "deceased": 1,
           "recovered": 190
         },
         "meta": {
@@ -4724,17 +4742,9 @@
         },
         "total": {
           "confirmed": 9481,
-          "deceased": 33,
+          "deceased": 34,
           "other": 19,
           "recovered": 5532
-        }
-      },
-      "Thiruvanathapuram": {
-        "delta": {
-          "deceased": 1
-        },
-        "total": {
-          "deceased": 1
         }
       },
       "Thrissur": {
@@ -6680,7 +6690,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-16T19:24:44+05:30",
+      "last_updated": "2020-08-16T19:28:47+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-08-15",
@@ -9070,7 +9080,8 @@
       "notes": "[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.\n2 deaths cross notified to other states from Chennai and Coimbatore.\n1 patient died after turning negative for infection in Chengalpattu.\nThese cases have been added to TN deceased tally",
       "population": 75695000,
       "tested": {
-        "last_updated": "2020-08-16"
+        "last_updated": "2020-08-16",
+        "source": "https://stopcorona.tn.gov.in/wp-content/uploads/2020/03/Media-Bulletin-16-08-20-COVID-19-6-PM.pdf%22"
       }
     },
     "total": {
@@ -9265,13 +9276,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 29669,
-      "deceased": 379,
+      "confirmed": 29969,
+      "deceased": 385,
       "other": 8,
-      "recovered": 30513
+      "recovered": 30800
     },
     "meta": {
-      "last_updated": "2020-08-16T19:24:41+05:30",
+      "last_updated": "2020-08-16T19:38:37+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-15",
@@ -9279,10 +9290,10 @@
       }
     },
     "total": {
-      "confirmed": 2618877,
-      "deceased": 50464,
+      "confirmed": 2619177,
+      "deceased": 50470,
       "other": 504,
-      "recovered": 1891185,
+      "recovered": 1891472,
       "tested": 29309703
     }
   },
@@ -9290,7 +9301,8 @@
     "delta": {
       "confirmed": 4357,
       "deceased": 56,
-      "recovered": 4201
+      "recovered": 4201,
+      "tested": 90933
     },
     "districts": {
       "Agra": {
@@ -10674,15 +10686,15 @@
       "last_updated": "2020-08-16T18:27:59+05:30",
       "population": 224979000,
       "tested": {
-        "last_updated": "2020-08-15",
-        "source": "https://twitter.com/ShishirGoUP/status/1294653917679071232?s=20"
+        "last_updated": "2020-08-16",
+        "source": "https://twitter.com/ShishirGoUP/status/1294940422356123649?s=20"
       }
     },
     "total": {
       "confirmed": 154418,
       "deceased": 2449,
       "recovered": 100432,
-      "tested": 3695700
+      "tested": 3786633
     }
   },
   "UT": {
