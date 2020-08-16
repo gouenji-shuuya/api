@@ -2185,9 +2185,9 @@
   },
   "DN": {
     "delta": {
-      "confirmed": 3,
-      "migrated": 1,
-      "recovered": 5
+      "confirmed": 16,
+      "migrated": 2,
+      "recovered": 24
     },
     "districts": {
       "Dadra and Nagar Haveli": {
@@ -2207,6 +2207,11 @@
         }
       },
       "Daman": {
+        "delta": {
+          "confirmed": 13,
+          "migrated": 1,
+          "recovered": 19
+        },
         "meta": {
           "population": 191173,
           "tested": {
@@ -2215,10 +2220,10 @@
           }
         },
         "total": {
-          "confirmed": 866,
+          "confirmed": 879,
           "deceased": 1,
-          "migrated": 5,
-          "recovered": 670,
+          "migrated": 6,
+          "recovered": 689,
           "tested": 12826
         }
       },
@@ -2244,7 +2249,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-16T17:18:50+05:30",
+      "last_updated": "2020-08-16T17:55:48+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-08-13",
@@ -2252,10 +2257,10 @@
       }
     },
     "total": {
-      "confirmed": 1849,
+      "confirmed": 1862,
       "deceased": 2,
-      "migrated": 15,
-      "recovered": 1389,
+      "migrated": 16,
+      "recovered": 1408,
       "tested": 46937
     }
   },
@@ -2841,8 +2846,9 @@
   },
   "HP": {
     "delta": {
-      "confirmed": 2,
-      "recovered": 3
+      "confirmed": 64,
+      "migrated": 6,
+      "recovered": 8
     },
     "districts": {
       "Bilaspur": {
@@ -2861,7 +2867,7 @@
       },
       "Chamba": {
         "delta": {
-          "confirmed": 2
+          "confirmed": 6
         },
         "meta": {
           "notes": "One death of COVID-19 positive patient has occured due to non-covid reasons",
@@ -2872,7 +2878,7 @@
           }
         },
         "total": {
-          "confirmed": 285,
+          "confirmed": 289,
           "migrated": 1,
           "recovered": 131,
           "tested": 10511
@@ -2895,7 +2901,8 @@
       },
       "Kangra": {
         "delta": {
-          "recovered": 3
+          "confirmed": 5,
+          "recovered": 5
         },
         "meta": {
           "notes": "Death of Tibetan refugee on March 22 included in Kangra district's tally",
@@ -2906,10 +2913,10 @@
           }
         },
         "total": {
-          "confirmed": 575,
+          "confirmed": 580,
           "deceased": 4,
           "migrated": 2,
-          "recovered": 480,
+          "recovered": 482,
           "tested": 38552
         }
       },
@@ -2928,6 +2935,9 @@
         }
       },
       "Kullu": {
+        "delta": {
+          "confirmed": 19
+        },
         "meta": {
           "population": 437474,
           "tested": {
@@ -2936,7 +2946,7 @@
           }
         },
         "total": {
-          "confirmed": 208,
+          "confirmed": 227,
           "migrated": 1,
           "recovered": 58,
           "tested": 7712
@@ -2957,6 +2967,9 @@
         }
       },
       "Mandi": {
+        "delta": {
+          "confirmed": 12
+        },
         "meta": {
           "population": 999518,
           "tested": {
@@ -2965,7 +2978,7 @@
           }
         },
         "total": {
-          "confirmed": 304,
+          "confirmed": 316,
           "deceased": 6,
           "recovered": 179,
           "tested": 14143
@@ -2989,6 +3002,10 @@
         }
       },
       "Sirmaur": {
+        "delta": {
+          "confirmed": 22,
+          "recovered": 3
+        },
         "meta": {
           "population": 530164,
           "tested": {
@@ -2997,14 +3014,17 @@
           }
         },
         "total": {
-          "confirmed": 487,
+          "confirmed": 509,
           "deceased": 1,
           "migrated": 7,
-          "recovered": 342,
+          "recovered": 345,
           "tested": 13834
         }
       },
       "Solan": {
+        "delta": {
+          "migrated": 6
+        },
         "meta": {
           "population": 576670,
           "tested": {
@@ -3015,7 +3035,7 @@
         "total": {
           "confirmed": 939,
           "deceased": 1,
-          "migrated": 21,
+          "migrated": 27,
           "recovered": 589,
           "tested": 30568
         }
@@ -3036,8 +3056,8 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-16T17:18:46+05:30",
-      "notes": "HP has 37 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
+      "last_updated": "2020-08-16T17:55:46+05:30",
+      "notes": "HP has 43 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
         "last_updated": "2020-08-15",
@@ -3045,10 +3065,10 @@
       }
     },
     "total": {
-      "confirmed": 3995,
+      "confirmed": 4057,
       "deceased": 18,
-      "migrated": 36,
-      "recovered": 2635,
+      "migrated": 42,
+      "recovered": 2640,
       "tested": 178075
     }
   },
@@ -4397,9 +4417,6 @@
     }
   },
   "KL": {
-    "delta": {
-      "migrated": 4
-    },
     "districts": {
       "Alappuzha": {
         "meta": {
@@ -4441,7 +4458,7 @@
         "total": {
           "confirmed": 1983,
           "deceased": 11,
-          "migrated": 1,
+          "migrated": 2,
           "recovered": 1539
         }
       },
@@ -4463,7 +4480,7 @@
         "total": {
           "confirmed": 2492,
           "deceased": 10,
-          "migrated": 1,
+          "migrated": 2,
           "recovered": 1837
         }
       },
@@ -4495,7 +4512,7 @@
         "total": {
           "confirmed": 4785,
           "deceased": 12,
-          "migrated": 3,
+          "migrated": 4,
           "recovered": 2730
         }
       },
@@ -4528,7 +4545,7 @@
         "total": {
           "confirmed": 8962,
           "deceased": 33,
-          "migrated": 18,
+          "migrated": 19,
           "recovered": 5342
         }
       },
@@ -4543,14 +4560,6 @@
           "recovered": 1792
         }
       },
-      "Unknown": {
-        "delta": {
-          "migrated": 4
-        },
-        "total": {
-          "migrated": 4
-        }
-      },
       "Wayanad": {
         "meta": {
           "population": 816558
@@ -4563,7 +4572,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-16T17:39:45+05:30",
+      "last_updated": "2020-08-16T17:44:44+05:30",
       "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nOne patient absconded from Palakkad to TN and one patient returned back to Maharashtra. Some non-covid deaths (accident,cancer etc.) have also been reported in the bulletin.\nIn total 52 such cases have been reduced from active count",
       "population": 35125000,
       "tested": {
@@ -9470,13 +9479,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 5404,
+      "confirmed": 5479,
       "deceased": 41,
-      "migrated": 5,
-      "recovered": 2567
+      "migrated": 8,
+      "recovered": 2591
     },
     "meta": {
-      "last_updated": "2020-08-16T17:39:42+05:30",
+      "last_updated": "2020-08-16T17:55:42+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-15",
@@ -9484,10 +9493,10 @@
       }
     },
     "total": {
-      "confirmed": 2594612,
+      "confirmed": 2594687,
       "deceased": 50126,
-      "migrated": 497,
-      "recovered": 1863239,
+      "migrated": 504,
+      "recovered": 1863263,
       "tested": 29309703
     }
   },
