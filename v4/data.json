@@ -709,6 +709,7 @@
   },
   "AS": {
     "delta": {
+      "confirmed": 2792,
       "deceased": 8
     },
     "districts": {
@@ -759,13 +760,14 @@
       },
       "Cachar": {
         "delta": {
+          "confirmed": 227,
           "deceased": 2
         },
         "meta": {
           "population": 1736319
         },
         "total": {
-          "confirmed": 3770,
+          "confirmed": 3997,
           "deceased": 15,
           "recovered": 1498
         }
@@ -821,6 +823,7 @@
       },
       "Dibrugarh": {
         "delta": {
+          "confirmed": 225,
           "deceased": 1
         },
         "meta": {
@@ -830,7 +833,7 @@
           }
         },
         "total": {
-          "confirmed": 4531,
+          "confirmed": 4756,
           "deceased": 25,
           "recovered": 2409,
           "tested": 26459
@@ -900,23 +903,27 @@
       },
       "Kamrup": {
         "delta": {
+          "confirmed": 195,
           "deceased": 1
         },
         "meta": {
           "population": 1517202
         },
         "total": {
-          "confirmed": 3408,
+          "confirmed": 3603,
           "deceased": 11,
           "recovered": 2074
         }
       },
       "Kamrup Metropolitan": {
+        "delta": {
+          "confirmed": 458
+        },
         "meta": {
           "population": 1260419
         },
         "total": {
-          "confirmed": 22326,
+          "confirmed": 22784,
           "deceased": 54,
           "recovered": 14599
         }
@@ -1062,8 +1069,11 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 1687
+        },
         "total": {
-          "confirmed": 9486,
+          "confirmed": 11173,
           "other": 3,
           "recovered": 10064
         }
@@ -1079,7 +1089,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-17T20:44:48+05:30",
+      "last_updated": "2020-08-17T21:58:45+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
@@ -1088,7 +1098,7 @@
       }
     },
     "total": {
-      "confirmed": 76876,
+      "confirmed": 79668,
       "deceased": 197,
       "other": 3,
       "recovered": 55216,
@@ -5927,7 +5937,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-17T21:52:07+05:30",
+      "last_updated": "2020-08-17T21:56:47+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -9026,15 +9036,24 @@
     }
   },
   "SK": {
+    "delta": {
+      "confirmed": 20,
+      "recovered": 28,
+      "tested": 1003
+    },
     "districts": {
       "East Sikkim": {
+        "delta": {
+          "confirmed": 20,
+          "recovered": 28
+        },
         "meta": {
           "population": 281293
         },
         "total": {
-          "confirmed": 980,
+          "confirmed": 1000,
           "deceased": 1,
-          "recovered": 584
+          "recovered": 612
         }
       },
       "North Sikkim": {
@@ -9066,18 +9085,17 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-16T23:27:47+05:30",
+      "last_updated": "2020-08-17T21:58:48+05:30",
       "population": 664000,
       "tested": {
-        "last_updated": "2020-08-16",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1747"
+        "last_updated": "2020-08-17"
       }
     },
     "total": {
-      "confirmed": 1167,
+      "confirmed": 1187,
       "deceased": 1,
-      "recovered": 673,
-      "tested": 33810
+      "recovered": 701,
+      "tested": 34813
     }
   },
   "TG": {
@@ -10055,13 +10073,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 43573,
+      "confirmed": 46385,
       "deceased": 750,
       "other": 1,
-      "recovered": 47726
+      "recovered": 47754
     },
     "meta": {
-      "last_updated": "2020-08-17T21:51:57+05:30",
+      "last_updated": "2020-08-17T21:58:43+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-16",
@@ -10069,10 +10087,10 @@
       }
     },
     "total": {
-      "confirmed": 2690877,
+      "confirmed": 2693689,
       "deceased": 51795,
       "other": 507,
-      "recovered": 1965802,
+      "recovered": 1965830,
       "tested": 30041400
     }
   },
