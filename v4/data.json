@@ -1729,8 +1729,18 @@
     }
   },
   "CH": {
+    "delta": {
+      "confirmed": 114,
+      "deceased": 1,
+      "recovered": 46
+    },
     "districts": {
       "Chandigarh": {
+        "delta": {
+          "confirmed": 114,
+          "deceased": 1,
+          "recovered": 46
+        },
         "meta": {
           "population": 1055450,
           "tested": {
@@ -1739,16 +1749,16 @@
           }
         },
         "total": {
-          "confirmed": 2102,
-          "deceased": 29,
+          "confirmed": 2216,
+          "deceased": 30,
           "other": 2,
-          "recovered": 1137,
+          "recovered": 1183,
           "tested": 21060
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-16T19:17:50+05:30",
+      "last_updated": "2020-08-17T19:24:01+05:30",
       "population": 1179000,
       "tested": {
         "last_updated": "2020-08-16",
@@ -1756,10 +1766,10 @@
       }
     },
     "total": {
-      "confirmed": 2102,
-      "deceased": 29,
+      "confirmed": 2216,
+      "deceased": 30,
       "other": 2,
-      "recovered": 1137,
+      "recovered": 1183,
       "tested": 21060
     }
   },
@@ -2282,52 +2292,66 @@
   },
   "GA": {
     "delta": {
-      "deceased": 1
+      "confirmed": 355,
+      "deceased": 7,
+      "recovered": 283
     },
     "districts": {
       "North Goa": {
+        "delta": {
+          "confirmed": 16,
+          "deceased": 3
+        },
         "meta": {
           "notes": "District-wise numbers are out-dated as cumulative counts for each district are not reported in bulletin",
           "population": 817761
         },
         "total": {
-          "confirmed": 2241,
-          "deceased": 33,
+          "confirmed": 2257,
+          "deceased": 36,
           "recovered": 508
         }
       },
       "Other State": {
+        "delta": {
+          "recovered": 2
+        },
         "meta": {
           "notes": "District-wise numbers are out-dated as cumulative counts for each district are not reported in bulletin"
         },
         "total": {
           "confirmed": 190,
-          "recovered": 186
+          "recovered": 188
         }
       },
       "South Goa": {
         "delta": {
-          "deceased": 1
+          "confirmed": 58,
+          "deceased": 4
         },
         "meta": {
           "notes": "District-wise numbers are out-dated as cumulative counts for each district are not reported in bulletin",
           "population": 639962
         },
         "total": {
-          "confirmed": 3085,
-          "deceased": 72,
+          "confirmed": 3143,
+          "deceased": 75,
           "recovered": 958
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 281,
+          "recovered": 281
+        },
         "total": {
-          "confirmed": 6123,
-          "recovered": 6123
+          "confirmed": 6404,
+          "recovered": 6404
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-17T19:14:57+05:30",
+      "last_updated": "2020-08-17T19:23:59+05:30",
       "population": 1540000,
       "tested": {
         "last_updated": "2020-08-16",
@@ -2335,9 +2359,9 @@
       }
     },
     "total": {
-      "confirmed": 11639,
-      "deceased": 105,
-      "recovered": 7775,
+      "confirmed": 11994,
+      "deceased": 111,
+      "recovered": 8058,
       "tested": 165356
     }
   },
@@ -6413,7 +6437,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-17T19:14:52+05:30",
+      "last_updated": "2020-08-17T19:23:53+05:30",
       "population": 82232000,
       "tested": {
         "last_updated": "2020-08-16",
@@ -6805,19 +6829,20 @@
       },
       "Bhadrak": {
         "delta": {
-          "confirmed": 104
+          "confirmed": 104,
+          "tested": 710
         },
         "meta": {
           "population": 1506522,
           "tested": {
-            "last_updated": "2020-08-16"
+            "last_updated": "2020-08-17"
           }
         },
         "total": {
           "confirmed": 1613,
           "deceased": 9,
           "recovered": 855,
-          "tested": 32105
+          "tested": 32815
         }
       },
       "Boudh": {
@@ -7576,20 +7601,21 @@
     "districts": {
       "Karaikal": {
         "delta": {
-          "recovered": 33
+          "recovered": 33,
+          "tested": 12
         },
         "meta": {
           "notes": "2 case of TN has been transferred,so has been reduced from the total count.",
           "population": 200222,
           "tested": {
-            "last_updated": "2020-08-16"
+            "last_updated": "2020-08-17"
           }
         },
         "total": {
           "confirmed": 486,
           "deceased": 6,
           "recovered": 325,
-          "tested": 7197
+          "tested": 7209
         }
       },
       "Mahe": {
@@ -7597,7 +7623,7 @@
           "notes": "1 case of KL have been transferred,so have been reduced from the total count",
           "population": 41816,
           "tested": {
-            "last_updated": "2020-08-16"
+            "last_updated": "2020-08-17"
           }
         },
         "total": {
@@ -7610,20 +7636,21 @@
         "delta": {
           "confirmed": 294,
           "deceased": 3,
-          "recovered": 140
+          "recovered": 140,
+          "tested": 1076
         },
         "meta": {
           "notes": "104 cases(99 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
           "tested": {
-            "last_updated": "2020-08-16"
+            "last_updated": "2020-08-17"
           }
         },
         "total": {
           "confirmed": 7016,
           "deceased": 95,
           "recovered": 3926,
-          "tested": 43470
+          "tested": 44546
         }
       },
       "Yanam": {
@@ -7636,7 +7663,7 @@
           "notes": "2 cases of AP have been transferred,so have been reduced from the total count",
           "population": 55626,
           "tested": {
-            "last_updated": "2020-08-16"
+            "last_updated": "2020-08-17"
           }
         },
         "total": {
@@ -9068,12 +9095,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 20669,
-      "deceased": 235,
-      "recovered": 21378
+      "confirmed": 21138,
+      "deceased": 242,
+      "recovered": 21707
     },
     "meta": {
-      "last_updated": "2020-08-17T19:14:48+05:30",
+      "last_updated": "2020-08-17T19:23:49+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-16",
@@ -9081,10 +9108,10 @@
       }
     },
     "total": {
-      "confirmed": 2667973,
-      "deceased": 51280,
+      "confirmed": 2668442,
+      "deceased": 51287,
       "other": 506,
-      "recovered": 1939454,
+      "recovered": 1939783,
       "tested": 30041400
     }
   },
