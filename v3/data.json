@@ -317,7 +317,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-17T18:24:48+05:30",
+      "last_updated": "2020-08-17T18:25:44+05:30",
       "notes": "Total includes patients from other states and a new category \"Foreign Evacuees\" which is now reported in AP bulletin.",
       "population": 52221000,
       "tested": {
@@ -1795,7 +1795,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-17T18:24:54+05:30",
+      "last_updated": "2020-08-17T18:25:50+05:30",
       "population": 119520000,
       "tested": {
         "last_updated": "2020-08-16",
@@ -2403,8 +2403,8 @@
   },
   "DN": {
     "delta": {
-      "confirmed": 21,
-      "recovered": 30
+      "confirmed": 27,
+      "recovered": 49
     },
     "districts": {
       "Dadra and Nagar Haveli": {
@@ -2428,6 +2428,10 @@
         }
       },
       "Daman": {
+        "delta": {
+          "confirmed": 6,
+          "recovered": 19
+        },
         "meta": {
           "population": 191173,
           "tested": {
@@ -2436,10 +2440,10 @@
           }
         },
         "total": {
-          "confirmed": 879,
+          "confirmed": 885,
           "deceased": 1,
           "migrated": 6,
-          "recovered": 689,
+          "recovered": 708,
           "tested": 12826
         }
       },
@@ -2464,7 +2468,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-17T18:02:52+05:30",
+      "last_updated": "2020-08-17T18:37:50+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-08-13",
@@ -2472,10 +2476,10 @@
       }
     },
     "total": {
-      "confirmed": 1902,
+      "confirmed": 1908,
       "deceased": 2,
       "migrated": 16,
-      "recovered": 1461,
+      "recovered": 1480,
       "tested": 46937
     }
   },
@@ -4184,7 +4188,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-17T18:24:57+05:30",
+      "last_updated": "2020-08-17T18:25:54+05:30",
       "population": 13203000,
       "tested": {
         "last_updated": "2020-08-16",
@@ -5543,6 +5547,11 @@
     }
   },
   "MN": {
+    "delta": {
+      "confirmed": 118,
+      "deceased": 1,
+      "recovered": 102
+    },
     "districts": {
       "Bishnupur": {
         "meta": {
@@ -5555,10 +5564,14 @@
         }
       },
       "CAPF Personnel": {
+        "delta": {
+          "confirmed": 24,
+          "recovered": 7
+        },
         "total": {
-          "confirmed": 821,
+          "confirmed": 845,
           "deceased": 1,
-          "recovered": 97
+          "recovered": 104
         }
       },
       "Chandel": {
@@ -5572,6 +5585,9 @@
         }
       },
       "Churachandpur": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 271274,
           "tested": {
@@ -5580,27 +5596,34 @@
           }
         },
         "total": {
-          "confirmed": 341,
+          "confirmed": 342,
           "recovered": 58,
           "tested": 11280
         }
       },
       "Imphal East": {
+        "delta": {
+          "confirmed": 12,
+          "deceased": 1
+        },
         "meta": {
           "population": 452661
         },
         "total": {
-          "confirmed": 270,
-          "deceased": 2,
+          "confirmed": 282,
+          "deceased": 3,
           "recovered": 16
         }
       },
       "Imphal West": {
+        "delta": {
+          "confirmed": 72
+        },
         "meta": {
           "population": 514683
         },
         "total": {
-          "confirmed": 760,
+          "confirmed": 832,
           "deceased": 3,
           "recovered": 52
         }
@@ -5640,8 +5663,11 @@
         }
       },
       "Noney": {
+        "delta": {
+          "confirmed": 2
+        },
         "total": {
-          "confirmed": 53,
+          "confirmed": 55,
           "recovered": 18
         }
       },
@@ -5664,11 +5690,14 @@
         }
       },
       "Tamenglong": {
+        "delta": {
+          "confirmed": 1
+        },
         "meta": {
           "population": 140143
         },
         "total": {
-          "confirmed": 244,
+          "confirmed": 245,
           "recovered": 32
         }
       },
@@ -5679,11 +5708,14 @@
         }
       },
       "Thoubal": {
+        "delta": {
+          "confirmed": 6
+        },
         "meta": {
           "population": 420517
         },
         "total": {
-          "confirmed": 483,
+          "confirmed": 489,
           "deceased": 4,
           "recovered": 23
         }
@@ -5698,14 +5730,17 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "recovered": 95
+        },
         "total": {
           "confirmed": 29,
-          "recovered": 2142
+          "recovered": 2237
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-16T18:44:49+05:30",
+      "last_updated": "2020-08-17T18:38:45+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-08-16",
@@ -5713,9 +5748,9 @@
       }
     },
     "total": {
-      "confirmed": 4569,
-      "deceased": 16,
-      "recovered": 2632,
+      "confirmed": 4687,
+      "deceased": 17,
+      "recovered": 2734,
       "tested": 115041
     }
   },
@@ -7714,7 +7749,7 @@
           "recovered": 140
         },
         "meta": {
-          "notes": "99 cases(94 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
+          "notes": "104 cases(99 of TN, 1 of AP and 4 other) have been transferred,so have been reduced from the total count.[July 18]4 cases have transferred to TN and have been reduced from recovered cases.",
           "population": 950289,
           "tested": {
             "last_updated": "2020-08-16",
@@ -9675,12 +9710,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 17890,
-      "deceased": 197,
-      "recovered": 19139
+      "confirmed": 18014,
+      "deceased": 198,
+      "recovered": 19260
     },
     "meta": {
-      "last_updated": "2020-08-17T18:24:45+05:30",
+      "last_updated": "2020-08-17T18:38:41+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-16",
@@ -9688,10 +9723,10 @@
       }
     },
     "total": {
-      "confirmed": 2665194,
-      "deceased": 51242,
+      "confirmed": 2665318,
+      "deceased": 51243,
       "migrated": 506,
-      "recovered": 1937215,
+      "recovered": 1937336,
       "tested": 30041400
     }
   },
@@ -10367,6 +10402,11 @@
         }
       },
       "Hapur": {
+        "delta": {
+          "confirmed": 3,
+          "deceased": 1,
+          "recovered": 13
+        },
         "meta": {
           "population": 1338211,
           "tested": {
@@ -10375,9 +10415,9 @@
           }
         },
         "total": {
-          "confirmed": 1484,
-          "deceased": 21,
-          "recovered": 1364,
+          "confirmed": 1487,
+          "deceased": 22,
+          "recovered": 1377,
           "tested": 16767
         }
       },
@@ -11118,18 +11158,6 @@
           "tested": 23848
         }
       },
-      "Unknown": {
-        "delta": {
-          "confirmed": 3,
-          "deceased": 1,
-          "recovered": 13
-        },
-        "total": {
-          "confirmed": 3,
-          "deceased": 1,
-          "recovered": 13
-        }
-      },
       "Unnao": {
         "delta": {
           "confirmed": 34,
@@ -11172,7 +11200,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-17T18:24:51+05:30",
+      "last_updated": "2020-08-17T18:37:44+05:30",
       "population": 224979000,
       "tested": {
         "last_updated": "2020-08-16",
