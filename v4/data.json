@@ -726,6 +726,11 @@
     }
   },
   "AS": {
+    "delta": {
+      "confirmed": 2534,
+      "deceased": 5,
+      "tested": 44416
+    },
     "districts": {
       "Airport Quarantine": {
         "total": {
@@ -773,12 +778,16 @@
         }
       },
       "Cachar": {
+        "delta": {
+          "confirmed": 244,
+          "deceased": 2
+        },
         "meta": {
           "population": 1736319
         },
         "total": {
-          "confirmed": 3997,
-          "deceased": 15,
+          "confirmed": 4241,
+          "deceased": 17,
           "recovered": 1498
         }
       },
@@ -829,6 +838,9 @@
         }
       },
       "Dibrugarh": {
+        "delta": {
+          "confirmed": 267
+        },
         "meta": {
           "population": 1327748,
           "tested": {
@@ -836,7 +848,7 @@
           }
         },
         "total": {
-          "confirmed": 4756,
+          "confirmed": 5023,
           "deceased": 25,
           "recovered": 2409,
           "tested": 57593
@@ -902,21 +914,28 @@
         }
       },
       "Kamrup": {
+        "delta": {
+          "confirmed": 145,
+          "deceased": 2
+        },
         "meta": {
           "population": 1517202
         },
         "total": {
-          "confirmed": 3603,
-          "deceased": 11,
+          "confirmed": 3748,
+          "deceased": 13,
           "recovered": 2074
         }
       },
       "Kamrup Metropolitan": {
+        "delta": {
+          "confirmed": 498
+        },
         "meta": {
           "population": 1260419
         },
         "total": {
-          "confirmed": 22784,
+          "confirmed": 23282,
           "deceased": 54,
           "recovered": 14599
         }
@@ -932,12 +951,15 @@
         }
       },
       "Karimganj": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1217002
         },
         "total": {
           "confirmed": 1025,
-          "deceased": 10,
+          "deceased": 11,
           "recovered": 955
         }
       },
@@ -1056,8 +1078,11 @@
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 1380
+        },
         "total": {
-          "confirmed": 11173,
+          "confirmed": 12553,
           "other": 3,
           "recovered": 11583
         }
@@ -1073,20 +1098,20 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-17T23:27:44+05:30",
+      "last_updated": "2020-08-18T23:52:49+05:30",
       "notes": "Includes 1 case from Nagaland",
       "population": 34293000,
       "tested": {
-        "last_updated": "2020-08-17",
-        "source": "https://twitter.com/himantabiswa/status/1295396518132772865?s=20"
+        "last_updated": "2020-08-18",
+        "source": "https://twitter.com/himantabiswa/status/1295784646223884291?s=20"
       }
     },
     "total": {
-      "confirmed": 79668,
-      "deceased": 197,
+      "confirmed": 82202,
+      "deceased": 202,
       "other": 3,
       "recovered": 56735,
-      "tested": 1775403
+      "tested": 1819819
     }
   },
   "BR": {
@@ -3713,15 +3738,20 @@
       },
       "Panchkula": {
         "delta": {
-          "confirmed": 43
+          "confirmed": 43,
+          "tested": 26152
         },
         "meta": {
-          "population": 558890
+          "population": 558890,
+          "tested": {
+            "last_updated": "2020-08-18"
+          }
         },
         "total": {
           "confirmed": 1267,
           "deceased": 8,
-          "recovered": 861
+          "recovered": 861,
+          "tested": 26152
         }
       },
       "Panipat": {
@@ -10449,13 +10479,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 62490,
-      "deceased": 1093,
+      "confirmed": 65024,
+      "deceased": 1098,
       "other": 7,
       "recovered": 58895
     },
     "meta": {
-      "last_updated": "2020-08-18T23:18:47+05:30",
+      "last_updated": "2020-08-18T23:52:47+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-17",
@@ -10463,8 +10493,8 @@
       }
     },
     "total": {
-      "confirmed": 2764092,
-      "deceased": 53018,
+      "confirmed": 2766626,
+      "deceased": 53023,
       "other": 514,
       "recovered": 2035143,
       "tested": 30941264
