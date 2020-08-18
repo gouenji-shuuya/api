@@ -1836,7 +1836,8 @@
   "CH": {
     "delta": {
       "confirmed": 89,
-      "recovered": 60
+      "recovered": 60,
+      "tested": 635
     },
     "districts": {
       "Chandigarh": {
@@ -1864,8 +1865,8 @@
       "last_updated": "2020-08-18T19:19:53+05:30",
       "population": 1179000,
       "tested": {
-        "last_updated": "2020-08-17",
-        "source": "https://twitter.com/ANI/status/1295352870829568002?s=20"
+        "last_updated": "2020-08-18",
+        "source": "https://twitter.com/ANI/status/1295717288612691968"
       }
     },
     "total": {
@@ -1873,7 +1874,7 @@
       "deceased": 30,
       "migrated": 2,
       "recovered": 1243,
-      "tested": 21563
+      "tested": 22198
     }
   },
   "CT": {
@@ -2517,15 +2518,24 @@
     }
   },
   "GA": {
+    "delta": {
+      "confirmed": 339,
+      "deceased": 5,
+      "recovered": 298,
+      "tested": 2744
+    },
     "districts": {
       "North Goa": {
+        "delta": {
+          "deceased": 2
+        },
         "meta": {
           "notes": "District-wise numbers are out-dated as cumulative counts for each district are not reported in bulletin",
           "population": 817761
         },
         "total": {
           "confirmed": 2257,
-          "deceased": 36,
+          "deceased": 38,
           "recovered": 508
         }
       },
@@ -2539,36 +2549,43 @@
         }
       },
       "South Goa": {
+        "delta": {
+          "deceased": 3
+        },
         "meta": {
           "notes": "District-wise numbers are out-dated as cumulative counts for each district are not reported in bulletin",
           "population": 639962
         },
         "total": {
           "confirmed": 3143,
-          "deceased": 75,
+          "deceased": 78,
           "recovered": 958
         }
       },
       "Unknown": {
+        "delta": {
+          "confirmed": 339,
+          "recovered": 298
+        },
         "total": {
-          "confirmed": 6404,
-          "recovered": 6404
+          "confirmed": 6743,
+          "recovered": 6702
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-17T19:32:59+05:30",
+      "last_updated": "2020-08-18T19:51:51+05:30",
       "population": 1540000,
       "tested": {
-        "last_updated": "2020-08-17",
-        "source": "https://www.goa.gov.in/wp-content/uploads/2020/08/Media-Bulletin-17th-August-2020.pdf"
+        "last_updated": "2020-08-18",
+        "source": "https://twitter.com/DHS_Goa/status/1295723945904275464?s=20"
       }
     },
     "total": {
-      "confirmed": 11994,
-      "deceased": 111,
-      "recovered": 8058,
-      "tested": 167381
+      "confirmed": 12333,
+      "deceased": 116,
+      "recovered": 8356,
+      "tested": 170125
     }
   },
   "GJ": {
@@ -4262,7 +4279,8 @@
       "last_updated": "2020-08-18T18:20:48+05:30",
       "population": 13203000,
       "tested": {
-        "last_updated": "2020-08-18"
+        "last_updated": "2020-08-18",
+        "source": "https://twitter.com/diprjk/status/1295698673267957762?s=20"
       }
     },
     "total": {
@@ -4980,7 +4998,8 @@
       "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nOne patient absconded from Palakkad to TN and one patient returned back to Maharashtra. Some non-covid deaths (accident,cancer etc.) have also been reported in the bulletin.\nIn total 54 such cases have been reduced from active count",
       "population": 35125000,
       "tested": {
-        "last_updated": "2020-08-18"
+        "last_updated": "2020-08-18",
+        "source": "https://dhs.kerala.gov.in/wp-content/uploads/2020/08/Bulletin-New-Format-English-August-18.pdf"
       }
     },
     "total": {
@@ -5915,7 +5934,8 @@
     "delta": {
       "confirmed": 990,
       "deceased": 13,
-      "recovered": 688
+      "recovered": 688,
+      "tested": 17370
     },
     "districts": {
       "Agar Malwa": {
@@ -6861,18 +6881,18 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-18T19:38:50+05:30",
+      "last_updated": "2020-08-18T19:44:19+05:30",
       "population": 82232000,
       "tested": {
-        "last_updated": "2020-08-17",
-        "source": "https://twitter.com/healthminmp/status/1295351507655696384?s=20"
+        "last_updated": "2020-08-18",
+        "source": "https://twitter.com/healthminmp/status/1295716521239629827"
       }
     },
     "total": {
       "confirmed": 47375,
       "deceased": 1141,
       "recovered": 35713,
-      "tested": 1055205
+      "tested": 1072575
     }
   },
   "MZ": {
@@ -7001,7 +7021,8 @@
   "NL": {
     "delta": {
       "confirmed": 65,
-      "recovered": 134
+      "recovered": 134,
+      "tested": 656
     },
     "districts": {
       "Dimapur": {
@@ -7177,8 +7198,8 @@
       "last_updated": "2020-08-18T19:19:51+05:30",
       "population": 2150000,
       "tested": {
-        "last_updated": "2020-08-17",
-        "source": "https://twitter.com/MyGovNagaland/status/1295355187301740544?s=20"
+        "last_updated": "2020-08-18",
+        "source": "https://twitter.com/MyGovNagaland/status/1295711738201960448/photo/1"
       }
     },
     "total": {
@@ -7186,7 +7207,7 @@
       "deceased": 7,
       "migrated": 7,
       "recovered": 1664,
-      "tested": 51483
+      "tested": 52139
     }
   },
   "OR": {
@@ -7724,6 +7745,9 @@
     }
   },
   "PB": {
+    "delta": {
+      "tested": 19527
+    },
     "districts": {
       "Amritsar": {
         "meta": {
@@ -8060,15 +8084,15 @@
       "last_updated": "2020-08-17T20:17:48+05:30",
       "population": 29859000,
       "tested": {
-        "last_updated": "2020-08-17",
-        "source": "http://diprpunjab.gov.in/sites/default/files/Covid%20Media%20Bulletin%20%2817-08-2020%29.pdf"
+        "last_updated": "2020-08-18",
+        "source": "http://diprpunjab.gov.in/sites/default/files/Covid%20Media%20Bulletin%20%2818-08-2020%29.pdf"
       }
     },
     "total": {
       "confirmed": 32695,
       "deceased": 862,
       "recovered": 20180,
-      "tested": 782463
+      "tested": 801990
     }
   },
   "PY": {
@@ -10273,13 +10297,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 31606,
-      "deceased": 368,
+      "confirmed": 31945,
+      "deceased": 373,
       "migrated": 1,
-      "recovered": 29655
+      "recovered": 29953
     },
     "meta": {
-      "last_updated": "2020-08-18T19:38:48+05:30",
+      "last_updated": "2020-08-18T19:51:48+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-17",
@@ -10287,10 +10311,10 @@
       }
     },
     "total": {
-      "confirmed": 2733208,
-      "deceased": 52293,
+      "confirmed": 2733547,
+      "deceased": 52298,
       "migrated": 508,
-      "recovered": 2005903,
+      "recovered": 2006201,
       "tested": 30941264
     }
   },
