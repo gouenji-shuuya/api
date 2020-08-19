@@ -5580,7 +5580,8 @@
     "delta": {
       "confirmed": 106,
       "deceased": 1,
-      "recovered": 105
+      "recovered": 105,
+      "tested": 5805
     },
     "districts": {
       "Agra": {
@@ -6401,15 +6402,23 @@
       }
     },
     "meta": {
-      "population": 224979000
+      "population": 224979000,
+      "tested": {
+        "last_updated": "2020-05-11",
+        "source": "https://t.me/indiacovid/4555?single"
+      }
     },
     "total": {
       "confirmed": 3573,
       "deceased": 80,
-      "recovered": 1758
+      "recovered": 1758,
+      "tested": 135760
     }
   },
   "UT": {
+    "delta": {
+      "tested": 247
+    },
     "districts": {
       "Almora": {
         "meta": {
@@ -6476,19 +6485,25 @@
       }
     },
     "meta": {
-      "population": 11141000
+      "population": 11141000,
+      "tested": {
+        "last_updated": "2020-05-11",
+        "source": "http://health.uk.gov.in/files/2020.05.11_Health_Bulletin.pdf"
+      }
     },
     "total": {
       "confirmed": 68,
       "deceased": 1,
-      "recovered": 46
+      "recovered": 46,
+      "tested": 9915
     }
   },
   "WB": {
     "delta": {
       "confirmed": 124,
       "deceased": 5,
-      "recovered": 82
+      "recovered": 82,
+      "tested": 4201
     },
     "districts": {
       "Birbhum": {
@@ -6712,12 +6727,17 @@
       }
     },
     "meta": {
-      "population": 96906000
+      "population": 96906000,
+      "tested": {
+        "last_updated": "2020-05-11",
+        "source": "https://www.wbhealth.gov.in/uploaded_files/corona/WB_DHFW_Bulletin_11th_MAY_REPORT_FINAL.pdf"
+      }
     },
     "total": {
       "confirmed": 2063,
       "deceased": 190,
-      "recovered": 499
+      "recovered": 499,
+      "tested": 47615
     }
   }
 }
