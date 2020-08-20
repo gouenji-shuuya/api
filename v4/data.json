@@ -5791,6 +5791,9 @@
     }
   },
   "MZ": {
+    "delta": {
+      "confirmed": 13
+    },
     "districts": {
       "Aizawl": {
         "meta": {
@@ -5880,10 +5883,18 @@
           "confirmed": 12,
           "recovered": 7
         }
+      },
+      "Unknown": {
+        "delta": {
+          "confirmed": 13
+        },
+        "total": {
+          "confirmed": 13
+        }
       }
     },
     "meta": {
-      "last_updated": "2020-08-19T17:49:01+05:30",
+      "last_updated": "2020-08-20T09:39:03+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-08-19",
@@ -5891,7 +5902,7 @@
       }
     },
     "total": {
-      "confirmed": 860,
+      "confirmed": 873,
       "recovered": 384,
       "tested": 28076
     }
@@ -7435,8 +7446,18 @@
     }
   },
   "TG": {
+    "delta": {
+      "confirmed": 1724,
+      "deceased": 10,
+      "recovered": 1195
+    },
     "districts": {
       "Unknown": {
+        "delta": {
+          "confirmed": 1724,
+          "deceased": 10,
+          "recovered": 1195
+        },
         "meta": {
           "tested": {
             "last_updated": "2020-08-19",
@@ -7444,15 +7465,15 @@
           }
         },
         "total": {
-          "confirmed": 95700,
-          "deceased": 719,
-          "recovered": 73991,
+          "confirmed": 97424,
+          "deceased": 729,
+          "recovered": 75186,
           "tested": 797470
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-19T09:54:48+05:30",
+      "last_updated": "2020-08-20T09:38:59+05:30",
       "notes": "[July 27]\nTelangana bulletin for the previous day is released on the next day. We will add the cases for Telangana against the date of release, as that is the convention that we are following for other states.\n--\nDistrict-wise numbers are not reported because cumulative counts for each district are not provided in Telangana bulletin",
       "population": 37220000,
       "tested": {
@@ -7461,9 +7482,9 @@
       }
     },
     "total": {
-      "confirmed": 95700,
-      "deceased": 719,
-      "recovered": 73991,
+      "confirmed": 97424,
+      "deceased": 729,
+      "recovered": 75186,
       "tested": 797470
     }
   },
@@ -8196,11 +8217,12 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 190,
-      "recovered": 68
+      "confirmed": 1927,
+      "deceased": 10,
+      "recovered": 1263
     },
     "meta": {
-      "last_updated": "2020-08-20T09:02:52+05:30",
+      "last_updated": "2020-08-20T09:38:55+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-18",
@@ -8208,10 +8230,10 @@
       }
     },
     "total": {
-      "confirmed": 2836012,
-      "deceased": 53994,
+      "confirmed": 2837749,
+      "deceased": 54004,
       "other": 529,
-      "recovered": 2096136,
+      "recovered": 2097331,
       "tested": 31742782
     }
   },
