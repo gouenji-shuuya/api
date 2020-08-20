@@ -5540,8 +5540,16 @@
     }
   },
   "LA": {
+    "delta": {
+      "confirmed": 29,
+      "recovered": 39
+    },
     "districts": {
       "Kargil": {
+        "delta": {
+          "confirmed": 13,
+          "recovered": 14
+        },
         "meta": {
           "population": 143000,
           "tested": {
@@ -5550,13 +5558,17 @@
           }
         },
         "total": {
-          "confirmed": 1050,
+          "confirmed": 1063,
           "deceased": 11,
-          "recovered": 771,
+          "recovered": 785,
           "tested": 10241
         }
       },
       "Leh": {
+        "delta": {
+          "confirmed": 16,
+          "recovered": 25
+        },
         "meta": {
           "population": 147000,
           "tested": {
@@ -5565,15 +5577,15 @@
           }
         },
         "total": {
-          "confirmed": 998,
+          "confirmed": 1014,
           "deceased": 7,
-          "recovered": 626,
+          "recovered": 651,
           "tested": 15260
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-19T21:43:57+05:30",
+      "last_updated": "2020-08-20T21:23:57+05:30",
       "population": 293000,
       "tested": {
         "last_updated": "2020-08-19",
@@ -5581,9 +5593,9 @@
       }
     },
     "total": {
-      "confirmed": 2048,
+      "confirmed": 2077,
       "deceased": 18,
-      "recovered": 1397,
+      "recovered": 1436,
       "tested": 25501
     }
   },
@@ -6433,7 +6445,8 @@
   "MN": {
     "delta": {
       "confirmed": 49,
-      "recovered": 117
+      "recovered": 117,
+      "tested": 2643
     },
     "districts": {
       "Bishnupur": {
@@ -6628,15 +6641,14 @@
       "last_updated": "2020-08-20T18:27:00+05:30",
       "population": 3103000,
       "tested": {
-        "last_updated": "2020-08-19",
-        "source": "https://twitter.com/DiprManipur/status/1296060155474276352?s=20"
+        "last_updated": "2020-08-20"
       }
     },
     "total": {
       "confirmed": 4925,
       "deceased": 18,
       "recovered": 3002,
-      "tested": 120135
+      "tested": 122778
     }
   },
   "MP": {
@@ -7602,7 +7614,8 @@
       "last_updated": "2020-08-20T19:57:47+05:30",
       "population": 82232000,
       "tested": {
-        "last_updated": "2020-08-20"
+        "last_updated": "2020-08-20",
+        "source": "https://twitter.com/healthminmp/status/1296448995590643715?s=20"
       }
     },
     "total": {
@@ -9627,15 +9640,23 @@
     }
   },
   "SK": {
+    "delta": {
+      "confirmed": 58,
+      "recovered": 38
+    },
     "districts": {
       "East Sikkim": {
+        "delta": {
+          "confirmed": 58,
+          "recovered": 38
+        },
         "meta": {
           "population": 281293
         },
         "total": {
-          "confirmed": 1045,
+          "confirmed": 1103,
           "deceased": 3,
-          "recovered": 700
+          "recovered": 738
         }
       },
       "North Sikkim": {
@@ -9667,7 +9688,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-19T22:03:55+05:30",
+      "last_updated": "2020-08-20T21:24:01+05:30",
       "population": 664000,
       "tested": {
         "last_updated": "2020-08-19",
@@ -9675,9 +9696,9 @@
       }
     },
     "total": {
-      "confirmed": 1232,
+      "confirmed": 1290,
       "deceased": 3,
-      "recovered": 789,
+      "recovered": 827,
       "tested": 35062
     }
   },
@@ -11132,13 +11153,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 65145,
+      "confirmed": 65232,
       "deceased": 954,
       "migrated": -1,
-      "recovered": 57274
+      "recovered": 57351
     },
     "meta": {
-      "last_updated": "2020-08-20T21:10:43+05:30",
+      "last_updated": "2020-08-20T21:23:50+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-19",
@@ -11146,10 +11167,10 @@
       }
     },
     "total": {
-      "confirmed": 2900967,
+      "confirmed": 2901054,
       "deceased": 54948,
       "migrated": 529,
-      "recovered": 2153342,
+      "recovered": 2153419,
       "tested": 32661252
     }
   },
