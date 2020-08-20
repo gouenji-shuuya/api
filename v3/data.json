@@ -2265,8 +2265,8 @@
       "last_updated": "2020-08-20T17:12:27+05:30",
       "population": 959000,
       "tested": {
-        "last_updated": "2020-08-18",
-        "source": "https://dddcovid19.in/uploads/report/BulletinDNHDD18082020.pdf"
+        "last_updated": "2020-08-19",
+        "source": "https://dddcovid19.in/uploads/report/BulletinDNHDD19082020.pdf"
       }
     },
     "total": {
@@ -2274,7 +2274,7 @@
       "deceased": 2,
       "migrated": 16,
       "recovered": 1570,
-      "tested": 49290
+      "tested": 49879
     }
   },
   "GA": {
@@ -3058,7 +3058,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-20T17:10:06+05:30",
+      "last_updated": "2020-08-20T17:15:21+05:30",
       "notes": "HP has 43 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -6247,19 +6247,21 @@
   },
   "MZ": {
     "delta": {
-      "confirmed": 13
+      "confirmed": 14,
+      "recovered": 18
     },
     "districts": {
       "Aizawl": {
         "delta": {
-          "confirmed": 1
+          "confirmed": 5,
+          "recovered": 18
         },
         "meta": {
           "population": 404054
         },
         "total": {
-          "confirmed": 498,
-          "recovered": 208
+          "confirmed": 502,
+          "recovered": 226
         }
       },
       "Champhai": {
@@ -6313,11 +6315,14 @@
         }
       },
       "Mamit": {
+        "delta": {
+          "confirmed": -3
+        },
         "meta": {
           "population": 85757
         },
         "total": {
-          "confirmed": 24,
+          "confirmed": 21,
           "recovered": 21
         }
       },
@@ -6347,7 +6352,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-20T09:54:00+05:30",
+      "last_updated": "2020-08-20T17:24:05+05:30",
       "population": 1192000,
       "tested": {
         "last_updated": "2020-08-19",
@@ -6355,8 +6360,8 @@
       }
     },
     "total": {
-      "confirmed": 873,
-      "recovered": 384,
+      "confirmed": 874,
+      "recovered": 402,
       "tested": 28076
     }
   },
@@ -6536,7 +6541,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-20T17:14:22+05:30",
+      "last_updated": "2020-08-20T17:20:09+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-08-19",
@@ -9424,13 +9429,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 5634,
+      "confirmed": 5635,
       "deceased": 23,
       "migrated": -1,
-      "recovered": 1963
+      "recovered": 1981
     },
     "meta": {
-      "last_updated": "2020-08-20T17:14:05+05:30",
+      "last_updated": "2020-08-20T17:24:01+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-19",
@@ -9438,10 +9443,10 @@
       }
     },
     "total": {
-      "confirmed": 2841456,
+      "confirmed": 2841457,
       "deceased": 54017,
       "migrated": 528,
-      "recovered": 2098031,
+      "recovered": 2098049,
       "tested": 32661252
     }
   },
