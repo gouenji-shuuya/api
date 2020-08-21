@@ -3669,6 +3669,11 @@
     }
   },
   "JH": {
+    "delta": {
+      "confirmed": 303,
+      "deceased": 5,
+      "recovered": 125
+    },
     "districts": {
       "Bokaro": {
         "meta": {
@@ -3696,6 +3701,9 @@
         }
       },
       "Deoghar": {
+        "delta": {
+          "confirmed": 9
+        },
         "meta": {
           "population": 1491879,
           "tested": {
@@ -3704,20 +3712,24 @@
           }
         },
         "total": {
-          "confirmed": 981,
+          "confirmed": 990,
           "deceased": 9,
           "recovered": 831,
           "tested": 6951
         }
       },
       "Dhanbad": {
+        "delta": {
+          "confirmed": 225,
+          "recovered": 19
+        },
         "meta": {
           "population": 2682662
         },
         "total": {
-          "confirmed": 1916,
+          "confirmed": 2141,
           "deceased": 25,
-          "recovered": 1463
+          "recovered": 1482
         }
       },
       "Dumka": {
@@ -3735,26 +3747,37 @@
         }
       },
       "East Singhbhum": {
+        "delta": {
+          "confirmed": 89,
+          "deceased": 1,
+          "recovered": 106
+        },
         "meta": {
           "population": 2291032
         },
         "total": {
-          "confirmed": 4623,
-          "deceased": 118,
-          "recovered": 2137
+          "confirmed": 4712,
+          "deceased": 119,
+          "recovered": 2243
         }
       },
       "Garhwa": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 1322387
         },
         "total": {
           "confirmed": 794,
-          "deceased": 4,
+          "deceased": 5,
           "recovered": 699
         }
       },
       "Giridih": {
+        "delta": {
+          "deceased": 1
+        },
         "meta": {
           "population": 2445203,
           "tested": {
@@ -3764,7 +3787,7 @@
         },
         "total": {
           "confirmed": 1224,
-          "deceased": 6,
+          "deceased": 7,
           "recovered": 1064,
           "tested": 11132
         }
@@ -3901,12 +3924,15 @@
         }
       },
       "Ranchi": {
+        "delta": {
+          "deceased": 2
+        },
         "meta": {
           "population": 2912022
         },
         "total": {
           "confirmed": 5323,
-          "deceased": 45,
+          "deceased": 47,
           "recovered": 2703
         }
       },
@@ -3945,6 +3971,14 @@
           "recovered": 647
         }
       },
+      "Unknown": {
+        "delta": {
+          "confirmed": -20
+        },
+        "total": {
+          "confirmed": -20
+        }
+      },
       "West Singhbhum": {
         "meta": {
           "population": 1501619
@@ -3957,7 +3991,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-20T22:58:45+05:30",
+      "last_updated": "2020-08-21T19:23:54+05:30",
       "population": 37403000,
       "tested": {
         "last_updated": "2020-08-20",
@@ -3965,9 +3999,9 @@
       }
     },
     "total": {
-      "confirmed": 26938,
-      "deceased": 286,
-      "recovered": 17320,
+      "confirmed": 27241,
+      "deceased": 291,
+      "recovered": 17445,
       "tested": 523638
     }
   },
@@ -4903,7 +4937,7 @@
         "total": {
           "confirmed": 2763,
           "deceased": 10,
-          "migrated": 3,
+          "migrated": 4,
           "recovered": 1994
         }
       },
@@ -4919,8 +4953,8 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-20T19:51:50+05:30",
-      "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nOne patient absconded from Palakkad to TN and one patient returned back to Maharashtra. Some non-covid deaths (accident,cancer etc.) have also been reported in the bulletin.\nIn total 59 such cases have been reduced from active count",
+      "last_updated": "2020-08-21T19:23:52+05:30",
+      "notes": "Mahe native who expired in Kannur included in Kerala's deceased tally.\nOne patient absconded from Palakkad to TN and one patient returned back to Maharashtra. Some non-covid deaths (accident,cancer etc.) have also been reported in the bulletin.\nIn total 60 such cases have been reduced from active count",
       "population": 35125000,
       "tested": {
         "last_updated": "2020-08-20",
@@ -4930,7 +4964,7 @@
     "total": {
       "confirmed": 52199,
       "deceased": 192,
-      "migrated": 59,
+      "migrated": 60,
       "recovered": 33824,
       "tested": 1312992
     }
@@ -9803,7 +9837,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-21T19:13:51+05:30",
+      "last_updated": "2020-08-21T19:19:49+05:30",
       "notes": "[July 22]: 444 backdated deceased entries added to Chennai in TN bulletin.\n2 deaths cross notified to other states from Chennai and Coimbatore.\n1 patient died after turning negative for infection in Chengalpattu.\nThese cases have been added to TN deceased tally",
       "population": 75695000,
       "tested": {
@@ -10008,13 +10042,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 31030,
-      "deceased": 333,
+      "confirmed": 31333,
+      "deceased": 338,
       "migrated": 6,
-      "recovered": 28401
+      "recovered": 28526
     },
     "meta": {
-      "last_updated": "2020-08-21T19:13:49+05:30",
+      "last_updated": "2020-08-21T19:23:47+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-20",
@@ -10022,10 +10056,10 @@
       }
     },
     "total": {
-      "confirmed": 2935370,
-      "deceased": 55308,
-      "migrated": 535,
-      "recovered": 2186342,
+      "confirmed": 2935673,
+      "deceased": 55313,
+      "migrated": 536,
+      "recovered": 2186467,
       "tested": 33467237
     }
   },
@@ -10163,14 +10197,15 @@
         "meta": {
           "population": 2468371,
           "tested": {
-            "last_updated": "2020-08-20"
+            "last_updated": "2020-08-19",
+            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1808"
           }
         },
         "total": {
           "confirmed": 2322,
           "deceased": 33,
           "recovered": 1573,
-          "tested": 26203
+          "tested": 50436
         }
       },
       "Azamgarh": {
@@ -10291,15 +10326,15 @@
         "meta": {
           "population": 3257983,
           "tested": {
-            "last_updated": "2020-08-19",
-            "source": "https://twitter.com/BarabankiD/status/1296110259505729536?s=20"
+            "last_updated": "2020-08-20",
+            "source": "https://twitter.com/BarabankiD/status/1296480761030352896?s=20"
           }
         },
         "total": {
           "confirmed": 2558,
           "deceased": 18,
           "recovered": 1722,
-          "tested": 63336
+          "tested": 65283
         }
       },
       "Bareilly": {
