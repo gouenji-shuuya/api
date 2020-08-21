@@ -1747,20 +1747,21 @@
     "delta": {
       "confirmed": 116,
       "deceased": 2,
-      "recovered": 36
+      "recovered": 36,
+      "tested": 690
     },
     "districts": {
       "Chandigarh": {
         "delta": {
           "confirmed": 116,
           "deceased": 2,
-          "recovered": 36
+          "recovered": 36,
+          "tested": 690
         },
         "meta": {
           "population": 1055450,
           "tested": {
-            "last_updated": "2020-08-20",
-            "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1812"
+            "last_updated": "2020-08-21"
           }
         },
         "total": {
@@ -1768,7 +1769,7 @@
           "deceased": 33,
           "other": 2,
           "recovered": 1426,
-          "tested": 23374
+          "tested": 24064
         }
       }
     },
@@ -1776,8 +1777,7 @@
       "last_updated": "2020-08-21T19:48:58+05:30",
       "population": 1179000,
       "tested": {
-        "last_updated": "2020-08-20",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1812"
+        "last_updated": "2020-08-21"
       }
     },
     "total": {
@@ -1785,7 +1785,7 @@
       "deceased": 33,
       "other": 2,
       "recovered": 1426,
-      "tested": 23374
+      "tested": 24064
     }
   },
   "CT": {
@@ -4048,7 +4048,7 @@
       },
       "Ballari": {
         "delta": {
-          "tested": 5082
+          "tested": 2771
         },
         "meta": {
           "population": 2532383,
@@ -5277,8 +5277,8 @@
   },
   "ML": {
     "delta": {
-      "confirmed": 55,
-      "recovered": 14
+      "confirmed": 57,
+      "recovered": 19
     },
     "districts": {
       "East Garo Hills": {
@@ -5364,6 +5364,16 @@
           "confirmed": 1
         }
       },
+      "Unknown": {
+        "delta": {
+          "confirmed": 2,
+          "recovered": 5
+        },
+        "total": {
+          "confirmed": 2,
+          "recovered": 5
+        }
+      },
       "West Garo Hills": {
         "delta": {
           "confirmed": 3,
@@ -5405,7 +5415,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-21T12:09:50+05:30",
+      "last_updated": "2020-08-21T19:58:53+05:30",
       "notes": "[June 17]:\nOne case was identified to be false positive and has been removed from the confirmed cases by ML authorities.",
       "population": 3224000,
       "tested": {
@@ -5414,9 +5424,9 @@
       }
     },
     "total": {
-      "confirmed": 1716,
+      "confirmed": 1718,
       "deceased": 6,
-      "recovered": 744,
+      "recovered": 749,
       "tested": 45151
     }
   },
@@ -6548,7 +6558,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-21T19:51:56+05:30",
+      "last_updated": "2020-08-21T19:56:51+05:30",
       "population": 82232000,
       "tested": {
         "last_updated": "2020-08-20",
@@ -7388,7 +7398,8 @@
     "delta": {
       "confirmed": 1503,
       "deceased": 34,
-      "recovered": 856
+      "recovered": 856,
+      "tested": 23893
     },
     "districts": {
       "Amritsar": {
@@ -7795,18 +7806,18 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-21T19:51:58+05:30",
+      "last_updated": "2020-08-21T19:56:54+05:30",
       "population": 29859000,
       "tested": {
-        "last_updated": "2020-08-20",
-        "source": "http://diprpunjab.gov.in/sites/default/files/Covid%20Media%20Bulletin%20%2820-08-2020%29.pdf"
+        "last_updated": "2020-08-21",
+        "source": "http://diprpunjab.gov.in/sites/default/files/Covid%20Media%20Bulletin%20%2821-08-2020%29.pdf"
       }
     },
     "total": {
       "confirmed": 39327,
       "deceased": 991,
       "recovered": 23893,
-      "tested": 839947
+      "tested": 863840
     }
   },
   "PY": {
@@ -9498,13 +9509,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 36102,
+      "confirmed": 36104,
       "deceased": 400,
       "other": 7,
-      "recovered": 31844
+      "recovered": 31849
     },
     "meta": {
-      "last_updated": "2020-08-21T19:51:51+05:30",
+      "last_updated": "2020-08-21T19:58:50+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-20",
@@ -9512,10 +9523,10 @@
       }
     },
     "total": {
-      "confirmed": 2940442,
+      "confirmed": 2940444,
       "deceased": 55375,
       "other": 537,
-      "recovered": 2189785,
+      "recovered": 2189790,
       "tested": 33467237
     }
   },
