@@ -1986,6 +1986,10 @@
     }
   },
   "DN": {
+    "delta": {
+      "confirmed": 2,
+      "other": 4
+    },
     "districts": {
       "Dadra and Nagar Haveli": {
         "meta": {
@@ -2018,6 +2022,10 @@
         }
       },
       "Diu": {
+        "delta": {
+          "confirmed": 2,
+          "other": 4
+        },
         "meta": {
           "population": 52074,
           "tested": {
@@ -2025,15 +2033,15 @@
           }
         },
         "total": {
-          "confirmed": 180,
-          "other": 5,
+          "confirmed": 182,
+          "other": 9,
           "recovered": 140,
           "tested": 5942
         }
       }
     },
     "meta": {
-      "last_updated": "2020-08-21T19:49:00+05:30",
+      "last_updated": "2020-08-22T15:14:09+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-08-19",
@@ -2041,9 +2049,9 @@
       }
     },
     "total": {
-      "confirmed": 2083,
+      "confirmed": 2085,
       "deceased": 2,
-      "other": 18,
+      "other": 22,
       "recovered": 1652,
       "tested": 49879
     }
@@ -2595,8 +2603,16 @@
     }
   },
   "HP": {
+    "delta": {
+      "confirmed": 52,
+      "deceased": 2,
+      "recovered": 34
+    },
     "districts": {
       "Bilaspur": {
+        "delta": {
+          "confirmed": 39
+        },
         "meta": {
           "population": 382056,
           "tested": {
@@ -2604,7 +2620,7 @@
           }
         },
         "total": {
-          "confirmed": 220,
+          "confirmed": 259,
           "recovered": 141,
           "tested": 9173
         }
@@ -2640,6 +2656,10 @@
         }
       },
       "Kangra": {
+        "delta": {
+          "confirmed": 1,
+          "recovered": 2
+        },
         "meta": {
           "notes": "Death of Tibetan refugee on March 22 included in Kangra district's tally",
           "population": 1507223,
@@ -2648,14 +2668,18 @@
           }
         },
         "total": {
-          "confirmed": 652,
+          "confirmed": 653,
           "deceased": 6,
           "other": 2,
-          "recovered": 531,
+          "recovered": 533,
           "tested": 41103
         }
       },
       "Kinnaur": {
+        "delta": {
+          "confirmed": 4,
+          "recovered": 3
+        },
         "meta": {
           "population": 84298,
           "tested": {
@@ -2663,12 +2687,15 @@
           }
         },
         "total": {
-          "confirmed": 69,
-          "recovered": 44,
+          "confirmed": 73,
+          "recovered": 47,
           "tested": 2875
         }
       },
       "Kullu": {
+        "delta": {
+          "confirmed": 3
+        },
         "meta": {
           "population": 437474,
           "tested": {
@@ -2676,7 +2703,7 @@
           }
         },
         "total": {
-          "confirmed": 245,
+          "confirmed": 248,
           "other": 1,
           "recovered": 74,
           "tested": 8676
@@ -2696,6 +2723,9 @@
         }
       },
       "Mandi": {
+        "delta": {
+          "recovered": 8
+        },
         "meta": {
           "population": 999518,
           "tested": {
@@ -2705,11 +2735,14 @@
         "total": {
           "confirmed": 379,
           "deceased": 6,
-          "recovered": 225,
+          "recovered": 233,
           "tested": 15182
         }
       },
       "Shimla": {
+        "delta": {
+          "confirmed": 4
+        },
         "meta": {
           "notes": "One death of COVID-19 positive patient has occured due to non-covid reasons",
           "population": 813384,
@@ -2718,7 +2751,7 @@
           }
         },
         "total": {
-          "confirmed": 260,
+          "confirmed": 264,
           "deceased": 2,
           "other": 1,
           "recovered": 209,
@@ -2741,6 +2774,11 @@
         }
       },
       "Solan": {
+        "delta": {
+          "confirmed": 1,
+          "deceased": 2,
+          "recovered": 21
+        },
         "meta": {
           "population": 576670,
           "tested": {
@@ -2748,10 +2786,10 @@
           }
         },
         "total": {
-          "confirmed": 1177,
-          "deceased": 2,
+          "confirmed": 1178,
+          "deceased": 4,
           "other": 34,
-          "recovered": 699,
+          "recovered": 720,
           "tested": 30568
         }
       },
@@ -2770,7 +2808,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-21T22:29:49+05:30",
+      "last_updated": "2020-08-22T15:14:07+05:30",
       "notes": "HP has 50 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -2779,10 +2817,10 @@
       }
     },
     "total": {
-      "confirmed": 4728,
-      "deceased": 24,
+      "confirmed": 4780,
+      "deceased": 26,
       "other": 49,
-      "recovered": 3234,
+      "recovered": 3268,
       "tested": 190476
     }
   },
@@ -6080,7 +6118,8 @@
   "OR": {
     "delta": {
       "confirmed": 2819,
-      "deceased": 9
+      "deceased": 9,
+      "tested": 61379
     },
     "districts": {
       "Angul": {
@@ -6580,15 +6619,15 @@
       "notes": "[July 12th] 20 non-covid deaths reported in state dashboard are included in the deceased count\n[June 22nd]: NDRF/ODRF cases have been redistributed to districts based on state dashboard",
       "population": 43671000,
       "tested": {
-        "last_updated": "2020-08-21",
-        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1822"
+        "last_updated": "2020-08-22",
+        "source": "https://t.me/Covid19india_Auxiliary_Test_Data/1847"
       }
     },
     "total": {
       "confirmed": 75537,
       "deceased": 452,
       "recovered": 50504,
-      "tested": 1172426
+      "tested": 1233805
     }
   },
   "PB": {
@@ -7611,26 +7650,28 @@
     "delta": {
       "confirmed": 2474,
       "deceased": 7,
-      "recovered": 1768
+      "recovered": 1768,
+      "tested": 43095
     },
     "districts": {
       "Unknown": {
         "delta": {
           "confirmed": 2474,
           "deceased": 7,
-          "recovered": 1768
+          "recovered": 1768,
+          "tested": 43095
         },
         "meta": {
           "tested": {
-            "last_updated": "2020-08-21",
-            "source": "https://twitter.com/drgsrao/status/1296635530386448384?s=20"
+            "last_updated": "2020-08-22",
+            "source": "https://twitter.com/drgsrao/status/1297006724960804864?s=20"
           }
         },
         "total": {
           "confirmed": 101865,
           "deceased": 744,
           "recovered": 78735,
-          "tested": 848078
+          "tested": 891173
         }
       }
     },
@@ -7639,15 +7680,15 @@
       "notes": "[July 27]\nTelangana bulletin for the previous day is released on the next day. We will add the cases for Telangana against the date of release, as that is the convention that we are following for other states.\n--\nDistrict-wise numbers are not reported because cumulative counts for each district are not provided in Telangana bulletin",
       "population": 37220000,
       "tested": {
-        "last_updated": "2020-08-21",
-        "source": "https://twitter.com/drgsrao/status/1296635530386448384?s=20"
+        "last_updated": "2020-08-22",
+        "source": "https://twitter.com/drgsrao/status/1297006724960804864?s=20"
       }
     },
     "total": {
       "confirmed": 101865,
       "deceased": 744,
       "recovered": 78735,
-      "tested": 848078
+      "tested": 891173
     }
   },
   "TN": {
@@ -8390,12 +8431,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 6193,
-      "deceased": 22,
-      "recovered": 2403
+      "confirmed": 6247,
+      "deceased": 24,
+      "other": 4,
+      "recovered": 2437
     },
     "meta": {
-      "last_updated": "2020-08-22T11:57:46+05:30",
+      "last_updated": "2020-08-22T15:14:05+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-21",
@@ -8403,10 +8445,10 @@
       }
     },
     "total": {
-      "confirmed": 2979562,
-      "deceased": 55950,
-      "other": 542,
-      "recovered": 2223202,
+      "confirmed": 2979616,
+      "deceased": 55952,
+      "other": 546,
+      "recovered": 2223236,
       "tested": 34491073
     }
   },
