@@ -2452,8 +2452,9 @@
   },
   "DN": {
     "delta": {
-      "confirmed": 2,
-      "migrated": 4
+      "confirmed": 15,
+      "migrated": 4,
+      "recovered": 17
     },
     "districts": {
       "Dadra and Nagar Haveli": {
@@ -2473,6 +2474,10 @@
         }
       },
       "Daman": {
+        "delta": {
+          "confirmed": 13,
+          "recovered": 17
+        },
         "meta": {
           "population": 191173,
           "tested": {
@@ -2481,10 +2486,10 @@
           }
         },
         "total": {
-          "confirmed": 942,
+          "confirmed": 955,
           "deceased": 1,
           "migrated": 8,
-          "recovered": 794,
+          "recovered": 811,
           "tested": 13400
         }
       },
@@ -2509,7 +2514,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-22T15:19:09+05:30",
+      "last_updated": "2020-08-22T18:49:07+05:30",
       "population": 959000,
       "tested": {
         "last_updated": "2020-08-19",
@@ -2517,10 +2522,10 @@
       }
     },
     "total": {
-      "confirmed": 2085,
+      "confirmed": 2098,
       "deceased": 2,
       "migrated": 22,
-      "recovered": 1652,
+      "recovered": 1669,
       "tested": 49879
     }
   },
@@ -3241,6 +3246,7 @@
       "Mandi": {
         "delta": {
           "confirmed": 5,
+          "deceased": 1,
           "recovered": 8
         },
         "meta": {
@@ -3252,7 +3258,7 @@
         },
         "total": {
           "confirmed": 384,
-          "deceased": 6,
+          "deceased": 7,
           "recovered": 233,
           "tested": 15182
         }
@@ -3327,18 +3333,10 @@
           "recovered": 269,
           "tested": 18371
         }
-      },
-      "Unknown": {
-        "delta": {
-          "deceased": 1
-        },
-        "total": {
-          "deceased": 1
-        }
       }
     },
     "meta": {
-      "last_updated": "2020-08-22T18:38:10+05:30",
+      "last_updated": "2020-08-22T18:45:10+05:30",
       "notes": "HP has 50 Migrated cases which are reduced from Active #. Also, death of Tibetan refugee is included in deceased numbers, but not in confirmed",
       "population": 7300000,
       "tested": {
@@ -5855,7 +5853,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-22T18:38:08+05:30",
+      "last_updated": "2020-08-22T18:45:08+05:30",
       "population": 3103000,
       "tested": {
         "last_updated": "2020-08-21",
@@ -6936,7 +6934,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-22T18:38:11+05:30",
+      "last_updated": "2020-08-22T18:45:13+05:30",
       "population": 2150000,
       "tested": {
         "last_updated": "2020-08-21",
@@ -9843,13 +9841,13 @@
   },
   "TT": {
     "delta": {
-      "confirmed": 26771,
+      "confirmed": 26784,
       "deceased": 245,
       "migrated": 5,
-      "recovered": 21739
+      "recovered": 21756
     },
     "meta": {
-      "last_updated": "2020-08-22T18:38:05+05:30",
+      "last_updated": "2020-08-22T18:49:05+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-21",
@@ -9857,10 +9855,10 @@
       }
     },
     "total": {
-      "confirmed": 3000140,
+      "confirmed": 3000153,
       "deceased": 56173,
       "migrated": 547,
-      "recovered": 2242538,
+      "recovered": 2242555,
       "tested": 34491073
     }
   },
