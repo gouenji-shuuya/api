@@ -1813,7 +1813,8 @@
     "delta": {
       "confirmed": 568,
       "deceased": 9,
-      "recovered": 372
+      "recovered": 372,
+      "tested": 9875
     },
     "districts": {
       "Balod": {
@@ -2317,15 +2318,15 @@
       "last_updated": "2020-08-22T21:29:12+05:30",
       "population": 28724000,
       "tested": {
-        "last_updated": "2020-08-21",
-        "source": "https://twitter.com/HealthCgGov/status/1296830774855872513?s=20"
+        "last_updated": "2020-08-22",
+        "source": "https://twitter.com/HealthCgGov/status/1297197050186969088?s=20"
       }
     },
     "total": {
       "confirmed": 20078,
       "deceased": 189,
       "recovered": 12394,
-      "tested": 468099
+      "tested": 477974
     }
   },
   "DL": {
@@ -3142,7 +3143,7 @@
       }
     },
     "meta": {
-      "last_updated": "2020-08-22T21:41:13+05:30",
+      "last_updated": "2020-08-22T21:46:11+05:30",
       "population": 67936000,
       "tested": {
         "last_updated": "2020-08-22",
@@ -8661,7 +8662,7 @@
   "RJ": {
     "delta": {
       "confirmed": 1310,
-      "deceased": 10,
+      "deceased": 11,
       "recovered": 1648
     },
     "districts": {
@@ -9205,6 +9206,11 @@
         }
       },
       "Sikar": {
+        "delta": {
+          "confirmed": 18,
+          "deceased": 1,
+          "recovered": 54
+        },
         "meta": {
           "population": 2677737,
           "tested": {
@@ -9212,9 +9218,9 @@
           }
         },
         "total": {
-          "confirmed": 2275,
-          "deceased": 14,
-          "recovered": 1770,
+          "confirmed": 2293,
+          "deceased": 15,
+          "recovered": 1824,
           "tested": 73361
         }
       },
@@ -9238,7 +9244,9 @@
       },
       "Tonk": {
         "delta": {
-          "deceased": 1
+          "confirmed": 10,
+          "deceased": 1,
+          "recovered": 1
         },
         "meta": {
           "population": 1421711,
@@ -9247,9 +9255,9 @@
           }
         },
         "total": {
-          "confirmed": 522,
+          "confirmed": 532,
           "deceased": 9,
-          "recovered": 437,
+          "recovered": 438,
           "tested": 22320
         }
       },
@@ -9271,20 +9279,10 @@
           "recovered": 1692,
           "tested": 90836
         }
-      },
-      "Unknown": {
-        "delta": {
-          "confirmed": 28,
-          "recovered": 55
-        },
-        "total": {
-          "confirmed": 28,
-          "recovered": 55
-        }
       }
     },
     "meta": {
-      "last_updated": "2020-08-22T21:41:14+05:30",
+      "last_updated": "2020-08-22T21:51:11+05:30",
       "population": 77264000,
       "tested": {
         "last_updated": "2020-08-21",
@@ -9293,7 +9291,7 @@
     },
     "total": {
       "confirmed": 69264,
-      "deceased": 943,
+      "deceased": 944,
       "recovered": 54144,
       "tested": 2062109
     }
@@ -10334,12 +10332,12 @@
   "TT": {
     "delta": {
       "confirmed": 67123,
-      "deceased": 900,
+      "deceased": 901,
       "other": 8,
       "recovered": 55949
     },
     "meta": {
-      "last_updated": "2020-08-22T21:41:11+05:30",
+      "last_updated": "2020-08-22T21:51:09+05:30",
       "population": 1332900000,
       "tested": {
         "last_updated": "2020-08-21",
@@ -10348,7 +10346,7 @@
     },
     "total": {
       "confirmed": 3040492,
-      "deceased": 56828,
+      "deceased": 56829,
       "other": 552,
       "recovered": 2276748,
       "tested": 34491073
